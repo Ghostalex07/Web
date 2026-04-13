@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[-] Aion</title>
+  <style>
+    body {
+      background: #111;
+      color: #888;
+      font-family: monospace;
+      margin: 0;
+      padding: 20px;
+    }
+    a {
+      color: #666;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    a:hover {
+      color: #999;
+      text-decoration: underline;
+    }
+    h1 {
+      color: #444;
+      font-size: 24px;
+      margin: 0 0 10px 0;
+    }
+    h2 {
+      color: #555;
+      font-size: 16px;
+      margin: 20px 0 10px 0;
+    }
+    h3 {
+      color: #666;
+      font-size: 14px;
+      margin: 15px 0 8px 0;
+    }
+    nav {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #222;
+    }
+    nav a {
+      margin-right: 20px;
+    }
+    .search-box {
+      margin-bottom: 20px;
+      padding: 10px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+    }
+    .search-box input {
+      background: #080808;
+      border: 1px solid #222;
+      color: #888;
+      padding: 8px;
+      width: 300px;
+      font-family: monospace;
+      font-size: 12px;
+    }
+    .search-box input:focus {
+      outline: none;
+      border-color: #444;
+    }
+    .search-box label {
+      color: #444;
+      font-size: 12px;
+    }
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+    .thread {
+      margin-bottom: 12px;
+      padding: 10px;
+      background: #0a0a0a;
+      border-left: 2px solid #333;
+      cursor: pointer;
+    }
+    .thread:hover {
+      border-left-color: #555;
+    }
+    .thread-meta {
+      color: #444;
+      font-size: 11px;
+    }
+    .thread-title {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .thread-desc {
+      color: #333;
+      font-size: 12px;
+      margin: 5px 0;
+    }
+    .thread-replies {
+      color: #333;
+      font-size: 11px;
+      margin-top: 3px;
+    }
+    .article-content {
+      padding: 15px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+      margin-top: 15px;
+    }
+    .article-content p {
+      color: #555;
+      margin: 8px 0;
+      line-height: 1.5;
+    }
+    .article-content code {
+      background: #080808;
+      padding: 2px 6px;
+      color: #777;
+    }
+    .article-content a {
+      color: #666;
+    }
+    .article-content a:hover {
+      color: #999;
+    }
+    .article-img {
+      max-width: 100%;
+      max-height: 200px;
+      margin: 15px 0;
+      border: 1px solid #222;
+    }
+    footer {
+      font-size: 12px;
+      color: #444;
+      margin-top: 30px;
+      border-top: 1px solid #222;
+      padding-top: 10px;
+    }
+    .back-btn {
+      margin-bottom: 15px;
+    }
+    .back-btn a {
+      padding: 5px 10px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+    }
+    .board-section {
+      margin-bottom: 25px;
+    }
+    .no-results {
+      color: #444;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a onclick="goHome()">[HOME]</a>
+    <a onclick="showSection('topics')">[TOPICS]</a>
+    <a onclick="showSection('tools')">[TOOLS]</a>
+    <a onclick="showSection('links')">[LINKS]</a>
+    <a onclick="showSection('about')">[ABOUT]</a>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <div id="page-index" class="page active">
+    <h1>[-] Aion</h1>
+    <pre style="color: #333; font-size: 14px; margin-top: 10px;">
+   ┌────────────────────────────┐
+   │                            │
+   │   NO LOGGING               │
+   │   NO TRACKING              │
+   │   NO CENSORSHIP            │
+   │                            │
+   └────────────────────────────┘
+    </pre>
+    <p style="margin-top: 15px;">Welcome to Aion. Select a section from the menu above.</p>
+    <div id="featured-links" style="margin-top: 30px;"></div>
+  </div>
+
+  <!-- TOPICS PAGE -->
+  <div id="page-topics" class="page">
+    <h1>[-] Topics</h1>
+    <div class="search-box">
+      <label>Search: </label>
+      <input type="text" id="search-topics" placeholder="Search topics..." onkeyup="searchTopics()">
+    </div>
+    
+    <div id="topics-content"></div>
+  </div>
+
+  <!-- TOOLS PAGE -->
+  <div id="page-tools" class="page">
+    <h1>[-] Tools</h1>
+    <div class="search-box">
+      <label>Search: </label>
+      <input type="text" id="search-tools" placeholder="Search tools..." onkeyup="searchTools()">
+    </div>
+    
+    <div id="tools-content"></div>
+  </div>
+
+  <!-- ARTICLE VIEW -->
+  <div id="page-article" class="page">
+    <div class="back-btn"><a onclick="goBack()">← Back</a></div>
+    <div id="article-content"></div>
+  </div>
+
+  <!-- LINKS PAGE -->
+  <div id="page-links" class="page">
+    <h1>[-] Links</h1>
+    <div class="search-box">
+      <label>Search: </label>
+      <input type="text" id="search-links" placeholder="Search links..." onkeyup="searchLinks()">
+    </div>
+    
+    <div id="links-content"></div>
+  </div>
+
+  <!-- ABOUT PAGE -->
+  <div id="page-about" class="page">
+    <h1>[-] About</h1>
+    <div class="article-content">
+      <p>Aion is a place for free information and discussion about technology, security, programming, and cyberpunk culture.</p>
+      
+      <h3>Mission</h3>
+      <p>No tracking. No censorship. No logging. Information wants to be free.</p>
+      
+      <h3>Linux-First</h3>
+      <p>All content and tools are focused on Linux. Windows content is excluded.</p>
+      
+      <h3>What We Cover</h3>
+      <p>- Programming (Rust, Assembly, Python, C, Go, Web Dev)</p>
+      <p>- Security (OPSEC, Encryption, Privacy, Anonymity)</p>
+      <p>- Hacking (CTF, Reverse Engineering, Social Engineering)</p>
+      <p>- Cyberpunk (Lain, Gibson, Digital Culture)</p>
+      <p>- Hardware (Arduino, Raspberry Pi, ESP32)</p>
+      <p>- Networking (Protocols, Firewalls, VPN)</p>
+      
+      <h3>Created</h3>
+      <p style="color: #333;">2026</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Aion © 2026 — Information wants to be free.</p>
+  </footer>
+
+  <script>
+    let currentSection = 'index';
+    
+    const topicsData = [
+      { id: 'rust', category: 'Programming', title: 'Rust: Memory Safety Without Compromise', desc: 'Why Rust is becoming the go-to language for systems programming', replies: '12 replies' },
+      { id: 'assembly', category: 'Programming', title: 'Assembly in 2026: Still Relevant?', desc: 'Understanding the low-level of computers', replies: '25 replies' },
+      { id: 'python', category: 'Programming', title: 'Python for Everything', desc: 'From scripting to AI, Python rules them all', replies: '45 replies' },
+      { id: 'cprogramming', category: 'Programming', title: 'C Programming: The Foundation', desc: 'Why C is still the king of systems programming', replies: '38 replies' },
+      { id: 'golang', category: 'Programming', title: 'Go: Simple and Powerful', desc: 'Google\'s language for modern backends', replies: '22 replies' },
+      { id: 'webdev', category: 'Programming', title: 'Modern Web Development', desc: 'JavaScript, TypeScript, React, Vue, and more', replies: '67 replies' },
+      { id: 'nix', category: 'Programming', title: 'Nix & NixOS: Declarative Linux', desc: 'Reproducible systems with Nix', replies: '18 replies' },
+      { id: 'vim', category: 'Programming', title: 'Vim: The Ultimate Text Editor', desc: 'Modal editing mastery', replies: '29 replies' },
+      
+      { id: 'tor', category: 'Security', title: 'How Tor Works: The Onion Router', desc: 'Deep dive into anonymous communication networks', replies: '89 replies' },
+      { id: 'opsec', category: 'Security', title: 'OPSEC: Operational Security Basics', desc: 'How to protect yourself in the digital age', replies: '34 replies' },
+      { id: 'pgp', category: 'Security', title: 'PGP Encryption: Complete Guide', desc: 'Pretty Good Privacy for email encryption', replies: '41 replies' },
+      { id: '2fa', category: 'Security', title: 'Two-Factor Authentication Guide', desc: 'Protect your accounts with 2FA', replies: '56 replies' },
+      { id: 'passwords', category: 'Security', title: 'Password Managers: Why You Need One', desc: 'Bitwarden, 1Password, and better security', replies: '73 replies' },
+      { id: 'firewall', category: 'Security', title: 'Linux Firewalls: iptables & nftables', desc: 'Securing your Linux server', replies: '28 replies' },
+      { id: 'selinux', category: 'Security', title: 'SELinux: Mandatory Access Control', desc: 'Advanced Linux security', replies: '15 replies' },
+      { id: 'hardening', category: 'Security', title: 'Linux Hardening Guide', desc: 'Secure your system from scratch', replies: '52 replies' },
+      
+      { id: 'pqcrypto', category: 'Cryptography', title: 'Post-Quantum Cryptography', desc: 'Preparing for the quantum threat to encryption', replies: '67 replies' },
+      { id: 'e2e', category: 'Cryptography', title: 'End-to-End Encryption Explained', desc: 'How Signal and WhatsApp protect your messages', replies: '43 replies' },
+      { id: 'hashing', category: 'Cryptography', title: 'Hash Functions: MD5 to SHA-3', desc: 'Understanding checksums and verification', replies: '31 replies' },
+      { id: 'aes', category: 'Cryptography', title: 'AES Encryption Explained', desc: 'The gold standard in symmetric encryption', replies: '39 replies' },
+      { id: 'wireguard', category: 'Cryptography', title: 'WireGuard: The Modern VPN', desc: 'Fast, simple, secure VPN for Linux', replies: '44 replies' },
+      
+      { id: 'ctf', category: 'Hacking', title: 'Capture The Flag: Learning Through Hacking', desc: 'CTF platforms and resources for beginners', replies: '89 replies' },
+      { id: 'socialeng', category: 'Hacking', title: 'Social Engineering: The Human Vulnerability', desc: 'The art of manipulating people to get access', replies: '112 replies' },
+      { id: 'reverse', category: 'Hacking', title: 'Reverse Engineering Basics', desc: 'Disassembling and analyzing binary code', replies: '64 replies' },
+      { id: 'exploitdev', category: 'Hacking', title: 'Exploit Development Fundamentals', desc: 'Buffer overflows, ROP chains, and more', replies: '47 replies' },
+      { id: 'websec', category: 'Hacking', title: 'Web Security Testing', desc: 'XSS, SQLi, CSRF and how to find them', replies: '81 replies' },
+      { id: 'buffer', category: 'Hacking', title: 'Buffer Overflows Explained', desc: 'Memory corruption vulnerabilities', replies: '55 replies' },
+      { id: 'wifi', category: 'Hacking', title: 'WiFi Security & Penetration Testing', desc: 'WPA2, WPA3, and airgeddon', replies: '73 replies' },
+      { id: 'forensics', category: 'Hacking', title: 'Digital Forensics Fundamentals', desc: 'Analyzing evidence and recovering data', replies: '38 replies' },
+      
+      { id: 'cyberpunk', category: 'Cyberpunk', title: 'Cyberpunk: More Relevant Than Ever', desc: 'AI, surveillance, and the erosion of privacy in 2026', replies: '42 replies' },
+      { id: 'lain', category: 'Cyberpunk', title: 'Serial Experiments Lain: 25 Years Later', desc: 'The anime that predicted the internet\'s evolution', replies: '156 replies' },
+      { id: 'transhuman', category: 'Cyberpunk', title: 'Transhumanism: Becoming Something Else', desc: 'Cybernetics, brain-computer interfaces, and beyond', replies: '34 replies' },
+      { id: 'surveillance', category: 'Cyberpunk', title: 'The Surveillance State', desc: 'How governments and corporations watch us', replies: '89 replies' },
+      { id: 'dystopia', category: 'Cyberpunk', title: 'Dystopian Literature & Media', desc: 'Brave New World, 1984, Black Mirror', replies: '45 replies' },
+      
+      { id: 'tcpip', category: 'Networking', title: 'TCP/IP Deep Dive', desc: 'How the internet actually works', replies: '56 replies' },
+      { id: 'dns', category: 'Networking', title: 'DNS: The Internet\'s Phonebook', desc: 'How domain names resolve', replies: '39 replies' },
+      { id: 'ssh', category: 'Networking', title: 'SSH: Secure Shell Essentials', desc: 'Remote access without passwords', replies: '48 replies' },
+      { id: 'http', category: 'Networking', title: 'HTTP/HTTPS Deep Dive', desc: 'Web protocols explained', replies: '52 replies' },
+      { id: 'docker', category: 'Networking', title: 'Docker & Containers', desc: 'Containerization for developers', replies: '71 replies' },
+      { id: 'kubernetes', category: 'Networking', title: 'Kubernetes: Container Orchestration', desc: 'Managing containers at scale', replies: '43 replies' },
+      
+      { id: 'arduino', category: 'Hardware', title: 'Arduino for Beginners', desc: 'Microcontroller programming basics', replies: '38 replies' },
+      { id: 'raspberrypi', category: 'Hardware', title: 'Raspberry Pi Projects', desc: 'Single-board computer adventures', replies: '56 replies' },
+      { id: 'esp32', category: 'Hardware', title: 'ESP32: WiFi + Bluetooth', desc: 'Powerful microcontroller with wireless', replies: '33 replies' },
+      { id: 'esp32cam', category: 'Hardware', title: 'ESP32-CAM Projects', desc: 'Tiny camera modules for DIY projects', replies: '22 replies' },
+      
+      { id: 'privacy', category: 'Privacy', title: 'Privacy in 2026', desc: 'Living off the grid in a connected world', replies: '94 replies' },
+      { id: 'tails', category: 'Privacy', title: 'Tails OS: Amnesiac Incognito Live', desc: 'The amnesic live system for privacy', replies: '45 replies' },
+      { id: 'qubes', category: 'Privacy', title: 'Qubes OS: Security Through Isolation', desc: 'Disposable VMs for everything', replies: '31 replies' },
+      { id: 'matrix', category: 'Privacy', title: 'Matrix: Decentralized Communication', desc: 'Open network for secure chat', replies: '28 replies' },
+      { id: 'sovereign', category: 'Privacy', title: 'Sovereign Computing', desc: 'Self-hosted alternatives to big tech', replies: '36 replies' }
+    ];
+
+    const toolsData = [
+      { id: 'terminal', category: 'Terminal & Dev', title: 'Essential Terminal Utilities', desc: 'tmux, zsh, and command line essentials', replies: 'Tools' },
+      { id: 'neovim', category: 'Terminal & Dev', title: 'Neovim Configuration Guide', desc: 'Turn your editor into an IDE', replies: 'Tools' },
+      { id: 'devenv', category: 'Terminal & Dev', title: 'Development Environment Setup', desc: 'From fresh install to productive workspace', replies: 'Tools' },
+      { id: 'git', category: 'Terminal & Dev', title: 'Git Essentials & Workflows', desc: 'Version control for beginners and pros', replies: 'Tools' },
+      { id: 'docker', category: 'Terminal & Dev', title: 'Docker Complete Guide', desc: 'Containerization from basics to orchestration', replies: 'Tools' },
+      { id: 'toolbox', category: 'Terminal & Dev', title: 'Toolbox for Linux', desc: 'edora silverblue toolbox for development', replies: 'Tools' },
+      { id: 'systemd', category: 'Terminal & Dev', title: 'Systemd Essentials', desc: 'Service management and systemd units', replies: 'Tools' },
+      
+      { id: 'privtools', category: 'Privacy & Security', title: 'Privacy Tools Collection', desc: 'Signal, ProtonMail, Bitwarden, and more', replies: 'Tools' },
+      { id: 'vpn', category: 'Privacy & Security', title: 'VPN Setup: WireGuard on Linux', desc: 'Fast and modern VPN on your server', replies: 'Tools' },
+      { id: 'ufw', category: 'Privacy & Security', title: 'UFW: Uncomplicated Firewall', desc: 'Simple firewall for Ubuntu/Debian', replies: 'Tools' },
+      { id: 'fail2ban', category: 'Privacy & Security', title: 'Fail2Ban Configuration', desc: 'Protect SSH from brute force', replies: 'Tools' },
+      { id: 'auditd', category: 'Privacy & Security', title: 'Auditd: System Auditing', desc: 'Track system events and security', replies: 'Tools' },
+      { id: 'mfa', category: 'Privacy & Security', title: 'Hardware 2FA Keys', desc: 'YubiKey, Google Titan, and U2F', replies: 'Tools' },
+      
+      { id: 'ctftools', category: 'Hacking & CTF', title: 'Essential Hacking Tools', desc: 'Burp Suite, Wireshark, Ghidra, Metasploit', replies: 'Tools' },
+      { id: 'ctfplatforms', category: 'Hacking & CTF', title: 'Best CTF Platforms to Practice', desc: 'TryHackMe, Hack The Box, PicoCTF', replies: 'Tools' },
+      { id: 'ghidra', category: 'Hacking & CTF', title: 'Ghidra Reverse Engineering', desc: 'NSA\'s free disassembler tutorial', replies: 'Tools' },
+      { id: 'metasploit', category: 'Hacking & CTF', title: 'Metasploit Framework', desc: 'Exploitation and payload creation', replies: 'Tools' },
+      { id: 'nmap', category: 'Hacking & CTF', title: 'Nmap Network Scanning', desc: 'Port scanning and network discovery', replies: 'Tools' },
+      { id: 'sqlmap', category: 'Hacking & CTF', title: 'SQLMap for SQL Injection', desc: 'Automating SQL injection', replies: 'Tools' },
+      
+      { id: 'rusttools', category: 'Programming', title: 'Rust Development Stack', desc: 'Cargo, Clippy, Rustfmt, and crates', replies: 'Tools' },
+      { id: 'pythontools', category: 'Programming', title: 'Python Dev Tools', desc: 'pip, venv, pytest, black, mypy', replies: 'Tools' },
+      { id: 'jsdev', category: 'Programming', title: 'JavaScript Ecosystem', desc: 'npm, yarn, webpack, Vite, TypeScript', replies: 'Tools' },
+      { id: 'go dev', category: 'Programming', title: 'Go Development Tools', desc: 'gofmt, goreleaser, delve debugger', replies: 'Tools' },
+      
+      { id: 'wireshark', category: 'Networking', title: 'Wireshark Packet Analysis', desc: 'Network troubleshooting and analysis', replies: 'Tools' },
+      { id: 'nginx', category: 'Networking', title: 'Nginx as Reverse Proxy', desc: 'Load balancing and web serving', replies: 'Tools' },
+      { id: 'traefik', category: 'Networking', title: 'Traefik: Modern Reverse Proxy', desc: 'Cloud-native edge router', replies: 'Tools' },
+      { id: 'caddy', category: 'Networking', title: 'Caddy: Automatic HTTPS', desc: 'Web server with automatic SSL', replies: 'Tools' },
+      
+      { id: 'arduinodev', category: 'Hardware', title: 'Arduino CLI', desc: 'Command line Arduino programming', replies: 'Tools' },
+      { id: 'platformio', category: 'Hardware', title: 'PlatformIO: Dev Environment', desc: 'Cross-platform embedded development', replies: 'Tools' },
+      { id: 'openocd', category: 'Hardware', title: 'OpenOCD Debugger', desc: 'JTAG debugging for embedded', replies: 'Tools' }
+    ];
+
+    const linksData = [
+      // Curated Lists - FMHY Style
+      { name: 'FMHY', url: 'https://fmhy.net/', desc: 'Free Media Hell Yeah - Curated list of free media and tools', category: 'Curated Lists' },
+      { name: 'Awesome Selfhosted', url: 'https://awesome-selfhosted.xyz/', desc: 'List of selfhosted software', category: 'Curated Lists' },
+      { name: 'Privacy Guide', url: 'https://privacyguides.org/', desc: 'Open-source privacy recommendations', category: 'Curated Lists' },
+      { name: 'Opscrit', url: 'https://opscrit.org/', desc: 'Security and hacking resources', category: 'Curated Lists' },
+      { name: 'Hellofaso', url: 'https://hellofaso.com/', desc: 'Niche software and resources', category: 'Curated Lists' },
+      { name: 'S4vi', url: 'https://s4vi.github.io/', desc: 'Security tools and resources', category: 'Curated Lists' },
+      
+      // Privacy & Security
+      { name: 'Privacy Tools', url: 'https://www.privacytools.io/', desc: 'Privacy-respecting services', category: 'Privacy' },
+      { name: 'SecureDrop', url: 'https://securedrop.org/', desc: 'Open-source whistleblower submission system', category: 'Privacy' },
+      { name: 'Mailvelope', url: 'https://mailvelope.com/', desc: 'PGP encryption for webmail', category: 'Privacy' },
+      { name: 'Heads', url: 'https://heads.dyne.org/', desc: 'Free software for privacy and security', category: 'Privacy' },
+      { name: 'LibreWolf', url: 'https://librewolf.net/', desc: 'Privacy-focused Firefox fork', category: 'Privacy' },
+      { name: 'Briar', url: 'https://briarproject.org/', desc: 'P2P encrypted messaging', category: 'Privacy' },
+      { name: 'Onion Services', url: 'https://onion.torproject.org/', desc: 'List of useful .onion services', category: 'Privacy' },
+      
+      // Email & Chat
+      { name: 'ProtonMail', url: 'https://proton.me/mail', desc: 'End-to-end encrypted email', category: 'Email & Chat' },
+      { name: 'Tutanota', url: 'https://tutanota.com/', desc: 'Secure email from Germany', category: 'Email & Chat' },
+      { name: 'SimpleX', url: 'https://simplex.chat/', desc: 'Next-gen secure messaging', category: 'Email & Chat' },
+      { name: 'Element', url: 'https://element.io/', desc: 'Matrix client for secure chat', category: 'Email & Chat' },
+      { name: 'Ntfy', url: 'https://ntfy.sh/', desc: 'Send notifications to your phone', category: 'Email & Chat' },
+      
+      // Paste & File Sharing
+      { name: 'PrivateBin', url: 'https://privatebin.net/', desc: 'Pastebin with encryption', category: 'Paste & Files' },
+      { name: 'File.io', url: 'https://file.io/', desc: 'Ephemeral file sharing', category: 'Paste & Files' },
+      { name: '0x0.st', url: 'https://0x0.st/', desc: 'Simple file hosting', category: 'Paste & Files' },
+      { name: 'LBRY', url: 'https://lbry.com/', desc: 'Decentralized content platform', category: 'Paste & Files' },
+      { name: 'Seafile', url: 'https://www.seafile.com/', desc: 'Self-hosted file sync and share', category: 'Paste & Files' },
+      
+      // VPN & Networking
+      { name: 'Mullvad', url: 'https://mullvad.net/', desc: 'Privacy-focused VPN (accepts cash)', category: 'VPN' },
+      { name: 'IVPN', url: 'https://www.ivpn.net/', desc: 'No-log VPN service', category: 'VPN' },
+      { name: 'ProtonVPN', url: 'https://protonvpn.com/', desc: 'Free tier available, Swiss-based', category: 'VPN' },
+      { name: 'WireGuard', url: 'https://www.wireguard.com/', desc: 'Fast, modern VPN protocol', category: 'VPN' },
+      
+      // Learning & Documentation
+      { name: 'Arch Wiki', url: 'https://wiki.archlinux.org/', desc: 'Best Linux documentation', category: 'Learning' },
+      { name: 'MDN Web Docs', url: 'https://developer.mozilla.org/', desc: 'Web development docs', category: 'Learning' },
+      { name: 'OverAPI', url: 'https://overapi.com/', desc: 'Programming cheat sheets', category: 'Learning' },
+      { name: 'Explain Shell', url: 'https://explainshell.com/', desc: 'Parse shell commands', category: 'Learning' },
+      { name: 'ShellCheck', url: 'https://www.shellcheck.net/', desc: 'Static analysis for shell scripts', category: 'Learning' },
+      { name: 'BTDigg', url: 'https://btdigg.io/', desc: 'Magnet link search engine', category: 'Learning' },
+      
+      // Code & Dev
+      { name: 'GitHub', url: 'https://github.com/', desc: 'Code hosting', category: 'Code & Dev' },
+      { name: 'GitLab', url: 'https://gitlab.com/', desc: 'Self-hostable Git', category: 'Code & Dev' },
+      { name: 'SourceHut', url: 'https://sourcehut.org/', desc: 'Minimalist git hosting', category: 'Code & Dev' },
+      { name: 'Codeberg', url: 'https://codeberg.org/', desc: 'GitHub alternative (Gitea)', category: 'Code & Dev' },
+      { name: 'Replit', url: 'https://replit.com/', desc: 'Online IDE', category: 'Code & Dev' },
+      { name: 'Neovim', url: 'https://neovim.io/', desc: 'Modern Vim fork', category: 'Code & Dev' },
+      
+      // Communities
+      { name: 'Lobsters', url: 'https://lobste.rs/', desc: 'Computing-focused link aggregation', category: 'Communities' },
+      { name: 'Hacker News', url: 'https://news.ycombinator.com/', desc: 'Tech news and discussion', category: 'Communities' },
+      { name: 'Lemmy', url: 'https://join-lemmy.org/', desc: 'Reddit alternative (federated)', category: 'Communities' },
+      { name: 'Kbin', url: 'https://kbin.social/', desc: 'Fediverse link aggregator', category: 'Communities' },
+      { name: 'lainchan', url: 'https://lainchan.org/', desc: 'The original cyberpunk chan', category: 'Communities' },
+      { name: '4-ch', url: 'https://4-ch.net/', desc: 'Simple textboard', category: 'Communities' },
+      
+      // News & RSS
+      { name: 'Turing Complete', url: 'https://turingcomplete.fm/', desc: 'Podcast about programming', category: 'News & RSS' },
+      { name: 'Changelog', url: 'https://changelog.com/', desc: 'Open source news', category: 'News & RSS' },
+      { name: 'FLOSS Weekly', url: 'https://twit.tv/shows/floss-weekly', desc: 'Free software podcast', category: 'News & RSS' },
+      { name: 'The Verge', url: 'https://www.theverge.com/', desc: 'Tech news', category: 'News & RSS' },
+      
+      // Tools - Self-hosted
+      { name: 'AdGuard Home', url: 'https://adguard.com/adguard-home/', desc: 'Network-wide ad blocking', category: 'Self-Hosted' },
+      { name: 'Wallabag', url: 'https://www.wallabag.it/', desc: 'Save articles for later', category: 'Self-Hosted' },
+      { name: 'Linkding', url: 'https://github.com/sissbruecker/linkding', desc: 'Bookmark manager', category: 'Self-Hosted' },
+      { name: 'Uptime Kuma', url: 'https://github.com/louislam/uptime-kuma', desc: 'Self-hosted monitoring', category: 'Self-Hosted' },
+      { name: 'PhotoPrism', url: 'https://photoprism.app/', desc: 'Google Photos alternative', category: 'Self-Hosted' },
+      { name: 'Trilium', url: 'https://github.com/zadam/trilium', desc: 'Personal knowledge base', category: 'Self-Hosted' },
+      { name: 'JamesDSP', url: 'https://github.com/Audio4Linux/JamesDSPManager', desc: 'Audio processing for Linux', category: 'Self-Hosted' },
+      
+      // Gaming
+      { name: 'PCGamingWiki', url: 'https://pcgamingwiki.com/', desc: 'Fixes for PC games on Linux', category: 'Gaming' },
+      { name: 'Lutris', url: 'https://lutris.net/', desc: 'Linux games launcher', category: 'Gaming' },
+      { name: 'Heroic Games', url: 'https://heroicgameslauncher.com/', desc: 'GOG and Epic Games on Linux', category: 'Gaming' },
+      { name: 'ProtonDB', url: 'https://protondb.com/', desc: 'Steam Play compatibility', category: 'Gaming' },
+      
+      // Multimedia
+      { name: 'Stremio', url: 'https://stremio.com/', desc: 'Stream movies and shows', category: 'Multimedia' },
+      { name: 'Jellyfin', url: 'https://jellyfin.org/', desc: 'Self-hosted media server', category: 'Multimedia' },
+      { name: 'Navidrome', url: 'https://www.navidrome.org/', desc: 'Music streaming server', category: 'Multimedia' },
+      { name: 'dab music', url: 'https://dabmusic.xyz/', desc: 'Underground music', category: 'Multimedia' },
+      { name: 'Funkwhale', url: 'https://funkwhale.audio/', desc: 'Federated music streaming', category: 'Multimedia' },
+      
+      // OS & Distros
+      { name: 'NixOS', url: 'https://nixos.org/', desc: 'Declarative Linux distribution', category: 'OS & Distros' },
+      { name: 'Gentoo', url: 'https://www.gentoo.org/', desc: 'Source-based Linux', category: 'OS & Distros' },
+      { name: 'Alpine', url: 'https://alpinelinux.org/', desc: 'Lightweight container Linux', category: 'OS & Distros' },
+      { name: 'Slackware', url: 'http://www.slackware.com/', desc: 'The oldest active Linux', category: 'OS & Distros' },
+      { name: 'Void', url: 'https://voidlinux.org/', desc: 'Independent Linux distro', category: 'OS & Distros' },
+      { name: 'Artix', url: 'https://artixlinux.org/', desc: 'Init-free Linux distro', category: 'OS & Distros' },
+      { name: 'PostmarketOS', url: 'https://postmarketos.org/', desc: 'Linux for phones', category: 'OS & Distros' },
+
+      // More Privacy & Security
+      { name: 'AlternativeTo', url: 'https://alternativeto.net/', desc: 'Crowdsourced software alternatives', category: 'Privacy' },
+      { name: 'No Trace', url: 'https://notrace.me/', desc: 'Privacy guides and anti-surveillance', category: 'Privacy' },
+      { name: 'Offshore.CAT', url: 'https://offshore.cat/', desc: 'Offshore services directory', category: 'Privacy' },
+
+      // More Self-Hosted
+      { name: 'NetBird', url: 'https://netbird.io/', desc: 'WireGuard mesh VPN', category: 'Self-Hosted' },
+      { name: 'FreshRSS', url: 'https://freshrss.org/', desc: 'Self-hosted RSS reader', category: 'Self-Hosted' },
+      { name: 'Homepage', url: 'https://github.com/benphelps/homepage', desc: 'Dashboard for self-hosted services', category: 'Self-Hosted' },
+      { name: 'Beszel', url: 'https://beszel.dev/', desc: 'Lightweight monitoring', category: 'Self-Hosted' },
+      { name: 'Overseerr', url: 'https://overseerr.io/', desc: 'Media request interface', category: 'Self-Hosted' },
+      { name: 'LinkStack', url: 'https://linkstack.org/', desc: 'Link shortener and bio pages', category: 'Self-Hosted' },
+      { name: 'CasaOS', url: 'https://casaos.io/', desc: 'Simple home cloud', category: 'Self-Hosted' },
+      { name: 'Glance', url: 'https://glance-app.com/', desc: 'Self-hosted media dashboard', category: 'Self-Hosted' },
+      { name: 'TubeArchivist', url: 'https://tubearchivist.com/', desc: 'YouTube archivist', category: 'Self-Hosted' },
+
+      // Tech Discovery
+      { name: 'Slant', url: 'https://slant.co/', desc: 'Product recommendations with pros/cons', category: 'Tech Discovery' },
+      { name: 'OSS Gallery', url: 'https://oss.gallery/', desc: 'Open source software directory', category: 'Tech Discovery' },
+      { name: 'LinuxLinks', url: 'https://linuxlinks.com/', desc: 'Curated Linux software', category: 'Tech Discovery' },
+      { name: 'Switching Software', url: 'https://switchingsoftware.org/', desc: 'Open source alternatives', category: 'Tech Discovery' },
+      { name: 'PRISM Break', url: 'https://prism-break.org/', desc: 'Encrypt against mass surveillance', category: 'Tech Discovery' },
+
+      // Niche Communities
+      { name: 'Neme', url: 'https://neme.site/', desc: 'Textboard community', category: 'Communities' },
+      { name: 'Searxng', url: 'https://searxng.org/', desc: 'Privacy-respecting search', category: 'Communities' },
+      { name: 'Trakter', url: 'https://trakter.tv/', desc: 'Movie/show tracking', category: 'Communities' },
+
+      // Beginners & Guides
+      { name: 'FMHY Beginners', url: 'https://fmhy.net/beginners-guide', desc: 'Guide for beginners', category: 'Beginners' },
+      { name: 'Privacy Guide', url: 'https://www.privacyguides.org/', desc: 'Privacy guides', category: 'Beginners' },
+      { name: 'EdOps', url: 'https://edops.net/', desc: 'Encryption and privacy guide', category: 'Beginners' },
+
+      // Torrenting
+      { name: 'qBittorrent', url: 'https://www.qbittorrent.org/', desc: 'Open source torrent client', category: 'Torrenting' },
+      { name: 'Deluge', url: 'https://deluge-torrent.org/', desc: 'Python torrent client', category: 'Torrenting' },
+      { name: 'Jackett', url: 'https://github.com/Jackett/Jackett', desc: 'Torrent indexer proxy', category: 'Torrenting' },
+      { name: 'Sonarr', url: 'https://sonarr.tv/', desc: 'TV show downloader', category: 'Torrenting' },
+      { name: 'Radarr', url: 'https://radarr.video/', desc: 'Movie downloader', category: 'Torrenting' },
+      { name: 'Prowlarr', url: 'https://prowlarr.com/', desc: 'Indexer manager', category: 'Torrenting' },
+      { name: 'The Pirate Bay', url: 'https://thepiratebay.org/', desc: 'Legendary torrent site', category: 'Torrenting' },
+      { name: '1337x', url: 'https://1337x.to/', desc: 'Popular torrent index', category: 'Torrenting' },
+      { name: 'RARBG', url: 'https://rarbg.to/', desc: 'Quality torrents', category: 'Torrenting' },
+
+      // AI & LLMs
+      { name: 'Ollama', url: 'https://ollama.com/', desc: 'Run LLMs locally', category: 'AI & LLMs' },
+      { name: 'LM Studio', url: 'https://lmstudio.ai/', desc: 'Local AI models', category: 'AI & LLMs' },
+      { name: 'Jan', url: 'https://jan.ai/', desc: 'Offline AI assistant', category: 'AI & LLMs' },
+      { name: 'GPT4All', url: 'https://gpt4all.io/', desc: 'Local LLM runner', category: 'AI & LLMs' },
+      { name: 'ShellGPT', url: 'https://github.com/TheR1D/shell_gpt', desc: 'AI for command line', category: 'AI & LLMs' },
+      { name: 'LocalAI', url: 'https://localai.io/', desc: 'Self-hosted AI API', category: 'AI & LLMs' },
+
+      // Educational
+      { name: 'Khan Academy', url: 'https://khanacademy.org/', desc: 'Free education', category: 'Educational' },
+      { name: 'MIT OpenCourseWare', url: 'https://ocw.mit.edu/', desc: 'Free MIT courses', category: 'Educational' },
+      { name: 'OpenCulture', url: 'https://openculture.com/', desc: 'Free cultural courses', category: 'Educational' },
+      { name: 'Crash Course', url: 'https://crashcourse.st/', desc: 'Video courses', category: 'Educational' },
+      { name: 'Project Gutenberg', url: 'https://gutenberg.org/', desc: 'Free ebooks', category: 'Educational' },
+      { name: 'LibGen', url: 'https://libgen.li/', desc: 'Library of books', category: 'Educational' },
+      { name: 'Z-Lib', url: 'https://z-library.is/', desc: 'Book search', category: 'Educational' },
+      { name: 'Sci-Hub', url: 'https://sci-hub.se/', desc: 'Research papers', category: 'Educational' },
+
+      // Adblocking
+      { name: 'uBlock Origin', url: 'https://ublockorigin.com/', desc: 'Ad blocker', category: 'Adblocking' },
+      { name: 'AdGuard', url: 'https://adguard.com/', desc: 'Ad blocking software', category: 'Adblocking' },
+      { name: 'NextDNS', url: 'https://nextdns.io/', desc: 'DNS-based blocking', category: 'Adblocking' },
+      { name: 'Blokada', url: 'https://blokada.org/', desc: 'DNS blocker', category: 'Adblocking' },
+      { name: 'Adaway', url: 'https://adaway.org/', desc: 'Host-based blocker', category: 'Adblocking' },
+
+      // Downloads & Indexes
+      { name: 'Direct-link', url: 'https://direct-link.net/', desc: 'Download indexes', category: 'Downloads' },
+      { name: 'SSD1337', url: 'https://ssd1337.nl/', desc: 'Software downloads', category: 'Downloads' },
+      { name: 'FileCR', url: 'https://filecr.com/', desc: 'Software downloads', category: 'Downloads' },
+      { name: 'Softpedia', url: 'https://softpedia.com/', desc: 'Software catalog', category: 'Downloads' },
+
+      // Non-English
+      { name: 'NRK', url: 'https://nrk.no/', desc: 'Norwegian public TV', category: 'Non-English' },
+      { name: 'ARD Mediathek', url: 'https://ardmediathek.de/', desc: 'German TV', category: 'Non-English' },
+
+      // Archives
+      { name: 'Internet Archive', url: 'https://archive.org/', desc: 'Digital library', category: 'Archives' },
+      { name: 'GeoPe', url: 'https://geope.com/', desc: 'Web archive', category: 'Archives' },
+      { name: 'Wayback Machine', url: 'https://web.archive.org/', desc: 'Web history', category: 'Archives' }
+    ];
+
+    const articles = {
+      rust: {
+        title: "Rust: Memory Safety Without Compromise",
+        img: "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
+        content: `<p>Rust provides memory safety without a garbage collector through its unique ownership system.</p><h3>Install</h3><p><code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></p><p>Docs: <a href="https://doc.rust-lang.org/book/" target="_blank">The Rust Book</a></p>`
+      },
+      python: {
+        title: "Python for Everything",
+        img: "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png",
+        content: `<p>Python is the most versatile language. From web to AI.</p><h3>Install</h3><p><code>sudo apt install python3 python3-pip</code></p><h3>Popular</h3><p><a href="https://www.djangoproject.com/" target="_blank">Django</a> - Web framework</p><p><a href="https://flask.palletsprojects.com/" target="_blank">Flask</a> - Lightweight web</p>`
+      },
+      golang: {
+        title: "Go: Simple and Powerful",
+        img: "https://go.dev/blog/go-logo-blue.svg",
+        content: `<p>Go was created by Google for modern backends. Fast and great for concurrency.</p><h3>Install</h3><p><code>sudo apt install golang</code></p>`
+      },
+      tor: {
+        title: "How Tor Works: The Onion Router",
+        img: "https://www.torproject.org/static/images/tor-logo.svg",
+        content: `<p>Tor routes your traffic through encrypted relays to hide your identity.</p><h3>Download</h3><p><a href="https://www.torproject.org/download/" target="_blank">Tor Browser</a></p>`
+      },
+      opsec: {
+        title: "OPSEC: Operational Security Basics",
+        img: null,
+        content: `<p>Protecting critical information from adversaries. Identify threats, find vulnerabilities, apply countermeasures.</p><h3>Common Mistakes</h3><p>Same password everywhere, oversharing, not using 2FA</p>`
+      },
+      ctf: {
+        title: "Capture The Flag: Learning Through Hacking",
+        img: null,
+        content: `<h3>Platforms</h3><p><a href="https://tryhackme.com/" target="_blank">TryHackMe</a> - Beginner friendly</p><p><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a> - Advanced</p><p><a href="https://picoctf.org/" target="_blank">PicoCTF</a> - For students</p>`
+      },
+      socialeng: {
+        title: "Social Engineering: The Human Hack",
+        img: null,
+        content: `<p>Manipulating people into revealing confidential information.</p><h3>Techniques</h3><p>Phishing, pretexting, baiting, vishing</p>`
+      },
+      cyberpunk: {
+        title: "Cyberpunk: More Relevant Than Ever",
+        img: null,
+        content: `<p>AI surveillance, corporate data harvesting - we're living in a cyberpunk novel.</p><h3>Essential</h3><p><a href="https://en.wikipedia.org/wiki/Neuromancer" target="_blank">Neuromancer</a> - Gibson</p><p><a href="https://en.wikipedia.org/wiki/Snow_Crash" target="_blank">Snow Crash</a> - Stephenson</p>`
+      },
+      lain: {
+        title: "Serial Experiments Lain",
+        img: null,
+        content: `<p>Lain (1998) predicted the internet, AI, and the blurring line between reality and the digital world.</p><h3>Watch</h3><p><a href="https://lainchan.org/" target="_blank">Official Lainchan</a></p>`
+      },
+      terminal: { title: "Essential Terminal Utilities", img: null, content: `<p><a href="https://github.com/tmux/tmux" target="_blank">tmux</a> - Terminal multiplexer</p><p><a href="https://www.zsh.org/" target="_blank">zsh</a> - Shell</p><p><a href="https://fishshell.com/" target="_blank">fish</a> - User-friendly</p>` },
+      neovim: { title: "Neovim Configuration", img: null, content: `<p><a href="https://neovim.io/" target="_blank">Neovim</a> - Modern Vim fork</p><p><a href="https://github.com/awesome-linux-configs/neovim" target="_blank">Configs</a> - Example configs</p>` },
+      devenv: { title: "Development Environment Setup", img: null, content: `<p><code>sudo apt install git neovim docker python3</code></p><h3>Dotfiles</h3><p>Use GNU Stow or yadm for dotfiles management</p>` },
+      git: { title: "Git Essentials", img: "https://git-scm.com/images/logo@2x.png", content: `<p><code>git init, clone, add, commit, push, pull</code></p><p><a href="https://git-scm.com/doc" target="_blank">Pro Git Book</a></p>` },
+      privtools: { title: "Privacy Tools Collection", img: null, content: `<p><a href="https://signal.org/" target="_blank">Signal</a> - Encrypted messaging</p><p><a href="https://bitwarden.com/" target="_blank">Bitwarden</a> - Password manager</p><p><a href="https://www.yubico.com/" target="_blank">YubiKey</a> - Hardware 2FA</p>` },
+      vpn: { title: "WireGuard on Linux", img: null, content: `<p><a href="https://www.wireguard.com/" target="_blank">WireGuard</a> - Modern VPN</p><h3>Install</h3><p><code>sudo apt install wireguard</code></p>` },
+      ctftools: { title: "Essential Hacking Tools", img: null, content: `<p><a href="https://portswigger.net/burp" target="_blank">Burp Suite</a></p><p><a href="https://www.wireshark.org/" target="_blank">Wireshark</a></p><p><a href="https://ghidra-sre.org/" target="_blank">Ghidra</a></p>` },
+      ctfplatforms: { title: "Best CTF Platforms", img: null, content: `<p><a href="https://tryhackme.com/" target="_blank">TryHackMe</a></p><p><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a></p><p><a href="https://picoctf.org/" target="_blank">PicoCTF</a></p>` }
+    };
+
+    window.articles = articles;
+
+    function renderTopics(filter = '') {
+      const container = document.getElementById('topics-content');
+      let html = '';
+      const categories = {};
+      
+      topicsData.forEach(topic => {
+        const searchStr = (topic.title + topic.desc + topic.category).toLowerCase();
+        if (!filter || searchStr.includes(filter.toLowerCase())) {
+          if (!categories[topic.category]) categories[topic.category] = [];
+          categories[topic.category].push(topic);
+        }
+      });
+      
+      if (Object.keys(categories).length === 0) {
+        html = '<div class="no-results">No results found</div>';
+      } else {
+        Object.keys(categories).forEach(cat => {
+          html += `<div class="board-section"><h2>${cat}</h2>`;
+          categories[cat].forEach(topic => {
+            html += `<div class="thread" onclick="showArticle('${topic.id}', 'topics')">
+              <p class="thread-meta">Anonymous | 2h ago</p>
+              <p class="thread-title">${topic.title}</p>
+              <p class="thread-desc">${topic.desc}</p>
+              <p class="thread-replies">${topic.replies}</p>
+            </div>`;
+          });
+          html += '</div>';
+        });
+      }
+      container.innerHTML = html;
+    }
+
+    function renderTools(filter = '') {
+      const container = document.getElementById('tools-content');
+      let html = '';
+      const categories = {};
+      
+      toolsData.forEach(tool => {
+        const searchStr = (tool.title + tool.desc + tool.category).toLowerCase();
+        if (!filter || searchStr.includes(filter.toLowerCase())) {
+          if (!categories[tool.category]) categories[tool.category] = [];
+          categories[tool.category].push(tool);
+        }
+      });
+      
+      if (Object.keys(categories).length === 0) {
+        html = '<div class="no-results">No results found</div>';
+      } else {
+        Object.keys(categories).forEach(cat => {
+          html += `<div class="board-section"><h2>${cat}</h2>`;
+          categories[cat].forEach(tool => {
+            html += `<div class="thread" onclick="showArticle('${tool.id}', 'tools')">
+              <p class="thread-meta">${tool.replies}</p>
+              <p class="thread-title">${tool.title}</p>
+              <p class="thread-desc">${tool.desc}</p>
+            </div>`;
+          });
+          html += '</div>';
+        });
+      }
+      container.innerHTML = html;
+    }
+
+    function renderLinks(filter = '') {
+      const container = document.getElementById('links-content');
+      let html = '';
+      const categories = {};
+      
+      linksData.forEach(link => {
+        const searchStr = (link.name + link.desc + link.category).toLowerCase();
+        if (!filter || searchStr.includes(filter.toLowerCase())) {
+          if (!categories[link.category]) categories[link.category] = [];
+          categories[link.category].push(link);
+        }
+      });
+      
+      if (Object.keys(categories).length === 0) {
+        html = '<div class="no-results">No results found</div>';
+      } else {
+        Object.keys(categories).forEach(cat => {
+          html += `<div class="board-section"><h2>${cat}</h2>`;
+          categories[cat].forEach(link => {
+            html += `<div class="thread">
+              <p class="thread-title"><a href="${link.url}" target="_blank">${link.name}</a></p>
+              <p class="thread-desc">${link.desc}</p>
+            </div>`;
+          });
+          html += '</div>';
+        });
+      }
+      container.innerHTML = html;
+    }
+
+    function searchTopics() { renderTopics(document.getElementById('search-topics').value); }
+    function searchTools() { renderTools(document.getElementById('search-tools').value); }
+    function searchLinks() { renderLinks(document.getElementById('search-links').value); }
+
+    function goHome() { currentSection = 'index'; showPage('index'); renderFeatured(); }
+
+    function renderFeatured() {
+      const shuffled = [...linksData].sort(() => 0.5 - Math.random());
+      const selected = shuffled.slice(0, 8);
+      const html = '<h2 style="color: #555; margin: 20px 0 10px 0;">Featured</h2>' + 
+        selected.map(link => `<div class="thread"><p class="thread-title"><a href="${link.url}" target="_blank">${link.name}</a></p><p class="thread-desc">${link.desc}</p></div>`).join('');
+      document.getElementById('featured-links').innerHTML = html;
+    }
+
+    function showSection(section) {
+      currentSection = section;
+      showPage(section);
+      if (section === 'topics') renderTopics();
+      else if (section === 'tools') renderTools();
+      else if (section === 'links') renderLinks();
+    }
+
+    function showPage(pageName) {
+      document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+      document.getElementById('page-' + pageName).classList.add('active');
+    }
+
+    function showArticle(articleId, fromSection) {
+      const article = articles[articleId];
+      if (article) {
+        const backText = fromSection === 'tools' ? 'Tools' : fromSection === 'links' ? 'Links' : 'Topics';
+        const imgHTML = article.img ? `<img src="${article.img}" class="article-img" alt="${article.title}">` : '';
+        document.getElementById('article-content').innerHTML = `
+          <div class="back-btn"><a onclick="goBack()">← Back to ${backText}</a></div>
+          <h1>[-] ${article.title}</h1>
+          ${imgHTML}
+          <div class="article-content">${article.content}</div>
+        `;
+        showPage('article');
+      }
+    }
+
+    function goBack() { showPage(currentSection); }
+    goHome();
+  </script>
+</body>
+</html>
