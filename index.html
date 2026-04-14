@@ -527,8 +527,212 @@
 
       // Archives
       { name: 'Internet Archive', url: 'https://archive.org/', desc: 'Digital library', category: 'Archives' },
-      { name: 'GeoPe', url: 'https://geope.com/', desc: 'Web archive', category: 'Archives' },
-      { name: 'Wayback Machine', url: 'https://web.archive.org/', desc: 'Web history', category: 'Archives' }
+      { name: 'Wayback Machine', url: 'https://web.archive.org/', desc: 'Web history', category: 'Archives' },
+      { name: 'Anna\'s Archive', url: 'https://annas-archive.org/', desc: 'Library of books and papers', category: 'Archives' },
+      { name: 'Sci-Hub', url: 'https://sci-hub.se/', desc: 'Access to research papers', category: 'Archives' },
+
+      // Alternative Frontends
+      { name: 'Nitter', url: 'https://nitter.net/', desc: 'Twitter/X alternative (no login needed)', category: 'Alt Frontends' },
+      { name: 'Invidious', url: 'https://yewtu.be/', desc: 'YouTube alternative frontend', category: 'Alt Frontends' },
+      { name: 'Proxitok', url: 'https://proxitok.pшёлч.com/', desc: 'TikTok alternative', category: 'Alt Frontends' },
+      { name: 'Wikiless', url: 'https://wikiless.org/', desc: 'Wikipedia without tracking', category: 'Alt Frontends' },
+      { name: 'Lemmy', url: 'https://sh.itjust.works/', desc: 'Reddit alternative (Lemmyverse)', category: 'Alt Frontends' },
+      { name: 'Lemmy (Python)', url: 'https://lemy.ml/', desc: 'Lemmy instance', category: 'Alt Frontends' },
+      { name: 'Lemmy (Pizer)', url: 'https://pika.social/', desc: 'Mastodon instance', category: 'Alt Frontends' },
+
+      // Hacker Tools & CTF
+      { name: 'GTFOBins', url: 'https://gtfobins.github.io/', desc: 'GTFO bins - binary privilege escalation', category: 'Hacking' },
+      { name: 'HackTricks', url: 'https://book.hacktricks.xyz/', desc: 'Pentesting methodology', category: 'Hacking' },
+      { name: 'RevShell', url: 'https://www.revshells.com/', desc: 'Generate reverse shells', category: 'Hacking' },
+      { name: 'Pentestmonkey', url: 'https://pentestmonkey.net/', desc: 'Penetration testing cheatsheets', category: 'Hacking' },
+      { name: 'PayloadAllTheThings', url: 'https://github.com/swisskyrepo/PayloadsAllTheThings', desc: 'CTF tricks and payloads', category: 'Hacking' },
+      { name: 'CyberChef', url: 'https://gchq.github.io/CyberChef/', desc: 'Swiss army knife for data', category: 'Hacking' },
+      { name: 'VirusTotal', url: 'https://www.virustotal.com/', desc: 'Analyze suspicious files', category: 'Hacking' },
+      { name: 'Shodan', url: 'https://www.shodan.io/', desc: 'Search engine for internet-connected devices', category: 'Hacking' },
+      { name: 'Censys', url: 'https://search.censys.io/', desc: 'Internet asset discovery', category: 'Hacking' },
+
+      // Terminal & CLI Tools
+      { name: 'btop', url: 'https://github.com/aristocratos/btop', desc: 'Modern htop alternative', category: 'Terminal' },
+      { name: 'eza', url: 'https://github.com/eza-community/eza', desc: 'Modern ls replacement', category: 'Terminal' },
+      { name: 'lazygit', url: 'https://github.com/jesseduffield/lazygit', desc: 'Terminal UI for git', category: 'Terminal' },
+      { name: 'fzf', url: 'https://github.com/junegunn/fzf', desc: 'Fuzzy finder for terminal', category: 'Terminal' },
+      { name: 'zoxide', url: 'https://github.com/ajeetdsouza/zoxide', desc: 'Smarter cd command', category: 'Terminal' },
+      { name: 'delta', url: 'https://github.com/dandavison/delta', desc: 'Git diff viewer', category: 'Terminal' },
+      { name: ' atuin', url: 'https://github.com/atuinsh/atuin', desc: 'Magical shell history', category: 'Terminal' },
+      { name: 'ripgrep', url: 'https://github.com/BurntSushi/ripgrep', desc: 'Ultra-fast grep alternative', category: 'Terminal' },
+      { name: 'bat', url: 'https://github.com/sharkdp/bat', desc: 'cat with wings', category: 'Terminal' },
+      { name: 'httpie', url: 'https://httpie.io/', desc: 'User-friendly HTTP client', category: 'Terminal' },
+      { name: 'glow', url: 'https://github.com/charmbracelet/glow', desc: 'Markdown renderer for terminal', category: 'Terminal' },
+
+      // Search Engines
+      { name: 'SearXNG', url: 'https://searxng.org/', desc: 'Privacy-respecting metasearch', category: 'Search' },
+      { name: 'Brave Search', url: 'https://search.brave.com/', desc: 'Privacy-first search', category: 'Search' },
+      { name: 'DuckDuckGo', url: 'https://duckduckgo.com/', desc: 'No tracking search', category: 'Search' },
+      { name: 'Startpage', url: 'https://www.startpage.com/', desc: 'Google results without tracking', category: 'Search' },
+      { name: 'Yacy', url: 'https://yacy.net/', desc: 'Decentralized search engine', category: 'Search' },
+      { name: 'Memex', url: 'https://memex.marginalia.nu/', desc: 'Search the old web', category: 'Search' },
+
+      // Pastebins & File Sharing
+      { name: 'Rentry', url: 'https://rentry.co/', desc: 'Simple pastebin', category: 'Paste & Files' },
+      { name: 'Catbox', url: 'https://catbox.moe/', desc: 'File hosting (anime-friendly)', category: 'Paste & Files' },
+      { name: 'Litterbox', url: 'https://litterbox.catbox.moe/', desc: 'Temporary file hosting (48h)', category: 'Paste & Files' },
+      { name: '0x0.st', url: 'https://0x0.st/', desc: 'Minimal file hosting', category: 'Paste & Files' },
+      { name: 'DPaste', url: 'https://dpaste.com/', desc: 'Code pastebin', category: 'Paste & Files' },
+      { name: 'FileBin', url: 'https://filebin.net/', desc: 'Temporary file bin', category: 'Paste & Files' },
+
+      // Learning & Documentation
+      { name: 'Exercism', url: 'https://exercism.org/', desc: 'Code exercises (free)', category: 'Learning' },
+      { name: 'Labex', url: 'https://labex.io/', desc: 'Free labs for tech skills', category: 'Learning' },
+      { name: 'SQLZoo', url: 'https://sqlzoo.net/', desc: 'Interactive SQL tutorial', category: 'Learning' },
+      { name: 'Regex101', url: 'https://regex101.com/', desc: 'Regex tester and explainer', category: 'Learning' },
+      { name: 'ExplainShell', url: 'https://explainshell.com/', desc: 'Parse shell commands', category: 'Learning' },
+      { name: 'TLDR Pages', url: 'https://tldr.sh/', desc: 'Simplified man pages', category: 'Learning' },
+      { name: 'DevDocs', url: 'https://devdocs.io/', desc: 'API documentation browser', category: 'Learning' },
+      { name: 'Roadmap.sh', url: 'https://roadmap.sh/', desc: 'Developer roadmaps', category: 'Learning' },
+
+      // Self-Hosted Cool
+      { name: 'Forgejo', url: 'https://forgejo.org/', desc: 'Self-hosted git (fork of Gitea)', category: 'Self-Hosted' },
+      { name: 'Misskey', url: 'https://misskey.io/', desc: 'Decentralized social platform', category: 'Self-Hosted' },
+      { name: 'WriteFreely', url: 'https://writefreely.org/', desc: ' blogging platform', category: 'Self-Hosted' },
+      { name: 'WordPress', url: 'https://wordpress.org/', desc: 'CMS for blogging', category: 'Self-Hosted' },
+      { name: 'Umami', url: 'https://umami.is/', desc: 'Google Analytics alternative', category: 'Self-Hosted' },
+      { name: 'Syncthing', url: 'https://syncthing.net/', desc: 'Continuous file synchronization', category: 'Self-Hosted' },
+      { name: 'DataLad', url: 'https://www.datalad.org/', desc: 'Git for large data', category: 'Self-Hosted' },
+      { name: 'Immich', url: 'https://immich.app/', desc: 'Self-hosted Google Photos', category: 'Self-Hosted' },
+      { name: 'LibrePhotos', url: 'https://github.com/LibrePhotos/librephotos', desc: 'Self-hosted photo management', category: 'Self-Hosted' },
+      { name: 'Shiori', url: 'https://github.com/go-shiori/shiori', desc: 'Bookmark manager', category: 'Self-Hosted' },
+      { name: 'Umami', url: 'https://umami.is/', desc: 'Privacy analytics', category: 'Self-Hosted' },
+      { name: 'Posthog', url: 'https://posthog.com/', desc: 'Product analytics', category: 'Self-Hosted' },
+      { name: 'Outline', url: 'https://www.getoutline.com/', desc: 'Wikipedia alternative', category: 'Self-Hosted' },
+      { name: 'Huginn', url: 'https://github.com/huginn/huginn', desc: 'Automation agent', category: 'Self-Hosted' },
+      { name: 'n8n', url: 'https://n8n.io/', desc: 'Workflow automation', category: 'Self-Hosted' },
+      { name: 'AppFlowy', url: 'https://appflowy.io/', desc: 'Notion alternative', category: 'Self-Hosted' },
+      { name: 'AFFiNE', url: 'https://affine.pro/', desc: 'Next-gen knowledge base', category: 'Self-Hosted' },
+      { name: 'Docmost', url: 'https://docmost.com/', desc: 'Notion/Confluence alternative', category: 'Self-Hosted' },
+      { name: 'SuperTokens', url: 'https://supertokens.com/', desc: 'Auth solution', category: 'Self-Hosted' },
+
+      // Cyberpunk & Weird Web
+      { name: 'The Nib', url: 'https://thenib.com/', desc: 'Political comics', category: 'Weird Web' },
+      { name: 'PixelJoint', url: 'http://pixeljoint.com/', desc: 'Pixel art gallery', category: 'Weird Web' },
+      { name: 'TV Tropes', url: 'https://tvtropes.org/', desc: 'Tropes analysis (warning: time sink)', category: 'Weird Web' },
+      { name: 'GeoGuessr', url: 'https://www.geoguessr.com/', desc: 'Guess location from street view', category: 'Weird Web' },
+      { name: 'Old Maps Online', url: 'https://www.oldmapsonline.org/', desc: 'Historical maps search', category: 'Weird Web' },
+      { name: 'Radio Garden', url: 'https://radio.garden/', desc: 'Listen to live radio worldwide', category: 'Weird Web' },
+      { name: 'Falling Garten', url: 'https://fallinggarten.com/', desc: 'Strange internet art', category: 'Weird Web' },
+      { name: 'Zen Photos', url: 'https://zenphotos.io/', desc: 'Minimalist image hosting', category: 'Weird Web' },
+      { name: 'The Manual', url: 'https://themanual.org/', desc: 'Read articles ad-free', category: 'Weird Web' },
+      { name: 'Telegraaf', url: 'https://telegraaf.nl/', desc: 'Dutch news', category: 'Weird Web' },
+
+      // Music & Audio
+      { name: 'Freesound', url: 'https://freesound.org/', desc: 'Sound effects library', category: 'Music' },
+      { name: 'Bandcamp', url: 'https://bandcamp.com/', desc: 'Indie music platform', category: 'Music' },
+      { name: 'Musopen', url: 'https://musopen.org/', desc: 'Free classical music', category: 'Music' },
+      { name: 'SoundCloud', url: 'https://soundcloud.com/', desc: 'Music streaming', category: 'Music' },
+      { name: 'Spotify Web Player', url: 'https://open.spotify.com/', desc: 'Spotify in browser', category: 'Music' },
+      { name: 'MusicBrainz', url: 'https://musicbrainz.org/', desc: 'Open music encyclopedia', category: 'Music' },
+
+      // Design & Fonts
+      { name: 'Google Fonts', url: 'https://fonts.google.com/', desc: 'Open source fonts', category: 'Design' },
+      { name: 'FontPair', url: 'https://fontpair.co/', desc: 'Font pairing ideas', category: 'Design' },
+      { name: 'Unsplash', url: 'https://unsplash.com/', desc: 'Free photos', category: 'Design' },
+      { name: 'Pexels', url: 'https://www.pexels.com/', desc: 'Free stock photos', category: 'Design' },
+      { name: 'CSS Zen Garden', url: 'https://www.csszengarden.com/', desc: 'CSS showcase', category: 'Design' },
+      { name: 'A11y', url: 'https://webaim.org/', desc: 'Accessibility resources', category: 'Design' },
+
+      // Programming & Code
+      { name: 'Godbolt', url: 'https://godbolt.org/', desc: 'Compiler explorer', category: 'Programming' },
+      { name: 'Wandbox', url: 'https://wandbox.org/', desc: 'Online compiler (C++, Rust, etc)', category: 'Programming' },
+      { name: 'Deno Deploy', url: 'https://deno.com/deploy', desc: 'Edge computing with Deno', category: 'Programming' },
+      { name: 'Cloudflare Workers', url: 'https://workers.cloudflare.com/', desc: 'Edge functions', category: 'Programming' },
+      { name: 'Playwright', url: 'https://playwright.dev/', desc: 'Browser automation', category: 'Programming' },
+      { name: 'Puppeteer', url: 'https://pptr.dev/', desc: 'Headless Chrome API', category: 'Programming' },
+      { name: 'Prisma', url: 'https://prisma.io/', desc: 'Next-gen ORM', category: 'Programming' },
+      { name: 'SQLite Viewer', url: 'https://sqliteviewer.app/', desc: 'View SQLite files online', category: 'Programming' },
+      { name: 'DB Fiddle', url: 'https://www.db-fiddle.com/', desc: 'SQL database playground', category: 'Programming' },
+      { name: 'Big Tech DBs', url: 'https://www.dbvis.com/', desc: 'Database visualizer', category: 'Programming' },
+      { name: 'Draw.io', url: 'https://app.diagrams.net/', desc: 'Diagrams online', category: 'Programming' },
+      { name: 'Mermaid Live', url: 'https://mermaid.live/', desc: 'Diagrams as code', category: 'Programming' },
+
+      // Email & Productivity
+      { name: 'Firefox Relay', url: 'https://relay.firefox.com/', desc: 'Email alias service', category: 'Email' },
+      { name: 'Guerrilla Mail', url: 'https://guerrillamail.com/', desc: 'Disposable email', category: 'Email' },
+      { name: 'Simplelogin', url: 'https://simplelogin.io/', desc: 'Email alias provider', category: 'Email' },
+      { name: 'AnonAddy', url: 'https://anonaddy.com/', desc: 'Open source email alias', category: 'Email' },
+      { name: 'Tuta', url: 'https://tuta.com/', desc: 'End-to-end encrypted email', category: 'Email' },
+
+      // VPN & Networking
+      { name: 'Self-hosted VPN', url: 'https://github.com/angristan/wireguard-install', desc: 'WireGuard installer script', category: 'VPN' },
+      { name: 'Tailscale Funnel', url: 'https://tailscale.com/', desc: 'Zero-config VPN', category: 'VPN' },
+      { name: 'ZeroTier', url: 'https://www.zerotier.com/', desc: 'Global area network', category: 'VPN' },
+      { name: 'sshreach', url: 'https://www.sshreach.me/', desc: 'SSH tunneling made easy', category: 'VPN' },
+      { name: 'Cloudflare Tunnel', url: 'https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/', desc: 'Expose local services', category: 'VPN' },
+
+      // Communities & Forums
+      { name: 'Foresty', url: 'https://forestry.io/', desc: 'Community for nature lovers', category: 'Communities' },
+      { name: 'Ghost', url: 'https://ghost.org/', desc: 'Independent publishing', category: 'Communities' },
+      { name: 'Lemmyverse', url: 'https://join-lemmy.org/', desc: 'Federated Reddit alternative', category: 'Communities' },
+      { name: 'Kbin', url: 'https://kbin.social/', desc: 'Fediverse aggregator', category: 'Communities' },
+      { name: 'Hacker News', url: 'https://news.ycombinator.com/', desc: 'Tech community', category: 'Communities' },
+      { name: 'Lobste.rs', url: 'https://lobste.rs/', desc: 'Invited tech discussion', category: 'Communities' },
+      { name: 'NixOS Discourse', url: 'https://discourse.nixos.org/', desc: 'NixOS community', category: 'Communities' },
+
+      // Cool Tools & Utilities
+      { name: '1Password SSH', url: 'https://developer.1password.com/docs/ssh/', desc: 'SSH agent in 1Password', category: 'Utilities' },
+      { name: 'Tailscale SSH', url: 'https://tailscale.com/tailscale-ssh/', desc: 'SSH without keys', category: 'Utilities' },
+      { name: 'SSH Certificate Auth', url: 'https://smallstep.com/blog/ssh-certificates/', desc: 'SSH certs explained', category: 'Utilities' },
+      { name: 'mkcert', url: 'https://github.com/FiloSottile/mkcert', desc: 'Local HTTPS for development', category: 'Utilities' },
+      { name: 'ChatGPT', url: 'https://chat.openai.com/', desc: 'AI chatbot', category: 'Utilities' },
+      { name: 'Claude', url: 'https://claude.ai/', desc: 'Anthropic AI assistant', category: 'Utilities' },
+      { name: 'Perplexity', url: 'https://www.perplexity.ai/', desc: 'AI search engine', category: 'Utilities' },
+      { name: 'Phind', url: 'https://www.phind.com/', desc: 'AI search for developers', category: 'Utilities' },
+      { name: 'Phira', url: 'https://phira.cn/', desc: 'Rhythm game (osu!-like)', category: 'Utilities' },
+
+      // Gaming
+      { name: 'EmuDeck', url: 'https://www.emudeck.com/', desc: 'Emulators for Steam Deck', category: 'Gaming' },
+      { name: 'EmulationStation', url: 'https://www.emulationstation.org/', desc: 'Emulator frontend', category: 'Gaming' },
+      { name: 'PCSX2', url: 'https://pcsx2.net/', desc: 'PlayStation 2 emulator', category: 'Gaming' },
+      { name: 'RPCS3', url: 'https://rpcs3.net/', desc: 'PlayStation 3 emulator', category: 'Gaming' },
+      { name: 'Dolphin', url: 'https://dolphin-emu.org/', desc: 'GameCube/Wii emulator', category: 'Gaming' },
+      { name: 'Yuzu', url: 'https://yuzu-emu.org/', desc: 'Nintendo Switch emulator', category: 'Gaming' },
+      { name: 'Ryujinx', url: 'https://ryujinx.org/', desc: 'Switch emulator alternative', category: 'Gaming' },
+      { name: 'Citra', url: 'https://citra-emu.org/', desc: 'Nintendo 3DS emulator', category: 'Gaming' },
+      { name: 'DuckStation', url: 'https://www.duckstation.org/', desc: 'PlayStation 1 emulator', category: 'Gaming' },
+      { name: 'Xenia', url: 'https://xenia.jp/', desc: 'Xbox 360 emulator', category: 'Gaming' },
+      { name: 'Cemu', url: 'https://cemu.info/', desc: 'Wii U emulator', category: 'Gaming' },
+      { name: 'MAME', url: 'https://www.mamedev.org/', desc: 'Arcade game emulator', category: 'Gaming' },
+
+      // OS & Distros
+      { name: 'TinyCore', url: 'http://www.tinycorelinux.net/', desc: 'Minimal Linux (12MB)', category: 'OS & Distros' },
+      { name: 'DietPi', url: 'https://dietpi.com/', desc: 'Optimized for single-board computers', category: 'OS & Distros' },
+      { name: 'FreeBSD', url: 'https://www.freebsd.org/', desc: 'Free Unix-like OS', category: 'OS & Distros' },
+      { name: 'OpenBSD', url: 'https://www.openbsd.org/', desc: 'Security-focused BSD', category: 'OS & Distros' },
+      { name: 'NetBSD', url: 'https://www.netbsd.org/', desc: 'Portable BSD', category: 'OS & Distros' },
+      { name: 'Guix', url: 'https://guix.gnu.org/', desc: 'Declarative OS (functional)', category: 'OS & Distros' },
+      { name: 'Cachyos', url: 'https://github.com/CachyOS', desc: 'Optimized Arch derivative', category: 'OS & Distros' },
+      { name: 'EndeavourOS', url: 'https://endeavouros.com/', desc: 'Arch for everyone', category: 'OS & Distros' },
+      { name: 'Linux Mint', url: 'https://linuxmint.com/', desc: 'Ubuntu for beginners', category: 'OS & Distros' },
+
+      // Books & Reading
+      { name: 'Z-Library', url: 'https://z-library.is/', desc: 'Book search engine', category: 'Books' },
+      { name: 'LibGen', url: 'https://libgen.li/', desc: 'Library Genesis mirror', category: 'Books' },
+      { name: 'Standard Ebooks', url: 'https://standardebooks.org/', desc: 'Hand-crafted ebooks', category: 'Books' },
+      { name: 'Gutenberg', url: 'https://www.gutenberg.org/', desc: 'Public domain books', category: 'Books' },
+      { name: 'Mobilism', url: 'https://forum.mobilism.org/', desc: 'Ebooks forum', category: 'Books' },
+      { name: 'EbookFriends', url: 'https://www.ebookfriend.com/', desc: 'Search multiple libraries', category: 'Books' },
+
+      // AI & Local Models
+      { name: 'Ollama', url: 'https://ollama.com/', desc: 'Run LLMs locally', category: 'AI & LLMs' },
+      { name: 'LM Studio', url: 'https://lmstudio.ai/', desc: 'Desktop AI app', category: 'AI & LLMs' },
+      { name: 'Jan', url: 'https://jan.ai/', desc: 'Offline AI assistant', category: 'AI & LLMs' },
+      { name: 'GPT4All', url: 'https://gpt4all.io/', desc: 'Local LLM runner', category: 'AI & LLMs' },
+      { name: 'Text Generation WebUI', url: 'https://github.com/oobabooga/text-generation-webui', desc: 'Extensible web UI for LLMs', category: 'AI & LLMs' },
+      { name: 'Koboldcpp', url: 'https://github.com/LostRuins/koboldcpp', desc: 'LLM inference engine', category: 'AI & LLMs' },
+      { name: 'LocalAI', url: 'https://localai.io/', desc: 'Self-hosted AI API', category: 'AI & LLMs' },
+      { name: 'Ollama WebUI', url: 'https://github.com/ollama-webui/ollama-webui', desc: 'Web UI for Ollama', category: 'AI & LLMs' },
+      { name: 'Tabby', url: 'https://tabby.tabbyml.com/', desc: 'Self-hosted AI code completion', category: 'AI & LLMs' },
+      { name: 'Continue', url: 'https://continue.dev/', desc: 'AI code assistant for VS Code', category: 'AI & LLMs' },
+      { name: 'CodeLlama', url: 'https://ai.meta.com/blog/code-llama-large-language-model-coding/', desc: 'Code-specialized LLM', category: 'AI & LLMs' },
+      { name: 'Mistral', url: 'https://mistral.ai/', desc: 'Open source AI models', category: 'AI & LLMs' }
     ];
 
     const articles = {
