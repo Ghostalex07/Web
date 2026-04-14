@@ -152,6 +152,27 @@
       padding: 20px;
       text-align: center;
     }
+    #category-filters {
+      padding: 10px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+      border-radius: 0;
+      flex-wrap: wrap;
+      display: flex;
+      gap: 5px;
+    }
+    .cat-filter {
+      color: #666;
+      font-size: 11px;
+      padding: 3px 8px;
+      background: #111;
+      border: 1px solid #333;
+    }
+    .cat-filter:hover {
+      color: #999;
+      border-color: #555;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -214,7 +235,7 @@
       <label>Search: </label>
       <input type="text" id="search-links" placeholder="Search links..." onkeyup="searchLinks()">
     </div>
-    
+    <div id="category-filters" style="margin-bottom: 15px;"></div>
     <div id="links-content"></div>
   </div>
 
@@ -856,14 +877,16 @@
       container.innerHTML = html;
     }
 
-    function renderLinks(filter = '') {
+    function renderLinks(filter = '', categoryFilter = '') {
       const container = document.getElementById('links-content');
       let html = '';
       const categories = {};
       
       linksData.forEach(link => {
         const searchStr = (link.name + link.desc + link.category).toLowerCase();
-        if (!filter || searchStr.includes(filter.toLowerCase())) {
+        const matchesSearch = !filter || searchStr.includes(filter.toLowerCase());
+        const matchesCategory = !categoryFilter || link.category === categoryFilter;
+        if (matchesSearch && matchesCategory) {
           if (!categories[link.category]) categories[link.category] = [];
           categories[link.category].push(link);
         }
@@ -886,9 +909,29 @@
       container.innerHTML = html;
     }
 
+    function renderCategoryFilters() {
+      const container = document.getElementById('category-filters');
+      const categories = [...new Set(linksData.map(l => l.category))].sort();
+      let html = '<span style="color: #444; font-size: 12px;">Filter: </span>';
+      html += `<a onclick="filterByCategory('')" style="cursor:pointer; margin-right: 10px;" class="cat-filter" data-cat="">All</a>`;
+      categories.forEach(cat => {
+        html += `<a onclick="filterByCategory('${cat}')" style="cursor:pointer; margin-right: 10px;" class="cat-filter" data-cat="${cat}">${cat}</a>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function filterByCategory(cat) {
+      window.currentCategoryFilter = cat;
+      document.querySelectorAll('.cat-filter').forEach(el => {
+        el.style.color = el.dataset.cat === cat ? '#999' : '#666';
+        el.style.fontWeight = el.dataset.cat === cat ? 'bold' : 'normal';
+      });
+      renderLinks(document.getElementById('search-links').value, cat);
+    }
+
     function searchTopics() { renderTopics(document.getElementById('search-topics').value); }
     function searchTools() { renderTools(document.getElementById('search-tools').value); }
-    function searchLinks() { renderLinks(document.getElementById('search-links').value); }
+    function searchLinks() { renderLinks(document.getElementById('search-links').value, window.currentCategoryFilter || ''); }
 
     function goHome() { currentSection = 'index'; showPage('index'); renderFeatured(); }
 
@@ -905,7 +948,7 @@
       showPage(section);
       if (section === 'topics') renderTopics();
       else if (section === 'tools') renderTools();
-      else if (section === 'links') renderLinks();
+      else if (section === 'links') { window.currentCategoryFilter = ''; renderCategoryFilters(); renderLinks(); }
     }
 
     function showPage(pageName) {
