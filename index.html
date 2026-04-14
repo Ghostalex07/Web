@@ -178,10 +178,7 @@
 <body>
   <nav>
     <a onclick="goHome()">[HOME]</a>
-    <a onclick="showSection('topics')">[TOPICS]</a>
-    <a onclick="showSection('tools')">[TOOLS]</a>
     <a onclick="showSection('links')">[LINKS]</a>
-    <a onclick="showSection('about')">[ABOUT]</a>
   </nav>
 
   <!-- HOME PAGE -->
@@ -200,34 +197,6 @@
     <div id="featured-links" style="margin-top: 30px;"></div>
   </div>
 
-  <!-- TOPICS PAGE -->
-  <div id="page-topics" class="page">
-    <h1>[-] Topics</h1>
-    <div class="search-box">
-      <label>Search: </label>
-      <input type="text" id="search-topics" placeholder="Search topics..." onkeyup="searchTopics()">
-    </div>
-    
-    <div id="topics-content"></div>
-  </div>
-
-  <!-- TOOLS PAGE -->
-  <div id="page-tools" class="page">
-    <h1>[-] Tools</h1>
-    <div class="search-box">
-      <label>Search: </label>
-      <input type="text" id="search-tools" placeholder="Search tools..." onkeyup="searchTools()">
-    </div>
-    
-    <div id="tools-content"></div>
-  </div>
-
-  <!-- ARTICLE VIEW -->
-  <div id="page-article" class="page">
-    <div class="back-btn"><a onclick="goBack()">← Back</a></div>
-    <div id="article-content"></div>
-  </div>
-
   <!-- LINKS PAGE -->
   <div id="page-links" class="page">
     <h1>[-] Links</h1>
@@ -239,31 +208,6 @@
     <div id="links-content"></div>
   </div>
 
-  <!-- ABOUT PAGE -->
-  <div id="page-about" class="page">
-    <h1>[-] About</h1>
-    <div class="article-content">
-      <p>Aion is a place for free information and discussion about technology, security, programming, and cyberpunk culture.</p>
-      
-      <h3>Mission</h3>
-      <p>No tracking. No censorship. No logging. Information wants to be free.</p>
-      
-      <h3>Linux-First</h3>
-      <p>All content and tools are focused on Linux. Windows content is excluded.</p>
-      
-      <h3>What We Cover</h3>
-      <p>- Programming (Rust, Assembly, Python, C, Go, Web Dev)</p>
-      <p>- Security (OPSEC, Encryption, Privacy, Anonymity)</p>
-      <p>- Hacking (CTF, Reverse Engineering, Social Engineering)</p>
-      <p>- Cyberpunk (Lain, Gibson, Digital Culture)</p>
-      <p>- Hardware (Arduino, Raspberry Pi, ESP32)</p>
-      <p>- Networking (Protocols, Firewalls, VPN)</p>
-      
-      <h3>Created</h3>
-      <p style="color: #333;">2026</p>
-    </div>
-  </div>
-
   <footer>
     <p>Aion © 2026 — Information wants to be free.</p>
   </footer>
@@ -271,103 +215,6 @@
   <script>
     let currentSection = 'index';
     
-    const topicsData = [
-      { id: 'rust', category: 'Programming', title: 'Rust: Memory Safety Without Compromise', desc: 'Why Rust is becoming the go-to language for systems programming', replies: '12 replies' },
-      { id: 'assembly', category: 'Programming', title: 'Assembly in 2026: Still Relevant?', desc: 'Understanding the low-level of computers', replies: '25 replies' },
-      { id: 'python', category: 'Programming', title: 'Python for Everything', desc: 'From scripting to AI, Python rules them all', replies: '45 replies' },
-      { id: 'cprogramming', category: 'Programming', title: 'C Programming: The Foundation', desc: 'Why C is still the king of systems programming', replies: '38 replies' },
-      { id: 'golang', category: 'Programming', title: 'Go: Simple and Powerful', desc: 'Google\'s language for modern backends', replies: '22 replies' },
-      { id: 'webdev', category: 'Programming', title: 'Modern Web Development', desc: 'JavaScript, TypeScript, React, Vue, and more', replies: '67 replies' },
-      { id: 'nix', category: 'Programming', title: 'Nix & NixOS: Declarative Linux', desc: 'Reproducible systems with Nix', replies: '18 replies' },
-      { id: 'vim', category: 'Programming', title: 'Vim: The Ultimate Text Editor', desc: 'Modal editing mastery', replies: '29 replies' },
-      
-      { id: 'tor', category: 'Security', title: 'How Tor Works: The Onion Router', desc: 'Deep dive into anonymous communication networks', replies: '89 replies' },
-      { id: 'opsec', category: 'Security', title: 'OPSEC: Operational Security Basics', desc: 'How to protect yourself in the digital age', replies: '34 replies' },
-      { id: 'pgp', category: 'Security', title: 'PGP Encryption: Complete Guide', desc: 'Pretty Good Privacy for email encryption', replies: '41 replies' },
-      { id: '2fa', category: 'Security', title: 'Two-Factor Authentication Guide', desc: 'Protect your accounts with 2FA', replies: '56 replies' },
-      { id: 'passwords', category: 'Security', title: 'Password Managers: Why You Need One', desc: 'Bitwarden, 1Password, and better security', replies: '73 replies' },
-      { id: 'firewall', category: 'Security', title: 'Linux Firewalls: iptables & nftables', desc: 'Securing your Linux server', replies: '28 replies' },
-      { id: 'selinux', category: 'Security', title: 'SELinux: Mandatory Access Control', desc: 'Advanced Linux security', replies: '15 replies' },
-      { id: 'hardening', category: 'Security', title: 'Linux Hardening Guide', desc: 'Secure your system from scratch', replies: '52 replies' },
-      
-      { id: 'pqcrypto', category: 'Cryptography', title: 'Post-Quantum Cryptography', desc: 'Preparing for the quantum threat to encryption', replies: '67 replies' },
-      { id: 'e2e', category: 'Cryptography', title: 'End-to-End Encryption Explained', desc: 'How Signal and WhatsApp protect your messages', replies: '43 replies' },
-      { id: 'hashing', category: 'Cryptography', title: 'Hash Functions: MD5 to SHA-3', desc: 'Understanding checksums and verification', replies: '31 replies' },
-      { id: 'aes', category: 'Cryptography', title: 'AES Encryption Explained', desc: 'The gold standard in symmetric encryption', replies: '39 replies' },
-      { id: 'wireguard', category: 'Cryptography', title: 'WireGuard: The Modern VPN', desc: 'Fast, simple, secure VPN for Linux', replies: '44 replies' },
-      
-      { id: 'ctf', category: 'Hacking', title: 'Capture The Flag: Learning Through Hacking', desc: 'CTF platforms and resources for beginners', replies: '89 replies' },
-      { id: 'socialeng', category: 'Hacking', title: 'Social Engineering: The Human Vulnerability', desc: 'The art of manipulating people to get access', replies: '112 replies' },
-      { id: 'reverse', category: 'Hacking', title: 'Reverse Engineering Basics', desc: 'Disassembling and analyzing binary code', replies: '64 replies' },
-      { id: 'exploitdev', category: 'Hacking', title: 'Exploit Development Fundamentals', desc: 'Buffer overflows, ROP chains, and more', replies: '47 replies' },
-      { id: 'websec', category: 'Hacking', title: 'Web Security Testing', desc: 'XSS, SQLi, CSRF and how to find them', replies: '81 replies' },
-      { id: 'buffer', category: 'Hacking', title: 'Buffer Overflows Explained', desc: 'Memory corruption vulnerabilities', replies: '55 replies' },
-      { id: 'wifi', category: 'Hacking', title: 'WiFi Security & Penetration Testing', desc: 'WPA2, WPA3, and airgeddon', replies: '73 replies' },
-      { id: 'forensics', category: 'Hacking', title: 'Digital Forensics Fundamentals', desc: 'Analyzing evidence and recovering data', replies: '38 replies' },
-      
-      { id: 'cyberpunk', category: 'Cyberpunk', title: 'Cyberpunk: More Relevant Than Ever', desc: 'AI, surveillance, and the erosion of privacy in 2026', replies: '42 replies' },
-      { id: 'lain', category: 'Cyberpunk', title: 'Serial Experiments Lain: 25 Years Later', desc: 'The anime that predicted the internet\'s evolution', replies: '156 replies' },
-      { id: 'transhuman', category: 'Cyberpunk', title: 'Transhumanism: Becoming Something Else', desc: 'Cybernetics, brain-computer interfaces, and beyond', replies: '34 replies' },
-      { id: 'surveillance', category: 'Cyberpunk', title: 'The Surveillance State', desc: 'How governments and corporations watch us', replies: '89 replies' },
-      { id: 'dystopia', category: 'Cyberpunk', title: 'Dystopian Literature & Media', desc: 'Brave New World, 1984, Black Mirror', replies: '45 replies' },
-      
-      { id: 'tcpip', category: 'Networking', title: 'TCP/IP Deep Dive', desc: 'How the internet actually works', replies: '56 replies' },
-      { id: 'dns', category: 'Networking', title: 'DNS: The Internet\'s Phonebook', desc: 'How domain names resolve', replies: '39 replies' },
-      { id: 'ssh', category: 'Networking', title: 'SSH: Secure Shell Essentials', desc: 'Remote access without passwords', replies: '48 replies' },
-      { id: 'http', category: 'Networking', title: 'HTTP/HTTPS Deep Dive', desc: 'Web protocols explained', replies: '52 replies' },
-      { id: 'docker', category: 'Networking', title: 'Docker & Containers', desc: 'Containerization for developers', replies: '71 replies' },
-      { id: 'kubernetes', category: 'Networking', title: 'Kubernetes: Container Orchestration', desc: 'Managing containers at scale', replies: '43 replies' },
-      
-      { id: 'arduino', category: 'Hardware', title: 'Arduino for Beginners', desc: 'Microcontroller programming basics', replies: '38 replies' },
-      { id: 'raspberrypi', category: 'Hardware', title: 'Raspberry Pi Projects', desc: 'Single-board computer adventures', replies: '56 replies' },
-      { id: 'esp32', category: 'Hardware', title: 'ESP32: WiFi + Bluetooth', desc: 'Powerful microcontroller with wireless', replies: '33 replies' },
-      { id: 'esp32cam', category: 'Hardware', title: 'ESP32-CAM Projects', desc: 'Tiny camera modules for DIY projects', replies: '22 replies' },
-      
-      { id: 'privacy', category: 'Privacy', title: 'Privacy in 2026', desc: 'Living off the grid in a connected world', replies: '94 replies' },
-      { id: 'tails', category: 'Privacy', title: 'Tails OS: Amnesiac Incognito Live', desc: 'The amnesic live system for privacy', replies: '45 replies' },
-      { id: 'qubes', category: 'Privacy', title: 'Qubes OS: Security Through Isolation', desc: 'Disposable VMs for everything', replies: '31 replies' },
-      { id: 'matrix', category: 'Privacy', title: 'Matrix: Decentralized Communication', desc: 'Open network for secure chat', replies: '28 replies' },
-      { id: 'sovereign', category: 'Privacy', title: 'Sovereign Computing', desc: 'Self-hosted alternatives to big tech', replies: '36 replies' }
-    ];
-
-    const toolsData = [
-      { id: 'terminal', category: 'Terminal & Dev', title: 'Essential Terminal Utilities', desc: 'tmux, zsh, and command line essentials', replies: 'Tools' },
-      { id: 'neovim', category: 'Terminal & Dev', title: 'Neovim Configuration Guide', desc: 'Turn your editor into an IDE', replies: 'Tools' },
-      { id: 'devenv', category: 'Terminal & Dev', title: 'Development Environment Setup', desc: 'From fresh install to productive workspace', replies: 'Tools' },
-      { id: 'git', category: 'Terminal & Dev', title: 'Git Essentials & Workflows', desc: 'Version control for beginners and pros', replies: 'Tools' },
-      { id: 'docker', category: 'Terminal & Dev', title: 'Docker Complete Guide', desc: 'Containerization from basics to orchestration', replies: 'Tools' },
-      { id: 'toolbox', category: 'Terminal & Dev', title: 'Toolbox for Linux', desc: 'edora silverblue toolbox for development', replies: 'Tools' },
-      { id: 'systemd', category: 'Terminal & Dev', title: 'Systemd Essentials', desc: 'Service management and systemd units', replies: 'Tools' },
-      
-      { id: 'privtools', category: 'Privacy & Security', title: 'Privacy Tools Collection', desc: 'Signal, ProtonMail, Bitwarden, and more', replies: 'Tools' },
-      { id: 'vpn', category: 'Privacy & Security', title: 'VPN Setup: WireGuard on Linux', desc: 'Fast and modern VPN on your server', replies: 'Tools' },
-      { id: 'ufw', category: 'Privacy & Security', title: 'UFW: Uncomplicated Firewall', desc: 'Simple firewall for Ubuntu/Debian', replies: 'Tools' },
-      { id: 'fail2ban', category: 'Privacy & Security', title: 'Fail2Ban Configuration', desc: 'Protect SSH from brute force', replies: 'Tools' },
-      { id: 'auditd', category: 'Privacy & Security', title: 'Auditd: System Auditing', desc: 'Track system events and security', replies: 'Tools' },
-      { id: 'mfa', category: 'Privacy & Security', title: 'Hardware 2FA Keys', desc: 'YubiKey, Google Titan, and U2F', replies: 'Tools' },
-      
-      { id: 'ctftools', category: 'Hacking & CTF', title: 'Essential Hacking Tools', desc: 'Burp Suite, Wireshark, Ghidra, Metasploit', replies: 'Tools' },
-      { id: 'ctfplatforms', category: 'Hacking & CTF', title: 'Best CTF Platforms to Practice', desc: 'TryHackMe, Hack The Box, PicoCTF', replies: 'Tools' },
-      { id: 'ghidra', category: 'Hacking & CTF', title: 'Ghidra Reverse Engineering', desc: 'NSA\'s free disassembler tutorial', replies: 'Tools' },
-      { id: 'metasploit', category: 'Hacking & CTF', title: 'Metasploit Framework', desc: 'Exploitation and payload creation', replies: 'Tools' },
-      { id: 'nmap', category: 'Hacking & CTF', title: 'Nmap Network Scanning', desc: 'Port scanning and network discovery', replies: 'Tools' },
-      { id: 'sqlmap', category: 'Hacking & CTF', title: 'SQLMap for SQL Injection', desc: 'Automating SQL injection', replies: 'Tools' },
-      
-      { id: 'rusttools', category: 'Programming', title: 'Rust Development Stack', desc: 'Cargo, Clippy, Rustfmt, and crates', replies: 'Tools' },
-      { id: 'pythontools', category: 'Programming', title: 'Python Dev Tools', desc: 'pip, venv, pytest, black, mypy', replies: 'Tools' },
-      { id: 'jsdev', category: 'Programming', title: 'JavaScript Ecosystem', desc: 'npm, yarn, webpack, Vite, TypeScript', replies: 'Tools' },
-      { id: 'go dev', category: 'Programming', title: 'Go Development Tools', desc: 'gofmt, goreleaser, delve debugger', replies: 'Tools' },
-      
-      { id: 'wireshark', category: 'Networking', title: 'Wireshark Packet Analysis', desc: 'Network troubleshooting and analysis', replies: 'Tools' },
-      { id: 'nginx', category: 'Networking', title: 'Nginx as Reverse Proxy', desc: 'Load balancing and web serving', replies: 'Tools' },
-      { id: 'traefik', category: 'Networking', title: 'Traefik: Modern Reverse Proxy', desc: 'Cloud-native edge router', replies: 'Tools' },
-      { id: 'caddy', category: 'Networking', title: 'Caddy: Automatic HTTPS', desc: 'Web server with automatic SSL', replies: 'Tools' },
-      
-      { id: 'arduinodev', category: 'Hardware', title: 'Arduino CLI', desc: 'Command line Arduino programming', replies: 'Tools' },
-      { id: 'platformio', category: 'Hardware', title: 'PlatformIO: Dev Environment', desc: 'Cross-platform embedded development', replies: 'Tools' },
-      { id: 'openocd', category: 'Hardware', title: 'OpenOCD Debugger', desc: 'JTAG debugging for embedded', replies: 'Tools' }
-    ];
-
     const linksData = [
 
   // Curated Lists
@@ -5416,127 +5263,6 @@
 ];
 
 
-    const articles = {
-      rust: {
-        title: "Rust: Memory Safety Without Compromise",
-        img: "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
-        content: `<p>Rust provides memory safety without a garbage collector through its unique ownership system.</p><h3>Install</h3><p><code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code></p><p>Docs: <a href="https://doc.rust-lang.org/book/" target="_blank">The Rust Book</a></p>`
-      },
-      python: {
-        title: "Python for Everything",
-        img: "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png",
-        content: `<p>Python is the most versatile language. From web to AI.</p><h3>Install</h3><p><code>sudo apt install python3 python3-pip</code></p><h3>Popular</h3><p><a href="https://www.djangoproject.com/" target="_blank">Django</a> - Web framework</p><p><a href="https://flask.palletsprojects.com/" target="_blank">Flask</a> - Lightweight web</p>`
-      },
-      golang: {
-        title: "Go: Simple and Powerful",
-        img: "https://go.dev/blog/go-logo-blue.svg",
-        content: `<p>Go was created by Google for modern backends. Fast and great for concurrency.</p><h3>Install</h3><p><code>sudo apt install golang</code></p>`
-      },
-      tor: {
-        title: "How Tor Works: The Onion Router",
-        img: "https://www.torproject.org/static/images/tor-logo.svg",
-        content: `<p>Tor routes your traffic through encrypted relays to hide your identity.</p><h3>Download</h3><p><a href="https://www.torproject.org/download/" target="_blank">Tor Browser</a></p>`
-      },
-      opsec: {
-        title: "OPSEC: Operational Security Basics",
-        img: null,
-        content: `<p>Protecting critical information from adversaries. Identify threats, find vulnerabilities, apply countermeasures.</p><h3>Common Mistakes</h3><p>Same password everywhere, oversharing, not using 2FA</p>`
-      },
-      ctf: {
-        title: "Capture The Flag: Learning Through Hacking",
-        img: null,
-        content: `<h3>Platforms</h3><p><a href="https://tryhackme.com/" target="_blank">TryHackMe</a> - Beginner friendly</p><p><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a> - Advanced</p><p><a href="https://picoctf.org/" target="_blank">PicoCTF</a> - For students</p>`
-      },
-      socialeng: {
-        title: "Social Engineering: The Human Hack",
-        img: null,
-        content: `<p>Manipulating people into revealing confidential information.</p><h3>Techniques</h3><p>Phishing, pretexting, baiting, vishing</p>`
-      },
-      cyberpunk: {
-        title: "Cyberpunk: More Relevant Than Ever",
-        img: null,
-        content: `<p>AI surveillance, corporate data harvesting - we're living in a cyberpunk novel.</p><h3>Essential</h3><p><a href="https://en.wikipedia.org/wiki/Neuromancer" target="_blank">Neuromancer</a> - Gibson</p><p><a href="https://en.wikipedia.org/wiki/Snow_Crash" target="_blank">Snow Crash</a> - Stephenson</p>`
-      },
-      lain: {
-        title: "Serial Experiments Lain",
-        img: null,
-        content: `<p>Lain (1998) predicted the internet, AI, and the blurring line between reality and the digital world.</p><h3>Watch</h3><p><a href="https://lainchan.org/" target="_blank">Official Lainchan</a></p>`
-      },
-      terminal: { title: "Essential Terminal Utilities", img: null, content: `<p><a href="https://github.com/tmux/tmux" target="_blank">tmux</a> - Terminal multiplexer</p><p><a href="https://www.zsh.org/" target="_blank">zsh</a> - Shell</p><p><a href="https://fishshell.com/" target="_blank">fish</a> - User-friendly</p>` },
-      neovim: { title: "Neovim Configuration", img: null, content: `<p><a href="https://neovim.io/" target="_blank">Neovim</a> - Modern Vim fork</p><p><a href="https://github.com/awesome-linux-configs/neovim" target="_blank">Configs</a> - Example configs</p>` },
-      devenv: { title: "Development Environment Setup", img: null, content: `<p><code>sudo apt install git neovim docker python3</code></p><h3>Dotfiles</h3><p>Use GNU Stow or yadm for dotfiles management</p>` },
-      git: { title: "Git Essentials", img: "https://git-scm.com/images/logo@2x.png", content: `<p><code>git init, clone, add, commit, push, pull</code></p><p><a href="https://git-scm.com/doc" target="_blank">Pro Git Book</a></p>` },
-      privtools: { title: "Privacy Tools Collection", img: null, content: `<p><a href="https://signal.org/" target="_blank">Signal</a> - Encrypted messaging</p><p><a href="https://bitwarden.com/" target="_blank">Bitwarden</a> - Password manager</p><p><a href="https://www.yubico.com/" target="_blank">YubiKey</a> - Hardware 2FA</p>` },
-      vpn: { title: "WireGuard on Linux", img: null, content: `<p><a href="https://www.wireguard.com/" target="_blank">WireGuard</a> - Modern VPN</p><h3>Install</h3><p><code>sudo apt install wireguard</code></p>` },
-      ctftools: { title: "Essential Hacking Tools", img: null, content: `<p><a href="https://portswigger.net/burp" target="_blank">Burp Suite</a></p><p><a href="https://www.wireshark.org/" target="_blank">Wireshark</a></p><p><a href="https://ghidra-sre.org/" target="_blank">Ghidra</a></p>` },
-      ctfplatforms: { title: "Best CTF Platforms", img: null, content: `<p><a href="https://tryhackme.com/" target="_blank">TryHackMe</a></p><p><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a></p><p><a href="https://picoctf.org/" target="_blank">PicoCTF</a></p>` }
-    };
-
-    window.articles = articles;
-
-    function renderTopics(filter = '') {
-      const container = document.getElementById('topics-content');
-      let html = '';
-      const categories = {};
-      
-      topicsData.forEach(topic => {
-        const searchStr = (topic.title + topic.desc + topic.category).toLowerCase();
-        if (!filter || searchStr.includes(filter.toLowerCase())) {
-          if (!categories[topic.category]) categories[topic.category] = [];
-          categories[topic.category].push(topic);
-        }
-      });
-      
-      if (Object.keys(categories).length === 0) {
-        html = '<div class="no-results">No results found</div>';
-      } else {
-        Object.keys(categories).forEach(cat => {
-          html += `<div class="board-section"><h2>${cat}</h2>`;
-          categories[cat].forEach(topic => {
-            html += `<div class="thread" onclick="showArticle('${topic.id}', 'topics')">
-              <p class="thread-meta">Anonymous | 2h ago</p>
-              <p class="thread-title">${topic.title}</p>
-              <p class="thread-desc">${topic.desc}</p>
-              <p class="thread-replies">${topic.replies}</p>
-            </div>`;
-          });
-          html += '</div>';
-        });
-      }
-      container.innerHTML = html;
-    }
-
-    function renderTools(filter = '') {
-      const container = document.getElementById('tools-content');
-      let html = '';
-      const categories = {};
-      
-      toolsData.forEach(tool => {
-        const searchStr = (tool.title + tool.desc + tool.category).toLowerCase();
-        if (!filter || searchStr.includes(filter.toLowerCase())) {
-          if (!categories[tool.category]) categories[tool.category] = [];
-          categories[tool.category].push(tool);
-        }
-      });
-      
-      if (Object.keys(categories).length === 0) {
-        html = '<div class="no-results">No results found</div>';
-      } else {
-        Object.keys(categories).forEach(cat => {
-          html += `<div class="board-section"><h2>${cat}</h2>`;
-          categories[cat].forEach(tool => {
-            html += `<div class="thread" onclick="showArticle('${tool.id}', 'tools')">
-              <p class="thread-meta">${tool.replies}</p>
-              <p class="thread-title">${tool.title}</p>
-              <p class="thread-desc">${tool.desc}</p>
-            </div>`;
-          });
-          html += '</div>';
-        });
-      }
-      container.innerHTML = html;
-    }
-
     function renderLinks(filter = '', categoryFilter = '') {
       const container = document.getElementById('links-content');
       let html = '';
@@ -5589,8 +5315,6 @@
       renderLinks(document.getElementById('search-links').value, cat);
     }
 
-    function searchTopics() { renderTopics(document.getElementById('search-topics').value); }
-    function searchTools() { renderTools(document.getElementById('search-tools').value); }
     function searchLinks() { renderLinks(document.getElementById('search-links').value, window.currentCategoryFilter || ''); }
 
     function goHome() { currentSection = 'index'; showPage('index'); renderFeatured(); }
@@ -5606,9 +5330,7 @@
     function showSection(section) {
       currentSection = section;
       showPage(section);
-      if (section === 'topics') renderTopics();
-      else if (section === 'tools') renderTools();
-      else if (section === 'links') { window.currentCategoryFilter = ''; renderCategoryFilters(); renderLinks(); }
+      if (section === 'links') { window.currentCategoryFilter = ''; renderCategoryFilters(); renderLinks(); }
     }
 
     function showPage(pageName) {
@@ -5616,30 +5338,10 @@
       document.getElementById('page-' + pageName).classList.add('active');
     }
 
-    function showArticle(articleId, fromSection) {
-      const article = articles[articleId];
-      if (article) {
-        const backText = fromSection === 'tools' ? 'Tools' : fromSection === 'links' ? 'Links' : 'Topics';
-        const imgHTML = article.img ? `<img src="${article.img}" class="article-img" alt="${article.title}">` : '';
-        document.getElementById('article-content').innerHTML = `
-          <div class="back-btn"><a onclick="goBack()">← Back to ${backText}</a></div>
-          <h1>[-] ${article.title}</h1>
-          ${imgHTML}
-          <div class="article-content">${article.content}</div>
-        `;
-        showPage('article');
-      }
-    }
-
-    function goBack() { showPage(currentSection); }
-
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT') return;
       if (e.key === 'h' || e.key === 'H') goHome();
-      else if (e.key === 't') showSection('topics');
-      else if (e.key === 'o') showSection('tools');
       else if (e.key === 'l') showSection('links');
-      else if (e.key === 'a') showSection('about');
       else if (e.key === 'Escape') goBack();
     });
 
