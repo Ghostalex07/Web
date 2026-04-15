@@ -32806,5 +32806,1499 @@
     "url": "https://www.technologyreview.com/",
     "desc": "Tech analysis",
     "category": "Tech Forums"
+  },
+  {
+    "name": "Demoscene",
+    "url": "https://demoscene.net/",
+    "desc": "Demo culture and parties",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Pouet",
+    "url": "https://www.pouet.net/",
+    "desc": "Demoscene production database",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Demozoo",
+    "url": "https://demozoo.org/",
+    "desc": "Demo party database",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Scene.org",
+    "url": "https://www.scene.org/",
+    "desc": "Demoscene archive",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Demosplash",
+    "url": "https://demosplash.com/",
+    "desc": "Demoscene event",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Outline Demoscene",
+    "url": "https://outline.no/",
+    "desc": "Norwegian demoscene",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Techno",
+    "url": "https://techno.org/",
+    "desc": "Tracker editor database",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Mods",
+    "url": "https://www.mods.dk/",
+    "desc": "Tracker music archive",
+    "category": "Demoscene"
+  },
+  {
+    "name": "Pixel Demoscene",
+    "url": "https://pixel.hertfol.com/",
+    "desc": "Pixel art demos",
+    "category": "Demoscene"
+  },
+  {
+    "name": "8BG",
+    "url": "https://8bg.net/",
+    "desc": "8-bit games",
+    "category": "Retro Gaming"
+  },
+  {
+    "name": "Zachtronics",
+    "url": "https://www.zachtronics.com/",
+    "desc": "Programming puzzle games",
+    "category": "Retro Gaming"
+  },
+  {
+    "name": "Micro 8",
+    "url": "https://8bit-library.com/",
+    "desc": "8-bit games library",
+    "category": "Retro Gaming"
+  },
+  {
+    "name": "Atari Archives",
+    "url": "https://www.atariarchives.org/",
+    "desc": "Atari software archive",
+    "category": "Retro Gaming"
+  },
+  {
+    "name": "PureScript",
+    "url": "https://www.purescript.org/",
+    "desc": "Haskell-like JS",
+    "category": "Programming"
+  },
+  {
+    "name": "Idris",
+    "url": "https://www.idris-lang.org/",
+    "desc": "Dependent types",
+    "category": "Programming"
+  },
+  {
+    "name": "Agda",
+    "url": "https://wiki.portal.chalmers.se/agda/",
+    "desc": "Proof assistant",
+    "category": "Programming"
+  },
+  {
+    "name": "Coq",
+    "url": "https://coq.inria.fr/",
+    "desc": "Proof management",
+    "category": "Programming"
+  },
+  {
+    "name": "Lean",
+    "url": "https://leanprover.github.io/",
+    "desc": "Interactive theorem",
+    "category": "Programming"
+  },
+  {
+    "name": "Forth",
+    "url": "https://www.forth.org/",
+    "desc": "Stack language",
+    "category": "Programming"
+  },
+  {
+    "name": "Factor",
+    "url": "https://factorcode.org/",
+    "desc": "Stack language",
+    "category": "Programming"
+  },
+  {
+    "name": "Joy",
+    "url": "https://www.kevinalbr.com/pub/joy/",
+    "desc": "Functional Forth",
+    "category": "Programming"
+  },
+  {
+    "name": "Cat",
+    "url": "https://www.cat-language.com/",
+    "desc": "Stack language",
+    "category": "Programming"
+  },
+  {
+    "name": "False",
+    "url": "https://strlen.com/false-language/",
+    "desc": "Esoteric language",
+    "category": "Programming"
+  },
+  {
+    "name": "Golf Script",
+    "url": "https://www.golfscript.com/",
+    "desc": "Code golf",
+    "category": "Programming"
+  },
+  {
+    "name": "Code Golf",
+    "url": "https://code-golf.com/",
+    "desc": "Programming puzzles",
+    "category": "Programming"
+  },
+  {
+    "name": "Hacker Noon",
+    "url": "https://hackernoon.com/",
+    "desc": "Tech stories",
+    "category": "Programming"
+  },
+  {
+    "name": "GitHub Explore",
+    "url": "https://github.com/explore",
+    "desc": "Discover projects",
+    "category": "Programming"
+  },
+  {
+    "name": "GitLab Explore",
+    "url": "https://gitlab.com/explore",
+    "desc": "Open source",
+    "category": "Programming"
+  },
+  {
+    "name": "Haiku",
+    "url": "https://www.haiku-os.org/",
+    "desc": "BeOS clone",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "ReactOS",
+    "url": "https://reactos.org/",
+    "desc": "Windows clone",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "KolibriOS",
+    "url": "https://kolibrios.org/",
+    "desc": "Tiny OS",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "MenuetOS",
+    "url": "https://www.menuetos.net/",
+    "desc": "Assembly OS",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "Visopsys",
+    "url": "https://visopsys.org/",
+    "desc": "New OS",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "HelenOS",
+    "url": "https://www.helenos.eu/",
+    "desc": "Research OS",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "Genode",
+    "url": "https://genode.org/",
+    "desc": "OS framework",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "Fuchsia",
+    "url": "https://fuchsia.googlesource.com/",
+    "desc": "Google OS",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "Harmony OS",
+    "url": "https://www.harmonyos.com/",
+    "desc": "Huawei OS",
+    "category": "Operating Systems"
+  },
+  {
+    "name": "SERPro",
+    "url": "https://www.serposcope.com/",
+    "desc": "SEO tool",
+    "category": "Tools"
+  },
+  {
+    "name": "Gephi",
+    "url": "https://gephi.org/",
+    "desc": "Graph visualization",
+    "category": "Tools"
+  },
+  {
+    "name": "Web Sequence",
+    "url": "https://www.websequence-diagrams.com/",
+    "desc": "Sequence diagrams",
+    "category": "Tools"
+  },
+  {
+    "name": "ASCIIFlow",
+    "url": "https://asciiflow.com/",
+    "desc": "ASCII diagrams",
+    "category": "Tools"
+  },
+  {
+    "name": "Sketchpad",
+    "url": "https://sketchpad.io/",
+    "desc": "Online drawing",
+    "category": "Tools"
+  },
+  {
+    "name": "Canva",
+    "url": "https://canva.com/",
+    "desc": "Design platform",
+    "category": "Tools"
+  },
+  {
+    "name": "Photopea",
+    "url": "https://photopea.com/",
+    "desc": "Photoshop online",
+    "category": "Tools"
+  },
+  {
+    "name": "SVG Viewer",
+    "url": "https://www.svgviewer.dev/",
+    "desc": "SVG tool",
+    "category": "Tools"
+  },
+  {
+    "name": "Screen Studio",
+    "url": "https://screenstudio.dev/",
+    "desc": "Screen recorder",
+    "category": "Tools"
+  },
+  {
+    "name": "ScreenPal",
+    "url": "https://screencast-o-matic.com/",
+    "desc": "Screen capture",
+    "category": "Tools"
+  },
+  {
+    "name": "Kap",
+    "url": "https://getkap.co/",
+    "desc": "Screen recorder",
+    "category": "Tools"
+  },
+  {
+    "name": "ShareX",
+    "url": "https://getsharex.com/",
+    "desc": "Screen tool",
+    "category": "Tools"
+  },
+  {
+    "name": "Wirecast",
+    "url": "https://www.wirecast.com/",
+    "desc": "Streaming",
+    "category": "Tools"
+  },
+  {
+    "name": "Streamlabs",
+    "url": "https://streamlabs.com/",
+    "desc": "Streaming tools",
+    "category": "Tools"
+  },
+  {
+    "name": "Restream",
+    "url": "https://restream.io/",
+    "desc": "Multi-stream",
+    "category": "Tools"
+  },
+  {
+    "name": "Meetrix",
+    "url": "https://meetrix.io/",
+    "desc": "Video calls",
+    "category": "Tools"
+  },
+  {
+    "name": "Jitsi",
+    "url": "https://meet.jit.si/",
+    "desc": "Video conf",
+    "category": "Tools"
+  },
+  {
+    "name": "Whereby",
+    "url": "https://whereby.com/",
+    "desc": "Simple video",
+    "category": "Tools"
+  },
+  {
+    "name": "Topia",
+    "url": "https://topia.io/",
+    "desc": "Virtual meetups",
+    "category": "Tools"
+  },
+  {
+    "name": "Wonder",
+    "url": "https://www.wonder.me/",
+    "desc": "Spatial audio",
+    "category": "Tools"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.com/",
+    "desc": "Chat platform",
+    "category": "Tools"
+  },
+  {
+    "name": "IRC",
+    "url": "https://libera.chat/",
+    "desc": "IRC network",
+    "category": "Tools"
+  },
+  {
+    "name": "IRCCloud",
+    "url": "https://irccloud.com/",
+    "desc": "IRC client",
+    "category": "Tools"
+  },
+  {
+    "name": "Kiwi IRC",
+    "url": "https://kiwiirc.com/",
+    "desc": "Web IRC",
+    "category": "Tools"
+  },
+  {
+    "name": "Quassel",
+    "url": "https://quassel-irc.org/",
+    "desc": "IRC client",
+    "category": "Tools"
+  },
+  {
+    "name": "WeeChat",
+    "url": "https://weechat.org/",
+    "desc": "Terminal IRC",
+    "category": "Tools"
+  },
+  {
+    "name": "Hex Chat",
+    "url": "https://hexchat.github.io/",
+    "desc": "Windows IRC",
+    "category": "Tools"
+  },
+  {
+    "name": "irc2go",
+    "url": "https://www.irc2go.com/",
+    "desc": "IRC networks",
+    "category": "Tools"
+  },
+  {
+    "name": "Sumatra PDF",
+    "url": "https://www.sumatrapdfreader.org/",
+    "desc": "PDF reader",
+    "category": "Tools"
+  },
+  {
+    "name": "PDF.js",
+    "url": "https://mozilla.github.io/pdf.js/",
+    "desc": "Web PDF",
+    "category": "Tools"
+  },
+  {
+    "name": "Apache OpenOffice",
+    "url": "https://www.openoffice.org/",
+    "desc": "Office software",
+    "category": "Tools"
+  },
+  {
+    "name": "OnlyOffice",
+    "url": "https://www.onlyoffice.com/",
+    "desc": "Office suite",
+    "category": "Tools"
+  },
+  {
+    "name": "Calligra",
+    "url": "https://calligra.org/",
+    "desc": "KDE office",
+    "category": "Tools"
+  },
+  {
+    "name": "AbiWord",
+    "url": "https://www.abisource.com/",
+    "desc": "Lightweight word",
+    "category": "Tools"
+  },
+  {
+    "name": "Gnumeric",
+    "url": "http://www.gnumeric.org/",
+    "desc": "Spreadsheet",
+    "category": "Tools"
+  },
+  {
+    "name": "Homebank",
+    "url": "https://homebank.tuxfamily.org/",
+    "desc": "Finance software",
+    "category": "Tools"
+  },
+  {
+    "name": "GnuCash",
+    "url": "https://www.gnucash.org/",
+    "desc": "Accounting",
+    "category": "Tools"
+  },
+  {
+    "name": "Gramps",
+    "url": "https://gramps-project.org/",
+    "desc": "Genealogy",
+    "category": "Tools"
+  },
+  {
+    "name": "Sigil",
+    "url": "https://sigil-ebook.com/",
+    "desc": "Ebook editor",
+    "category": "Tools"
+  },
+  {
+    "name": "Pandoc",
+    "url": "https://pandoc.org/",
+    "desc": "Document converter",
+    "category": "Tools"
+  },
+  {
+    "name": "LibreTexts",
+    "url": "https://libretexts.org/",
+    "desc": "Free textbooks",
+    "category": "Education"
+  },
+  {
+    "name": "Udemy",
+    "url": "https://www.udemy.com/",
+    "desc": "Video courses",
+    "category": "Education"
+  },
+  {
+    "name": "Veritasium",
+    "url": "https://www.youtube.com/c/veritasium",
+    "desc": "Science videos",
+    "category": "Education"
+  },
+  {
+    "name": "SmarterEveryday",
+    "url": "https://www.youtube.com/c/smartereveryday",
+    "desc": "Engineering",
+    "category": "Education"
+  },
+  {
+    "name": "Kurzgesagt",
+    "url": "https://www.youtube.com/c/inanutshell",
+    "desc": "In a nutshell",
+    "category": "Education"
+  },
+  {
+    "name": "Minute Physics",
+    "url": "https://www.youtube.com/c/minutephysics",
+    "desc": "Physics shorts",
+    "category": "Education"
+  },
+  {
+    "name": "Computerphile",
+    "url": "https://www.youtube.com/c/computerphile",
+    "desc": "CS videos",
+    "category": "Education"
+  },
+  {
+    "name": "Numberphile",
+    "url": "https://www.youtube.com/c/numberphile",
+    "desc": "Math videos",
+    "category": "Education"
+  },
+  {
+    "name": "Deep Sky Videos",
+    "url": "https://www.youtube.com/c/deepskyvideos",
+    "desc": "Astronomy",
+    "category": "Education"
+  },
+  {
+    "name": "Practical Engineering",
+    "url": "https://www.youtube.com/c/practicalengineering",
+    "desc": "Engineering",
+    "category": "Education"
+  },
+  {
+    "name": "Engineerguy",
+    "url": "https://www.youtube.com/c/engineerguyvideo",
+    "desc": "How things work",
+    "category": "Education"
+  },
+  {
+    "name": "Robert Miles",
+    "url": "https://www.youtube.com/c/AIdemos",
+    "desc": "AI safety",
+    "category": "Education"
+  },
+  {
+    "name": "Two Minute Papers",
+    "url": "https://www.youtube.com/c/TwoMinutePapers",
+    "desc": "AI research",
+    "category": "Education"
+  },
+  {
+    "name": "Arxiv Insights",
+    "url": "https://www.youtube.com/c/ArxivInsights",
+    "desc": "ML papers",
+    "category": "Education"
+  },
+  {
+    "name": "Yannic Kilcher",
+    "url": "https://www.youtube.com/c/YannicKilcher",
+    "desc": "ML videos",
+    "category": "Education"
+  },
+  {
+    "name": "Sentdex",
+    "url": "https://www.youtube.com/c/sentdex",
+    "desc": "Python tutorials",
+    "category": "Education"
+  },
+  {
+    "name": "Corey Schafer",
+    "url": "https://www.youtube.com/c/Coreyms",
+    "desc": "Python & Git",
+    "category": "Education"
+  },
+  {
+    "name": "Traversy Media",
+    "url": "https://www.youtube.com/c/TraversyMedia",
+    "desc": "Web tutorials",
+    "category": "Education"
+  },
+  {
+    "name": "Web Dev Simplified",
+    "url": "https://www.youtube.com/c/WebDevSimplified",
+    "desc": "Web dev tips",
+    "category": "Education"
+  },
+  {
+    "name": "Fireship",
+    "url": "https://www.youtube.com/c/Fireship",
+    "desc": "Web tips",
+    "category": "Education"
+  },
+  {
+    "name": "Ben Awad",
+    "url": "https://www.youtube.com/c/BenAwad97",
+    "desc": "React & GraphQL",
+    "category": "Education"
+  },
+  {
+    "name": "The Coding Train",
+    "url": "https://www.youtube.com/c/TheCodingTrain",
+    "desc": "Creative coding",
+    "category": "Education"
+  },
+  {
+    "name": "Kalle Hallden",
+    "url": "https://www.youtube.com/c/KalleHallden",
+    "desc": "Dev videos",
+    "category": "Education"
+  },
+  {
+    "name": "Alex Lee",
+    "url": "https://www.youtube.com/c/AlexLeeMath",
+    "desc": "Java tutorials",
+    "category": "Education"
+  },
+  {
+    "name": "CS Dojo",
+    "url": "https://www.youtube.com/c/CSDojo",
+    "desc": "CS fundamentals",
+    "category": "Education"
+  },
+  {
+    "name": "Computer Science",
+    "url": "https://www.youtube.com/c/ComputerScienceUniversity",
+    "desc": "CS curriculum",
+    "category": "Education"
+  },
+  {
+    "name": "Stanford Online",
+    "url": "https://online.stanford.edu/",
+    "desc": "Stanford courses",
+    "category": "Education"
+  },
+  {
+    "name": "Yale Open Courses",
+    "url": "https://oyc.yale.edu/",
+    "desc": "Yale lectures",
+    "category": "Education"
+  },
+  {
+    "name": "Oxford Podcasts",
+    "url": "https://podcasts.ox.ac.uk/",
+    "desc": "Oxford lectures",
+    "category": "Education"
+  },
+  {
+    "name": "OpenClipArt",
+    "url": "https://openclipart.org/",
+    "desc": "Free clipart",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikimedia",
+    "url": "https://www.wikimedia.org/",
+    "desc": "Wikipedia projects",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikiversity",
+    "url": "https://www.wikiversity.org/",
+    "desc": "Free learning",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikibooks",
+    "url": "https://www.wikibooks.org/",
+    "desc": "Open textbooks",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikisource",
+    "url": "https://www.wikisource.org/",
+    "desc": "Free texts",
+    "category": "Archives"
+  },
+  {
+    "name": "Wiktionary",
+    "url": "https://www.wiktionary.org/",
+    "desc": "Free dictionary",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikinews",
+    "url": "https://en.wikinews.org/",
+    "desc": "News wiki",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikivoyage",
+    "url": "https://en.wikivoyage.org/",
+    "desc": "Travel guide",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "desc": "Knowledge base",
+    "category": "Archives"
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://en.wikipedia.org/",
+    "desc": "Free encyclopedia",
+    "category": "Archives"
+  },
+  {
+    "name": "Uncyclopedia",
+    "url": "https://en.uncyclopedia.co/",
+    "desc": "Parody wiki",
+    "category": "Reference"
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://en.m.wikipedia.org/",
+    "desc": "Mobile Wikipedia",
+    "category": "Reference"
+  },
+  {
+    "name": "Yahoo",
+    "url": "https://www.yahoo.com/",
+    "desc": "Web portal",
+    "category": "Search"
+  },
+  {
+    "name": "Ask Jeeves",
+    "url": "https://www.ask.com/",
+    "desc": "Question search",
+    "category": "Search"
+  },
+  {
+    "name": "AOL",
+    "url": "https://www.aol.com/",
+    "desc": "Classic portal",
+    "category": "Search"
+  },
+  {
+    "name": "Lycos",
+    "url": "https://www.lycos.com/",
+    "desc": "Old search engine",
+    "category": "Search"
+  },
+  {
+    "name": "Excite",
+    "url": "https://www.excite.com/",
+    "desc": "Early search",
+    "category": "Search"
+  },
+  {
+    "name": "AltaVista",
+    "url": "https://www.altavista.com/",
+    "desc": "Classic search",
+    "category": "Search"
+  },
+  {
+    "name": "Dogpile",
+    "url": "https://www.dogpile.com/",
+    "desc": "Metasearch",
+    "category": "Search"
+  },
+  {
+    "name": "Clusty",
+    "url": "https://www.clusty.com/",
+    "desc": "Clustered search",
+    "category": "Search"
+  },
+  {
+    "name": "Daum",
+    "url": "https://www.daum.net/",
+    "desc": "Korean portal",
+    "category": "Search"
+  },
+  {
+    "name": "Seznam",
+    "url": "https://www.seznam.cz/",
+    "desc": "Czech search",
+    "category": "Search"
+  },
+  {
+    "name": "Peekier",
+    "url": "https://peekier.com/",
+    "desc": "Preview search",
+    "category": "Search"
+  },
+  {
+    "name": "Whooster",
+    "url": "https://whooster.com/",
+    "desc": "Web search",
+    "category": "Search"
+  },
+  {
+    "name": "Oscobo",
+    "url": "https://oscobo.com/",
+    "desc": "UK search",
+    "category": "Search"
+  },
+  {
+    "name": "Librarian",
+    "url": "https://librarian.pro/",
+    "desc": "Search interface",
+    "category": "Search"
+  },
+  {
+    "name": "Bing Images",
+    "url": "https://www.bing.com/images",
+    "desc": "Image search",
+    "category": "Search"
+  },
+  {
+    "name": "Google Images",
+    "url": "https://images.google.com/",
+    "desc": "Image search",
+    "category": "Search"
+  },
+  {
+    "name": "TinEye",
+    "url": "https://tineye.com/",
+    "desc": "Reverse image",
+    "category": "Search"
+  },
+  {
+    "name": "Bing Video",
+    "url": "https://www.bing.com/videos",
+    "desc": "Video search",
+    "category": "Search"
+  },
+  {
+    "name": "Bing News",
+    "url": "https://www.bing.com/news",
+    "desc": "News search",
+    "category": "Search"
+  },
+  {
+    "name": "Google News",
+    "url": "https://news.google.com/",
+    "desc": "News aggregator",
+    "category": "Search"
+  },
+  {
+    "name": "NewsNow",
+    "url": "https://www.newsnow.com/",
+    "desc": "UK news",
+    "category": "Search"
+  },
+  {
+    "name": "AllSides",
+    "url": "https://www.allsides.com/",
+    "desc": "Multi-perspective",
+    "category": "Search"
+  },
+  {
+    "name": "NewsMap",
+    "url": "https://newsmap.jp/",
+    "desc": "Visual news",
+    "category": "Search"
+  },
+  {
+    "name": "Nuzzle",
+    "url": "https://nuzzle.co/",
+    "desc": "News mixer",
+    "category": "Search"
+  },
+  {
+    "name": "Frog",
+    "url": "https://frog.com/",
+    "desc": "News aggregator",
+    "category": "Search"
+  },
+  {
+    "name": "BazQux",
+    "url": "https://bazqux.com/",
+    "desc": "RSS reader",
+    "category": "Search"
+  },
+  {
+    "name": "RSS Bridge",
+    "url": "https://rss-bridge.org/",
+    "desc": "RSS generator",
+    "category": "Search"
+  },
+  {
+    "name": "Feed Validator",
+    "url": "https://feedvalidator.org/",
+    "desc": "Check RSS",
+    "category": "Search"
+  },
+  {
+    "name": "RSS Reader",
+    "url": "https://rssreader.com/",
+    "desc": "Online RSS",
+    "category": "Search"
+  },
+  {
+    "name": "Protopage",
+    "url": "https://www.protopage.com/",
+    "desc": "Personal start",
+    "category": "Search"
+  },
+  {
+    "name": "igoogle",
+    "url": "https://www.igoogle.net/",
+    "desc": "Google homepage",
+    "category": "Search"
+  },
+  {
+    "name": "iGoogle",
+    "url": "https://igapps.net/",
+    "desc": "iGoogle replacement",
+    "category": "Search"
+  },
+  {
+    "name": "Start.me",
+    "url": "https://www.start.me/",
+    "desc": "Personal hub",
+    "category": "Search"
+  },
+  {
+    "name": "Bookmarks",
+    "url": "https://bookmarks.design/",
+    "desc": "Design links",
+    "category": "Search"
+  },
+  {
+    "name": "Pinboard",
+    "url": "https://pinboard.in/",
+    "desc": "Social bookmark",
+    "category": "Search"
+  },
+  {
+    "name": "Raindrop",
+    "url": "https://raindrop.io/",
+    "desc": "Bookmark manager",
+    "category": "Search"
+  },
+  {
+    "name": "Pocket",
+    "url": "https://getpocket.com/",
+    "desc": "Read later",
+    "category": "Search"
+  },
+  {
+    "name": "Instapaper",
+    "url": "https://www.instapaper.com/",
+    "desc": "Read later",
+    "category": "Search"
+  },
+  {
+    "name": "Wallabag",
+    "url": "https://wallabag.org/",
+    "desc": "Self-hosted read",
+    "category": "Search"
+  },
+  {
+    "name": "LinkAce",
+    "url": "https://www.linkace.org/",
+    "desc": "Bookmark archive",
+    "category": "Search"
+  },
+  {
+    "name": "Shiori",
+    "url": "https://github.com/RadhiFadlillah/shiori",
+    "desc": "Bookmark manager",
+    "category": "Search"
+  },
+  {
+    "name": "Booky",
+    "url": "https://booky.io/",
+    "desc": "Bookmarking",
+    "category": "Search"
+  },
+  {
+    "name": "Shaarli",
+    "url": "https://shaarli.readthedocs.io/",
+    "desc": "Self-hosted links",
+    "category": "Search"
+  },
+  {
+    "name": "Bludit",
+    "url": "https://www.bludit.com/",
+    "desc": "Flat file CMS",
+    "category": "Blogging"
+  },
+  {
+    "name": "Grav",
+    "url": "https://getgrav.org/",
+    "desc": "Flat CMS",
+    "category": "Blogging"
+  },
+  {
+    "name": "October",
+    "url": "https://octobercms.com/",
+    "desc": "Laravel CMS",
+    "category": "Blogging"
+  },
+  {
+    "name": "Statamic",
+    "url": "https://statamic.com/",
+    "desc": "Laravel CMS",
+    "category": "Blogging"
+  },
+  {
+    "name": "Prismic",
+    "url": "https://prismic.io/",
+    "desc": "Headless CMS",
+    "category": "Blogging"
+  },
+  {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/",
+    "desc": "Free world map",
+    "category": "Maps"
+  },
+  {
+    "name": "Mapnik",
+    "url": "https://mapnik.org/",
+    "desc": "Map renderer",
+    "category": "Maps"
+  },
+  {
+    "name": "Mapbox",
+    "url": "https://www.mapbox.com/",
+    "desc": "Maps API",
+    "category": "Maps"
+  },
+  {
+    "name": "Leaflet",
+    "url": "https://leafletjs.com/",
+    "desc": "JS maps library",
+    "category": "Maps"
+  },
+  {
+    "name": "OpenLayers",
+    "url": "https://openlayers.org/",
+    "desc": "Map library",
+    "category": "Maps"
+  },
+  {
+    "name": "Mapzen",
+    "url": "https://mapzen.com/",
+    "desc": "Mapping tools",
+    "category": "Maps"
+  },
+  {
+    "name": "Mapsforge",
+    "url": "https://mapsforge.org/",
+    "desc": "OpenStreetMap renderer",
+    "category": "Maps"
+  },
+  {
+    "name": "GeoJSON",
+    "url": "https://geojson.org/",
+    "desc": "Map data format",
+    "category": "Maps"
+  },
+  {
+    "name": "TileMill",
+    "url": "https://tilemill-project.github.io/tilemill/",
+    "desc": "Map designer",
+    "category": "Maps"
+  },
+  {
+    "name": "MapTiler",
+    "url": "https://www.maptiler.com/",
+    "desc": "Map tiles",
+    "category": "Maps"
+  },
+  {
+    "name": "Google Maps",
+    "url": "https://www.google.com/maps",
+    "desc": "Maps platform",
+    "category": "Maps"
+  },
+  {
+    "name": "Bing Maps",
+    "url": "https://www.bing.com/maps",
+    "desc": "Microsoft maps",
+    "category": "Maps"
+  },
+  {
+    "name": "Waze",
+    "url": "https://www.waze.com/",
+    "desc": "Traffic navigation",
+    "category": "Maps"
+  },
+  {
+    "name": "Here WeGo",
+    "url": "https://wego.here.com/",
+    "desc": "Navigation",
+    "category": "Maps"
+  },
+  {
+    "name": "TomTom",
+    "url": "https://www.tomtom.com/",
+    "desc": "GPS navigation",
+    "category": "Maps"
+  },
+  {
+    "name": "MapQuest",
+    "url": "https://www.mapquest.com/",
+    "desc": "Maps and directions",
+    "category": "Maps"
+  },
+  {
+    "name": "Yandex Maps",
+    "url": "https://yandex.com/maps/",
+    "desc": "Russian maps",
+    "category": "Maps"
+  },
+  {
+    "name": "Naver Maps",
+    "url": "https://www.naver.com/maps",
+    "desc": "Korean maps",
+    "category": "Maps"
+  },
+  {
+    "name": "Stamen Design",
+    "url": "https://stamen.com/",
+    "desc": "Map tiles",
+    "category": "Maps"
+  },
+  {
+    "name": "Mapillary",
+    "url": "https://www.mapillary.com/",
+    "desc": "Street-level photos",
+    "category": "Maps"
+  },
+  {
+    "name": "Street View",
+    "url": "https://www.google.com/streetview/",
+    "desc": "Street panoramas",
+    "category": "Maps"
+  },
+  {
+    "name": "WorldTimeServer",
+    "url": "https://www.worldtimeserver.com/",
+    "desc": "World time",
+    "category": "Time"
+  },
+  {
+    "name": "Utime",
+    "url": "https://www.utime.io/",
+    "desc": "Time converter",
+    "category": "Time"
+  },
+  {
+    "name": "Time Zone Converter",
+    "url": "https://www.timezoneconverter.com/",
+    "desc": "TZ conversion",
+    "category": "Time"
+  },
+  {
+    "name": "GMT",
+    "url": "https://greenwichmeantime.com/",
+    "desc": "GMT information",
+    "category": "Time"
+  },
+  {
+    "name": "Atomic Clock",
+    "url": "https://www.time.gov/",
+    "desc": "US atomic clock",
+    "category": "Time"
+  },
+  {
+    "name": "NTP Pool",
+    "url": "https://www.pool.ntp.org/",
+    "desc": "Time servers",
+    "category": "Time"
+  },
+  {
+    "name": "Epoch Converter",
+    "url": "https://www.epochconverter.com/",
+    "desc": "Unix time tool",
+    "category": "Time"
+  },
+  {
+    "name": "Moon Calc",
+    "url": "https://www.mooncalc.org/",
+    "desc": "Moon calculator",
+    "category": "Time"
+  },
+  {
+    "name": "Calendar Converter",
+    "url": "https://www.fourmilab.ch/mooncalc/",
+    "desc": "Julian date",
+    "category": "Time"
+  },
+  {
+    "name": "Hijri Converter",
+    "url": "https://www.islamicfinder.org/",
+    "desc": "Islamic calendar",
+    "category": "Time"
+  },
+  {
+    "name": "Hebrew Calendar",
+    "url": "https://www.hebcal.com/",
+    "desc": "Jewish calendar",
+    "category": "Time"
+  },
+  {
+    "name": "Date Calculator",
+    "url": "https://www.calculator.net/date-calculator.html",
+    "desc": "Date math",
+    "category": "Time"
+  },
+  {
+    "name": "Days Between",
+    "url": "https://www.daysbetween.com/",
+    "desc": "Days calculator",
+    "category": "Time"
+  },
+  {
+    "name": "Week Numbers",
+    "url": "https://weeknumber.com/",
+    "desc": "ISO week numbers",
+    "category": "Time"
+  },
+  {
+    "name": "Holiday Calendar",
+    "url": "https://www.timeanddate.com/holidays/",
+    "desc": "World holidays",
+    "category": "Time"
+  },
+  {
+    "name": "DST Tracker",
+    "url": "https://www.timeanddate.com/time/dst/",
+    "desc": "Daylight savings",
+    "category": "Time"
+  },
+  {
+    "name": "Unix Time",
+    "url": "https://www.unixtimestamp.com/",
+    "desc": "Timestamp converter",
+    "category": "Time"
+  },
+  {
+    "name": "Current Time",
+    "url": "https://currentmillis.com/",
+    "desc": "Current time ms",
+    "category": "Time"
+  },
+  {
+    "name": "World Clock",
+    "url": "https://www.worldclocks.com/",
+    "desc": "World clock",
+    "category": "Time"
+  },
+  {
+    "name": "The Day",
+    "url": "https://www.theday.com/",
+    "desc": "Today in history",
+    "category": "Time"
+  },
+  {
+    "name": "On This Day",
+    "url": "https://www.onthisday.com/",
+    "desc": "This day in history",
+    "category": "Time"
+  },
+  {
+    "name": "This Day in History",
+    "url": "https://www.history.com/this-day-in-history",
+    "desc": "Historical events",
+    "category": "Time"
+  },
+  {
+    "name": "Wikipedia Today",
+    "url": "https://en.wikipedia.org/wiki/Main_Page",
+    "desc": "Today in Wikipedia",
+    "category": "Time"
+  },
+  {
+    "name": "Today in History",
+    "url": "https://www.historynet.com/todays-history",
+    "desc": "History Net",
+    "category": "Time"
+  },
+  {
+    "name": "What Happened",
+    "url": "https://www.what happened.com/",
+    "desc": "Daily history",
+    "category": "Time"
+  },
+  {
+    "name": "Day in History",
+    "url": "https://www.thepeoplehistory.com/thisday.html",
+    "desc": "People history",
+    "category": "Time"
+  },
+  {
+    "name": "Historical Times",
+    "url": "https://www.historicaltimes.com/",
+    "desc": "Historical news",
+    "category": "Time"
+  },
+  {
+    "name": "Online Clock",
+    "url": "https://online-clock.org/",
+    "desc": "Web clock",
+    "category": "Time"
+  },
+  {
+    "name": "World Clock",
+    "url": "https://24timezones.com/",
+    "desc": "24 hour zones",
+    "category": "Time"
+  },
+  {
+    "name": "Exact Time",
+    "url": "https://www.exacttime.com/",
+    "desc": "Precise time",
+    "category": "Time"
+  },
+  {
+    "name": "Time Zones",
+    "url": "https://www.timezones.com/",
+    "desc": "Zone information",
+    "category": "Time"
+  },
+  {
+    "name": "Time Temperature",
+    "url": "https://www.timetemperature.com/",
+    "desc": "Time and weather",
+    "category": "Time"
+  },
+  {
+    "name": "Time Travel",
+    "url": "https://www.timetravelfund.com/",
+    "desc": "Time travel info",
+    "category": "Time"
+  },
+  {
+    "name": "Convert Units",
+    "url": "https://www.convertunits.com/",
+    "desc": "Unit converter",
+    "category": "Converters"
+  },
+  {
+    "name": "Unit Converter",
+    "url": "https://www.unitconverters.net/",
+    "desc": "All units",
+    "category": "Converters"
+  },
+  {
+    "name": "Online Converter",
+    "url": "https://www.onlineconverter.com/",
+    "desc": "File converter",
+    "category": "Converters"
+  },
+  {
+    "name": "Free Convert",
+    "url": "https://www.freeconvert.com/",
+    "desc": "File tool",
+    "category": "Converters"
+  },
+  {
+    "name": "Convert Files",
+    "url": "https://www.convertfiles.com/",
+    "desc": "Simple converter",
+    "category": "Converters"
+  },
+  {
+    "name": "Aconvert",
+    "url": "https://www.aconvert.com/",
+    "desc": "Multi format",
+    "category": "Converters"
+  },
+  {
+    "name": "Pixel Converter",
+    "url": "https://pixelconverter.net/",
+    "desc": "Pixel to em",
+    "category": "Converters"
+  },
+  {
+    "name": "Rapid Tables",
+    "url": "https://www.rapidtables.com/",
+    "desc": "Tech converter",
+    "category": "Converters"
+  },
+  {
+    "name": "Metric Conversions",
+    "url": "https://www.metric-conversions.org/",
+    "desc": "Metric units",
+    "category": "Converters"
+  },
+  {
+    "name": "Unit Juggler",
+    "url": "https://www.uj.com/",
+    "desc": "Unit calculator",
+    "category": "Converters"
+  },
+  {
+    "name": "CSG Network",
+    "url": "https://www.csgnetwork.com/",
+    "desc": "Calculators",
+    "category": "Converters"
+  },
+  {
+    "name": "Calculator",
+    "url": "https://www.calculator.net/",
+    "desc": "Online calculator",
+    "category": "Converters"
+  },
+  {
+    "name": "Number Empire",
+    "url": "https://www.numberempire.com/",
+    "desc": "Math tools",
+    "category": "Converters"
+  },
+  {
+    "name": "Quick Math",
+    "url": "https://quickmath.com/",
+    "desc": "Auto solver",
+    "category": "Converters"
+  },
+  {
+    "name": "Cymath",
+    "url": "https://www.cymath.com/",
+    "desc": "Math help",
+    "category": "Converters"
+  },
+  {
+    "name": "Mathway",
+    "url": "https://www.mathway.com/",
+    "desc": "Math problems",
+    "category": "Converters"
+  },
+  {
+    "name": "Chegg",
+    "url": "https://www.chegg.com/",
+    "desc": "Study help",
+    "category": "Converters"
+  },
+  {
+    "name": "Photomath",
+    "url": "https://www.photomath.com/",
+    "desc": "Math app",
+    "category": "Converters"
+  },
+  {
+    "name": "Microsoft Math",
+    "url": "https://math.microsoft.com/",
+    "desc": "MS math solver",
+    "category": "Converters"
+  },
+  {
+    "name": "Google Finance",
+    "url": "https://www.google.com/finance",
+    "desc": "Stock market",
+    "category": "Finance"
+  },
+  {
+    "name": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "desc": "Market data",
+    "category": "Finance"
+  },
+  {
+    "name": "MarketWatch",
+    "url": "https://www.marketwatch.com/",
+    "desc": "Financial news",
+    "category": "Finance"
+  },
+  {
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/",
+    "desc": "Business news",
+    "category": "Finance"
+  },
+  {
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/",
+    "desc": "Financial info",
+    "category": "Finance"
+  },
+  {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/",
+    "desc": "News agency",
+    "category": "Finance"
+  },
+  {
+    "name": "WSJ",
+    "url": "https://www.wsj.com/",
+    "desc": "Wall Street Journal",
+    "category": "Finance"
+  },
+  {
+    "name": "FT",
+    "url": "https://www.ft.com/",
+    "desc": "Financial Times",
+    "category": "Finance"
+  },
+  {
+    "name": "Seeking Alpha",
+    "url": "https://seekingalpha.com/",
+    "desc": "Stock analysis",
+    "category": "Finance"
+  },
+  {
+    "name": "Investopedia",
+    "url": "https://www.investopedia.com/",
+    "desc": "Financial education",
+    "category": "Finance"
   }
 ]
