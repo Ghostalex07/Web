@@ -17490,12 +17490,6 @@
     "category": "Fediverse"
   },
   {
-    "name": "Lemmy",
-    "url": "https://github.com/LemmyNet/lemmy",
-    "desc": "Source code",
-    "category": "Fediverse"
-  },
-  {
     "name": "Kbin",
     "url": "https://github.com/ernestwisniewski/kbin",
     "desc": "Source code",
@@ -24210,12 +24204,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Amass",
-    "url": "https://github.com/OWASP/Amass",
-    "desc": "Subdomain enum",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Nuclei",
     "url": "https://nuclei.projectdiscovery.io/",
     "desc": "Template scanning",
@@ -24738,12 +24726,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Ricochet",
-    "url": "https://ricochetrefresh.net/",
-    "desc": "Anonymous IM",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Securly",
     "url": "https://securly.com/",
     "desc": "Email encryption",
@@ -24891,12 +24873,6 @@
     "name": "Paper Weights",
     "url": "https://paperweights.app/",
     "desc": "Satisfying paper-like visuals",
-    "category": "Weird Web"
-  },
-  {
-    "name": "The Nicest Place",
-    "url": "https://theNicestPlace.net/",
-    "desc": "Internet hugs",
     "category": "Weird Web"
   },
   {
@@ -27147,12 +27123,6 @@
     "name": "Paper Toilet",
     "url": "https://www.papertoilet.com/",
     "desc": "Endless roll of toilet paper",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Is It Christmas",
-    "url": "https://isitchristmas.com/",
-    "desc": "Is it Christmas?",
     "category": "Weird Web"
   },
   {
@@ -34977,12 +34947,6 @@
     "name": "Asteraceae",
     "url": "https://asteracea.space/",
     "desc": "Gemini capsule",
-    "category": "Tiny Web"
-  },
-  {
-    "name": "Lobsters Gemini",
-    "url": "https://lobste.rs/",
-    "desc": "Tech links on Gemini",
     "category": "Tiny Web"
   },
   {
