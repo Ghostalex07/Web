@@ -35092,5 +35092,1019 @@
     "url": "https://wikity.netlify.app/",
     "desc": "Simple wiki",
     "category": "Small Web"
+  },
+  {
+    "name": "Web Archive",
+    "url": "https://archive.org/web/",
+    "desc": "Browse old web",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "Archive.is",
+    "url": "https://archive.is/",
+    "desc": "Page capture",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "Ghost Archive",
+    "url": "https://ghostarchive.org/",
+    "desc": "Twitter archive",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "PDF Archive",
+    "url": "https://pdf.webs.yt/",
+    "desc": "Save as PDF",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "Google Cache",
+    "url": "https://webcache.googleusercontent.com/",
+    "desc": "Cached pages",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "Reader Mode",
+    "url": "https://www.readability.com/",
+    "desc": "Readability parser",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "FiveFilters",
+    "url": "https://www.fivefilters.org/",
+    "desc": "Content extraction",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "Mercury Parser",
+    "url": "https://mercury.postlight.com/",
+    "desc": "Parse articles",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "GoRead",
+    "url": "https://goread.io/",
+    "desc": "Clean reader",
+    "category": "Web Archiving"
+  },
+  {
+    "name": "Diigo",
+    "url": "https://www.diigo.com/",
+    "desc": "Web annotator",
+    "category": "Read Later"
+  },
+  {
+    "name": "Historious",
+    "url": "https://historious.com/",
+    "desc": "Web scraper",
+    "category": "Read Later"
+  },
+  {
+    "name": "Evernote",
+    "url": "https://www.evernote.com/",
+    "desc": "Note taking",
+    "category": "Read Later"
+  },
+  {
+    "name": "Athens",
+    "url": "https://athensresearch.org/",
+    "desc": "Open Roam",
+    "category": "Read Later"
+  },
+  {
+    "name": "Org Mode",
+    "url": "https://orgmode.org/",
+    "desc": "Emacs mode",
+    "category": "Read Later"
+  },
+  {
+    "name": "Zettelkasten",
+    "url": "https://zettelkasten.de/",
+    "desc": "Note method",
+    "category": "Read Later"
+  },
+  {
+    "name": "Fibery",
+    "url": "https://www.fibery.io/",
+    "desc": "Workspace",
+    "category": "Read Later"
+  },
+  {
+    "name": "Craft",
+    "url": "https://www.craft.do/",
+    "desc": "Beautiful docs",
+    "category": "Read Later"
+  },
+  {
+    "name": "Dropbox Paper",
+    "url": "https://paper.dropbox.com/",
+    "desc": "Collab docs",
+    "category": "Read Later"
+  },
+  {
+    "name": "Nuclino",
+    "url": "https://www.nuclino.com/",
+    "desc": "Team wiki",
+    "category": "Read Later"
+  },
+  {
+    "name": "Slite",
+    "url": "https://slite.com/",
+    "desc": "Light docs",
+    "category": "Read Later"
+  },
+  {
+    "name": "Tettra",
+    "url": "https://tettra.com/",
+    "desc": "Internal wiki",
+    "category": "Read Later"
+  },
+  {
+    "name": "Confluence",
+    "url": "https://www.atlassian.com/software/confluence",
+    "desc": "Team wiki",
+    "category": "Read Later"
+  },
+  {
+    "name": "Coggle",
+    "url": "https://coggle.it/",
+    "desc": "Mind maps",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "MindMeister",
+    "url": "https://www.mindmeister.com/",
+    "desc": "Mind mapping",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "Mural",
+    "url": "https://www.mural.co/",
+    "desc": "Visual collab",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "FigJam",
+    "url": "https://www.figma.com/figjam/",
+    "desc": "Figma whiteboard",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "Lucidchart",
+    "url": "https://www.lucidchart.com/",
+    "desc": "Diagrams",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "Scapple",
+    "url": "https://www.literatureandlatte.com/scapple",
+    "desc": "Free-form idea",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "SimpleMind",
+    "url": "https://simplemind.eu/",
+    "desc": "Mind map app",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "XMind",
+    "url": "https://www.xmind.net/",
+    "desc": "Mind mapping",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "Bubbl.us",
+    "url": "https://bubbl.us/",
+    "desc": "Quick mind maps",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "Popplet",
+    "url": "https://popplet.com/",
+    "desc": "Mind map",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "Mind42",
+    "url": "https://mind42.com/",
+    "desc": "Online mind map",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "MindMaple",
+    "url": "https://www.mindmaple.com/",
+    "desc": "Mind mapping",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "SpiderScribe",
+    "url": "https://www.spiderscribe.net/",
+    "desc": "Mind map",
+    "category": "Mind Mapping"
+  },
+  {
+    "name": "ClickUp",
+    "url": "https://clickup.com/",
+    "desc": "Project management",
+    "category": "Productivity"
+  },
+  {
+    "name": "Monday",
+    "url": "https://monday.com/",
+    "desc": "Work OS",
+    "category": "Productivity"
+  },
+  {
+    "name": "Basecamp",
+    "url": "https://basecamp.com/",
+    "desc": "Remote collab",
+    "category": "Productivity"
+  },
+  {
+    "name": "TickTick",
+    "url": "https://ticktick.com/",
+    "desc": "Task manager",
+    "category": "Productivity"
+  },
+  {
+    "name": "Microsoft To Do",
+    "url": "https://todo.microsoft.com/",
+    "desc": "Microsoft tasks",
+    "category": "Productivity"
+  },
+  {
+    "name": "Google Tasks",
+    "url": "https://tasks.google.com/",
+    "desc": "Google tasks",
+    "category": "Productivity"
+  },
+  {
+    "name": "Remember the Milk",
+    "url": "https://www.rememberthemilk.com/",
+    "desc": "Online tasks",
+    "category": "Productivity"
+  },
+  {
+    "name": "Any.do",
+    "url": "https://www.any.do/",
+    "desc": "Task app",
+    "category": "Productivity"
+  },
+  {
+    "name": "Things",
+    "url": "https://culturedcode.com/things/",
+    "desc": "Mac tasks",
+    "category": "Productivity"
+  },
+  {
+    "name": "OmniFocus",
+    "url": "https://www.omnigroup.com/omnifocus",
+    "desc": "GTD for Mac",
+    "category": "Productivity"
+  },
+  {
+    "name": "Bear",
+    "url": "https://bear.app/",
+    "desc": "Notes for Mac",
+    "category": "Productivity"
+  },
+  {
+    "name": "Notesnook",
+    "url": "https://notesnook.com/",
+    "desc": "Notes app",
+    "category": "Productivity"
+  },
+  {
+    "name": "Standard Notes",
+    "url": "https://standardnotes.org/",
+    "desc": "Encrypted notes",
+    "category": "Productivity"
+  },
+  {
+    "name": "Supershy",
+    "url": "https://www.supernotes.app/",
+    "desc": "Card-based notes",
+    "category": "Productivity"
+  },
+  {
+    "name": "Tana",
+    "url": "https://tana.inc/",
+    "desc": "Knowledge workspace",
+    "category": "Productivity"
+  },
+  {
+    "name": "DocuSeal",
+    "url": "https://www.docuseal.co/",
+    "desc": "PDF forms",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "Smallpdf",
+    "url": "https://smallpdf.com/",
+    "desc": "PDF toolkit",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "ILovePDF",
+    "url": "https://www.ilovepdf.com/",
+    "desc": "PDF tools",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "PDF24",
+    "url": "https://tools.pdf24.org/",
+    "desc": "PDF creator",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "Sejda",
+    "url": "https://www.sejda.com/",
+    "desc": "PDF editor",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "PDFescape",
+    "url": "https://www.pdfescape.com/",
+    "desc": "PDF editor",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "FormPDF",
+    "url": "https://formpdf.com/",
+    "desc": "PDF forms",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "Docify",
+    "url": "https://docify.me/",
+    "desc": "Create PDF",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "HTML2PDF",
+    "url": "https://html2pdf.app/",
+    "desc": "HTML to PDF",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "PDF2Go",
+    "url": "https://www.pdf2go.com/",
+    "desc": "PDF converter",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "ConvertAPI",
+    "url": "https://www.convertapi.com/",
+    "desc": "File conversion",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "File Converter",
+    "url": "https://file-converter.org/",
+    "desc": "Desktop tool",
+    "category": "PDF Tools"
+  },
+  {
+    "name": "Google Docs",
+    "url": "https://docs.google.com/",
+    "desc": "Online docs",
+    "category": "Office"
+  },
+  {
+    "name": "Microsoft Office",
+    "url": "https://www.office.com/",
+    "desc": "Online Office",
+    "category": "Office"
+  },
+  {
+    "name": "Ethercalc",
+    "url": "https://ethercalc.net/",
+    "desc": "Spreadsheet",
+    "category": "Office"
+  },
+  {
+    "name": "Rethink",
+    "url": "https://www.rethink.dev/",
+    "desc": "Spreadsheet",
+    "category": "Office"
+  },
+  {
+    "name": "Searx",
+    "url": "https://searx.org/",
+    "desc": "Privacy search",
+    "category": "Search"
+  },
+  {
+    "name": "Stract",
+    "url": "https://stract.com/",
+    "desc": "Web search",
+    "category": "Search"
+  },
+  {
+    "name": "Yep",
+    "url": "https://yep.com/",
+    "desc": "AI search",
+    "category": "Search"
+  },
+  {
+    "name": "Andi",
+    "url": "https://and i.com/",
+    "desc": "AI search",
+    "category": "Search"
+  },
+  {
+    "name": "Komo",
+    "url": "https://komo.ai/",
+    "desc": "AI search",
+    "category": "Search"
+  },
+  {
+    "name": "Algolia",
+    "url": "https://www.algolia.com/",
+    "desc": "Search API",
+    "category": "Search"
+  },
+  {
+    "name": "Lunr",
+    "url": "https://lunrjs.com/",
+    "desc": "JS search",
+    "category": "Search"
+  },
+  {
+    "name": "Fuse",
+    "url": "https://fusejs.io/",
+    "desc": "Fuzzy search",
+    "category": "Search"
+  },
+  {
+    "name": "Pagefind",
+    "url": "https://pagefind.app/",
+    "desc": "Static search",
+    "category": "Search"
+  },
+  {
+    "name": "Jina",
+    "url": "https://jina.ai/",
+    "desc": "Neural search",
+    "category": "Search"
+  },
+  {
+    "name": "Milvus",
+    "url": "https://milvus.io/",
+    "desc": "Vector DB",
+    "category": "Search"
+  },
+  {
+    "name": "Chroma",
+    "url": "https://www.trychroma.com/",
+    "desc": "Vector DB",
+    "category": "Search"
+  },
+  {
+    "name": "Hacker News",
+    "url": "https://hackernews.com/",
+    "desc": "HN without login",
+    "category": "Tech News"
+  },
+  {
+    "name": "HN Live",
+    "url": "https://hackerlivestream.com/",
+    "desc": "HN streams",
+    "category": "Tech News"
+  },
+  {
+    "name": "devRant",
+    "url": "https://devrant.com/",
+    "desc": "Dev rants",
+    "category": "Forums"
+  },
+  {
+    "name": "Code Project",
+    "url": "https://www.codeproject.com/",
+    "desc": "Dev articles",
+    "category": "Forums"
+  },
+  {
+    "name": "Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/",
+    "desc": "Web design",
+    "category": "Forums"
+  },
+  {
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com/community",
+    "desc": "Community tutorials",
+    "category": "Forums"
+  },
+  {
+    "name": "Cloudflare Community",
+    "url": "https://community.cloudflare.com/",
+    "desc": "CF forum",
+    "category": "Forums"
+  },
+  {
+    "name": "AWS re:Post",
+    "url": "https://repost.aws/",
+    "desc": "AWS forum",
+    "category": "Forums"
+  },
+  {
+    "name": "Reddit Learn Programming",
+    "url": "https://www.reddit.com/r/learnprogramming/",
+    "desc": "Learning sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Web Dev",
+    "url": "https://www.reddit.com/r/webdev/",
+    "desc": "Web dev sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit JavaScript",
+    "url": "https://www.reddit.com/r/javascript/",
+    "desc": "JS sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Python",
+    "url": "https://www.reddit.com/r/Python/",
+    "desc": "Python sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Linux",
+    "url": "https://www.reddit.com/r/linux/",
+    "desc": "Linux sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Vim",
+    "url": "https://www.reddit.com/r/vim/",
+    "desc": "Vim sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Emacs",
+    "url": "https://www.reddit.com/r/emacs/",
+    "desc": "Emacs sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Rust",
+    "url": "https://www.reddit.com/r/rust/",
+    "desc": "Rust sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit WebAssembly",
+    "url": "https://www.reddit.com/r/WebAssembly/",
+    "desc": "WASM sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit TypeScript",
+    "url": "https://www.reddit.com/r/typescript/",
+    "desc": "TS sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Node",
+    "url": "https://www.reddit.com/r/node/",
+    "desc": "Node sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit React",
+    "url": "https://www.reddit.com/r/reactjs/",
+    "desc": "React sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Vue",
+    "url": "https://www.reddit.com/r/vuejs/",
+    "desc": "Vue sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Angular",
+    "url": "https://www.reddit.com/r/Angular2/",
+    "desc": "Angular sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Svelte",
+    "url": "https://www.reddit.com/r/sveltejs/",
+    "desc": "Svelte sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Docker",
+    "url": "https://www.reddit.com/r/docker/",
+    "desc": "Docker sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Kubernetes",
+    "url": "https://www.reddit.com/r/kubernetes/",
+    "desc": "K8s sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit DevOps",
+    "url": "https://www.reddit.com/r/devops/",
+    "desc": "DevOps sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Sysadmin",
+    "url": "https://www.reddit.com/r/sysadmin/",
+    "desc": "Sysadmin sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Security",
+    "url": "https://www.reddit.com/r/netsec/",
+    "desc": "Security sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Hacking",
+    "url": "https://www.reddit.com/r/hacking/",
+    "desc": "Hacking sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit CyberSec",
+    "url": "https://www.reddit.com/r/cybersecurity/",
+    "desc": "Cyber sec sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Privacy",
+    "url": "https://www.reddit.com/r/privacy/",
+    "desc": "Privacy sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Crypto",
+    "url": "https://www.reddit.com/r/crypto/",
+    "desc": "Crypto sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Bitcoin",
+    "url": "https://www.reddit.com/r/bitcoin/",
+    "desc": "BTC sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Ethereum",
+    "url": "https://www.reddit.com/r/ethereum/",
+    "desc": "ETH sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Coding",
+    "url": "https://www.reddit.com/r/coding/",
+    "desc": "Coding sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit CompSci",
+    "url": "https://www.reddit.com/r/compsci/",
+    "desc": "CS sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Algorithms",
+    "url": "https://www.reddit.com/r/algorithms/",
+    "desc": "Algos sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit GameDev",
+    "url": "https://www.reddit.com/r/gamedev/",
+    "desc": "Game dev sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Unity",
+    "url": "https://www.reddit.com/r/Unity3D/",
+    "desc": "Unity sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Unreal Engine",
+    "url": "https://www.reddit.com/r/unrealengine/",
+    "desc": "UE sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit GameMaker",
+    "url": "https://www.reddit.com/r/gamemaker/",
+    "desc": "GM sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Roguelikes",
+    "url": "https://www.reddit.com/r/roguelikes/",
+    "desc": "Roguelike sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit ASCII",
+    "url": "https://www.reddit.com/r/ascii/",
+    "desc": "ASCII art sub",
+    "category": "Programming"
+  },
+  {
+    "name": "Reddit Retro",
+    "url": "https://www.reddit.com/r/retro/",
+    "desc": "Retro computing",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Reddit Vintage Apple",
+    "url": "https://www.reddit.com/r/VintageApple/",
+    "desc": "Apple II sub",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Reddit Commodore",
+    "url": "https://www.reddit.com/r/commodore/",
+    "desc": "C64 sub",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Reddit Amiga",
+    "url": "https://www.reddit.com/r/amiga/",
+    "desc": "Amiga sub",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Reddit Atari",
+    "url": "https://www.reddit.com/r/atari/",
+    "desc": "Atari sub",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Reddit BBS",
+    "url": "https://www.reddit.com/r/bbs/",
+    "desc": "BBS sub",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Reddit Netrunner",
+    "url": "https://www.reddit.com/r/netrunner/",
+    "desc": "Android netrunner",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit Magic",
+    "url": "https://www.reddit.com/r/magicTCG/",
+    "desc": "MTG sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit Pokemon",
+    "url": "https://www.reddit.com/r/pokemon/",
+    "desc": "Pokemon sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit YuGiOh",
+    "url": "https://www.reddit.com/r/yugioh/",
+    "desc": "YGO sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit Hearthstone",
+    "url": "https://www.reddit.com/r/hearthstone/",
+    "desc": "HS sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit Shadowverse",
+    "url": "https://www.reddit.com/r/Shadowverse/",
+    "desc": "SV sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit TFT",
+    "url": "https://www.reddit.com/r/TeamfightTactics/",
+    "desc": "TFT sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit Lor",
+    "url": "https://www.reddit.com/r/LegendsOfRuneterra/",
+    "desc": "LoR sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit Arkham",
+    "url": "https://www.reddit.com/r/arkhamhorrorlcg/",
+    "desc": "Arkham sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit Marvel",
+    "url": "https://www.reddit.com/r/marvelchampionscg/",
+    "desc": "Marvel sub",
+    "category": "Card Games"
+  },
+  {
+    "name": "Reddit D&D",
+    "url": "https://www.reddit.com/r/DnD/",
+    "desc": "D&D sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit DnD",
+    "url": "https://www.reddit.com/r/dndnext/",
+    "desc": "Next D&D",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit RPG",
+    "url": "https://www.reddit.com/r/rpg/",
+    "desc": "RPG sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Pathinder",
+    "url": "https://www.reddit.com/r/Pathfinder_RPG/",
+    "desc": "PF sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit CoC",
+    "url": "https://www.reddit.com/r/callofcthulhu/",
+    "desc": "CoC sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Traveller",
+    "url": "https://www.reddit.com/r/mattandmerv/",
+    "desc": "Traveller sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit OSR",
+    "url": "https://www.reddit.com/r/osr/",
+    "desc": "Old School",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit PbtA",
+    "url": "https://www.reddit.com/r/PBtA/",
+    "desc": "PbtA games",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Dungeon World",
+    "url": "https://www.reddit.com/r/DungeonWorld/",
+    "desc": "DW sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Blades",
+    "url": "https://www.reddit.com/r/bladesinthedark/",
+    "desc": "BitD sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Cyberpunk Red",
+    "url": "https://www.reddit.com/r/cyberpunkred/",
+    "desc": "CPR sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit FATE",
+    "url": "https://www.reddit.com/r/FATErpg/",
+    "desc": "FATE sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit GURPS",
+    "url": "https://www.reddit.com/r/gurps/",
+    "desc": "GURPS sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Savage Worlds",
+    "url": "https://www.reddit.com/r/savageworlds/",
+    "desc": "SW sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit White Wolf",
+    "url": "https://www.reddit.com/r/WhiteWolfRPG/",
+    "desc": "WW sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Shadowrun",
+    "url": "https://www.reddit.com/r/shadowrun/",
+    "desc": "SR sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit 40K",
+    "url": "https://www.reddit.com/r/40kLore/",
+    "desc": "40K lore",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Star Trek",
+    "url": "https://www.reddit.com/r/startrek/",
+    "desc": "Star Trek",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit LFG",
+    "url": "https://www.reddit.com/r/lfg/",
+    "desc": "Looking for group",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Roll20",
+    "url": "https://www.reddit.com/r/Roll20/",
+    "desc": "Virtual tabletop",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Foundry VTT",
+    "url": "https://www.reddit.com/r/FoundryVTT/",
+    "desc": "Foundry sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Owlbear",
+    "url": "https://www.reddit.com/r/Owlbear/",
+    "desc": "Owlbear sub",
+    "category": "RPGs"
+  },
+  {
+    "name": "Reddit Tabletop",
+    "url": "https://www.reddit.com/r/tabletop/",
+    "desc": "Board games",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Board Games",
+    "url": "https://www.reddit.com/r/boardgames/",
+    "desc": "BG sub",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Puzzling",
+    "url": "https://www.reddit.com/r/Puzzling/",
+    "desc": "Puzzle sub",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Chess",
+    "url": "https://www.reddit.com/r/chess/",
+    "desc": "Chess sub",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Go",
+    "url": "https://www.reddit.com/r/baduk/",
+    "desc": "Go sub",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Warhammer",
+    "url": "https://www.reddit.com/r/Warhammer/",
+    "desc": "Warhammer",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Mini painting",
+    "url": "https://www.reddit.com/r/minipainting/",
+    "desc": "Minis sub",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Terrain Building",
+    "url": "https://www.reddit.com/r/TerrainBuilding/",
+    "desc": "Terrain sub",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit 3D Printing",
+    "url": "https://www.reddit.com/r/3Dprinting/",
+    "desc": "3DP sub",
+    "category": "Board Games"
+  },
+  {
+    "name": "Reddit Warhammer40k",
+    "url": "https://www.reddit.com/r/Warhammer40k/",
+    "desc": "40K sub",
+    "category": "Miniatures"
   }
 ]
