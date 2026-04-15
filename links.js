@@ -27844,5 +27844,575 @@ const linksData = [
     "url": "https://chevereto.com/",
     "desc": "Image hosting",
     "category": "Self-Hosting"
+  },
+  {
+    "name": "Spores Magazine",
+    "url": "https://sporesmagazine.co.uk/",
+    "desc": "Community-driven archive of modern psychedelia",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "RetroFuturista",
+    "url": "https://retrofuturista.com/",
+    "desc": "Monthly digital magazine on experimental culture",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "Hook and Line Magazine",
+    "url": "https://www.hookandlinemag.com/",
+    "desc": "Independent creative publication archive",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "Dreamworldgirl Zine",
+    "url": "https://www.dreamworldgirlzine.com/",
+    "desc": "Indie publications and zine culture",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "Stack Magazines",
+    "url": "https://www.stackmagazines.com/",
+    "desc": "Independent magazine discovery",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "EX Magazine",
+    "url": "http://adventiousmusic.com/ex",
+    "desc": "Magazine for experimental art and music",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "Ephemera Obscura",
+    "url": "https://ephemera-obscura.org/",
+    "desc": "Creative improvisation archives",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "Teleporter Quarterly",
+    "url": "http://www.marginalutility.org/",
+    "desc": "Independent arts publication",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "RoJaRo Music Magazine",
+    "url": "https://www.rojaro.com/",
+    "desc": "Music magazine directory",
+    "category": "Art & Culture"
+  },
+  {
+    "name": "Aquarium Drunkard",
+    "url": "https://aquariumdrunkard.com/",
+    "desc": "Music discovery and archives",
+    "category": "Music"
+  },
+  {
+    "name": "The Sound Projector",
+    "url": "https://www.thesoundprojector.com/",
+    "desc": "Experimental music magazine",
+    "category": "Music"
+  },
+  {
+    "name": "The Vinyl Guide",
+    "url": "https://www.the-vinyl-guide.com/",
+    "desc": "Vinyl record collecting",
+    "category": "Music"
+  },
+  {
+    "name": "MusicGoldmine",
+    "url": "https://musicgoldmine.com/",
+    "desc": "Vintage vinyl records and memorabilia",
+    "category": "Music"
+  },
+  {
+    "name": "Mighty Vinyl",
+    "url": "https://mightyvinyl.com/",
+    "desc": "Rare music memorabilia",
+    "category": "Music"
+  },
+  {
+    "name": "The Cassette Place",
+    "url": "https://www.thecassetteplace.com/",
+    "desc": "Classic cassette tape store",
+    "category": "Music"
+  },
+  {
+    "name": "Chalkpit Cassette Club",
+    "url": "https://www.chalkpitcassetteclub.com/",
+    "desc": "Vintage cassette tapes",
+    "category": "Music"
+  },
+  {
+    "name": "Retrospekt",
+    "url": "https://retrospekt.com/",
+    "desc": "Retro tech and cassette revival",
+    "category": "Music"
+  },
+  {
+    "name": "Classic 45s",
+    "url": "https://www.classic45s.com/",
+    "desc": "45 rpm vinyl records",
+    "category": "Music"
+  },
+  {
+    "name": "Nauck's Vintage Records",
+    "url": "https://www.78rpm.com/",
+    "desc": "78 rpm and cylinder records",
+    "category": "Music"
+  },
+  {
+    "name": "78rpm Record",
+    "url": "https://78rpmrecord.com/",
+    "desc": "78 rpm record home page",
+    "category": "Music"
+  },
+  {
+    "name": "RecordSmith Auction",
+    "url": "https://recordsmithauction.com/",
+    "desc": "Vintage records auction",
+    "category": "Music"
+  },
+  {
+    "name": "John Tefteller",
+    "url": "https://tefteller.com/",
+    "desc": "World's rarest records",
+    "category": "Music"
+  },
+  {
+    "name": "Joe's Vintage 78 Records",
+    "url": "https://joesvintage78.com/",
+    "desc": "Joe Bussard's rare record collection",
+    "category": "Music"
+  },
+  {
+    "name": "Collectors Weekly",
+    "url": "https://www.collectorsweekly.com/",
+    "desc": "Vintage collectibles",
+    "category": "Hobbies"
+  },
+  {
+    "name": "Vintage Record Store",
+    "url": "https://www.vintagerecordstore.com/",
+    "desc": "Vintage vinyl and cassettes",
+    "category": "Music"
+  },
+  {
+    "name": "Digital Bodleian",
+    "url": "https://digital.bodleian.ox.ac.uk/",
+    "desc": "Oxford library digitizations",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Beinecke Library",
+    "url": "https://beinecke.library.yale.edu/",
+    "desc": "Yale rare books and manuscripts",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Morgan Library",
+    "url": "https://www.themorgan.org/",
+    "desc": "Medieval manuscripts online",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Boston Public Library",
+    "url": "https://www.bpl.org/",
+    "desc": "Rare books and digital collections",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Columbia RBML",
+    "url": "https://library.columbia.edu/indiv/rbml.html",
+    "desc": "Columbia rare books manuscripts",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Cornell RMC",
+    "url": "https://rare.library.cornell.edu/",
+    "desc": "Cornell rare manuscripts",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Smith College",
+    "url": "https://www.smith.edu/libraries/libs/rarebook/",
+    "desc": "Mortimer rare book collection",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Shelley-Godwin Archive",
+    "url": "https://shelleygodwinarchive.org/",
+    "desc": "Manuscript archive",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Riverbed Ranch",
+    "url": "https://riverbed-ranch.com/",
+    "desc": "Off-grid community",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Homesteading",
+    "url": "https://homesteading.com/",
+    "desc": "Self-sufficient living",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "The Off Grid Project",
+    "url": "http://www.theoffgridproject.com/",
+    "desc": "Off grid living experiments",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Hillbilly Homesteading",
+    "url": "https://hillbillyhomesteading.ca/",
+    "desc": "Real skills for off-grid living",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Arcadia Off Grid",
+    "url": "https://www.arcadiaoffgrid.com/",
+    "desc": "Self-sufficient living community",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Survivalist 101",
+    "url": "https://survivalist101.com/",
+    "desc": "Survival tutorials and skills",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Off The Grid Prep",
+    "url": "https://offthegridprep.com/",
+    "desc": "Preparedness and homesteading",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "The Ready Life",
+    "url": "https://www.thereadylife.com/",
+    "desc": "Off-grid preparedness",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Sustainable Preparedness",
+    "url": "http://www.sustainablepreparedness.com/",
+    "desc": "Modern off grid homesteading",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Producing Freedom",
+    "url": "https://producingfreedom.com/",
+    "desc": "Resilient homesteading",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "An Off Grid Life",
+    "url": "https://www.anoffgridlife.com/",
+    "desc": "Homesteading and survival",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Heceta Island Settlement",
+    "url": "https://hecetaisland.com/",
+    "desc": "Post-collapse community fiction",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Make Magazine",
+    "url": "https://make magazine.com/",
+    "desc": "Maker culture and projects",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Thingiverse",
+    "url": "https://www.thingiverse.com/",
+    "desc": "3D printing designs",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Printables",
+    "url": "https://printables.com/",
+    "desc": "3D models and prints",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "The Internet Encyclopedia of Philosophy",
+    "url": "https://iep.utm.edu/",
+    "desc": "Open access philosophy",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/",
+    "desc": "Philosophy reference",
+    "category": "Knowledge"
+  },
+  {
+    "name": "The Public Domain Review",
+    "url": "https://publicdomainreview.org/",
+    "desc": "Curious artworks in public domain",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Bitcoin Explorer",
+    "url": "https://blockstream.info/",
+    "desc": "Bitcoin blockchain explorer",
+    "category": "Crypto"
+  },
+  {
+    "name": "Etherscan",
+    "url": "https://etherscan.io/",
+    "desc": "Ethereum blockchain explorer",
+    "category": "Crypto"
+  },
+  {
+    "name": "Blockchain.com",
+    "url": "https://www.blockchain.com/explorer",
+    "desc": "Crypto wallet and explorer",
+    "category": "Crypto"
+  },
+  {
+    "name": "CoinGecko",
+    "url": "https://www.coingecko.com/",
+    "desc": "Cryptocurrency prices",
+    "category": "Crypto"
+  },
+  {
+    "name": "CoinMarketCap",
+    "url": "https://coinmarketcap.com/",
+    "desc": "Crypto market data",
+    "category": "Crypto"
+  },
+  {
+    "name": "Crypto Fear & Greed Index",
+    "url": "https://alternative.me/crypto/fear-and-greed-index/",
+    "desc": "Market sentiment tracker",
+    "category": "Crypto"
+  },
+  {
+    "name": "Watchers",
+    "url": "https://www.watchers.bar/",
+    "desc": "Crypto alerts and trackers",
+    "category": "Crypto"
+  },
+  {
+    "name": "Unspent",
+    "url": "https://unspent.app/",
+    "desc": "Bitcoin output tracker",
+    "category": "Crypto"
+  },
+  {
+    "name": "Memrise",
+    "url": "https://www.memrise.com/",
+    "desc": "Learn languages fast",
+    "category": "Learning"
+  },
+  {
+    "name": "Forvo",
+    "url": "https://forvo.com/",
+    "desc": "Pronunciation dictionary",
+    "category": "Learning"
+  },
+  {
+    "name": "Reverso Context",
+    "url": "https://context.reverso.net/",
+    "desc": "Translation with examples",
+    "category": "Learning"
+  },
+  {
+    "name": "Language Transfer",
+    "url": "https://www.languagetransfer.org/",
+    "desc": "Free language courses",
+    "category": "Learning"
+  },
+  {
+    "name": "Glossika",
+    "url": "https://ai.glossika.com/",
+    "desc": "AI language learning",
+    "category": "Learning"
+  },
+  {
+    "name": "Italki",
+    "url": "https://www.italki.com/",
+    "desc": "Language tutors",
+    "category": "Learning"
+  },
+  {
+    "name": "Figma",
+    "url": "https://figma.com/",
+    "desc": "Collaborative design",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Typewolf",
+    "url": "https://www.typewolf.com/",
+    "desc": "Typography resource",
+    "category": "Design"
+  },
+  {
+    "name": "Lucide",
+    "url": "https://lucide.dev/",
+    "desc": "Open source icons",
+    "category": "Design"
+  },
+  {
+    "name": "Feathericons",
+    "url": "https://feathericons.com/",
+    "desc": "Simple icons",
+    "category": "Design"
+  },
+  {
+    "name": "Rawpixel",
+    "url": "https://www.rawpixel.com/",
+    "desc": "Public domain images",
+    "category": "Creative"
+  },
+  {
+    "name": "Old Design Shop",
+    "url": "https://www.olddesignshop.com/",
+    "desc": "Vintage public domain art",
+    "category": "Creative"
+  },
+  {
+    "name": "Sunrise Sunset",
+    "url": "https://sunrise-sunset.org/",
+    "desc": "Sun times worldwide",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Moon Giant",
+    "url": "https://moongiant.com/",
+    "desc": "Moon phase info",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "Space.com",
+    "url": "https://www.space.com/",
+    "desc": "Space and astronomy news",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "In the Sky",
+    "url": "https://in-thesky.org/",
+    "desc": "Astronomy guide",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "Spaceflight Now",
+    "url": "https://spaceflightnow.com/",
+    "desc": "Launch schedule",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "Planet Fox",
+    "url": "https://planet-fox.com/",
+    "desc": "ISS location tracker",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "USGS Earthquake",
+    "url": "https://earthquake.usgs.gov/",
+    "desc": "Real-time earthquake data",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "Volcano Discovery",
+    "url": "https://www.volcanodiscovery.com/",
+    "desc": "Volcano activity",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "NOAA",
+    "url": "https://www.noaa.gov/",
+    "desc": "Weather and ocean data",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "Weather Underground",
+    "url": "https://www.wunderground.com/",
+    "desc": "Weather station network",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "Better Explained",
+    "url": "https://betterexplained.com/",
+    "desc": "Math intuition",
+    "category": "Learning"
+  },
+  {
+    "name": "Math is Fun",
+    "url": "https://www.mathsisfun.com/",
+    "desc": "Fun math learning",
+    "category": "Learning"
+  },
+  {
+    "name": "The Most Dangerous Writing App",
+    "url": "https://www.themostdangerouswritingapp.com/",
+    "desc": "Writing app that deletes",
+    "category": "Creative"
+  },
+  {
+    "name": "Reedsy",
+    "url": "https://reedsy.com/",
+    "desc": "Publishing services",
+    "category": "Creative"
+  },
+  {
+    "name": "Scrivener",
+    "url": "https://www.literatureandlatte.com/scrivener/overview",
+    "desc": "Writing software",
+    "category": "Creative"
+  },
+  {
+    "name": "Overcast",
+    "url": "https://overcast.fm/",
+    "desc": "Podcast app",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "Internet Archive Video",
+    "url": "https://archive.org/details/feature_films",
+    "desc": "Vintage films",
+    "category": "Video & Streaming"
+  },
+  {
+    "name": "Tube Archive",
+    "url": "https://www.tubearchive.me.uk/",
+    "desc": "YouTube backup",
+    "category": "Archives & Preservation"
+  },
+  {
+    "name": "Waymarking",
+    "url": "https://www.waymarking.com/",
+    "desc": "GPS coordinates database",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Endless Horse",
+    "url": "http://endless.horse/",
+    "desc": "Infinite horse",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Is It Christmas",
+    "url": "https://itischris.com/",
+    "desc": "Is it Christmas?",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Cats on the Internet",
+    "url": "http://www.catonmat.net/",
+    "desc": "Cats on the internet",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Falling Gems",
+    "url": "https://fallinggems.com/",
+    "desc": "Visual trick",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Little Big Details",
+    "url": "http://www.littlebigdetails.com/",
+    "desc": "Design inspiration",
+    "category": "Design"
   }
 ];
