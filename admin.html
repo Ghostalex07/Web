@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[-] Aion Admin</title>
+  <style>
+    body {
+      background: #111;
+      color: #888;
+      font-family: monospace;
+      margin: 0;
+      padding: 20px;
+    }
+    a { color: #666; text-decoration: none; }
+    a:hover { color: #999; text-decoration: underline; }
+    h1 { color: #444; font-size: 24px; margin: 0 0 20px 0; }
+    nav { margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #222; }
+    nav a { margin-right: 20px; }
+    .form-box {
+      background: #0a0a0a;
+      border: 1px solid #222;
+      padding: 20px;
+      max-width: 600px;
+    }
+    .form-group { margin-bottom: 15px; }
+    .form-group label { display: block; color: #555; font-size: 12px; margin-bottom: 5px; }
+    .form-group input, .form-group select, .form-group textarea {
+      background: #080808;
+      border: 1px solid #333;
+      color: #888;
+      padding: 10px;
+      width: 100%;
+      font-family: monospace;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none;
+      border-color: #555;
+    }
+    .btn {
+      background: #1a1a1a;
+      color: #888;
+      border: 1px solid #333;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-family: monospace;
+      font-size: 14px;
+    }
+    .btn:hover { background: #222; color: #aaa; }
+    .btn-success { border-color: #355; color: #6a6; }
+    .btn-success:hover { background: #1a2a1a; }
+    .msg { padding: 10px; margin: 10px 0; font-size: 12px; }
+    .msg-success { background: #0a1a0a; border: 1px solid #353; color: #6a6; }
+    .msg-error { background: #1a0a0a; border: 1px solid #533; color: #a66; }
+    .recent { margin-top: 30px; }
+    .recent-item {
+      padding: 10px;
+      background: #0a0a0a;
+      border-left: 2px solid #333;
+      margin-bottom: 8px;
+    }
+    .recent-item .name { color: #777; }
+    .recent-item .url { color: #444; font-size: 11px; }
+    .link-list {
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #222;
+      padding: 10px;
+      background: #080808;
+    }
+    .stats {
+      margin-top: 20px;
+      padding: 15px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+    }
+    .stats-item { color: #555; margin: 5px 0; }
+    .stats-item span { color: #777; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">[HOME]</a>
+    <a href="/links">[LINKS]</a>
+    <a href="/admin">[ADMIN]</a>
+  </nav>
+
+  <h1>[-] Add Link</h1>
+
+  <div class="form-box">
+    <form id="add-link-form">
+      <div class="form-group">
+        <label>Name *</label>
+        <input type="text" id="name" required placeholder="Website name">
+      </div>
+      <div class="form-group">
+        <label>URL *</label>
+        <input type="url" id="url" required placeholder="https://example.com">
+      </div>
+      <div class="form-group">
+        <label>Description</label>
+        <input type="text" id="desc" placeholder="Brief description">
+      </div>
+      <div class="form-group">
+        <label>Category</label>
+        <input type="text" id="category" list="categories" placeholder="Category name">
+        <datalist id="categories">
+          <option value="AI & LLMs">
+          <option value="Alternative Protocols">
+          <option value="Anime & Manga">
+          <option value="Archives & Preservation">
+          <option value="Books">
+          <option value="Creative">
+          <option value="Curated Lists">
+          <option value="Dark Web">
+          <option value="Developer">
+          <option value="Fediverse">
+          <option value="Forums & Communities">
+          <option value="Fun & Games">
+          <option value="Hacking">
+          <option value="Knowledge">
+          <option value="Learning">
+          <option value="Maps & Geo">
+          <option value="Music">
+          <option value="News">
+          <option value="Privacy & Security">
+          <option value="Productivity">
+          <option value="Retro Computing & BBS">
+          <option value="Science & Nature">
+          <option value="Search">
+          <option value="Self-Hosting">
+          <option value="Software & Apps">
+          <option value="Terminal">
+          <option value="Weird Web">
+          <option value="Weird & Interesting">
+        </datalist>
+      </div>
+      <button type="submit" class="btn btn-success">Add Link</button>
+    </form>
+    <div id="message"></div>
+  </div>
+
+  <div class="stats">
+    <div class="stats-item">Total Links: <span id="total-links">-</span></div>
+    <div class="stats-item">Total Categories: <span id="total-cats">-</span></div>
+    <div class="stats-item">API Endpoint: <span>POST /api/links</span></div>
+  </div>
+
+  <div class="recent">
+    <h2 style="color: #555; font-size: 16px;">Recent Links</h2>
+    <div id="recent-list" class="link-list"></div>
+  </div>
+
+  <script>
+    async function loadStats() {
+      const res = await fetch('/api/stats');
+      const data = await res.json();
+      document.getElementById('total-links').textContent = data.total;
+      document.getElementById('total-cats').textContent = data.categories;
+      
+      const recentRes = await fetch('/api/links?limit=10&sort=newest');
+      const recentData = await recentRes.json();
+      document.getElementById('recent-list').innerHTML = recentData.map(link => 
+        `<div class="recent-item">
+          <div class="name">${link.name}</div>
+          <div class="url">${link.category} | ${link.url}</div>
+        </div>`
+      ).join('');
+    }
+
+    document.getElementById('add-link-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const msg = document.getElementById('message');
+      msg.innerHTML = '';
+      
+      const link = {
+        name: document.getElementById('name').value.trim(),
+        url: document.getElementById('url').value.trim(),
+        desc: document.getElementById('desc').value.trim() || '',
+        category: document.getElementById('category').value.trim() || 'Miscellaneous'
+      };
+
+      try {
+        const res = await fetch('/api/links', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(link)
+        });
+        const data = await res.json();
+        
+        if (res.ok) {
+          msg.innerHTML = `<div class="msg msg-success">Link added successfully! (Total: ${data.total} links)</div>`;
+          document.getElementById('add-link-form').reset();
+          loadStats();
+        } else {
+          msg.innerHTML = `<div class="msg msg-error">Error: ${data.error}</div>`;
+        }
+      } catch (err) {
+        msg.innerHTML = `<div class="msg msg-error">Connection error</div>`;
+      }
+    });
+
+    loadStats();
+  </script>
+</body>
+</html>

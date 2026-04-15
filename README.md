@@ -1,12 +1,14 @@
 # Aion - Links Hub
 
-> A cyberpunk-themed links hub. A collection of interesting websites organized by category.
+> A minimalist links hub. A collection of interesting websites organized by category.
 
 ## Project Structure
 
 ```
 Web/
-├── index.html           # Main page (HTML + CSS + inline JS)
+├── index.html           # Main page
+├── admin.html           # Admin page (add links via web)
+├── server.py            # Flask server (optional, for web interface)
 ├── scripts/
 │   ├── manager.py       # Full links manager
 │   ├── add_link.py      # Quick script to add a link
@@ -20,8 +22,9 @@ Web/
 
 1. **`links.json`** - Contains all links in JSON format (source of truth)
 2. **`links.js`** - JS file that loads the links (auto-generated from JSON)
-3. **`index.html`** - Main page that loads everything
-4. **`scripts/`** - Scripts to manage links
+3. **`index.html`** - Main page that displays links
+4. **`admin.html`** - Web interface to add links (requires server.py)
+5. **`server.py`** - Flask server with REST API for adding links
 
 ## Getting Started
 
@@ -31,7 +34,7 @@ git clone https://github.com/Ghostalex07/Web.git
 cd Web
 ```
 
-### 2. Open in browser
+### 2. Open in browser (static)
 ```bash
 # With Python
 python -m http.server 8000
@@ -44,6 +47,19 @@ npx serve
 ```
 
 Then open: `http://localhost:8000`
+
+### 3. Web Server (optional - for adding links via web)
+
+Requires Flask:
+```bash
+pip install flask
+python server.py
+```
+
+Then open:
+- Main page: `http://localhost:5000`
+- Admin page: `http://localhost:5000/admin`
+- API: `http://localhost:5000/api/stats`
 
 ## Adding links
 
@@ -62,7 +78,14 @@ python scripts/add_link.py "GitHub" "https://github.com" "Code hosting" "Develop
 python scripts/manager.py add "Name" "https://url.com" "Description" "Category"
 ```
 
-### Option 3: Edit directly
+### Option 3: Web API (requires server.py running)
+```bash
+curl -X POST http://localhost:5000/api/links \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Example","url":"https://example.com","desc":"Cool site","category":"Weird Web"}'
+```
+
+### Option 4: Edit directly
 Open `links.json` and add:
 ```json
 {
@@ -77,6 +100,16 @@ Then regenerate `links.js`:
 ```bash
 python scripts/manager.py generate
 ```
+
+## API Endpoints (when server.py is running)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/links` | List all links |
+| GET | `/api/links?limit=10&sort=newest` | List with options |
+| POST | `/api/links` | Add new link |
+| GET | `/api/stats` | Get statistics |
+| POST | `/api/deduplicate` | Remove duplicates |
 
 ## Managing links
 
