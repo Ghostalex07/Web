@@ -34300,5 +34300,797 @@
     "url": "https://www.investopedia.com/",
     "desc": "Financial education",
     "category": "Finance"
+  },
+  {
+    "name": "Mineshaft Magazine",
+    "url": "https://mineshaftmagazine.com/",
+    "desc": "Premier underground comics publication featuring R. Crumb, Drew Friedman, and alternative cartoonists since 1999",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Jabberwocky Graphix",
+    "url": "https://www.jabberwockygraphix.com/comics.zines.html",
+    "desc": "Small press comics and zines publisher since 1975",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Mini Comix Co-Op",
+    "url": "http://www.minicomixcoop.com/",
+    "desc": "Distribution network for minicomics created by independent cartoonists",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Comixjoint",
+    "url": "https://www.comixjoint.com/smallpress.html",
+    "desc": "Database and marketplace for small press, minicomics, and alternative comics",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Indie Creator Explosion",
+    "url": "https://indiecreatorexplosion.wordpress.com/",
+    "desc": "Blog showcasing independent comic and zine creators",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Phase Seven Comics",
+    "url": "https://www.phasesevencomics.com/",
+    "desc": "Alec Longstreth's self-published minicomic since 2002",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Scarfff Comics Newspaper",
+    "url": "https://www.scarfff.com/",
+    "desc": "Quarterly artist-run comics newspaper",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Bumperboy",
+    "url": "http://bumperboy.net/",
+    "desc": "Independent minicomic featuring all-ages comics",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Rumi Hara Minicomics",
+    "url": "https://www.rumihara.com/minicomics-zines",
+    "desc": "Artist's minicomics and zines with risograph printing",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Poopsheet Foundation",
+    "url": "https://www.poopsheet.org/",
+    "desc": "Archive and store for minicomics history and distribution",
+    "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "Typewriter Forum",
+    "url": "https://typewriterforum.com/",
+    "desc": "Active community for typewriter collectors with repair tips",
+    "category": "Typewriter Culture"
+  },
+  {
+    "name": "ETCetera",
+    "url": "https://etconline.org/",
+    "desc": "Typewriter community with forums and restoration resources",
+    "category": "Typewriter Culture"
+  },
+  {
+    "name": "Typewriter Talk",
+    "url": "https://typewriter.boardhost.com/",
+    "desc": "Long-running forum for typewriter enthusiasts",
+    "category": "Typewriter Culture"
+  },
+  {
+    "name": "LOUD Punk Records",
+    "url": "http://loudpunk.blogspot.com/",
+    "desc": "DIY punk label from Albany NY",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Sounds of Subterrania",
+    "url": "https://neu.soundsofsubterrania.com/b2b",
+    "desc": "European distributor for underground punk labels",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Punks and Rogues",
+    "url": "https://punksandrogues.com/",
+    "desc": "Underground distro focusing on UK82 and early hardcore",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Bombed Out Records",
+    "url": "https://www.bombedout.com/store/",
+    "desc": "UK DIY punk label since 1998",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Static Shock Records",
+    "url": "https://www.staticshockmusik.com/",
+    "desc": "London-based label specializing in underground punk",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Social Napalm Records",
+    "url": "https://www.socialnapalm.com/store/",
+    "desc": "US-based distro with anarchist and crust punk",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Subterranean Records",
+    "url": "http://subterranean.org/main/home.html",
+    "desc": "Berkeley-based underground label since 1979",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "TNSrecords",
+    "url": "https://tnsrecords.org/",
+    "desc": "Manchester not-for-profit DIY punk label",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "The Counterforce",
+    "url": "https://the-counterforce.org/",
+    "desc": "Anti-corporate capture initiative for hardcore punk",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Havoc Records",
+    "url": "https://www.havocrecords.com/",
+    "desc": "Hardcore punk label and distro from Minneapolis",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Abnegat Records",
+    "url": "https://abnegat-records.com/",
+    "desc": "Hungarian DIY hc punk label and distro",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Distrotable",
+    "url": "https://distrotable.com/",
+    "desc": "DIY hardcore punk distribution platform",
+    "category": "Punk & Hardcore Music"
+  },
+  {
+    "name": "Creepypasta Archive",
+    "url": "https://scp-wiki.wikidot.com/creepy-pasta",
+    "desc": "SCP Foundation's collection of creepypasta horror stories",
+    "category": "Weird Fiction & Liminal Spaces"
+  },
+  {
+    "name": "Liminal Archives",
+    "url": "http://liminal-archives.wikidot.com/",
+    "desc": "Database of liminal space fiction and lore",
+    "category": "Weird Fiction & Liminal Spaces"
+  },
+  {
+    "name": "Liminality Gallery",
+    "url": "https://the-liminality-gallery.neocities.org/",
+    "desc": "Neocities site documenting liminal space lore",
+    "category": "Weird Fiction & Liminal Spaces"
+  },
+  {
+    "name": "Rainy River Homesteaders",
+    "url": "https://rainyriverhomesteaders.com/",
+    "desc": "Real homesteading blog from Northwestern Ontario",
+    "category": "Cottagecore & Homesteading"
+  },
+  {
+    "name": "Little Creek Homestead",
+    "url": "https://littlecreekhomesteading.com/",
+    "desc": "Appalachian homestead with chickens, goats, and bees",
+    "category": "Cottagecore & Homesteading"
+  },
+  {
+    "name": "The Rural Homesteader",
+    "url": "https://theruralhomesteader.com/",
+    "desc": "Guide for rural lifestyle and homemaking",
+    "category": "Cottagecore & Homesteading"
+  },
+  {
+    "name": "Moat Cottage Homesteading",
+    "url": "https://www.elissajayne.com/",
+    "desc": "Australian urban homesteader with YouTube tutorials",
+    "category": "Cottagecore & Homesteading"
+  },
+  {
+    "name": "House Truck Life",
+    "url": "https://housetrucklife.com/",
+    "desc": "Living mortgage-free in custom house trucks",
+    "category": "Tiny House Movement"
+  },
+  {
+    "name": "Element Life",
+    "url": "https://www.elementvanlife.com/",
+    "desc": "Honda Element camper conversion",
+    "category": "Tiny House Movement"
+  },
+  {
+    "name": "The Wayward Home",
+    "url": "https://thewaywardhome.com/",
+    "desc": "Van life, RVing, boat life and tiny homes blog",
+    "category": "Tiny House Movement"
+  },
+  {
+    "name": "Hi I Live In A Van",
+    "url": "https://hiiliveinavan.com/",
+    "desc": "Full-time van dweller with build documentation",
+    "category": "Tiny House Movement"
+  },
+  {
+    "name": "Parked In Paradise",
+    "url": "https://www.parkedinparadise.com/",
+    "desc": "Complete guide to van life and camping",
+    "category": "Tiny House Movement"
+  },
+  {
+    "name": "Tiny Home Making",
+    "url": "https://tinyhomemaking.wordpress.com/",
+    "desc": "Family living in truck house",
+    "category": "Tiny House Movement"
+  },
+  {
+    "name": "So We Bought A Van",
+    "url": "https://www.soweboughtavan.com/",
+    "desc": "Solo female traveler's Transit van build",
+    "category": "Tiny House Movement"
+  },
+  {
+    "name": "Chiltern Open Air Museum",
+    "url": "https://www.coam.org.uk/heritage-crafts",
+    "desc": "UK museum demonstrating heritage crafts",
+    "category": "Traditional Crafts"
+  },
+  {
+    "name": "Homestead Heritage Forge",
+    "url": "https://www.homesteadheritageforge.com/",
+    "desc": "Blacksmithing forge with classes",
+    "category": "Traditional Crafts"
+  },
+  {
+    "name": "Northmen Guild",
+    "url": "https://www.northmen.com/en",
+    "desc": "Master craftsmen guild for traditional woodworking",
+    "category": "Traditional Crafts"
+  },
+  {
+    "name": "Pilgrim Soul Forge",
+    "url": "http://www.grantsforge.com/",
+    "desc": "Hand-forged historic knives",
+    "category": "Traditional Crafts"
+  },
+  {
+    "name": "Wulflund Craft Workshops",
+    "url": "https://wulflund.com/",
+    "desc": "Prague-based historical replicas",
+    "category": "Traditional Crafts"
+  },
+  {
+    "name": "Craft & Forge",
+    "url": "https://www.craftandforgebrand.com/heritage",
+    "desc": "American craft brand from Colonial Williamsburg",
+    "category": "Traditional Crafts"
+  },
+  {
+    "name": "Genesee Country Village",
+    "url": "https://www.gcv.org/historic-trades/",
+    "desc": "Historic trades preservation",
+    "category": "Traditional Crafts"
+  },
+  {
+    "name": "The Wrong Station",
+    "url": "https://wrongstation.com/",
+    "desc": "Award-winning horror fiction podcast anthology",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "The Weird",
+    "url": "https://jointheweird.com/",
+    "desc": "Horror comedy audio drama podcast and TTRPG",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "Limbo Calling",
+    "url": "https://limbotapes.podbean.com/",
+    "desc": "Surreal audio drama as unusual radio reports",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "Syntax Podcast",
+    "url": "https://syntaxpodcast.org/",
+    "desc": "Sci-fi horror audio drama",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "The White Vault",
+    "url": "https://thewhitevault.com/",
+    "desc": "Found footage horror audio drama",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "Campfire Radio Theatre",
+    "url": "https://www.campfireradio.com/",
+    "desc": "Horror stories in classic radio drama style",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "The Bright Sessions",
+    "url": "https://thebrightsessions.com/",
+    "desc": "Therapy for people with supernatural abilities",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "Limetown",
+    "url": "https://limetown.com/",
+    "desc": "Investigative podcast about mysterious disappearance",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "Welcome to Night Vale",
+    "url": "https://nightvale.libsyn.com/",
+    "desc": "Surreal community radio from fictional desert",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "Gray Matter Horror",
+    "url": "https://graymatterhorror.com/",
+    "desc": "Acid horror anthology podcast",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "Audio Fiction UK",
+    "url": "https://audiofiction.co.uk/",
+    "desc": "Database of British fiction podcasts",
+    "category": "Niche Podcasts"
+  },
+  {
+    "name": "WhereNext",
+    "url": "https://getwherenext.com/blog/",
+    "desc": "Data-driven relocation analysis",
+    "category": "Digital Nomad Tools"
+  },
+  {
+    "name": "Remote Tribe",
+    "url": "https://www.remotetribe.life/",
+    "desc": "Digital nomad resources",
+    "category": "Digital Nomad Tools"
+  },
+  {
+    "name": "Remote.co Coliving Guide",
+    "url": "https://remote.co/blog/guide-to-co-living-for-digital-nomads",
+    "desc": "Coliving guide for remote workers",
+    "category": "Digital Nomad Tools"
+  },
+  {
+    "name": "Paglipat",
+    "url": "https://www.paglipat.com/blog/",
+    "desc": "Digital nomad visa comparison",
+    "category": "Digital Nomad Tools"
+  },
+  {
+    "name": "TravlFi",
+    "url": "https://travlfi.com/",
+    "desc": "Digital nomad visa rankings",
+    "category": "Digital Nomad Tools"
+  },
+  {
+    "name": "The Hermetic Library",
+    "url": "https://www.hermetic.com/",
+    "desc": "Comprehensive resource for Western esoteric texts",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "Hermetics.org",
+    "url": "https://www.hermetics.org/home.html",
+    "desc": "Online resources for Hermetic philosophy",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "Light.org",
+    "url": "https://www.light.org/",
+    "desc": "Brotherhood of Light lessons on Hermetic sciences",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "Academy of Hermetic Arts",
+    "url": "https://academyofhermeticarts.org/",
+    "desc": "Online school for Hermetic astrology, alchemy",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "Hermetic Academy Library",
+    "url": "https://www.hermetics.net/",
+    "desc": "Free online library of esoteric texts",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "The Mystica",
+    "url": "https://themystica.org/",
+    "desc": "Encyclopedia of esoteric knowledge since 2001",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "Occult Mysteries",
+    "url": "https://occult-mysteries.org/",
+    "desc": "Ancient wisdom and occult truth",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "Awareness Paradox",
+    "url": "https://www.awarenessparadox.com/",
+    "desc": "Digital temple exploring alchemy and tarot",
+    "category": "Esoteric & Occult"
+  },
+  {
+    "name": "Urban Exploration Photography",
+    "url": "https://www.obsidianurbexphotography.com/",
+    "desc": "Photographer documenting abandoned Soviet locations",
+    "category": "Abandoned Places"
+  },
+  {
+    "name": "Urbex Travel",
+    "url": "https://www.urbex-travel.com/",
+    "desc": "Guide to abandoned locations worldwide",
+    "category": "Abandoned Places"
+  },
+  {
+    "name": "No Camera Bag",
+    "url": "https://nocamerabag.com/blog/",
+    "desc": "Photography at ghost towns including Bodie",
+    "category": "Abandoned Places"
+  },
+  {
+    "name": "Abandoned in 360",
+    "url": "https://abandonedin360.com/",
+    "desc": "360-degree photography of abandoned buildings",
+    "category": "Abandoned Places"
+  },
+  {
+    "name": "Abandoned Wonders",
+    "url": "https://abandonedwonders.com/",
+    "desc": "Photography of abandoned New England",
+    "category": "Abandoned Places"
+  },
+  {
+    "name": "Abandoned Spaces",
+    "url": "https://www.abandonedspaces.com/",
+    "desc": "Industrial decay photography",
+    "category": "Abandoned Places"
+  },
+  {
+    "name": "Grand Duchy of Flandrensis",
+    "url": "https://flandrensis.com/",
+    "desc": "Belgian micronation in the North Sea",
+    "category": "Micronations"
+  },
+  {
+    "name": "MicroWiki",
+    "url": "https://micronations.miraheze.org/",
+    "desc": "Wiki encyclopedia of micronations",
+    "category": "Micronations"
+  },
+  {
+    "name": "Liberland",
+    "url": "https://liberland.org/",
+    "desc": "Micronation claiming unclaimed land",
+    "category": "Micronations"
+  },
+  {
+    "name": "INTERCAL",
+    "url": "http://www.catb.org/esr/intercal/",
+    "desc": "Compiler Language With No Pronounceable Acronym - first esoteric language 1972",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Brainfuck",
+    "url": "https://brainfuck.org/",
+    "desc": "Minimalist 8-command language created in 1993",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Esolang Wiki",
+    "url": "https://esolangs.org/wiki/",
+    "desc": "Database of esoteric programming languages",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Befunge",
+    "url": "https://github.com/catseye/Befunge-93/",
+    "desc": "Two-dimensional esoteric language",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Malbolge",
+    "url": "https://en.wikipedia.org/wiki/Malbolge",
+    "desc": "Designed to be nearly impossible to program",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Shakespeare Programming Language",
+    "url": "http://shakespearelang.org/",
+    "desc": "Programs are Shakespeare plays",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Chef Programming Language",
+    "url": "https://www.mike-harts.com/the-chef-programming-language.html",
+    "desc": "Language where programs are cooking recipes",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "FALSE Language",
+    "url": "https://github.com/axelf4/FALSE/",
+    "desc": "Minimalist stack language that inspired Brainfuck",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Unlambda",
+    "url": "https://github.com/JohnSully/UNLAMBDA/",
+    "desc": "Functional language designed to be confusing",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Ook!",
+    "url": "https://www.mnbvcx.com/ooklanguage.html",
+    "desc": "Brainfuck variant using orangutan sounds",
+    "category": "Lost Programming Languages"
+  },
+  {
+    "name": "Dead Social Networks",
+    "url": "https://en.wikipedia.org/wiki/List_of_social_networking_services",
+    "desc": "Wikipedia list of dead social networks",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Friendster Archive",
+    "url": "https://archive.org/details/friendster",
+    "desc": "Archived Friendster data",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "MySpace Memories",
+    "url": "https://myspacememories.com/",
+    "desc": "Relive MySpace era",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Orkut",
+    "url": "https://www.orkut.com/",
+    "desc": "Google's former social network",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Google Plus",
+    "url": "https://plus.google.com/",
+    "desc": "Google's defunct social network",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Ello",
+    "url": "https://ello.co/",
+    "desc": "Ad-free Facebook alternative",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "App.net",
+    "url": "https://appnet.fandom.com/",
+    "desc": "Paid social network",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "GNU Social",
+    "url": "https://gnu.io/social/",
+    "desc": "Free social networking",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Pump.io",
+    "url": "https:// pump.io/",
+    "desc": "Activity stream server",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Tent.io",
+    "url": "https://tent.io/",
+    "desc": "Open social web",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Superfeedr",
+    "url": "https://superfeedr.com/",
+    "desc": "RSS/ActivityPub",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "StatusNet",
+    "url": "https://www. statusnet.org/",
+    "desc": "Open source social network",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "identica",
+    "url": "https://identica.com/",
+    "desc": "Microblogging network",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "GNU MediaGoblin",
+    "url": "https://mediagoblin.org/",
+    "desc": "Free media sharing",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "LiveJournal",
+    "url": "https://www.livejournal.com/",
+    "desc": "Blogging community",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Blogger",
+    "url": "https://www.blogger.com/",
+    "desc": "Google blogging",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Xanga",
+    "url": "https://www.xanga.com/",
+    "desc": "Early blogging platform",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Vox",
+    "url": "https://www.vox.com/",
+    "desc": "Blogging platform",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Posterous",
+    "url": "https://posterous.com/",
+    "desc": "Dead blogging platform",
+    "category": "Dead Social Networks"
+  },
+  {
+    "name": "Gopher Jewel",
+    "url": "https://gopher://gopher.crystal.ericsingleton.com/",
+    "desc": "Gopher link directory",
+    "category": "Gopher Holes"
+  },
+  {
+    "name": "Fu企鹅",
+    "url": "gopher://gopher.fu-berlin.de/",
+    "desc": "German gopher",
+    "category": "Gopher Holes"
+  },
+  {
+    "name": "Quiche",
+    "url": "gopher://quiche.net/",
+    "desc": "Quiche gopher",
+    "category": "Gopher Holes"
+  },
+  {
+    "name": "Flinger",
+    "url": "gopher://gopher.40hz.net/",
+    "desc": "40Hz gopher",
+    "category": "Gopher Holes"
+  },
+  {
+    "name": "Asteraceae",
+    "url": "gemini://asteracea.space/",
+    "desc": "Gemini capsule",
+    "category": "Gemini Sites"
+  },
+  {
+    "name": "Lobsters Gemini",
+    "url": "gemini://lobste.rs/",
+    "desc": "Tech links on Gemini",
+    "category": "Gemini Sites"
+  },
+  {
+    "name": "warmed by strangers",
+    "url": "gemini://warmedbyastrangers.neocities.org/",
+    "desc": "Personal Gemini site",
+    "category": "Gemini Sites"
+  },
+  {
+    "name": "Hardcoded Life",
+    "url": "gemini://hardcoded.life/",
+    "desc": "Gemini blog",
+    "category": "Gemini Sites"
+  },
+  {
+    "name": "tildegit.org",
+    "url": "https://tildegit.org/",
+    "desc": "Git hosting on tilde",
+    "category": "Small Web"
+  },
+  {
+    "name": "sr.ht",
+    "url": "https://sr.ht/",
+    "desc": "Git forge",
+    "category": "Small Web"
+  },
+  {
+    "name": "ix.io",
+    "url": "http://ix.io/",
+    "desc": "Command line pastebin",
+    "category": "Small Web"
+  },
+  {
+    "name": "clbin",
+    "url": "https://clbin.com/",
+    "desc": "Command line pastebin",
+    "category": "Small Web"
+  },
+  {
+    "name": "HTML Pastebin",
+    "url": "https://htmlpastebin.com/",
+    "desc": "HTML hosting",
+    "category": "Small Web"
+  },
+  {
+    "name": "Tilda",
+    "url": "https://tilda.cc/",
+    "desc": "Website builder",
+    "category": "Small Web"
+  },
+  {
+    "name": "Netlify Drop",
+    "url": "https://app.netlify.com/drop",
+    "desc": "Drag-drop deploy",
+    "category": "Small Web"
+  },
+  {
+    "name": "JSBin",
+    "url": "https://jsbin.com/",
+    "desc": "Code playground",
+    "category": "Small Web"
+  },
+  {
+    "name": "RunKit",
+    "url": "https://runkit.com/",
+    "desc": "Node playground",
+    "category": "Small Web"
+  },
+  {
+    "name": "Regviz",
+    "url": "https://regviz.org/",
+    "desc": "Regex visualizer",
+    "category": "Small Web"
+  },
+  {
+    "name": "txti",
+    "url": "http://txti.es/",
+    "desc": "Quick web pages",
+    "category": "Small Web"
+  },
+  {
+    "name": "Silvr",
+    "url": "https://silvr.us/",
+    "desc": "Anonymous pages",
+    "category": "Small Web"
+  },
+  {
+    "name": "Coda",
+    "url": "https://coda.io/",
+    "desc": "Docs and tables",
+    "category": "Small Web"
+  },
+  {
+    "name": "PmWiki",
+    "url": "https://www.pmwiki.org/",
+    "desc": "Wiki system",
+    "category": "Small Web"
+  },
+  {
+    "name": "XWiki",
+    "url": "https://www.xwiki.org/",
+    "desc": "Advanced wiki",
+    "category": "Small Web"
+  },
+  {
+    "name": "Wikity",
+    "url": "https://wikity.netlify.app/",
+    "desc": "Simple wiki",
+    "category": "Small Web"
   }
 ]
