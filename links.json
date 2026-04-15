@@ -180,12 +180,6 @@
     "category": "Privacy & Security"
   },
   {
-    "name": "Cron Guru",
-    "url": "https://crontab.guru/",
-    "desc": "Cron expression editor",
-    "category": "Privacy & Security"
-  },
-  {
     "name": "DMARC Checker",
     "url": "https://dmarcian.com/dmarc-inspector/",
     "desc": "DMARC record checker",
@@ -297,12 +291,6 @@
     "name": "Geminispace",
     "url": "https://gemini.circumlunar.space/",
     "desc": "Gemini capsule directory",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "GnuPG",
-    "url": "https://gnupg.org/",
-    "desc": "OpenPGP implementation",
     "category": "Privacy & Security"
   },
   {
@@ -882,18 +870,6 @@
     "category": "Email & Messaging"
   },
   {
-    "name": "Guerrilla Mail",
-    "url": "https://guerrillamail.com/",
-    "desc": "Disposable email",
-    "category": "Email & Messaging"
-  },
-  {
-    "name": "Have I Been Pwned",
-    "url": "https://haveibeenpwned.com/",
-    "desc": "Check email breaches",
-    "category": "Email & Messaging"
-  },
-  {
     "name": "Hey",
     "url": "https://hey.com/",
     "desc": "Email designed for security",
@@ -942,12 +918,6 @@
     "category": "Email & Messaging"
   },
   {
-    "name": "Rocket.Chat",
-    "url": "https://rocket.chat/",
-    "desc": "Team communication",
-    "category": "Email & Messaging"
-  },
-  {
     "name": "Runbox",
     "url": "https://runbox.com/",
     "desc": "Norwegian email",
@@ -963,12 +933,6 @@
     "name": "SimpleX",
     "url": "https://simplex.chat/",
     "desc": "Next-gen secure messaging",
-    "category": "Email & Messaging"
-  },
-  {
-    "name": "Simplelogin",
-    "url": "https://simplelogin.io/",
-    "desc": "Email alias provider",
     "category": "Email & Messaging"
   },
   {
@@ -1062,12 +1026,6 @@
     "category": "VPN & Networking"
   },
   {
-    "name": "Gemini",
-    "url": "https://gemini.circumlunar.space/",
-    "desc": "Simple internet protocol",
-    "category": "VPN & Networking"
-  },
-  {
     "name": "Gopher",
     "url": "https://gopher.floodgap.com/",
     "desc": "Classic protocol",
@@ -1153,12 +1111,6 @@
   },
   {
     "name": "Tailscale",
-    "url": "https://tailscale.com/",
-    "desc": "Zero-config VPN",
-    "category": "VPN & Networking"
-  },
-  {
-    "name": "Tailscale Funnel",
     "url": "https://tailscale.com/",
     "desc": "Zero-config VPN",
     "category": "VPN & Networking"
@@ -1344,19 +1296,7 @@
     "category": "Programming & Dev"
   },
   {
-    "name": "Atcoder",
-    "url": "https://atcoder.jp/",
-    "desc": "Japanese competitive",
-    "category": "Programming & Dev"
-  },
-  {
     "name": "Automate Boring",
-    "url": "https://automatetheboringstuff.com/",
-    "desc": "Python automation",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Automate the Boring",
     "url": "https://automatetheboringstuff.com/",
     "desc": "Python automation",
     "category": "Programming & Dev"
@@ -2046,12 +1986,6 @@
     "category": "Programming & Dev"
   },
   {
-    "name": "JavaScript Info",
-    "url": "https://javascript.info/",
-    "desc": "Modern JS tutorial",
-    "category": "Programming & Dev"
-  },
-  {
     "name": "Jest",
     "url": "https://jestjs.io/",
     "desc": "JavaScript testing",
@@ -2112,12 +2046,6 @@
     "category": "Programming & Dev"
   },
   {
-    "name": "Learn Git",
-    "url": "https://learngitbranching.js.org/",
-    "desc": "Git tutorial",
-    "category": "Programming & Dev"
-  },
-  {
     "name": "Learn Vim",
     "url": "https://www.vim.org/",
     "desc": "Vim tutorial",
@@ -2148,12 +2076,6 @@
     "category": "Programming & Dev"
   },
   {
-    "name": "Mermaid Live",
-    "url": "https://mermaid.live/",
-    "desc": "Diagrams as code",
-    "category": "Programming & Dev"
-  },
-  {
     "name": "Mimo",
     "url": "https://mimo.org/",
     "desc": "Coding app",
@@ -2163,12 +2085,6 @@
     "name": "Mocha",
     "url": "https://mochajs.org/",
     "desc": "JavaScript test framework",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Nand2Tetris",
-    "url": "https://www.nand2tetris.org/",
-    "desc": "Build a computer",
     "category": "Programming & Dev"
   },
   {
@@ -2211,12 +2127,6 @@
     "name": "Node Forum",
     "url": "https://nodejs.org/",
     "desc": "Node.js community",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Node.js",
-    "url": "https://nodejs.org/",
-    "desc": "JavaScript runtime",
     "category": "Programming & Dev"
   },
   {
@@ -2451,12 +2361,6 @@
     "name": "Regex Crossword",
     "url": "https://regexcrossword.com/",
     "desc": "Regex puzzles",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "RegexOne",
-    "url": "https://regexone.com/",
-    "desc": "Regex tutorial",
     "category": "Programming & Dev"
   },
   {
@@ -2853,12 +2757,6 @@
     "name": "AFFiNE",
     "url": "https://affine.pro/",
     "desc": "Next-gen knowledge base",
-    "category": "Self-Hosted & Homelab"
-  },
-  {
-    "name": "AdGuard Home",
-    "url": "https://adguard.com/",
-    "desc": "Network-wide ad blocking",
     "category": "Self-Hosted & Homelab"
   },
   {
@@ -3654,12 +3552,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "DEV Community",
-    "url": "https://dev.to/",
-    "desc": "Dev community",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Danbooru",
     "url": "https://danbooru.donmai.us/",
     "desc": "Image board",
@@ -3675,12 +3567,6 @@
     "name": "Deponia",
     "url": "https://depvana.com/",
     "desc": "Imageboard",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Dev.to",
-    "url": "https://dev.to/",
-    "desc": "Developer community",
     "category": "Forums & Communities"
   },
   {
@@ -3828,21 +3714,9 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Lemmyverse",
-    "url": "https://join-lemmy.org/",
-    "desc": "Federated Reddit alternative",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Lobste.rs",
     "url": "https://lobste.rs/",
     "desc": "Invited tech discussion",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Lobsters",
-    "url": "https://lobste.rs/",
-    "desc": "Computing-focused link aggregation",
     "category": "Forums & Communities"
   },
   {
@@ -3993,12 +3867,6 @@
     "name": "Sankaku Complex",
     "url": "https://chan.sankakucomplex.com/",
     "desc": "Anime art board",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Searxng",
-    "url": "https://searxng.org/",
-    "desc": "Privacy-respecting search",
     "category": "Forums & Communities"
   },
   {
@@ -4566,12 +4434,6 @@
     "category": "Retro Computing & BBS"
   },
   {
-    "name": "WinWorld",
-    "url": "https://winworldpc.com/",
-    "desc": "Software preservation for vintage computers",
-    "category": "Retro Computing & BBS"
-  },
-  {
     "name": "absinthe BBS",
     "url": "https://absinthebbs.net/",
     "desc": "One of the best BBSes",
@@ -4920,12 +4782,6 @@
     "category": "Gaming & Emulation"
   },
   {
-    "name": "My Abandonware",
-    "url": "https://www.myabandonware.com/",
-    "desc": "Old games downloads",
-    "category": "Gaming & Emulation"
-  },
-  {
     "name": "NESWORLD",
     "url": "https://nesworld.com/",
     "desc": "Nintendo fan site, 30 years online!",
@@ -5040,12 +4896,6 @@
     "category": "Gaming & Emulation"
   },
   {
-    "name": "Regex Cross",
-    "url": "https://regexcrossword.com/",
-    "desc": "Regex crossword puzzles",
-    "category": "Gaming & Emulation"
-  },
-  {
     "name": "Ryujinx",
     "url": "https://ryujinx.org/",
     "desc": "Switch emulator",
@@ -5109,12 +4959,6 @@
     "name": "Untrusted",
     "url": "https://alexnisnevich.github.io/untrusted/",
     "desc": "JavaScript puzzle game",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Untrusted Game",
-    "url": "https://alexnisnevich.github.io/untrusted/",
-    "desc": "JavaScript puzzle",
     "category": "Gaming & Emulation"
   },
   {
@@ -5304,12 +5148,6 @@
     "category": "Anime & Manga"
   },
   {
-    "name": "Animepahe",
-    "url": "https://animepahe.com/",
-    "desc": "Anime streaming",
-    "category": "Anime & Manga"
-  },
-  {
     "name": "Anime水位",
     "url": "https://anime水位.net/",
     "desc": "Anime watching together",
@@ -5478,21 +5316,9 @@
     "category": "Anime & Manga"
   },
   {
-    "name": "KawAnime",
-    "url": "https://kawanime.netlify.app/",
-    "desc": "Anime streaming",
-    "category": "Anime & Manga"
-  },
-  {
     "name": "Kickass Anime",
     "url": "https://kickassanime.io/",
     "desc": "Anime streaming",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Kitsu",
-    "url": "https://kitsu.io/",
-    "desc": "Anime/Manga",
     "category": "Anime & Manga"
   },
   {
@@ -5571,12 +5397,6 @@
     "name": "Moonlight Mile",
     "url": "https://myanimelist.net/manga/681/",
     "desc": "Struggle in space manga",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "MyAnimeList",
-    "url": "https://myanimelist.net/",
-    "desc": "Anime database",
     "category": "Anime & Manga"
   },
   {
@@ -5670,12 +5490,6 @@
     "category": "Anime & Manga"
   },
   {
-    "name": "Sankaku",
-    "url": "https://chan.sankakucomplex.com/",
-    "desc": "Anime imageboard",
-    "category": "Anime & Manga"
-  },
-  {
     "name": "SauceNAO",
     "url": "https://saucenao.com/",
     "desc": "Anime/image reverse search",
@@ -5755,12 +5569,6 @@
   },
   {
     "name": "Yande.re",
-    "url": "https://yande.re/",
-    "desc": "High quality anime",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Yandere",
     "url": "https://yande.re/",
     "desc": "High quality anime",
     "category": "Anime & Manga"
@@ -5916,12 +5724,6 @@
     "category": "Books & Fiction"
   },
   {
-    "name": "Eloquent JS",
-    "url": "https://eloquentjavascript.net/",
-    "desc": "JS textbook",
-    "category": "Books & Fiction"
-  },
-  {
     "name": "Fantasy Writers",
     "url": "https://www.fantasywriters.net/",
     "desc": "Fantasy community",
@@ -6036,21 +5838,9 @@
     "category": "Books & Fiction"
   },
   {
-    "name": "Operating Systems Book",
-    "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
-    "desc": "OS textbook online",
-    "category": "Books & Fiction"
-  },
-  {
     "name": "PDFDrive",
     "url": "https://www.pdfdrive.com/",
     "desc": "PDF search",
-    "category": "Books & Fiction"
-  },
-  {
-    "name": "Project Gutenberg",
-    "url": "https://www.gutenberg.org/",
-    "desc": "Public domain books",
     "category": "Books & Fiction"
   },
   {
@@ -6171,12 +5961,6 @@
     "name": "Airwindows",
     "url": "http://www.airwindows.com/",
     "desc": "Free audio plugins",
-    "category": "Music"
-  },
-  {
-    "name": "Ardour",
-    "url": "https://ardour.org/",
-    "desc": "Digital audio workstation",
     "category": "Music"
   },
   {
@@ -6504,12 +6288,6 @@
     "category": "Video & Streaming"
   },
   {
-    "name": "Css Zen Garden",
-    "url": "https://www.csszengarden.com/",
-    "desc": "CSS showcase",
-    "category": "Video & Streaming"
-  },
-  {
     "name": "FFmpeg",
     "url": "https://ffmpeg.org/",
     "desc": "Multimedia framework",
@@ -6606,12 +6384,6 @@
     "category": "Video & Streaming"
   },
   {
-    "name": "Tube Archivist",
-    "url": "https://tubearchivist.com/",
-    "desc": "YouTube archivist",
-    "category": "Video & Streaming"
-  },
-  {
     "name": "Watch2Gether",
     "url": "https://w2g.tv/",
     "desc": "Watch videos together",
@@ -6696,12 +6468,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "Archive.org Games",
-    "url": "https://archive.org/details/internetarcade",
-    "desc": "Browser arcade games",
-    "category": "Weird Web"
-  },
-  {
     "name": "Asciinema",
     "url": "https://asciinema.org/",
     "desc": "Terminal recordings",
@@ -6723,12 +6489,6 @@
     "name": "Baba Is You",
     "url": "https://hempuli.itch.io/baba-is-you",
     "desc": "Word puzzle game",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Baba is You",
-    "url": "https://hempuli.itch.io/baba-is-you",
-    "desc": "Word puzzle",
     "category": "Weird Web"
   },
   {
@@ -6765,12 +6525,6 @@
     "name": "Bored Button",
     "url": "https://boredbutton.com/",
     "desc": "Random weird sites",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Browserleaks",
-    "url": "https://browserleaks.com/",
-    "desc": "Privacy test",
     "category": "Weird Web"
   },
   {
@@ -6867,12 +6621,6 @@
     "name": "Crypto Faucet",
     "url": "https://freebitco.in/",
     "desc": "Bitcoin faucet",
-    "category": "Weird Web"
-  },
-  {
-    "name": "DBFiddle",
-    "url": "https://www.db-fiddle.com/",
-    "desc": "SQL database fiddle",
     "category": "Weird Web"
   },
   {
@@ -7014,18 +6762,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "Fake Name",
-    "url": "https://fakena.me/",
-    "desc": "Generate fake identities",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Fake Store",
-    "url": "https://fakestoreapi.com/",
-    "desc": "Fake e-commerce API",
-    "category": "Weird Web"
-  },
-  {
     "name": "Fake Update",
     "url": "https://fakeupdate.net/",
     "desc": "Fake OS update screens",
@@ -7149,12 +6885,6 @@
     "name": "Geocaching",
     "url": "https://www.geocaching.com/",
     "desc": "GPS treasure hunt",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Git School",
-    "url": "https://git-school.github.io/visualizing-git/",
-    "desc": "Git visualizer",
     "category": "Weird Web"
   },
   {
@@ -7314,12 +7044,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "JPEG.rocks",
-    "url": "https://jpeg.rocks/",
-    "desc": "Privacy image compressor",
-    "category": "Weird Web"
-  },
-  {
     "name": "JSONLint",
     "url": "https://jsonlint.com/",
     "desc": "JSON validator",
@@ -7383,12 +7107,6 @@
     "name": "Lorem Markdown",
     "url": "https://jaspervdj.be/lorem-markdownum/",
     "desc": "Markdown lorem ipsum",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Lorempixel",
-    "url": "https://loremflickr.com/",
-    "desc": "Random images",
     "category": "Weird Web"
   },
   {
@@ -7530,12 +7248,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "Open PGP",
-    "url": "https://keys.openpgp.org/",
-    "desc": "Search and upload PGP keys",
-    "category": "Weird Web"
-  },
-  {
     "name": "Outer Wilds",
     "url": "https://www.mobiusdigital.com/",
     "desc": "Space exploration",
@@ -7561,12 +7273,6 @@
   },
   {
     "name": "Paper Sizes",
-    "url": "https://papersizes.io/",
-    "desc": "Paper dimension database",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Paper sizes",
     "url": "https://papersizes.io/",
     "desc": "Paper dimension database",
     "category": "Weird Web"
@@ -7620,12 +7326,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "Picsum Photos",
-    "url": "https://picsum.photos/",
-    "desc": "Random placeholder images",
-    "category": "Weird Web"
-  },
-  {
     "name": "Picular",
     "url": "https://picular.co/",
     "desc": "Color search engine",
@@ -7653,12 +7353,6 @@
     "name": "Pixel Noise",
     "url": "https://pixelnoise.io/",
     "desc": "Generative pixel art",
-    "category": "Weird Web"
-  },
-  {
-    "name": "PixelJoint",
-    "url": "http://pixeljoint.com/",
-    "desc": "Pixel art gallery",
     "category": "Weird Web"
   },
   {
@@ -7764,12 +7458,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "Random User API",
-    "url": "https://randomuser.me/",
-    "desc": "Fake user data API",
-    "category": "Weird Web"
-  },
-  {
     "name": "Redis Playground",
     "url": "https://redis.io/playground/",
     "desc": "Try Redis",
@@ -7809,12 +7497,6 @@
     "name": "Rock Paper Scissors",
     "url": "https://rps.glitch.me/",
     "desc": "Online RPS",
-    "category": "Weird Web"
-  },
-  {
-    "name": "SDF Wiki",
-    "url": "https://sdf.org/",
-    "desc": "SDF wiki",
     "category": "Weird Web"
   },
   {
@@ -7968,18 +7650,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "Stevens Gallery",
-    "url": "https://www.stevensegallery.com/",
-    "desc": "Steven Seagal images",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Street View",
-    "url": "https://streetlevel.app/",
-    "desc": "Explore street view history",
-    "category": "Weird Web"
-  },
-  {
     "name": "Strobe",
     "url": "https://strobe.cool/",
     "desc": "Visual experiment",
@@ -8025,12 +7695,6 @@
     "name": "Text Fixer",
     "url": "https://www.textfixer.com/",
     "desc": "Text tools",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Textise",
-    "url": "https://textise.net/",
-    "desc": "Text-only version of any page",
     "category": "Weird Web"
   },
   {
@@ -8274,12 +7938,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "YAMLLint",
-    "url": "https://www.yamllint.com/",
-    "desc": "YAML validator",
-    "category": "Weird Web"
-  },
-  {
     "name": "Zen Dog",
     "url": "https://www.zendog.org/",
     "desc": "Meditate with a dog",
@@ -8472,12 +8130,6 @@
     "category": "AI & LLMs"
   },
   {
-    "name": "Matrix Rain",
-    "url": "https://matrix.joleksy.pl/",
-    "desc": "Matrix effect",
-    "category": "AI & LLMs"
-  },
-  {
     "name": "Midjourney",
     "url": "https://www.midjourney.com/",
     "desc": "AI art",
@@ -8538,21 +8190,9 @@
     "category": "AI & LLMs"
   },
   {
-    "name": "SaidIt",
-    "url": "https://saidit.net/",
-    "desc": "Reddit alternative, uncensored",
-    "category": "AI & LLMs"
-  },
-  {
     "name": "ShellGPT",
     "url": "https://github.com/TheR1D/shell_gpt",
     "desc": "AI for command line",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "Software Library",
-    "url": "https://archive.org/details/softwarelibrary",
-    "desc": "Old software",
     "category": "AI & LLMs"
   },
   {
@@ -8586,12 +8226,6 @@
     "category": "AI & LLMs"
   },
   {
-    "name": "TextGen",
-    "url": "https://github.com/oobabooga/text-generation-webui",
-    "desc": "LLM web UI",
-    "category": "AI & LLMs"
-  },
-  {
     "name": "Vast.ai",
     "url": "https://vast.ai/",
     "desc": "GPU marketplace",
@@ -8607,12 +8241,6 @@
     "name": "16colo.rs",
     "url": "https://16colo.rs/",
     "desc": "ANSI art archive",
-    "category": "OS & Distros"
-  },
-  {
-    "name": "ASCII UK",
-    "url": "https://ascii.co.uk/",
-    "desc": "ASCII art archive",
     "category": "OS & Distros"
   },
   {
@@ -8658,12 +8286,6 @@
     "category": "OS & Distros"
   },
   {
-    "name": "Dehashed",
-    "url": "https://dehashed.com/",
-    "desc": "Database breach search",
-    "category": "OS & Distros"
-  },
-  {
     "name": "DietPi",
     "url": "https://dietpi.com/",
     "desc": "Optimized for single-board computers",
@@ -8700,12 +8322,6 @@
     "category": "OS & Distros"
   },
   {
-    "name": "Internet Archive",
-    "url": "https://archive.org/",
-    "desc": "Digital library of everything",
-    "category": "OS & Distros"
-  },
-  {
     "name": "Library of Congress",
     "url": "https://www.loc.gov/",
     "desc": "National archives",
@@ -8715,12 +8331,6 @@
     "name": "Linux Mint",
     "url": "https://linuxmint.com/",
     "desc": "Ubuntu for beginners",
-    "category": "OS & Distros"
-  },
-  {
-    "name": "Marginalia",
-    "url": "https://memex.marginalia.nu/",
-    "desc": "Search the old web",
     "category": "OS & Distros"
   },
   {
@@ -8763,12 +8373,6 @@
     "name": "PostmarketOS",
     "url": "https://postmarketos.org/",
     "desc": "Linux for phones",
-    "category": "OS & Distros"
-  },
-  {
-    "name": "SDF Public Access",
-    "url": "https://sdf.org/",
-    "desc": "Classic Unix shell",
     "category": "OS & Distros"
   },
   {
@@ -8850,12 +8454,6 @@
     "category": "Maps & Geo"
   },
   {
-    "name": "GeoCaching",
-    "url": "https://www.geocaching.com/",
-    "desc": "GPS treasure hunt",
-    "category": "Maps & Geo"
-  },
-  {
     "name": "GeoGebra",
     "url": "https://www.geogebra.org/",
     "desc": "Math software",
@@ -8874,12 +8472,6 @@
     "category": "Maps & Geo"
   },
   {
-    "name": "Old Maps",
-    "url": "https://www.oldmapsonline.org/",
-    "desc": "Historical maps search",
-    "category": "Maps & Geo"
-  },
-  {
     "name": "Satellite",
     "url": "https://satellite.moe/",
     "desc": "View Earth from satellites",
@@ -8889,12 +8481,6 @@
     "name": "Streetlevel",
     "url": "https://streetlevel.org/",
     "desc": "Explore street view history",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Wikimapia",
-    "url": "https://wikimapia.org/",
-    "desc": "Edit Google Earth descriptions",
     "category": "Maps & Geo"
   },
   {
@@ -8937,12 +8523,6 @@
     "name": "EdOps",
     "url": "https://edops.net/",
     "desc": "Encryption and privacy guide",
-    "category": "Learning"
-  },
-  {
-    "name": "ExplainShell",
-    "url": "https://explainshell.com/",
-    "desc": "Parse shell commands",
     "category": "Learning"
   },
   {
@@ -9012,12 +8592,6 @@
     "category": "Learning"
   },
   {
-    "name": "ShellCheck",
-    "url": "https://www.shellcheck.net/",
-    "desc": "Static analysis for shell scripts",
-    "category": "Learning"
-  },
-  {
     "name": "Soldering is Easy",
     "url": "http://mightyohm.com/blog/comic/soldering-is-easy/",
     "desc": "Learn to solder comic",
@@ -9027,12 +8601,6 @@
     "name": "TLDR Pages",
     "url": "https://tldr.sh/",
     "desc": "Simplified man pages",
-    "category": "Learning"
-  },
-  {
-    "name": "Z-Lib",
-    "url": "https://z-library.is/",
-    "desc": "Book search",
     "category": "Learning"
   },
   {
@@ -9066,21 +8634,9 @@
     "category": "Design"
   },
   {
-    "name": "Dafont",
-    "url": "https://www.dafont.com/",
-    "desc": "Font archive",
-    "category": "Design"
-  },
-  {
     "name": "Font in Use",
     "url": "https://fontsinuse.com/",
     "desc": "Fonts in real world",
-    "category": "Design"
-  },
-  {
-    "name": "FontPair",
-    "url": "https://fontpair.co/",
-    "desc": "Font pairing ideas",
     "category": "Design"
   },
   {
@@ -9093,18 +8649,6 @@
     "name": "KiCad",
     "url": "https://www.kicad.org/",
     "desc": "Circuit design",
-    "category": "Design"
-  },
-  {
-    "name": "Lorem Picsum",
-    "url": "https://picsum.photos/",
-    "desc": "Placeholder images",
-    "category": "Design"
-  },
-  {
-    "name": "OBS",
-    "url": "https://obsproject.com/",
-    "desc": "Video recording and streaming",
     "category": "Design"
   },
   {
@@ -9174,12 +8718,6 @@
     "category": "Design"
   },
   {
-    "name": "TinyPNG",
-    "url": "https://tinypng.com/",
-    "desc": "Image compressor",
-    "category": "Design"
-  },
-  {
     "name": "TuxGuitar",
     "url": "https://tuxguitar.com/",
     "desc": "Guitar tablature",
@@ -9189,18 +8727,6 @@
     "name": "Unsplash",
     "url": "https://unsplash.com/",
     "desc": "Free photos",
-    "category": "Design"
-  },
-  {
-    "name": "WebAIM",
-    "url": "https://webaim.org/",
-    "desc": "Accessibility resources",
-    "category": "Design"
-  },
-  {
-    "name": "Zoomquilt",
-    "url": "https://zoomquilt.org/",
-    "desc": "Infinite zoom artwork",
     "category": "Design"
   },
   {
@@ -9474,12 +9000,6 @@
     "category": "Frontend"
   },
   {
-    "name": "React",
-    "url": "https://react.dev/",
-    "desc": "UI library",
-    "category": "Frontend"
-  },
-  {
     "name": "Redwood",
     "url": "https://redwoodjs.com/",
     "desc": "Full-stack framework",
@@ -9669,12 +9189,6 @@
     "name": "OpenSUSE Docs",
     "url": "https://doc.opensuse.org/",
     "desc": "OpenSUSE documentation",
-    "category": "Unix & Linux"
-  },
-  {
-    "name": "Shell Functions",
-    "url": "https://www.shellcheck.net/",
-    "desc": "Shell script linter",
     "category": "Unix & Linux"
   },
   {
@@ -10356,12 +9870,6 @@
     "category": "Directories"
   },
   {
-    "name": "Dmoz",
-    "url": "https://dmoz-odp.org/",
-    "desc": "Web directory",
-    "category": "Directories"
-  },
-  {
     "name": "GoPKG",
     "url": "https://pkg.go.dev/",
     "desc": "Go packages",
@@ -10716,12 +10224,6 @@
     "category": "Hacking"
   },
   {
-    "name": "Hacker Typer",
-    "url": "https://hackertyper.net/",
-    "desc": "Type like a hacker",
-    "category": "Hacking"
-  },
-  {
     "name": "Hastebin",
     "url": "https://hastebin.com/",
     "desc": "Code sharing",
@@ -10866,12 +10368,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "NVD NIST",
-    "url": "https://nvd.nist.gov/",
-    "desc": "Vulnerability database",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "National CVE",
     "url": "https://www.cve.org/",
     "desc": "Vulnerability database",
@@ -11001,12 +10497,6 @@
     "name": "Linux Weekly",
     "url": "https://lwn.net/",
     "desc": "Linux news",
-    "category": "Tech News"
-  },
-  {
-    "name": "Lobste",
-    "url": "https://lobste.rs/",
-    "desc": "Computing links",
     "category": "Tech News"
   },
   {
@@ -11166,12 +10656,6 @@
     "category": "Alt Frontends"
   },
   {
-    "name": "0x0.st",
-    "url": "https://0x0.st/",
-    "desc": "Minimal file hosting",
-    "category": "Paste & Files"
-  },
-  {
     "name": "DPaste",
     "url": "https://dpaste.com/",
     "desc": "Code pastebin",
@@ -11181,12 +10665,6 @@
     "name": "File.io",
     "url": "https://file.io/",
     "desc": "Ephemeral file sharing",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "FileBin",
-    "url": "https://filebin.net/",
-    "desc": "Temporary file bin",
     "category": "Paste & Files"
   },
   {
@@ -11262,12 +10740,6 @@
     "category": "No-Code"
   },
   {
-    "name": "Appwrite Flow",
-    "url": "https://appwrite.io/",
-    "desc": "Backend platform",
-    "category": "No-Code"
-  },
-  {
     "name": "Baserow",
     "url": "https://baserow.io/",
     "desc": "No-code database",
@@ -11301,12 +10773,6 @@
     "name": "Make",
     "url": "https://www.make.com/",
     "desc": "Automation platform",
-    "category": "No-Code"
-  },
-  {
-    "name": "N8N",
-    "url": "https://n8n.io/",
-    "desc": "Workflow automation",
     "category": "No-Code"
   },
   {
@@ -11376,12 +10842,6 @@
     "category": "Open Source"
   },
   {
-    "name": "DiceBear",
-    "url": "https://www.dicebear.com/",
-    "desc": "Avatar placeholder API",
-    "category": "Open Source"
-  },
-  {
     "name": "Fedi App",
     "url": "https://fedi-app.xyz/",
     "desc": "Fediverse apps list",
@@ -11406,12 +10866,6 @@
     "category": "Open Source"
   },
   {
-    "name": "Link Shortener",
-    "url": "https://linkstack.org/",
-    "desc": "Link shortener",
-    "category": "Open Source"
-  },
-  {
     "name": "OSS Watch",
     "url": "https://osswatch.org/",
     "desc": "Open source guidance",
@@ -11427,12 +10881,6 @@
     "name": "Pixel",
     "url": "https://pixel.social/",
     "desc": "Instagram alternative",
-    "category": "Open Source"
-  },
-  {
-    "name": "Privacy Guides",
-    "url": "https://privacyguides.org/",
-    "desc": "Privacy recommendations",
     "category": "Open Source"
   },
   {
@@ -11658,12 +11106,6 @@
     "category": "Legal"
   },
   {
-    "name": "GNU",
-    "url": "https://www.gnu.org/",
-    "desc": "GNU Project",
-    "category": "Legal"
-  },
-  {
     "name": "Groklaw",
     "url": "https://www.groklaw.net/",
     "desc": "Legal tech news",
@@ -11754,12 +11196,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "Any.Run",
-    "url": "https://any.run/",
-    "desc": "Interactive malware analysis",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Archive.ph",
     "url": "https://archive.ph/",
     "desc": "Save pages forever",
@@ -11769,12 +11205,6 @@
     "name": "Auditd",
     "url": "https://people.redhat.com/sgrubb/audit/",
     "desc": "Linux audit daemon",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Aurora Forecast",
-    "url": "https://www.aurora-service.eu/aurora-forecast/",
-    "desc": "Northern lights",
     "category": "Miscellaneous"
   },
   {
@@ -11838,12 +11268,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "Cloudflare Speed",
-    "url": "https://speed.cloudflare.com/",
-    "desc": "Speed test",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Connections Clone",
     "url": "https://connections.proxivite.com/",
     "desc": "NYT Connections clone",
@@ -11871,18 +11295,6 @@
     "name": "DNS Checker",
     "url": "https://dnschecker.org/",
     "desc": "Global DNS propagation",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "DNS Leak Test",
-    "url": "https://dnsleaktest.com/",
-    "desc": "DNS leak test",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "DWM",
-    "url": "https://dwm.suckless.org/",
-    "desc": "Dynamic window manager",
     "category": "Miscellaneous"
   },
   {
@@ -11922,12 +11334,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "Dialup Mo",
-    "url": "https://dialup.moe/",
-    "desc": "Internet art and culture",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Discogs",
     "url": "https://www.discogs.com/",
     "desc": "Vinyl database",
@@ -11937,12 +11343,6 @@
     "name": "Disroot",
     "url": "https://disroot.org/",
     "desc": "Ethical online services",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Down For Everyone",
-    "url": "https://downforeveryoneorjustme.com/",
-    "desc": "Check if site is down",
     "category": "Miscellaneous"
   },
   {
@@ -11988,18 +11388,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "Fake Name Gen",
-    "url": "https://fakena.me/",
-    "desc": "Generate fake identities",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Fast.com",
-    "url": "https://fast.com/",
-    "desc": "Netflix speed test",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Flappy Bird",
     "url": "https://flappybird.io/",
     "desc": "Flappy Bird clones",
@@ -12033,18 +11421,6 @@
     "name": "GPUHash",
     "url": "https://gpuhash.me/",
     "desc": "Hash cracking with GPU",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Gemini Project",
-    "url": "https://gemini.circumlunar.space/",
-    "desc": "Alternative internet protocol",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Gemini Protocol",
-    "url": "https://gemini.circumlunar.space/",
-    "desc": "New internet protocol",
     "category": "Miscellaneous"
   },
   {
@@ -12090,19 +11466,7 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "IP Leak",
-    "url": "https://ipleak.net/",
-    "desc": "IP leak test",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "IPFS",
-    "url": "https://ipfs.io/",
-    "desc": "InterPlanetary File System",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "IPFS Gateway",
     "url": "https://ipfs.io/",
     "desc": "InterPlanetary File System",
     "category": "Miscellaneous"
@@ -12117,18 +11481,6 @@
     "name": "ISS Tracker",
     "url": "https://www.iss-foto.de/",
     "desc": "ISS photos",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "In The Sky",
-    "url": "https://in-the-sky.org/",
-    "desc": "Astronomy events",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Is It Christmas",
-    "url": "https://isitchristmas.com/",
-    "desc": "Is it Christmas?",
     "category": "Miscellaneous"
   },
   {
@@ -12216,12 +11568,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "Long Doge",
-    "url": "https://longdogechallenge.com/",
-    "desc": "Very long dog image",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Lynis",
     "url": "https://cisofy.com/lynis/",
     "desc": "Security auditing",
@@ -12294,18 +11640,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "Open Graph Preview",
-    "url": "https://www.opengraph.xyz/",
-    "desc": "OG preview",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Open Vim",
-    "url": "https://www.openvim.com/",
-    "desc": "Interactive Vim",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "OpenSCAD",
     "url": "https://openscad.org/",
     "desc": "3D CAD",
@@ -12327,12 +11661,6 @@
     "name": "PipeRingo",
     "url": "https://piperinge.veselinkichkov.com/",
     "desc": "IFTTT alternative for iOS",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Pixel Art Maker",
-    "url": "https://pixelart.me/",
-    "desc": "Create pixel art",
     "category": "Miscellaneous"
   },
   {
@@ -12378,12 +11706,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "RemoveBG",
-    "url": "https://www.remove.bg/",
-    "desc": "AI background remover",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Resilio",
     "url": "https://www.resilio.com/",
     "desc": "P2P file sync",
@@ -12420,21 +11742,9 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "SQL Fiddle",
-    "url": "https://sqlfiddle.com/",
-    "desc": "SQL playground",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "SSH Certs",
     "url": "https://smallstep.com/blog/ssh-certificates/",
     "desc": "SSH certificates explained",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "ST Terminal",
-    "url": "https://st.suckless.org/",
-    "desc": "Simple terminal",
     "category": "Miscellaneous"
   },
   {
@@ -12486,39 +11796,15 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "Skribbl",
-    "url": "https://skribbl.io/",
-    "desc": "Draw and guess online",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Solid",
     "url": "https://solidproject.org/",
     "desc": "Decentralized data ownership",
     "category": "Miscellaneous"
   },
   {
-    "name": "Solid Project",
-    "url": "https://solidproject.org/",
-    "desc": "Decentralized web",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "Stars Experiment",
     "url": "https://stars.chromeexperiments.com/",
     "desc": "100,000 stars visualization",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Stellarium Web",
-    "url": "https://stellarium-web.org/",
-    "desc": "Planetarium in browser",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Suckless",
-    "url": "https://suckless.org/",
-    "desc": "Minimalist software",
     "category": "Miscellaneous"
   },
   {
@@ -12627,12 +11913,6 @@
     "name": "mkcert",
     "url": "https://github.com/FiloSottile/mkcert",
     "desc": "Local HTTPS for dev",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "ntfy",
-    "url": "https://ntfy.sh/",
-    "desc": "Send notifications from scripts",
     "category": "Miscellaneous"
   },
   {
@@ -12810,12 +12090,6 @@
     "category": "Weird Web"
   },
   {
-    "name": "GeoCities",
-    "url": "https://geocities.rest/",
-    "desc": "GeoCities archive",
-    "category": "Weird Web"
-  },
-  {
     "name": "Neocities",
     "url": "https://neocities.org/browse",
     "desc": "Browse neocities sites",
@@ -12945,12 +12219,6 @@
     "name": "Hometown",
     "url": "https://hometown.distro.coop/",
     "desc": "Mastodon fork",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Glitch",
-    "url": "https://glitch-soc.github.io/",
-    "desc": "Mastodon with extras",
     "category": "Weird Web"
   },
   {
@@ -13164,12 +12432,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Spacebattles",
-    "url": "https://forums.spacebattles.com/",
-    "desc": "Roleplay forums",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Alternate History",
     "url": "https://www.alternatehistory.com/",
     "desc": "Alternate history forum",
@@ -13254,12 +12516,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Bleeping Computer",
-    "url": "https://www.bleepingcomputer.com/",
-    "desc": "Tech support forums",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Wilders Security",
     "url": "https://www.wilderssecurity.com/",
     "desc": "Security forum",
@@ -13299,12 +12555,6 @@
     "name": "Secret Projects Forum",
     "url": "https://www.secretprojects.co.uk/forum/",
     "desc": "Secret projects discussion",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Agora Road Macintosh Cafe",
-    "url": "https://forum.agoraroad.com/",
-    "desc": "Mac/vaporwave forum",
     "category": "Forums & Communities"
   },
   {
@@ -13398,33 +12648,9 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Indie Games Plus",
-    "url": "https://indiegamesplus.com/",
-    "desc": "Indie game news",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "RPG Maker",
     "url": "https://www.rpgmakerweb.com/",
     "desc": "RPG creation",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "TIGSource",
-    "url": "https://forums.tigsource.com/",
-    "desc": "Indie dev forum",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Pixeljoint",
-    "url": "http://pixeljoint.com/",
-    "desc": "Pixel art gallery",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Artstation",
-    "url": "https://www.artstation.com/",
-    "desc": "Art portfolio",
     "category": "Forums & Communities"
   },
   {
@@ -13506,27 +12732,9 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "My Anime List",
-    "url": "https://myanimelist.net/",
-    "desc": "Anime database",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "IGDB",
-    "url": "https://www.igdb.com/",
-    "desc": "Game database",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Board Game Geek",
     "url": "https://boardgamegeek.com/",
     "desc": "Board games",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "RPG Net",
-    "url": "https://forum.rpg.net/",
-    "desc": "Tabletop RPG",
     "category": "Forums & Communities"
   },
   {
@@ -13539,24 +12747,6 @@
     "name": "Game Dev",
     "url": "https://game-dev.net/",
     "desc": "Game development",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Indie DB",
-    "url": "https://www.indiedb.com/",
-    "desc": "Indie games",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "itch.io",
-    "url": "https://itch.io/",
-    "desc": "Indie game marketplace",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Gamejolt",
-    "url": "https://gamejolt.com/",
-    "desc": "Game community",
     "category": "Forums & Communities"
   },
   {
@@ -13653,12 +12843,6 @@
     "name": "Archive",
     "url": "https://www.archive.org/",
     "desc": "Digital library",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Librivox",
-    "url": "https://librivox.org/",
-    "desc": "Free audiobooks",
     "category": "Forums & Communities"
   },
   {
@@ -13824,12 +13008,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Random User Generator",
-    "url": "https://randomuser.me/",
-    "desc": "Fake user data",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Fake Name Generator",
     "url": "https://www.fakenamegenerator.com/",
     "desc": "Identity generator",
@@ -13920,12 +13098,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Tinychat",
-    "url": "https://tinychat.com/",
-    "desc": "Chat rooms",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Chatroulette",
     "url": "https://chatroulette.com/",
     "desc": "Random video chat",
@@ -13959,12 +13131,6 @@
     "name": "Hide My Ass",
     "url": "https://www.hidemyass.com/",
     "desc": "Proxy",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Proxyscrape",
-    "url": "https://www.proxyscrape.com/",
-    "desc": "Proxy list",
     "category": "Forums & Communities"
   },
   {
@@ -14100,12 +13266,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "MX Toolbox",
-    "url": "https://mxtoolbox.com/",
-    "desc": "Email tools",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "SPF Record",
     "url": "https://www.spfrecord.com/",
     "desc": "SPF checker",
@@ -14148,12 +13308,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Certificate Search",
-    "url": "https://crt.sh/",
-    "desc": "SSL certificates",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Binary Edge",
     "url": "https://www.binaryedge.io/",
     "desc": "Security scanning",
@@ -14172,21 +13326,9 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "CRT.sh",
-    "url": "https://crt.sh/",
-    "desc": "Certificate search",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "ThreatMiner",
     "url": "https://www.threatminer.com/",
     "desc": "Threat intelligence",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Abuse IP DB",
-    "url": "https://www.abuseipdb.com/",
-    "desc": "IP abuse database",
     "category": "Forums & Communities"
   },
   {
@@ -14253,12 +13395,6 @@
     "name": "LOLBAS",
     "url": "https://lolbas-project.github.io/",
     "desc": "Living off land",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Payload All The Things",
-    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
-    "desc": "Pentest cheatsheet",
     "category": "Forums & Communities"
   },
   {
@@ -14394,12 +13530,6 @@
     "category": "Hidden Gems"
   },
   {
-    "name": "This is Sand",
-    "url": "https://thisissand.com/",
-    "desc": "Build things with sand physics",
-    "category": "Hidden Gems"
-  },
-  {
     "name": "Falling Falling",
     "url": "https://fallingfalling.com/",
     "desc": "Hypnotic falling visuals",
@@ -14409,12 +13539,6 @@
     "name": "Weave Silk",
     "url": "https://weavesilk.com/",
     "desc": "Draw symmetry art",
-    "category": "Hidden Gems"
-  },
-  {
-    "name": "Long Doge Challenge",
-    "url": "https://longdogechallenge.com/",
-    "desc": "Very long doge image",
     "category": "Hidden Gems"
   },
   {
@@ -14544,12 +13668,6 @@
     "category": "Privacy & Security"
   },
   {
-    "name": "Brave Browser",
-    "url": "https://brave.com/",
-    "desc": "Privacy focused browser",
-    "category": "Privacy & Security"
-  },
-  {
     "name": "Ahmia",
     "url": "https://ahmia.fi/",
     "desc": "Dark web search engine",
@@ -14562,21 +13680,9 @@
     "category": "Privacy & Security"
   },
   {
-    "name": "Archive.today",
-    "url": "https://archive.today/",
-    "desc": "Save web pages permanently",
-    "category": "Archives & Preservation"
-  },
-  {
     "name": "Perma.cc",
     "url": "https://perma.cc/",
     "desc": "Permanent link for citations",
-    "category": "Archives & Preservation"
-  },
-  {
-    "name": "Archive.org Library",
-    "url": "https://archive.org/",
-    "desc": "Digital library millions free items",
     "category": "Archives & Preservation"
   },
   {
@@ -14601,12 +13707,6 @@
     "name": "Protoweb",
     "url": "https://protoweb.org/",
     "desc": "Quality web archive proxy",
-    "category": "Archives & Preservation"
-  },
-  {
-    "name": "Wiby",
-    "url": "https://wiby.me/",
-    "desc": "Search engine for old web",
     "category": "Archives & Preservation"
   },
   {
@@ -14637,12 +13737,6 @@
     "name": "Bitsavers",
     "url": "https://bitsavers.org/",
     "desc": "Computing history archive",
-    "category": "Archives & Preservation"
-  },
-  {
-    "name": "WinWorldPC",
-    "url": "https://winworldpc.com/",
-    "desc": "Abandonware operating systems",
     "category": "Archives & Preservation"
   },
   {
@@ -14682,12 +13776,6 @@
     "category": "Games & Gaming"
   },
   {
-    "name": "MobyGames",
-    "url": "https://www.mobygames.com/",
-    "desc": "Video game database",
-    "category": "Games & Gaming"
-  },
-  {
     "name": "Godot",
     "url": "https://godotengine.org/",
     "desc": "Open source game engine",
@@ -14704,12 +13792,6 @@
     "url": "https://roll20.net/",
     "desc": "Virtual tabletop",
     "category": "Games & Gaming"
-  },
-  {
-    "name": "FreeCodeCamp",
-    "url": "https://www.freecodecamp.org/",
-    "desc": "Free coding education",
-    "category": "Learning & Education"
   },
   {
     "name": "Exercism",
@@ -14781,12 +13863,6 @@
     "name": "Earth Nullschool",
     "url": "https://earth.nullschool.net/",
     "desc": "Global wind map",
-    "category": "Science & Nature"
-  },
-  {
-    "name": "Flight Radar",
-    "url": "https://www.flightradar24.com/",
-    "desc": "Live flight tracking",
     "category": "Science & Nature"
   },
   {
@@ -15048,12 +14124,6 @@
     "category": "Web Tools"
   },
   {
-    "name": "dpaste",
-    "url": "https://dpaste.com/",
-    "desc": "Code pastebin",
-    "category": "Web Tools"
-  },
-  {
     "name": "Sourcebin",
     "url": "https://sourceb.in/",
     "desc": "Code pastebin",
@@ -15162,12 +14232,6 @@
     "category": "Web Tools"
   },
   {
-    "name": "Cronitor Crontab",
-    "url": "https://crontab.guru/",
-    "desc": "Cron expression editor",
-    "category": "Web Tools"
-  },
-  {
     "name": "Crontab Calculator",
     "url": "https://www.neontribe.co.uk/crontab/",
     "desc": "Crontab tool",
@@ -15183,12 +14247,6 @@
     "name": "jqPlay",
     "url": "https://jqplay.org/",
     "desc": "jq interactive",
-    "category": "Web Tools"
-  },
-  {
-    "name": "YAML Validator",
-    "url": "https://www.yamllint.com/",
-    "desc": "YAML checker",
     "category": "Web Tools"
   },
   {
@@ -15276,12 +14334,6 @@
     "category": "Web Tools"
   },
   {
-    "name": "MongoDB Play",
-    "url": "https://mongoplayground.net/",
-    "desc": "MongoDB playground",
-    "category": "Web Tools"
-  },
-  {
     "name": "PostgreSQL试",
     "url": "https://www.postgresql.org/docs/current/tutorial-start.html",
     "desc": "PostgreSQL tutorial",
@@ -15318,33 +14370,9 @@
     "category": "Web Tools"
   },
   {
-    "name": "Angular Playground",
-    "url": "https://angular.io/",
-    "desc": "Angular docs",
-    "category": "Web Tools"
-  },
-  {
     "name": "Solid Playground",
     "url": "https://playground.solidjs.com/",
     "desc": "Solid playground",
-    "category": "Web Tools"
-  },
-  {
-    "name": "Qwik Playground",
-    "url": "https://qwik.builder.io/",
-    "desc": "Qwik docs",
-    "category": "Web Tools"
-  },
-  {
-    "name": "Astro REPL",
-    "url": "https://astro.build/",
-    "desc": "Astro docs",
-    "category": "Web Tools"
-  },
-  {
-    "name": "SvelteKit Example",
-    "url": "https://kit.svelte.dev/",
-    "desc": "SvelteKit docs",
     "category": "Web Tools"
   },
   {
@@ -15441,12 +14469,6 @@
     "name": "PolishMyWriting",
     "url": "https://www.polishmywriting.com/",
     "desc": "Text checker",
-    "category": "Web Tools"
-  },
-  {
-    "name": "After the Deadline",
-    "url": "https://www.polishmywriting.com/",
-    "desc": "Spell checker",
     "category": "Web Tools"
   },
   {
@@ -15639,12 +14661,6 @@
     "name": "Facebook Debugger",
     "url": "https://developers.facebook.com/tools/debug/",
     "desc": "OG tag checker",
-    "category": "Web Tools"
-  },
-  {
-    "name": "Twitter Card Validator",
-    "url": "https://cards-dev.twitter.com/validator",
-    "desc": "Twitter card test",
     "category": "Web Tools"
   },
   {
@@ -15849,12 +14865,6 @@
     "name": "MeetEdgar",
     "url": "https://meetedgar.com/",
     "desc": "Content library",
-    "category": "Social Media"
-  },
-  {
-    "name": "Edgar",
-    "url": "https://meetedgar.com/",
-    "desc": "Social automation",
     "category": "Social Media"
   },
   {
@@ -16236,27 +15246,9 @@
     "category": "Entertainment"
   },
   {
-    "name": "SQLZOO",
-    "url": "https://sqlzoo.net/",
-    "desc": "SQL tutorial",
-    "category": "Entertainment"
-  },
-  {
-    "name": "SQLBolt",
-    "url": "https://sqlbolt.com/",
-    "desc": "SQL lessons",
-    "category": "Entertainment"
-  },
-  {
     "name": "SQL Murder Mystery",
     "url": "https://mystery.knightlab.com/",
     "desc": "Learn SQL game",
-    "category": "Entertainment"
-  },
-  {
-    "name": "RegExOne",
-    "url": "https://regexone.com/",
-    "desc": "Learn regex",
     "category": "Entertainment"
   },
   {
@@ -16296,12 +15288,6 @@
     "category": "Entertainment"
   },
   {
-    "name": "TutorialsPoint",
-    "url": "https://www.tutorialspoint.com/",
-    "desc": "Programming tutorials",
-    "category": "Entertainment"
-  },
-  {
     "name": "HTML Reference",
     "url": "https://htmlreference.io/",
     "desc": "HTML guide",
@@ -16311,36 +15297,6 @@
     "name": "CSS Reference",
     "url": "https://cssreference.io/",
     "desc": "CSS guide",
-    "category": "Entertainment"
-  },
-  {
-    "name": "JavaScript Reference",
-    "url": "https://javascript.info/",
-    "desc": "JS tutorial",
-    "category": "Entertainment"
-  },
-  {
-    "name": "React Reference",
-    "url": "https://react.dev/",
-    "desc": "React docs",
-    "category": "Entertainment"
-  },
-  {
-    "name": "Vue Docs",
-    "url": "https://vuejs.org/",
-    "desc": "Vue documentation",
-    "category": "Entertainment"
-  },
-  {
-    "name": "Angular Docs",
-    "url": "https://angular.io/",
-    "desc": "Angular documentation",
-    "category": "Entertainment"
-  },
-  {
-    "name": "Svelte Docs",
-    "url": "https://svelte.dev/",
-    "desc": "Svelte documentation",
     "category": "Entertainment"
   },
   {
@@ -16800,12 +15756,6 @@
     "category": "Retro Computing"
   },
   {
-    "name": "PCjs",
-    "url": "https://www.pcjs.org/",
-    "desc": "IBM PC emulator",
-    "category": "Retro Computing"
-  },
-  {
     "name": "Basilisk",
     "url": "https://basilisk.cebix.net/",
     "desc": "Mac emulator",
@@ -16917,12 +15867,6 @@
     "name": "Project64",
     "url": "https://www.pj64-emu.com/",
     "desc": "N64 emulator",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "pcsx2",
-    "url": "https://pcsx2.net/",
-    "desc": "PS2 emulator",
     "category": "Retro Computing"
   },
   {
@@ -17046,21 +15990,9 @@
     "category": "Retro Computing"
   },
   {
-    "name": "DeSmuME",
-    "url": "https://desmume.org/",
-    "desc": "Nintendo DS emulator",
-    "category": "Retro Computing"
-  },
-  {
     "name": "Vita3K",
     "url": "https://vita3k.org/",
     "desc": "PS Vita emulator",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "xenia",
-    "url": "https://xenia.jp/",
-    "desc": "Xbox 360 emulator",
     "category": "Retro Computing"
   },
   {
@@ -17430,12 +16362,6 @@
     "category": "Retro Computing"
   },
   {
-    "name": "Love2D",
-    "url": "https://love2d.org/",
-    "desc": "Lua game engine",
-    "category": "Retro Computing"
-  },
-  {
     "name": "Crayon",
     "url": "https://github.com/RobLoach/crayon",
     "desc": "LÖVE framework",
@@ -17532,12 +16458,6 @@
     "category": "Retro Computing"
   },
   {
-    "name": "Feather",
-    "url": "https://arrow.apache.org/",
-    "desc": "Arrow format R",
-    "category": "Retro Computing"
-  },
-  {
     "name": "Parquet.jl",
     "url": "https://github.com/JuliaIO/Parquet.jl",
     "desc": "Parquet Julia",
@@ -17553,18 +16473,6 @@
     "name": "DuckDB",
     "url": "https://duckdb.org/",
     "desc": "SQL OLAP",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "DataFusion",
-    "url": "https://arrow.apache.org/",
-    "desc": "SQL engine Rust",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "Ballista",
-    "url": "https://arrow.apache.org/",
-    "desc": "Query engine",
     "category": "Retro Computing"
   },
   {
@@ -17724,21 +16632,9 @@
     "category": "Retro Computing"
   },
   {
-    "name": "GNU Guix",
-    "url": "https://guix.gnu.org/",
-    "desc": "Package manager",
-    "category": "Retro Computing"
-  },
-  {
     "name": "Home Manager",
     "url": "https://nix-community.github.io/home-manager/",
     "desc": "Config management",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "Flakes",
-    "url": "https://nixos.org/",
-    "desc": "Nix flakes",
     "category": "Retro Computing"
   },
   {
@@ -17802,39 +16698,15 @@
     "category": "Retro Computing"
   },
   {
-    "name": "C++ Package Manager",
-    "url": "https://github.com/iauns/cpm",
-    "desc": "C++ CPM",
-    "category": "Retro Computing"
-  },
-  {
     "name": "Dub",
     "url": "https://code.dlang.org/",
     "desc": "D package manager",
     "category": "Retro Computing"
   },
   {
-    "name": "Crates.io",
-    "url": "https://crates.io/",
-    "desc": "Rust crates",
-    "category": "Retro Computing"
-  },
-  {
     "name": "lib.rs",
     "url": "https://lib.rs/",
     "desc": "Rust crates mirror",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "Go Packages",
-    "url": "https://pkg.go.dev/",
-    "desc": "Go modules",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "PNPM",
-    "url": "https://pnpm.io/",
-    "desc": "Fast npm",
     "category": "Retro Computing"
   },
   {
@@ -17910,12 +16782,6 @@
     "category": "Retro Computing"
   },
   {
-    "name": "Mix",
-    "url": "https://elixir-lang.org/",
-    "desc": "Elixir build tool",
-    "category": "Retro Computing"
-  },
-  {
     "name": "Gradle",
     "url": "https://gradle.org/",
     "desc": "Build tool",
@@ -17925,12 +16791,6 @@
     "name": "Leiningen",
     "url": "https://leiningen.org/",
     "desc": "Clojure build",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "deps.edn",
-    "url": "https://clojure.org/",
-    "desc": "Clojure deps",
     "category": "Retro Computing"
   },
   {
@@ -17982,12 +16842,6 @@
     "category": "Retro Computing"
   },
   {
-    "name": "Swift Package Manager",
-    "url": "https://swift.org/",
-    "desc": "SPM",
-    "category": "Retro Computing"
-  },
-  {
     "name": "APT",
     "url": "https://ubuntu.com/",
     "desc": "Debian packages",
@@ -18015,12 +16869,6 @@
     "name": "Portage",
     "url": "https://wiki.gentoo.org/wiki/Portage",
     "desc": "Gentoo packages",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "Nix",
-    "url": "https://nixos.org/",
-    "desc": "Nix packages",
     "category": "Retro Computing"
   },
   {
@@ -18180,18 +17028,6 @@
     "category": "Retro Computing"
   },
   {
-    "name": "npm",
-    "url": "https://npmjs.com/",
-    "desc": "Node packages",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "pnpm",
-    "url": "https://pnpm.io/",
-    "desc": "Node packages",
-    "category": "Retro Computing"
-  },
-  {
     "name": "docs.rs",
     "url": "https://docs.rs/",
     "desc": "Rust docs",
@@ -18285,24 +17121,6 @@
     "name": "Electric Sheep",
     "url": "http://electricsheep.org/",
     "desc": "Distributed screensaver",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "Stallman",
-    "url": "https://stallman.org/",
-    "desc": "RMS website",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "Open Source Initiative",
-    "url": "https://opensource.org/",
-    "desc": "OSI",
-    "category": "Retro Computing"
-  },
-  {
-    "name": "Free Software Foundation",
-    "url": "https://www.fsf.org/",
-    "desc": "FSF",
     "category": "Retro Computing"
   },
   {
@@ -18435,12 +17253,6 @@
     "name": "Uchan",
     "url": "https://github.com/Velaron/uchan",
     "desc": "Rust imageboard",
-    "category": "Imageboards & Chans"
-  },
-  {
-    "name": "Lainchan",
-    "url": "https://lainchan.org/",
-    "desc": "Anonymous imageboard",
     "category": "Imageboards & Chans"
   },
   {
@@ -18618,18 +17430,6 @@
     "category": "Fediverse"
   },
   {
-    "name": "Pixelfed",
-    "url": "https://pixelfed.social/",
-    "desc": "Instagram alternative",
-    "category": "Fediverse"
-  },
-  {
-    "name": "Bookwyrm",
-    "url": "https://bookwyrm.social/",
-    "desc": "Goodreads alternative",
-    "category": "Fediverse"
-  },
-  {
     "name": "Lemmyverse",
     "url": "https://lemmyverse.org/",
     "desc": "Lemmy instances",
@@ -18795,12 +17595,6 @@
     "name": "Guppe",
     "url": "https://guppe.social/",
     "desc": "German instance",
-    "category": "Fediverse"
-  },
-  {
-    "name": "Mastodon Social",
-    "url": "https://mastodon.social/",
-    "desc": "Main instance",
     "category": "Fediverse"
   },
   {
@@ -19278,12 +18072,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Terraria Server",
-    "url": "https://terraria.org/",
-    "desc": "TServer",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Cuberite",
     "url": "https://cuberite.org/",
     "desc": "C++ Minecraft",
@@ -19293,12 +18081,6 @@
     "name": "uCMA",
     "url": "https://github.com/JoeGamers/JoeGamersServerConfig",
     "desc": "MCPE server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Bedrock Server",
-    "url": "https://www.minecraft.net/",
-    "desc": "Bedrock server",
     "category": "Self-Hosting"
   },
   {
@@ -19341,12 +18123,6 @@
     "name": "Mindustry Server",
     "url": "https://github.com/Anuken/MindustryServer",
     "desc": "Mindustry server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Factorio Server",
-    "url": "https://factorio.com/",
-    "desc": "Factorio server",
     "category": "Self-Hosting"
   },
   {
@@ -19419,12 +18195,6 @@
     "name": "Stationeers Server",
     "url": "https://www.stationeers.com/",
     "desc": "Stationeers server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "RimWorld Server",
-    "url": "https://rimworldgame.com/",
-    "desc": "RimWorld server",
     "category": "Self-Hosting"
   },
   {
@@ -19578,12 +18348,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Hll",
-    "url": "https://www.hellletloose.com/",
-    "desc": "HLL server",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Foxhole",
     "url": "https://www.foxholegame.com/",
     "desc": "Foxhole server",
@@ -19599,12 +18363,6 @@
     "name": "Subnautica Below Zero",
     "url": "https://unknownworlds.com/subnautica-below-zero/",
     "desc": "SBZ server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Palworld",
-    "url": "https://palworld.gg/",
-    "desc": "Palworld server",
     "category": "Self-Hosting"
   },
   {
@@ -19656,66 +18414,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Battlefield Vietnam",
-    "url": "https://www.battlefield.com/",
-    "desc": "BFV server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield 2",
-    "url": "https://www.battlefield.com/",
-    "desc": "BF2 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield 2142",
-    "url": "https://www.battlefield.com/",
-    "desc": "BF2142 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield Bad Company 2",
-    "url": "https://www.battlefield.com/",
-    "desc": "BBC2 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield 3",
-    "url": "https://www.battlefield.com/",
-    "desc": "BF3 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield 4",
-    "url": "https://www.battlefield.com/",
-    "desc": "BF4 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield Hardline",
-    "url": "https://www.battlefield.com/",
-    "desc": "BFH server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield 1",
-    "url": "https://www.battlefield.com/",
-    "desc": "BF1 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield V",
-    "url": "https://www.battlefield.com/",
-    "desc": "BFV server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Battlefield 2042",
-    "url": "https://www.battlefield.com/",
-    "desc": "BF2042 server",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Battlefield Modding",
     "url": "https://battlelog.battlefield.com/",
     "desc": "BF modding",
@@ -19758,39 +18456,9 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Quake II",
-    "url": "https://www.quake.com/",
-    "desc": "Quake II server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Quake III",
-    "url": "https://www.quake.com/",
-    "desc": "Quake III server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Quake Live",
-    "url": "https://www.quake.com/",
-    "desc": "Quake Live server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Quake Champions",
-    "url": "https://www.quake.com/",
-    "desc": "QC server",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Doom",
     "url": "https://www.doomworld.com/",
     "desc": "Doom server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Doom II",
-    "url": "https://www.doomworld.com/",
-    "desc": "Doom II server",
     "category": "Self-Hosting"
   },
   {
@@ -19845,12 +18513,6 @@
     "name": "Chocolate Doom",
     "url": "https://www.chocolate-doom.org/",
     "desc": "Authentic Doom",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Doom Retro",
-    "url": "https://www.chocolate-doom.org/",
-    "desc": "Modern Doom",
     "category": "Self-Hosting"
   },
   {
@@ -19974,18 +18636,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "VRising",
-    "url": "https://playvrising.com/",
-    "desc": "V Rising server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Valheim",
-    "url": "https://valheim.com/",
-    "desc": "Valheim server",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Raft",
     "url": "https://www.raft-game.com/",
     "desc": "Raft server",
@@ -19995,12 +18645,6 @@
     "name": "Noita",
     "url": "https://noitagame.com/",
     "desc": "Noita server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Starbound",
-    "url": "https://starbounder.org/",
-    "desc": "Starbound server",
     "category": "Self-Hosting"
   },
   {
@@ -20046,24 +18690,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Age of Empires II",
-    "url": "https://www.ageofempires.com/",
-    "desc": "AoE2 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Age of Empires IV",
-    "url": "https://www.ageofempires.com/",
-    "desc": "AoE4 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Age of Mythology",
-    "url": "https://www.ageofempires.com/",
-    "desc": "AoM server",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Company of Heroes",
     "url": "https://www.companyofheroes.com/",
     "desc": "COH server",
@@ -20073,18 +18699,6 @@
     "name": "Relic",
     "url": "https://www.relic.com/",
     "desc": "Relic server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Company of Heroes 2",
-    "url": "https://www.companyofheroes.com/",
-    "desc": "COH2 server",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Company of Heroes 3",
-    "url": "https://www.companyofheroes.com/",
-    "desc": "COH3 server",
     "category": "Self-Hosting"
   },
   {
@@ -20136,21 +18750,9 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Project Slippi",
-    "url": "https://slippi.gg/",
-    "desc": "Slippi server",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "FightCade",
     "url": "https://www.fightcade.com/",
     "desc": "FightCade",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "FightCade 2",
-    "url": "https://www.fightcade.com/",
-    "desc": "FightCade 2",
     "category": "Self-Hosting"
   },
   {
@@ -20214,12 +18816,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Wireguard",
-    "url": "https://www.wireguard.com/",
-    "desc": "VPN protocol",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "OpenVPN",
     "url": "https://openvpn.net/community/",
     "desc": "OpenVPN source",
@@ -20265,12 +18861,6 @@
     "name": "Fastd",
     "url": "https://github.com/porecc/fastd",
     "desc": "Fastd VPN",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "RiseupVPN",
-    "url": "https://riseup.net/",
-    "desc": "VPN service",
     "category": "Self-Hosting"
   },
   {
@@ -20388,12 +18978,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "phpBB",
-    "url": "https://www.phpbb.com/",
-    "desc": "Forum software",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "bbPress",
     "url": "https://bbpress.org/",
     "desc": "WordPress forum",
@@ -20403,12 +18987,6 @@
     "name": "ForoH",
     "url": "https://forums.ea.com/",
     "desc": "EA forums",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "ModDB",
-    "url": "https://www.moddb.com/",
-    "desc": "Modding database",
     "category": "Forums & Communities"
   },
   {
@@ -20439,12 +19017,6 @@
     "name": "Lets Make Robots",
     "url": "https://www.robotshop.com/",
     "desc": "Robot community",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Robot Shop",
-    "url": "https://www.robotshop.com/",
-    "desc": "Robotics",
     "category": "Forums & Communities"
   },
   {
@@ -20598,39 +19170,9 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "K210",
-    "url": "https://kendryte.com/",
-    "desc": "K210 chip",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Sipeed Maix",
-    "url": "https://www.sipeed.com/",
-    "desc": "AI vision SBC",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Maixpy",
     "url": "https://github.com/sipeed/MaixPy",
     "desc": "MicroPython K210",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "MaixPy",
-    "url": "https://github.com/sipeed/MaixPy",
-    "desc": "MaixPy",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Kendryte K510",
-    "url": "https://kendryte.com/",
-    "desc": "AI chip",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "RISC-V Pico",
-    "url": "https://www.pine64.org/",
-    "desc": "RISC-V SBC",
     "category": "Forums & Communities"
   },
   {
@@ -20673,12 +19215,6 @@
     "name": "OpenMPW",
     "url": "https://www.efabless.com/",
     "desc": "Shuttle program",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Efabless",
-    "url": "https://www.efabless.com/",
-    "desc": "Chip design",
     "category": "Forums & Communities"
   },
   {
@@ -20977,12 +19513,6 @@
   },
   {
     "name": "Lego-LOAM",
-    "url": "https://github.com/RobustFieldAutonomyLab/LeGO-LOAM",
-    "desc": "Lidar SLAM",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "LeGO-LOAM",
     "url": "https://github.com/RobustFieldAutonomyLab/LeGO-LOAM",
     "desc": "Lidar SLAM",
     "category": "Forums & Communities"
@@ -21288,12 +19818,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "AIT",
-    "url": "https://ompl.kavrakilab.org/classompl_1_1geometric_1_1ABFMT.html",
-    "desc": "AIT",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "CForest",
     "url": "https://ompl.kavrakilab.org/classompl_1_1geometric_1_1CForest.html",
     "desc": "CForest",
@@ -21393,12 +19917,6 @@
     "name": "CasADi",
     "url": "https://web.casadi.org/",
     "desc": "Optimization",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "acados",
-    "url": "https://github.com/acados/acados",
-    "desc": "Optimal control",
     "category": "Forums & Communities"
   },
   {
@@ -21570,12 +20088,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "KNITRO",
-    "url": "https://www.artelys.com/",
-    "desc": "NLP solver",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "FilterSQP",
     "url": "https://users.rscluz/Software/FilterSQP.html",
     "desc": "SQP solver",
@@ -21591,12 +20103,6 @@
     "name": "Levenberg",
     "url": "https://github.com/nicoles/LevenbergMarquardt",
     "desc": "Levenberg Marquardt",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "LM",
-    "url": "https://github.com/nicoles/LevenbergMarquardt",
-    "desc": "LM",
     "category": "Forums & Communities"
   },
   {
@@ -21678,24 +20184,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "CCOLAMD",
-    "url": "https://github.com/rwl/PCG",
-    "desc": "Column ordering",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "COLAMD",
-    "url": "https://github.com/rwl/PCG",
-    "desc": "Column ordering",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "AMD",
-    "url": "https://github.com/rwl/PCG",
-    "desc": "Approximate MD",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "METIS",
     "url": "https://github.com/Karypis/METIS",
     "desc": "Graph partitioning",
@@ -21711,12 +20199,6 @@
     "name": "PaToH",
     "url": "https://bmiitmkv.github.io/PaToH/",
     "desc": "Hypergraph",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "PT-Scotch",
-    "url": "https://www.labri.fr/perso/pelegrin/scotch/",
-    "desc": "Parallel Scotch",
     "category": "Forums & Communities"
   },
   {
@@ -21759,12 +20241,6 @@
     "name": "PhG",
     "url": "https://github.com/PhG2009/GraphPartToolbox",
     "desc": "Graph partitioning",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "MeTiS",
-    "url": "https://github.com/Karypis/METIS",
-    "desc": "MeTiS",
     "category": "Forums & Communities"
   },
   {
@@ -22296,36 +20772,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Aliengo",
-    "url": "https://www.unitree.com/",
-    "desc": "Quadruped robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Laikago",
-    "url": "https://www.unitree.com/",
-    "desc": "Quadruped robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Go1",
-    "url": "https://www.unitree.com/",
-    "desc": "Quadruped robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "B1",
-    "url": "https://www.unitree.com/",
-    "desc": "Quadruped robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "H1",
-    "url": "https://www.unitree.com/",
-    "desc": "Humanoid robot",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Pangolin",
     "url": "https://www.pangolin.com/",
     "desc": "Robot platform",
@@ -22386,51 +20832,9 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "NAO",
-    "url": "https://www.softbank robotics.com/",
-    "desc": "Humanoid robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Atlas",
-    "url": "https://www.bostondynamics.com/",
-    "desc": "Humanoid robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Spot",
-    "url": "https://www.bostondynamics.com/",
-    "desc": "Legged robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Handle",
-    "url": "https://www.bostondynamics.com/",
-    "desc": "Warehouse robot",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Stretch",
     "url": "https://hello-robot.com/",
     "desc": "Manipulation robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Hello Robot",
-    "url": "https://hello-robot.com/",
-    "desc": "Robot research",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Stretch 2",
-    "url": "https://hello-robot.com/",
-    "desc": "Stretch robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Stretch 3",
-    "url": "https://hello-robot.com/",
-    "desc": "Stretch robot",
     "category": "Forums & Communities"
   },
   {
@@ -22440,19 +20844,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Sawyer",
-    "url": "https://www.rethinkrobotics.com/",
-    "desc": "Cobot",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Franka",
-    "url": "https://www.franka.de/",
-    "desc": "Research robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Panda",
     "url": "https://www.franka.de/",
     "desc": "Research robot",
     "category": "Forums & Communities"
@@ -22536,30 +20928,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Dobot MG400",
-    "url": "https://www.dobot.cc/",
-    "desc": "Desktop robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Dobot M1",
-    "url": "https://www.dobot.cc/",
-    "desc": "SCARA robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Dobot CR",
-    "url": "https://www.dobot.cc/",
-    "desc": "Cobot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Dobot Nova",
-    "url": "https://www.dobot.cc/",
-    "desc": "Cobot",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Auboi",
     "url": "https://www.auboi.com/",
     "desc": "Cobot",
@@ -22599,12 +20967,6 @@
     "name": "TRI",
     "url": "https://www.tri.global/",
     "desc": "Toyota research",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Toyota Research Institute",
-    "url": "https://www.tri.global/",
-    "desc": "TRI",
     "category": "Forums & Communities"
   },
   {
@@ -22731,42 +21093,6 @@
     "name": "LG",
     "url": "https://www.lg.com/",
     "desc": "Home robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Ecovacs Deebot",
-    "url": "https://www.ecovacs.com/",
-    "desc": "Vacuum robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Roborock S7",
-    "url": "https://www.roborock.com/",
-    "desc": "Vacuum robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "iRobot Roomba",
-    "url": "https://www.irobot.com/",
-    "desc": "Vacuum robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Neato Botvac",
-    "url": "https://www.neatorobotics.com/",
-    "desc": "Vacuum robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Dyson 360",
-    "url": "https://www.dyson.com/",
-    "desc": "Vacuum robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "RoboVac",
-    "url": "https://www.eufy.com/",
-    "desc": "Budget robot",
     "category": "Forums & Communities"
   },
   {
@@ -22944,24 +21270,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Lego Mindstorms",
-    "url": "https://www.lego.com/",
-    "desc": "Lego robotics",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Lego Boost",
-    "url": "https://www.lego.com/",
-    "desc": "Lego robotics",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Lego SPIKE",
-    "url": "https://www.lego.com/",
-    "desc": "Lego education",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "VEX",
     "url": "https://www.vex.com/",
     "desc": "Competition robots",
@@ -22986,30 +21294,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "mBot",
-    "url": "https://www.makeblock.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Codey Rocky",
-    "url": "https://www.makeblock.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "mBot Ranger",
-    "url": "https://www.makeblock.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Ultimate 2.0",
-    "url": "https://www.makeblock.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Thymio",
     "url": "https://www.thymio.org/",
     "desc": "Educational robot",
@@ -23025,42 +21309,6 @@
     "name": "Dash",
     "url": "https://www.makewonder.com/",
     "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Dot",
-    "url": "https://www.makewonder.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Cue",
-    "url": "https://www.makewonder.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Sphero Mini",
-    "url": "https://www.sphero.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Sphero Bolt",
-    "url": "https://www.sphero.com/",
-    "desc": "Educational robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Sphero RVR",
-    "url": "https://www.sphero.com/",
-    "desc": "Programmable robot",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "RVR+",
-    "url": "https://www.sphero.com/",
-    "desc": "Programmable robot",
     "category": "Forums & Communities"
   },
   {
@@ -23184,18 +21432,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Home Assistant OS",
-    "url": "https://www.home-assistant.io/",
-    "desc": "HA OS",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Hass.io",
-    "url": "https://www.home-assistant.io/",
-    "desc": "Hass.io",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "Tasmota",
     "url": "https://tasmota.com/",
     "desc": "ESP firmware",
@@ -23235,18 +21471,6 @@
     "name": "OpenMQTTGateway",
     "url": "https://docs.openmqttgateway.com/",
     "desc": "MQTT gateway",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "ESPHome Dashboard",
-    "url": "https://esphome.io/",
-    "desc": "ESPHome",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": " tasmota-web",
-    "url": "https://tasmota.github.io/",
-    "desc": "Tasmota",
     "category": "Forums & Communities"
   },
   {
@@ -23340,12 +21564,6 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Home Assistant Automations",
-    "url": "https://www.home-assistant.io/",
-    "desc": "HA automations",
-    "category": "Forums & Communities"
-  },
-  {
     "name": "AppDaemon",
     "url": "https://appdaemon.readthedocs.io/",
     "desc": "HA apps",
@@ -23355,12 +21573,6 @@
     "name": "Node-RED Home Assistant",
     "url": "https://flows.nodered.org/",
     "desc": "NR HA nodes",
-    "category": "Forums & Communities"
-  },
-  {
-    "name": "Eclipse Mosquitto",
-    "url": "https://mosquitto.org/",
-    "desc": "MQTT broker",
     "category": "Forums & Communities"
   },
   {
@@ -23430,12 +21642,6 @@
     "category": "Weird & Interesting"
   },
   {
-    "name": "Is It Christmas?",
-    "url": "https://isitchristmas.com/",
-    "desc": "Is it Christmas?",
-    "category": "Weird & Interesting"
-  },
-  {
     "name": "Window Swap",
     "url": "https://window-swap.com/",
     "desc": "View from someone elses window",
@@ -23496,33 +21702,15 @@
     "category": "Weird & Interesting"
   },
   {
-    "name": "Hackertyper",
-    "url": "https://hackertyper.com/",
-    "desc": "Feel like a hacker",
-    "category": "Weird & Interesting"
-  },
-  {
     "name": "GeoGuessr",
     "url": "https://geoguessr.com/",
     "desc": "Guess locations from street view",
     "category": "Weird & Interesting"
   },
   {
-    "name": "Map Crunch",
-    "url": "https://www.mapcrunch.com/",
-    "desc": "Random street view locations",
-    "category": "Weird & Interesting"
-  },
-  {
     "name": "Desertbus",
     "url": "https://desertbus.org/",
     "desc": "Charity bus driving game",
-    "category": "Weird & Interesting"
-  },
-  {
-    "name": "Weird Sites Only",
-    "url": "https://cogimator.net/en/",
-    "desc": "Directory of weird sites",
     "category": "Weird & Interesting"
   },
   {
@@ -23577,18 +21765,6 @@
     "name": "Noisli",
     "url": "https://www.noisli.com/",
     "desc": "Background noise generator",
-    "category": "Weird & Interesting"
-  },
-  {
-    "name": "Earth nullschool",
-    "url": "https://earth.nullschool.net/",
-    "desc": "Live global wind map",
-    "category": "Weird & Interesting"
-  },
-  {
-    "name": "100000 Stars",
-    "url": "https://stars.chromeexperiments.com/",
-    "desc": "3D visualization of stars",
     "category": "Weird & Interesting"
   },
   {
@@ -23730,12 +21906,6 @@
     "category": "Creative Tools"
   },
   {
-    "name": "Archive",
-    "url": "https://archive.org/",
-    "desc": "Free media library",
-    "category": "Creative Tools"
-  },
-  {
     "name": "Soundbible",
     "url": "https://soundbible.com/",
     "desc": "Free sound effects",
@@ -23850,18 +22020,6 @@
     "category": "Useful Tools"
   },
   {
-    "name": "Crontab Guru",
-    "url": "https://crontab.guru/",
-    "desc": "Cron expression editor",
-    "category": "Useful Tools"
-  },
-  {
-    "name": "Cron Schedule",
-    "url": "https://crontab.cronhub.io/",
-    "desc": "Cron generator",
-    "category": "Useful Tools"
-  },
-  {
     "name": "Base64 Encode",
     "url": "https://www.base64encode.org/",
     "desc": "Base64 encoder",
@@ -23871,12 +22029,6 @@
     "name": "URL Encode",
     "url": "https://www.urlencoder.org/",
     "desc": "URL encoder",
-    "category": "Useful Tools"
-  },
-  {
-    "name": "YAML Lint",
-    "url": "https://www.yamllint.com/",
-    "desc": "YAML validator",
     "category": "Useful Tools"
   },
   {
@@ -23895,12 +22047,6 @@
     "name": "Retro32 BBS",
     "url": "https://www.retro32.com/retro32-bbs",
     "desc": "Amiga-focused BBS",
-    "category": "Retro Computing & BBS"
-  },
-  {
-    "name": "The Oasis BBS",
-    "url": "https://theoasisbbs.com/",
-    "desc": "C64 Amiga news",
     "category": "Retro Computing & BBS"
   },
   {
@@ -23949,12 +22095,6 @@
     "name": "BBBS Door Games",
     "url": "https://www.bbsdoors.com/",
     "desc": "Door game archive",
-    "category": "Retro Computing & BBS"
-  },
-  {
-    "name": "Textfiles Archive",
-    "url": "http://textfiles.com/",
-    "desc": "BBS text archive",
     "category": "Retro Computing & BBS"
   },
   {
@@ -24012,12 +22152,6 @@
     "category": "Hidden Gems"
   },
   {
-    "name": "Trilium Notes",
-    "url": "https://github.com/zadam/trilium",
-    "desc": "Personal knowledge base",
-    "category": "Hidden Gems"
-  },
-  {
     "name": "Etar Calendar",
     "url": "https://github.com/Etar-Group/Etar-Calendar",
     "desc": "Open source calendar",
@@ -24027,12 +22161,6 @@
     "name": "Obsidian Portal",
     "url": "https://www.obsidianportal.com/",
     "desc": "RPG campaign hub",
-    "category": "Hidden Gems"
-  },
-  {
-    "name": "Paper Planes",
-    "url": "https://paperplanes.world/",
-    "desc": "Throw paper planes globally",
     "category": "Hidden Gems"
   },
   {
@@ -24126,21 +22254,9 @@
     "category": "Hidden Gems"
   },
   {
-    "name": "Brain Pickings",
-    "url": "https://www.brainpickings.org/",
-    "desc": "Weekly digest",
-    "category": "Hidden Gems"
-  },
-  {
     "name": "Nautilus",
     "url": "https://nautilus.org/",
     "desc": "Science magazine",
-    "category": "Hidden Gems"
-  },
-  {
-    "name": "Aeon",
-    "url": "https://aeon.co/",
-    "desc": "Ideas & culture",
     "category": "Hidden Gems"
   },
   {
@@ -24154,18 +22270,6 @@
     "url": "https://longreads.com/",
     "desc": "Best of the web",
     "category": "Hidden Gems"
-  },
-  {
-    "name": "Weave Silk",
-    "url": "https://weavesilk.com/",
-    "desc": "Symmetry drawing",
-    "category": "Weird Web"
-  },
-  {
-    "name": "The Internet Map",
-    "url": "https://internet-map.net/",
-    "desc": "Websites as galaxy",
-    "category": "Weird Web"
   },
   {
     "name": "The Wilderness Downtown",
@@ -24240,57 +22344,15 @@
     "category": "Weird Web"
   },
   {
-    "name": "Fake Update",
-    "url": "https://fakeupdate.net/",
-    "desc": "Fake OS updates",
-    "category": "Weird Web"
-  },
-  {
     "name": "The Nicest Place",
     "url": "https://thenicestplaceontheinter.net/",
     "desc": "Virtual hugs",
     "category": "Weird Web"
   },
   {
-    "name": "Cat Bounce",
-    "url": "https://cat-bounce.com/",
-    "desc": "Bouncing cats",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Find the Invisible Cow",
-    "url": "https://findtheinvisiblecow.com/",
-    "desc": "Find the cow",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Falling Garten",
-    "url": "https://fallinggarten.com/",
-    "desc": "Falling pixels",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Make Everything OK",
-    "url": "https://make-everything-ok.com/",
-    "desc": "It will be OK",
-    "category": "Weird Web"
-  },
-  {
     "name": "Paper Planes",
     "url": "https://paperplanes.page/",
     "desc": "Virtual paper planes",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Hark",
-    "url": "https://hark.molleindustria.com/",
-    "desc": "Interactive sound",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Eel Slap",
-    "url": "https://eelslap.com/",
-    "desc": "Slap with eel",
     "category": "Weird Web"
   },
   {
@@ -24309,12 +22371,6 @@
     "name": "Zen Dog",
     "url": "https://zendog.org/",
     "desc": "Meditate with dog",
-    "category": "Weird Web"
-  },
-  {
-    "name": "Sandspiel",
-    "url": "https://sandspiel.club/",
-    "desc": "Falling sand game",
     "category": "Weird Web"
   },
   {
@@ -24360,18 +22416,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "CasaOS",
-    "url": "https://www.casaos.io/",
-    "desc": "Home cloud",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Umami",
-    "url": "https://umami.is/",
-    "desc": "Analytics alternative",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Plausible",
     "url": "https://plausible.io/",
     "desc": "Privacy analytics",
@@ -24396,33 +22440,9 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "PostHog",
-    "url": "https://posthog.com/",
-    "desc": "Product analytics",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "Matomo",
     "url": "https://matomo.org/",
     "desc": "Google Analytics alt",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Immich",
-    "url": "https://immich.app/",
-    "desc": "Photo backup",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "PhotoPrism",
-    "url": "https://photoprism.app/",
-    "desc": "Photo gallery",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "LibrePhotos",
-    "url": "https://github.com/LibrePhotos/librephotos",
-    "desc": "Photos app",
     "category": "Self-Hosting"
   },
   {
@@ -24486,48 +22506,6 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "AppFlowy",
-    "url": "https://www.appflowy.io/",
-    "desc": "Notion alternative",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "AFFiNE",
-    "url": "https://affine.pro/",
-    "desc": "Notes & whiteboards",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Plane",
-    "url": "https://plane.so/",
-    "desc": "Project management",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Outline",
-    "url": "https://www.getoutline.com/",
-    "desc": "Wiki for teams",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "WikiJS",
-    "url": "https://js.wiki/",
-    "desc": "Modern wiki",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "TiddlyWiki",
-    "url": "https://tiddlywiki.com/",
-    "desc": "Personal wiki",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Bookstack",
-    "url": "https://www.bookstackapp.com/",
-    "desc": "Book wiki",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "WikiMatrix",
     "url": "https://wikimatrix.org/",
     "desc": "Compare wikis",
@@ -24570,33 +22548,9 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Sync碟",
-    "url": "https://syncthing.net/",
-    "desc": "File sync",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Kopia",
-    "url": "https://kopia.io/",
-    "desc": "Backup tool",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Restic",
-    "url": "https://restic.net/",
-    "desc": "Backup program",
-    "category": "Self-Hosting"
-  },
-  {
     "name": "BorgBase",
     "url": "https://www.borgbase.com/",
     "desc": "Backup hosting",
-    "category": "Self-Hosting"
-  },
-  {
-    "name": "Duplicati",
-    "url": "https://www.duplicati.com/",
-    "desc": "Backup to cloud",
     "category": "Self-Hosting"
   },
   {
@@ -24642,27 +22596,9 @@
     "category": "Fediverse"
   },
   {
-    "name": "Akkoma",
-    "url": "https://akkoma.social/",
-    "desc": "Pleroma fork",
-    "category": "Fediverse"
-  },
-  {
     "name": "TruSocial",
     "url": "https://truwebsockets.github.io/",
     "desc": "Add Fediverse to any app",
-    "category": "Fediverse"
-  },
-  {
-    "name": "Fediverse Party",
-    "url": "https://fediverse.party/",
-    "desc": "Fediverse explorer",
-    "category": "Fediverse"
-  },
-  {
-    "name": "FediDB",
-    "url": "https://fedidb.org/",
-    "desc": "Fediverse stats",
     "category": "Fediverse"
   },
   {
@@ -24675,24 +22611,6 @@
     "name": "Fedi Box",
     "url": "https://fedibox.com/",
     "desc": "Fediverse boxes",
-    "category": "Fediverse"
-  },
-  {
-    "name": "PeerTube",
-    "url": "https://joinpeertube.org/",
-    "desc": "Video platform",
-    "category": "Fediverse"
-  },
-  {
-    "name": "Funkwhale",
-    "url": "https://funkwhale.audio/",
-    "desc": "Music platform",
-    "category": "Fediverse"
-  },
-  {
-    "name": "Friendica",
-    "url": "https://friendi.ca/",
-    "desc": "Social network",
     "category": "Fediverse"
   },
   {
@@ -24726,42 +22644,6 @@
     "category": "Fediverse"
   },
   {
-    "name": "Lobsters",
-    "url": "https://lobste.rs/",
-    "desc": "Tech links",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "SourceHut",
-    "url": "https://sourcehut.org/",
-    "desc": "Git hosting",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Forgejo",
-    "url": "https://forgejo.org/",
-    "desc": "Git fork",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Gitea",
-    "url": "https://gitea.io/",
-    "desc": "Self-hosted Git",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Woodpecker CI",
-    "url": "https://woodpecker-ci.org/",
-    "desc": "CI tool",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Drone CI",
-    "url": "https://www.drone.io/",
-    "desc": "CI platform",
-    "category": "Programming & Dev"
-  },
-  {
     "name": "Gitness",
     "url": "https://gitness.com/",
     "desc": "Git + CI",
@@ -24786,12 +22668,6 @@
     "category": "Programming & Dev"
   },
   {
-    "name": "StackBlitz",
-    "url": "https://stackblitz.com/",
-    "desc": "Cloud IDE",
-    "category": "Programming & Dev"
-  },
-  {
     "name": "Gitpod",
     "url": "https://gitpod.io/",
     "desc": "Cloud dev environment",
@@ -24804,117 +22680,15 @@
     "category": "Programming & Dev"
   },
   {
-    "name": "Compiler Explorer",
-    "url": "https://godbolt.org/",
-    "desc": "See assembly",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Wandbox",
-    "url": "https://wandbox.org/",
-    "desc": "C++ compiler",
-    "category": "Programming & Dev"
-  },
-  {
     "name": "QuickLang",
     "url": "https://www.inkcode.com/",
     "desc": "Language servers",
     "category": "Programming & Dev"
   },
   {
-    "name": "Exercism",
-    "url": "https://exercism.org/",
-    "desc": "Code practice",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "LeetCode",
-    "url": "https://leetcode.com/",
-    "desc": "Coding challenges",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "HackerRank",
-    "url": "https://www.hackerrank.com/",
-    "desc": "Coding challenges",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Codewars",
-    "url": "https://www.codewars.com/",
-    "desc": "Kata training",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "AtCoder",
-    "url": "https://atcoder.jp/",
-    "desc": "Japanese contests",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Codeforces",
-    "url": "https://codeforces.com/",
-    "desc": "Contest platform",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Kattis",
-    "url": "https://open.kattis.com/",
-    "desc": "Problem archive",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Advent of Code",
-    "url": "https://adventofcode.com/",
-    "desc": "Yearly challenges",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Project Euler",
-    "url": "https://projecteuler.net/",
-    "desc": "Math problems",
-    "category": "Programming & Dev"
-  },
-  {
-    "name": "Ollama",
-    "url": "https://ollama.com/",
-    "desc": "Run LLMs locally",
-    "category": "AI & LLMs"
-  },
-  {
     "name": "Open WebUI",
     "url": "https://openwebui.com/",
     "desc": "Chat interface",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "Jan",
-    "url": "https://jan.ai/",
-    "desc": "Local AI app",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "GPT4All",
-    "url": "https://gpt4all.io/",
-    "desc": "Local chatbots",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "LM Studio",
-    "url": "https://lmstudio.ai/",
-    "desc": "Desktop LLM",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "LocalAI",
-    "url": "https://localai.io/",
-    "desc": "Self-hosted AI",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "Text Generation WebUI",
-    "url": "https://github.com/oobabooga/text-generation-webui",
-    "desc": "Web UI for LLMs",
     "category": "AI & LLMs"
   },
   {
@@ -24927,12 +22701,6 @@
     "name": "SillyTavern",
     "url": "https://sillytavernai.com/",
     "desc": "Chat UI",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "Oobabooga",
-    "url": "https://github.com/oobabooga/text-generation-webui",
-    "desc": "Model runner",
     "category": "AI & LLMs"
   },
   {
@@ -24966,18 +22734,6 @@
     "category": "AI & LLMs"
   },
   {
-    "name": "DuckDuckGo AI",
-    "url": "https://duckduckgo.com/",
-    "desc": "AI in search",
-    "category": "AI & LLMs"
-  },
-  {
-    "name": "Phind",
-    "url": "https://www.phind.com/",
-    "desc": "AI search for devs",
-    "category": "AI & LLMs"
-  },
-  {
     "name": "Khoj",
     "url": "https://khoj.dev/",
     "desc": "Personal AI",
@@ -24994,36 +22750,6 @@
     "url": "https://mem.ai/",
     "desc": "AI notes",
     "category": "AI & LLMs"
-  },
-  {
-    "name": "Tails",
-    "url": "https://tails.boum.org/",
-    "desc": "Amnesic OS",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Qubes OS",
-    "url": "https://www.qubes-os.org/",
-    "desc": "Security OS",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Whonix",
-    "url": "https://www.whonix.org/",
-    "desc": "Anonymity OS",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Kicksecure",
-    "url": "https://kicksecure.com/",
-    "desc": "Hardened OS",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Heads",
-    "url": "https://heads.dyne.org/",
-    "desc": "Free BIOS",
-    "category": "Privacy & Security"
   },
   {
     "name": "LibreBoot",
@@ -25056,30 +22782,6 @@
     "category": "Privacy & Security"
   },
   {
-    "name": "Briar",
-    "url": "https://briarproject.org/",
-    "desc": "P2P messaging",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Session",
-    "url": "https://getsession.org/",
-    "desc": "Private messenger",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "SimpleX",
-    "url": "https://simplex.chat/",
-    "desc": "No ID messaging",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Status",
-    "url": "https://status.im/",
-    "desc": "Web3 messaging",
-    "category": "Privacy & Security"
-  },
-  {
     "name": "Cwtch",
     "url": "https://cwtch.im/",
     "desc": "Private messaging",
@@ -25092,39 +22794,9 @@
     "category": "Privacy & Security"
   },
   {
-    "name": "OnionShare",
-    "url": "https://onionshare.org/",
-    "desc": "File sharing",
-    "category": "Privacy & Security"
-  },
-  {
     "name": "Firefox Containers",
     "url": "https://addons.mozilla.org/",
     "desc": "Separate cookies",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "uBlock Origin",
-    "url": "https://ublockorigin.com/",
-    "desc": "Ad blocker",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Privacy Badger",
-    "url": "https://privacybadger.org/",
-    "desc": "Tracker blocker",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Decentraleyes",
-    "url": "https://decentraleyes.org/",
-    "desc": "CDN emulator",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "HTTPS Everywhere",
-    "url": "https://www.eff.org/https-everywhere",
-    "desc": "Force HTTPS",
     "category": "Privacy & Security"
   },
   {
@@ -25140,69 +22812,9 @@
     "category": "Privacy & Security"
   },
   {
-    "name": "Brave",
-    "url": "https://brave.com/",
-    "desc": "Privacy browser",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Librewolf",
-    "url": "https://librewolf.net/",
-    "desc": "Privacy Firefox",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Mullvad Browser",
-    "url": "https://mullvad.net/",
-    "desc": "Privacy browser",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "ZeroTier",
-    "url": "https://www.zerotier.com/",
-    "desc": "Global LAN",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Tailscale Funnel",
-    "url": "https://tailscale.com/",
-    "desc": "Expose services",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "NetBird",
-    "url": "https://netbird.io/",
-    "desc": "WireGuard mesh",
-    "category": "Privacy & Security"
-  },
-  {
-    "name": "Zoom Earth",
-    "url": "https://zoom.earth/",
-    "desc": "Live weather",
-    "category": "Maps & Geo"
-  },
-  {
     "name": "Sentinel Hub",
     "url": "https://www.sentinel-hub.com/",
     "desc": "Satellite imagery",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Satellite Map",
-    "url": "https://satellitemap.space/",
-    "desc": "Real-time sats",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Flightradar24",
-    "url": "https://www.flightradar24.com/",
-    "desc": "Live flights",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "MarineTraffic",
-    "url": "https://www.marinetraffic.com/",
-    "desc": "Ship tracking",
     "category": "Maps & Geo"
   },
   {
@@ -25212,63 +22824,9 @@
     "category": "Maps & Geo"
   },
   {
-    "name": "Marine Vessel Finder",
-    "url": "https://www.vesselfinder.com/",
-    "desc": "Ship finder",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Heavens Above",
-    "url": "https://www.heavens-above.com/",
-    "desc": "Satellite tracking",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "In-The-Sky",
-    "url": "https://in-the-sky.org/",
-    "desc": "Astronomy",
-    "category": "Maps & Geo"
-  },
-  {
     "name": "Light Pollution Map",
     "url": "https://www.lightpollutionmap.info/",
     "desc": "Dark sky finder",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Windy",
-    "url": "https://www.windy.com/",
-    "desc": "Weather map",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Zoomquilt",
-    "url": "https://zoomquilt.org/",
-    "desc": "Infinite art zoom",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Wikimapia",
-    "url": "https://wikimapia.org/",
-    "desc": "Edit map info",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Map Warper",
-    "url": "https://mapwarper.net/",
-    "desc": "Georeference maps",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Geocaching",
-    "url": "https://www.geocaching.com/",
-    "desc": "Treasure hunt",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Map Crunch",
-    "url": "https://www.mapcrunch.com/",
-    "desc": "Random street view",
     "category": "Maps & Geo"
   },
   {
@@ -25278,46 +22836,10 @@
     "category": "Maps & Geo"
   },
   {
-    "name": "What Was There",
-    "url": "https://www.whatwasthere.com/",
-    "desc": "Past photos map",
-    "category": "Maps & Geo"
-  },
-  {
-    "name": "Old Maps Online",
-    "url": "https://www.oldmapsonline.org/",
-    "desc": "Historical maps",
-    "category": "Maps & Geo"
-  },
-  {
     "name": "Daves Old Maps",
     "url": "https://www.davidrumsey.com/",
     "desc": "Old map archive",
     "category": "Maps & Geo"
-  },
-  {
-    "name": "0x0.st",
-    "url": "https://0x0.st/",
-    "desc": "File hosting",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "Catbox",
-    "url": "https://catbox.moe/",
-    "desc": "File host",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "Litterbox",
-    "url": "https://litterbox.catbox.moe/",
-    "desc": "Temp file host",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "Filebin",
-    "url": "https://filebin.net/",
-    "desc": "File sharing",
-    "category": "Paste & Files"
   },
   {
     "name": "oshi.at",
@@ -25326,27 +22848,9 @@
     "category": "Paste & Files"
   },
   {
-    "name": "Transfer.sh",
-    "url": "https://transfer.sh/",
-    "desc": "Share files",
-    "category": "Paste & Files"
-  },
-  {
     "name": "Drop.moe",
     "url": "https://drop.moe/",
     "desc": "File drop",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "Pixeldrain",
-    "url": "https://pixeldrain.com/",
-    "desc": "File host",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "Gokapi",
-    "url": "https://github.com/Forceu/Gokapi",
-    "desc": "File sharing",
     "category": "Paste & Files"
   },
   {
@@ -25368,33 +22872,9 @@
     "category": "Paste & Files"
   },
   {
-    "name": "Rentry",
-    "url": "https://rentry.co/",
-    "desc": "Markdown pastebin",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "PrivateBin",
-    "url": "https://privatebin.net/",
-    "desc": "Encrypted paste",
-    "category": "Paste & Files"
-  },
-  {
     "name": "Hastebin",
     "url": "https://hasteb.in/",
     "desc": "Pastebin",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "dpaste",
-    "url": "https://dpaste.org/",
-    "desc": "Code pastebin",
-    "category": "Paste & Files"
-  },
-  {
-    "name": "Sourceb.in",
-    "url": "https://srcb.in/",
-    "desc": "Hastebin alt",
     "category": "Paste & Files"
   },
   {
@@ -25414,30 +22894,6 @@
     "url": "https://pastecode.io/",
     "desc": "Code sharing",
     "category": "Paste & Files"
-  },
-  {
-    "name": "FreshRSS",
-    "url": "https://freshrss.org/",
-    "desc": "Self-hosted RSS",
-    "category": "RSS"
-  },
-  {
-    "name": "Miniflux",
-    "url": "https://miniflux.app/",
-    "desc": "Minimal RSS",
-    "category": "RSS"
-  },
-  {
-    "name": "Newsboat",
-    "url": "https://newsboat.org/",
-    "desc": "Terminal RSS",
-    "category": "RSS"
-  },
-  {
-    "name": "NewsBlur",
-    "url": "https://newsblur.com/",
-    "desc": "RSS reader",
-    "category": "RSS"
   },
   {
     "name": "Reeder",
@@ -25476,124 +22932,10 @@
     "category": "RSS"
   },
   {
-    "name": "Feedbin",
-    "url": "https://feedbin.com/",
-    "desc": "RSS service",
-    "category": "RSS"
-  },
-  {
-    "name": "The Old Reader",
-    "url": "https://theoldreader.com/",
-    "desc": "Google Reader alt",
-    "category": "RSS"
-  },
-  {
-    "name": "Inoreader",
-    "url": "https://www.inoreader.com/",
-    "desc": "Online RSS",
-    "category": "RSS"
-  },
-  {
-    "name": "Feedly",
-    "url": "https://feedly.com/",
-    "desc": "RSS aggregator",
-    "category": "RSS"
-  },
-  {
     "name": "Feed Wrangler",
     "url": "https://feedwrangler.net/",
     "desc": "Smart RSS",
     "category": "RSS"
-  },
-  {
-    "name": "CommaFeed",
-    "url": "https://www.commafeed.com/",
-    "desc": "Google Reader style",
-    "category": "RSS"
-  },
-  {
-    "name": "Tiny Tiny RSS",
-    "url": "https://tt-rss.org/",
-    "desc": "Self-hosted RSS",
-    "category": "RSS"
-  },
-  {
-    "name": "Selfoss",
-    "url": "https://selfoss.aditu.de/",
-    "desc": "RSS reader",
-    "category": "RSS"
-  },
-  {
-    "name": "R州",
-    "url": "https://rsshub.app/",
-    "desc": "RSS generator",
-    "category": "RSS"
-  },
-  {
-    "name": "RSS Bridge",
-    "url": "https://rssbridge.github.io/",
-    "desc": "Generate RSS",
-    "category": "RSS"
-  },
-  {
-    "name": "AniDB",
-    "url": "https://anidb.net/",
-    "desc": "Anime database",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Notify",
-    "url": "https://notify.moe/",
-    "desc": "Anime tracker",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "MyAnimeList",
-    "url": "https://myanimelist.net/",
-    "desc": "Anime list",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Anime Planet",
-    "url": "https://anime-planet.com/",
-    "desc": "Watch list",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Hummingbird",
-    "url": "https://hummingbird.me/",
-    "desc": "Anime tracker",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Kitsu",
-    "url": "https://kitsu.io/",
-    "desc": "Anime & manga",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Simkl",
-    "url": "https://simkl.com/",
-    "desc": "Track everything",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Taiga",
-    "url": "https://taiga.io/",
-    "desc": "Track anime",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "MangaUpdates",
-    "url": "https://www.mangaupdates.com/",
-    "desc": "Manga tracker",
-    "category": "Anime & Manga"
-  },
-  {
-    "name": "Bangumi",
-    "url": "https://bgm.tv/",
-    "desc": "Japanese tracker",
-    "category": "Anime & Manga"
   },
   {
     "name": "Mediam",
@@ -25626,87 +22968,15 @@
     "category": "Anime & Manga"
   },
   {
-    "name": "Hacker News",
-    "url": "https://news.ycombinator.com/",
-    "desc": "Tech news",
-    "category": "Tech News"
-  },
-  {
-    "name": "Lobsters",
-    "url": "https://lobste.rs/",
-    "desc": "Tech links",
-    "category": "Tech News"
-  },
-  {
-    "name": "Tildes",
-    "url": "https://tildes.net/",
-    "desc": "Non-profit news",
-    "category": "Tech News"
-  },
-  {
     "name": "Lemmy World",
     "url": "https://lemmy.world/",
     "desc": "Tech communities",
     "category": "Tech News"
   },
   {
-    "name": "Saidit",
-    "url": "https://saidit.net/",
-    "desc": "Reddit alt",
-    "category": "Tech News"
-  },
-  {
-    "name": "Raddle",
-    "url": "https://raddle.me/",
-    "desc": "Hacker forum",
-    "category": "Tech News"
-  },
-  {
-    "name": "Slashdot",
-    "url": "https://slashdot.org/",
-    "desc": "News for nerds",
-    "category": "Tech News"
-  },
-  {
-    "name": "Ars Technica",
-    "url": "https://arstechnica.com/",
-    "desc": "Tech news",
-    "category": "Tech News"
-  },
-  {
-    "name": "Wired",
-    "url": "https://www.wired.com/",
-    "desc": "Tech magazine",
-    "category": "Tech News"
-  },
-  {
-    "name": "The Verge",
-    "url": "https://www.theverge.com/",
-    "desc": "Tech culture",
-    "category": "Tech News"
-  },
-  {
-    "name": "Tech Crunch",
-    "url": "https://techcrunch.com/",
-    "desc": "Startup news",
-    "category": "Tech News"
-  },
-  {
-    "name": "Ars Technica",
-    "url": "https://arstechnica.com/",
-    "desc": "In-depth tech",
-    "category": "Tech News"
-  },
-  {
     "name": "Kottke",
     "url": "https://kottke.org/",
     "desc": "Arts & culture",
-    "category": "Tech News"
-  },
-  {
-    "name": "Marginal Revolution",
-    "url": "https://marginalrevolution.com/",
-    "desc": "Economics",
     "category": "Tech News"
   },
   {
@@ -25719,18 +22989,6 @@
     "name": "Benedict Evans",
     "url": "https://www.ben-evans.com/",
     "desc": "Tech essays",
-    "category": "Tech News"
-  },
-  {
-    "name": "Stratechery",
-    "url": "https://stratechery.com/",
-    "desc": "Tech analysis",
-    "category": "Tech News"
-  },
-  {
-    "name": "Stratechery",
-    "url": "https://stratechery.com/",
-    "desc": "Tech analysis",
     "category": "Tech News"
   },
   {
@@ -25760,12 +23018,6 @@
   {
     "name": "Marginalia Search",
     "url": "https://search.marginalia.nu/",
-    "desc": "Old web search",
-    "category": "Search"
-  },
-  {
-    "name": "Wiby",
-    "url": "https://wiby.me/",
     "desc": "Old web search",
     "category": "Search"
   },
@@ -25806,12 +23058,6 @@
     "category": "Search"
   },
   {
-    "name": "Mojeek",
-    "url": "https://www.mojeek.com/",
-    "desc": "Independent search",
-    "category": "Search"
-  },
-  {
     "name": "YesCache",
     "url": "https://www.yescache.com/",
     "desc": "Caching search",
@@ -25842,12 +23088,6 @@
     "category": "Search"
   },
   {
-    "name": "Public APIs",
-    "url": "https://publicapi.dev/",
-    "desc": "API directory",
-    "category": "Search"
-  },
-  {
     "name": "RapidAPI",
     "url": "https://rapidapi.com/",
     "desc": "API marketplace",
@@ -25866,33 +23106,15 @@
     "category": "Search"
   },
   {
-    "name": "DevDocs",
-    "url": "https://devdocs.io/",
-    "desc": "Offline API docs",
-    "category": "Search"
-  },
-  {
     "name": "Devhints",
     "url": "https://devhints.io/",
     "desc": "Cheat sheets",
     "category": "Search"
   },
   {
-    "name": "SomaFM",
-    "url": "https://somafm.com/",
-    "desc": "Internet radio",
-    "category": "Music"
-  },
-  {
     "name": "Radio Paradise",
     "url": "https://www.radioparadise.com/",
     "desc": "Curated radio",
-    "category": "Music"
-  },
-  {
-    "name": "Rainwave",
-    "url": "https://rainwave.cc/",
-    "desc": "Game music radio",
     "category": "Music"
   },
   {
@@ -25914,27 +23136,9 @@
     "category": "Music"
   },
   {
-    "name": "BBC Radio 1",
-    "url": "https://www.bbc.co.uk/sounds",
-    "desc": "UK radio",
-    "category": "Music"
-  },
-  {
     "name": "KEXP",
     "url": "https://www.kexp.org/",
     "desc": "Seattle radio",
-    "category": "Music"
-  },
-  {
-    "name": "Bandcamp",
-    "url": "https://bandcamp.com/",
-    "desc": "Indie music",
-    "category": "Music"
-  },
-  {
-    "name": "SoundCloud",
-    "url": "https://soundcloud.com/",
-    "desc": "Audio platform",
     "category": "Music"
   },
   {
@@ -25950,36 +23154,6 @@
     "category": "Music"
   },
   {
-    "name": "Musopen",
-    "url": "https://musopen.org/",
-    "desc": "Classical music",
-    "category": "Music"
-  },
-  {
-    "name": "IMSLP",
-    "url": "https://imslp.org/",
-    "desc": "Sheet music",
-    "category": "Music"
-  },
-  {
-    "name": "Hooktheory",
-    "url": "https://www.hooktheory.com/",
-    "desc": "Music theory",
-    "category": "Music"
-  },
-  {
-    "name": "Teoria",
-    "url": "https://www.teoria.com/",
-    "desc": "Music theory",
-    "category": "Music"
-  },
-  {
-    "name": "Soundation",
-    "url": "https://soundation.com/",
-    "desc": "Online DAW",
-    "category": "Music"
-  },
-  {
     "name": "BeepBox",
     "url": "https://beepbox.co/",
     "desc": "Chiptune maker",
@@ -25989,12 +23163,6 @@
     "name": "Plugger",
     "url": "https://plugger.nl/",
     "desc": "Music browser",
-    "category": "Music"
-  },
-  {
-    "name": "Vocaroo",
-    "url": "https://vocaroo.com/",
-    "desc": "Voice recorder",
     "category": "Music"
   },
   {
@@ -26028,12 +23196,6 @@
     "category": "Music"
   },
   {
-    "name": "Freesound",
-    "url": "https://freesound.org/",
-    "desc": "Sound effects",
-    "category": "Music"
-  },
-  {
     "name": "ZapSplat",
     "url": "https://www.zapsplat.com/",
     "desc": "Sound effects",
@@ -26046,51 +23208,9 @@
     "category": "Music"
   },
   {
-    "name": "Archive.org Audio",
-    "url": "https://archive.org/details/audio",
-    "desc": "Audio archive",
-    "category": "Music"
-  },
-  {
-    "name": "Radio Browser",
-    "url": "https://www.radio-browser.info/",
-    "desc": "Radio directory",
-    "category": "Music"
-  },
-  {
-    "name": "4chan",
-    "url": "https://4chan.org/",
-    "desc": "Imageboard",
-    "category": "Imageboards & Chans"
-  },
-  {
-    "name": "4plebs",
-    "url": "https://4plebs.org/",
-    "desc": "Archive",
-    "category": "Imageboards & Chans"
-  },
-  {
     "name": "The Archived",
     "url": "https://thearchived.moe/",
     "desc": "4chan archive",
-    "category": "Imageboards & Chans"
-  },
-  {
-    "name": "7chan",
-    "url": "https://7chan.org/",
-    "desc": "Archive board",
-    "category": "Imageboards & Chans"
-  },
-  {
-    "name": "8chan",
-    "url": "https://8kun.top/",
-    "desc": "Imageboard",
-    "category": "Imageboards & Chans"
-  },
-  {
-    "name": "8kun",
-    "url": "https://8kun.top/",
-    "desc": "Imageboard",
     "category": "Imageboards & Chans"
   },
   {
@@ -26103,12 +23223,6 @@
     "name": "Himmelf",
     "url": "https://himmelf.net/",
     "desc": "Archive",
-    "category": "Imageboards & Chans"
-  },
-  {
-    "name": "Lainchan",
-    "url": "https://lainchan.org/",
-    "desc": "Serial experiments lain",
     "category": "Imageboards & Chans"
   },
   {
@@ -26190,69 +23304,15 @@
     "category": "Gaming & Emulation"
   },
   {
-    "name": "PCSX2",
-    "url": "https://pcsx2.net/",
-    "desc": "PS2 emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "RPCS3",
-    "url": "https://rpcs3.net/",
-    "desc": "PS3 emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Citra",
-    "url": "https://citra-emu.org/",
-    "desc": "3DS emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Yuzu",
-    "url": "https://yuzu-emu.org/",
-    "desc": "Switch emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Ryujinx",
-    "url": "https://ryujinx.org/",
-    "desc": "Switch emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
     "name": "Suyu",
     "url": "https://suyu.dev/",
     "desc": "Switch emulator fork",
     "category": "Gaming & Emulation"
   },
   {
-    "name": "Dolphin",
-    "url": "https://dolphin-emu.org/",
-    "desc": "GameCube/Wii",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Cemu",
-    "url": "https://cemu.info/",
-    "desc": "Wii U emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Xenia",
-    "url": "https://xenia.jp/",
-    "desc": "Xbox 360",
-    "category": "Gaming & Emulation"
-  },
-  {
     "name": "Xenia Canary",
     "url": "https://github.com/xenia-canary/xenia-canary",
     "desc": "Xbox 360 dev",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "DuckStation",
-    "url": "https://www.duckstation.org/",
-    "desc": "PS1 emulator",
     "category": "Gaming & Emulation"
   },
   {
@@ -26268,18 +23328,6 @@
     "category": "Gaming & Emulation"
   },
   {
-    "name": "Mesen-S",
-    "url": "https://github.com/SourMesen/Mesen-S",
-    "desc": "SNES",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "bsnes",
-    "url": "https://github.com/bsnes-emu/bsnes",
-    "desc": "SNES",
-    "category": "Gaming & Emulation"
-  },
-  {
     "name": "Snes9x",
     "url": "https://www.snes9x.com/",
     "desc": "SNES",
@@ -26292,51 +23340,9 @@
     "category": "Gaming & Emulation"
   },
   {
-    "name": "MAME",
-    "url": "https://www.mamedev.org/",
-    "desc": "Arcade emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "RetroArch",
-    "url": "https://www.retroarch.com/",
-    "desc": "Multi-system",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "PPSSPP",
-    "url": "https://www.ppsspp.org/",
-    "desc": "PSP emulator",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Vita3K",
-    "url": "https://vita3k.org/",
-    "desc": "PS Vita",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "ScummVM",
-    "url": "https://www.scummvm.org/",
-    "desc": "Classic adventure",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "DOSBox",
-    "url": "https://www.dosbox.com/",
-    "desc": "DOS games",
-    "category": "Gaming & Emulation"
-  },
-  {
     "name": "DOSBox Staging",
     "url": "https://dosbox-staging.github.io/",
     "desc": "DOSBox fork",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "v86",
-    "url": "https://copy.sh/v86/",
-    "desc": "Browser DOS",
     "category": "Gaming & Emulation"
   },
   {
@@ -26355,30 +23361,6 @@
     "name": "Play Retro Games",
     "url": "https://playretrogames.net/",
     "desc": "Browser retro",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "ITCH.io",
-    "url": "https://itch.io/",
-    "desc": "Indie games",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Lutris",
-    "url": "https://lutris.net/",
-    "desc": "Linux games",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Heroic Games",
-    "url": "https://heroicgameslauncher.com/",
-    "desc": "Epic/Legendary",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Bottles",
-    "url": "https://usebottles.com/",
-    "desc": "Windows on Linux",
     "category": "Gaming & Emulation"
   },
   {
@@ -26412,50 +23394,8 @@
     "category": "Gaming & Emulation"
   },
   {
-    "name": "EmuDeck",
-    "url": "https://www.emudeck.com/",
-    "desc": "Emulation setup",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "EmulationStation",
-    "url": "https://www.emulationstation.org/",
-    "desc": "Front-end",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Recalbox",
-    "url": "https://www.recalbox.com/",
-    "desc": "Retro console",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Batocera",
-    "url": "https://batocera.org/",
-    "desc": "Retro OS",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "Lakka",
-    "url": "https://www.lakka.tv/",
-    "desc": "LibreELEC",
-    "category": "Gaming & Emulation"
-  },
-  {
-    "name": "RetroPie",
-    "url": "https://retropie.org.uk/",
-    "desc": "Raspberry Pi",
-    "category": "Gaming & Emulation"
-  },
-  {
     "name": "Invidious",
     "url": "https://invidious.snopyta.org/",
-    "desc": "YouTube front-end",
-    "category": "Video & Streaming"
-  },
-  {
-    "name": "Piped",
-    "url": "https://piped.kavin.rocks/",
     "desc": "YouTube front-end",
     "category": "Video & Streaming"
   },
@@ -26484,18 +23424,6 @@
     "category": "Video & Streaming"
   },
   {
-    "name": "YouTubeMusic",
-    "url": "https://music.youtube.com/",
-    "desc": "YouTube music",
-    "category": "Video & Streaming"
-  },
-  {
-    "name": "CloudTube",
-    "url": "https://yewtu.be/",
-    "desc": "YouTube front-end",
-    "category": "Video & Streaming"
-  },
-  {
     "name": "HyperTube",
     "url": "https://tube.k最大x.de/",
     "desc": "YouTube front-end",
@@ -26514,39 +23442,9 @@
     "category": "Video & Streaming"
   },
   {
-    "name": "PeerTube",
-    "url": "https://joinpeertube.org/",
-    "desc": "Federated video",
-    "category": "Video & Streaming"
-  },
-  {
-    "name": "Chocobozzz",
-    "url": "https://github.com/Chocobozzz/PeerTube",
-    "desc": "PeerTube GitHub",
-    "category": "Video & Streaming"
-  },
-  {
     "name": "Seans Ker",
     "url": "https://seans.world/",
     "desc": "PeerTube instance",
-    "category": "Video & Streaming"
-  },
-  {
-    "name": "Odysee",
-    "url": "https://odysee.com/",
-    "desc": "LBRY front-end",
-    "category": "Video & Streaming"
-  },
-  {
-    "name": "LBRY",
-    "url": "https://lbry.com/",
-    "desc": "Decentralized video",
-    "category": "Video & Streaming"
-  },
-  {
-    "name": "Rumble",
-    "url": "https://rumble.com/",
-    "desc": "Video platform",
     "category": "Video & Streaming"
   },
   {
@@ -26598,51 +23496,9 @@
     "category": "Video & Streaming"
   },
   {
-    "name": "n8n",
-    "url": "https://n8n.io/",
-    "desc": "Workflow automation",
-    "category": "No-Code"
-  },
-  {
-    "name": "Huginn",
-    "url": "https://github.com/huginn/huginn",
-    "desc": "Agents",
-    "category": "No-Code"
-  },
-  {
     "name": "Kestra",
     "url": "https://kestra.io/",
     "desc": "Event-driven",
-    "category": "No-Code"
-  },
-  {
-    "name": "Windmill",
-    "url": "https://windmill.dev/",
-    "desc": "Internal tools",
-    "category": "No-Code"
-  },
-  {
-    "name": "Activepieces",
-    "url": "https://www.activepieces.com/",
-    "desc": "Pieces automation",
-    "category": "No-Code"
-  },
-  {
-    "name": "Pipedream",
-    "url": "https://pipedream.com/",
-    "desc": "Integration platform",
-    "category": "No-Code"
-  },
-  {
-    "name": "Make",
-    "url": "https://www.make.com/",
-    "desc": "Visual automation",
-    "category": "No-Code"
-  },
-  {
-    "name": "Zapier",
-    "url": "https://zapier.com/",
-    "desc": "Connect apps",
     "category": "No-Code"
   },
   {
@@ -26706,27 +23562,9 @@
     "category": "No-Code"
   },
   {
-    "name": "StackBlitz",
-    "url": "https://stackblitz.com/",
-    "desc": "Instant dev",
-    "category": "No-Code"
-  },
-  {
-    "name": "Replit",
-    "url": "https://replit.com/",
-    "desc": "Online IDE",
-    "category": "No-Code"
-  },
-  {
     "name": "Open Source Alternative",
     "url": "https://www.openalternative.co/",
     "desc": "Alt to SaaS",
-    "category": "Open Source"
-  },
-  {
-    "name": "Alternative",
-    "url": "https://alternativeto.net/",
-    "desc": "Software alternatives",
     "category": "Open Source"
   },
   {
@@ -26778,12 +23616,6 @@
     "category": "Open Source"
   },
   {
-    "name": "Open Hardware",
-    "url": "https://www.openhwgroup.org/",
-    "desc": "Hardware designs",
-    "category": "Open Source"
-  },
-  {
     "name": "OSHWA",
     "url": "https://www.oshwa.org/",
     "desc": "Open hardware assn",
@@ -26799,18 +23631,6 @@
     "name": "Linux Foundation",
     "url": "https://www.linuxfoundation.org/",
     "desc": "Open source org",
-    "category": "Open Source"
-  },
-  {
-    "name": "FSF",
-    "url": "https://www.fsf.org/",
-    "desc": "Free software",
-    "category": "Open Source"
-  },
-  {
-    "name": "GNU",
-    "url": "https://www.gnu.org/",
-    "desc": "GNU project",
     "category": "Open Source"
   },
   {
@@ -26874,39 +23694,15 @@
     "category": "Wikis"
   },
   {
-    "name": "Wikiwand",
-    "url": "https://www.wikiwand.com/",
-    "desc": "Better Wikipedia",
-    "category": "Wikis"
-  },
-  {
     "name": "Metapedi",
     "url": "https://metapedi.com/",
     "desc": "Wikipedia alt",
     "category": "Wikis"
   },
   {
-    "name": "Everipedia",
-    "url": "https://everipedia.org/",
-    "desc": "IQ wiki",
-    "category": "Wikis"
-  },
-  {
-    "name": "Fandom",
-    "url": "https://www.fandom.com/",
-    "desc": "Community wikis",
-    "category": "Wikis"
-  },
-  {
     "name": "NotABetterWiki",
     "url": "https://notabetterwiki.org/",
     "desc": "User wikis",
-    "category": "Wikis"
-  },
-  {
-    "name": "WikiTree",
-    "url": "https://www.wikitree.com/",
-    "desc": "Genealogy",
     "category": "Wikis"
   },
   {
@@ -26988,78 +23784,6 @@
     "category": "Wikis"
   },
   {
-    "name": "Astro",
-    "url": "https://astro.build/",
-    "desc": "Content framework",
-    "category": "Frontend"
-  },
-  {
-    "name": "Qwik",
-    "url": "https://qwik.dev/",
-    "desc": "Resumable framework",
-    "category": "Frontend"
-  },
-  {
-    "name": "SvelteKit",
-    "url": "https://kit.svelte.dev/",
-    "desc": "Svelte framework",
-    "category": "Frontend"
-  },
-  {
-    "name": "Remix",
-    "url": "https://remix.run/",
-    "desc": "React framework",
-    "category": "Frontend"
-  },
-  {
-    "name": "Next.js",
-    "url": "https://nextjs.org/",
-    "desc": "React framework",
-    "category": "Frontend"
-  },
-  {
-    "name": "Nuxt",
-    "url": "https://nuxt.com/",
-    "desc": "Vue framework",
-    "category": "Frontend"
-  },
-  {
-    "name": "Vite",
-    "url": "https://vitejs.dev/",
-    "desc": "Build tool",
-    "category": "Frontend"
-  },
-  {
-    "name": "Rollup",
-    "url": "https://rollupjs.org/",
-    "desc": "Bundler",
-    "category": "Frontend"
-  },
-  {
-    "name": "esbuild",
-    "url": "https://esbuild.github.io/",
-    "desc": "Go bundler",
-    "category": "Frontend"
-  },
-  {
-    "name": "SWC",
-    "url": "https://swc.rs/",
-    "desc": "Rust compiler",
-    "category": "Frontend"
-  },
-  {
-    "name": "Turbopack",
-    "url": "https://turbo.build/",
-    "desc": "Vercel bundler",
-    "category": "Frontend"
-  },
-  {
-    "name": "Parcel",
-    "url": "https://parceljs.org/",
-    "desc": "Zero config",
-    "category": "Frontend"
-  },
-  {
     "name": "Snowpack",
     "url": "https://www.snowpack.dev/",
     "desc": "ESM builder",
@@ -27069,30 +23793,6 @@
     "name": "WMR",
     "url": "https://wmr.dev/",
     "desc": "Preact tool",
-    "category": "Frontend"
-  },
-  {
-    "name": "Vercel",
-    "url": "https://vercel.com/",
-    "desc": "Deploy",
-    "category": "Frontend"
-  },
-  {
-    "name": "Netlify",
-    "url": "https://www.netlify.com/",
-    "desc": "Deploy",
-    "category": "Frontend"
-  },
-  {
-    "name": "Cloudflare Pages",
-    "url": "https://pages.cloudflare.com/",
-    "desc": "Deploy",
-    "category": "Frontend"
-  },
-  {
-    "name": "Surge",
-    "url": "https://surge.sh/",
-    "desc": "CLI deploy",
     "category": "Frontend"
   },
   {
@@ -27120,12 +23820,6 @@
     "category": "Frontend"
   },
   {
-    "name": "Deno Deploy",
-    "url": "https://deno.com/deploy",
-    "desc": "Edge deploy",
-    "category": "Frontend"
-  },
-  {
     "name": "Bun Deploy",
     "url": "https://bun.com/",
     "desc": "All-in-one",
@@ -27141,12 +23835,6 @@
     "name": "Docker",
     "url": "https://docker.com/",
     "desc": "Containers",
-    "category": "Containers"
-  },
-  {
-    "name": "Podman",
-    "url": "https://podman.io/",
-    "desc": "Rootless containers",
     "category": "Containers"
   },
   {
@@ -27168,75 +23856,15 @@
     "category": "Containers"
   },
   {
-    "name": "Kubernetes",
-    "url": "https://kubernetes.io/",
-    "desc": "Orchestration",
-    "category": "Containers"
-  },
-  {
-    "name": "K3s",
-    "url": "https://k3s.io/",
-    "desc": "Light Kubernetes",
-    "category": "Containers"
-  },
-  {
     "name": "K0s",
     "url": "https://k0sproject.org/",
     "desc": "Zero friction K8s",
     "category": "Containers"
   },
   {
-    "name": "MicroK8s",
-    "url": "https://microk8s.io/",
-    "desc": "Snap K8s",
-    "category": "Containers"
-  },
-  {
-    "name": "Minikube",
-    "url": "https://minikube.sigs.k8s.io/",
-    "desc": "Local K8s",
-    "category": "Containers"
-  },
-  {
-    "name": "Kind",
-    "url": "https://kind.sigs.k8s.io/",
-    "desc": "K8s in Docker",
-    "category": "Containers"
-  },
-  {
     "name": "Rancher",
     "url": "https://rancher.com/",
     "desc": "K8s manager",
-    "category": "Containers"
-  },
-  {
-    "name": "Portainer",
-    "url": "https://www.portainer.io/",
-    "desc": "Docker GUI",
-    "category": "Containers"
-  },
-  {
-    "name": "Traefik",
-    "url": "https://traefik.io/",
-    "desc": "Reverse proxy",
-    "category": "Containers"
-  },
-  {
-    "name": "Caddy",
-    "url": "https://caddyserver.com/",
-    "desc": "Auto HTTPS",
-    "category": "Containers"
-  },
-  {
-    "name": "Nginx Proxy Manager",
-    "url": "https://nginxproxymanager.com/",
-    "desc": "Nginx GUI",
-    "category": "Containers"
-  },
-  {
-    "name": "Watchtower",
-    "url": "https://github.com/containrrr/watchtower",
-    "desc": "Auto-update",
     "category": "Containers"
   },
   {
@@ -27270,81 +23898,9 @@
     "category": "Containers"
   },
   {
-    "name": "PostgreSQL",
-    "url": "https://www.postgresql.org/",
-    "desc": "Relational DB",
-    "category": "Databases"
-  },
-  {
-    "name": "MariaDB",
-    "url": "https://mariadb.org/",
-    "desc": "MySQL fork",
-    "category": "Databases"
-  },
-  {
-    "name": "MySQL",
-    "url": "https://www.mysql.com/",
-    "desc": "Relational DB",
-    "category": "Databases"
-  },
-  {
-    "name": "SQLite",
-    "url": "https://sqlite.org/",
-    "desc": "File-based DB",
-    "category": "Databases"
-  },
-  {
-    "name": "SQLite Viewer",
-    "url": "https://sqliteviewer.app/",
-    "desc": "Online viewer",
-    "category": "Databases"
-  },
-  {
-    "name": "DuckDB",
-    "url": "https://duckdb.org/",
-    "desc": "OLAP DB",
-    "category": "Databases"
-  },
-  {
-    "name": "TimescaleDB",
-    "url": "https://www.timescale.com/",
-    "desc": "Time-series",
-    "category": "Databases"
-  },
-  {
-    "name": "InfluxDB",
-    "url": "https://www.influxdata.com/",
-    "desc": "Time-series",
-    "category": "Databases"
-  },
-  {
-    "name": "QuestDB",
-    "url": "https://questdb.io/",
-    "desc": "Time-series SQL",
-    "category": "Databases"
-  },
-  {
-    "name": "ClickHouse",
-    "url": "https://clickhouse.com/",
-    "desc": "OLAP",
-    "category": "Databases"
-  },
-  {
     "name": "SingleStore",
     "url": "https://www.singlestore.com/",
     "desc": "HTAP",
-    "category": "Databases"
-  },
-  {
-    "name": "CockroachDB",
-    "url": "https://www.cockroachlabs.com/",
-    "desc": "Distributed SQL",
-    "category": "Databases"
-  },
-  {
-    "name": "PlanetScale",
-    "url": "https://planetscale.com/",
-    "desc": "MySQL serverless",
     "category": "Databases"
   },
   {
@@ -27354,27 +23910,9 @@
     "category": "Databases"
   },
   {
-    "name": "Supabase",
-    "url": "https://supabase.com/",
-    "desc": "Firebase alt",
-    "category": "Databases"
-  },
-  {
-    "name": "Appwrite",
-    "url": "https://appwrite.io/",
-    "desc": "Backend server",
-    "category": "Databases"
-  },
-  {
     "name": "PocketBase",
     "url": "https://pocketbase.io/",
     "desc": "Go backend",
-    "category": "Databases"
-  },
-  {
-    "name": "SurrealDB",
-    "url": "https://surrealdb.com/",
-    "desc": "Document SQL",
     "category": "Databases"
   },
   {
@@ -27390,51 +23928,9 @@
     "category": "Databases"
   },
   {
-    "name": "MongoDB",
-    "url": "https://www.mongodb.com/",
-    "desc": "Document DB",
-    "category": "Databases"
-  },
-  {
-    "name": "Meilisearch",
-    "url": "https://www.meilisearch.com/",
-    "desc": "Search engine",
-    "category": "Databases"
-  },
-  {
-    "name": "Typesense",
-    "url": "https://typesense.org/",
-    "desc": "Search engine",
-    "category": "Databases"
-  },
-  {
     "name": "Weaviate",
     "url": "https://weaviate.io/",
     "desc": "Vector DB",
-    "category": "Databases"
-  },
-  {
-    "name": "Qdrant",
-    "url": "https://qdrant.tech/",
-    "desc": "Vector DB",
-    "category": "Databases"
-  },
-  {
-    "name": "Pinecone",
-    "url": "https://www.pinecone.io/",
-    "desc": "Vector DB",
-    "category": "Databases"
-  },
-  {
-    "name": "Chroma",
-    "url": "https://trychroma.com/",
-    "desc": "Vector DB",
-    "category": "Databases"
-  },
-  {
-    "name": "Redis",
-    "url": "https://redis.io/",
-    "desc": "In-memory DB",
     "category": "Databases"
   },
   {
@@ -27474,39 +23970,9 @@
     "category": "Databases"
   },
   {
-    "name": "CouchDB",
-    "url": "https://couchdb.apache.org/",
-    "desc": "Document DB",
-    "category": "Databases"
-  },
-  {
     "name": "Couchbase",
     "url": "https://www.couchbase.com/",
     "desc": "Memcached+SQL",
-    "category": "Databases"
-  },
-  {
-    "name": "Dgraph",
-    "url": "https://dgraph.io/",
-    "desc": "Graph DB",
-    "category": "Databases"
-  },
-  {
-    "name": "Neo4j",
-    "url": "https://neo4j.com/",
-    "desc": "Graph DB",
-    "category": "Databases"
-  },
-  {
-    "name": "ArangoDB",
-    "url": "https://www.arangodb.com/",
-    "desc": "Multi-model",
-    "category": "Databases"
-  },
-  {
-    "name": "MariaDB ColumnStore",
-    "url": "https://mariadb.org/",
-    "desc": "Columnar",
     "category": "Databases"
   },
   {
@@ -27516,165 +23982,9 @@
     "category": "Databases"
   },
   {
-    "name": "Shodan",
-    "url": "https://www.shodan.io/",
-    "desc": "Device search",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Censys",
-    "url": "https://search.censys.io/",
-    "desc": "Internet assets",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "ZoomEye",
-    "url": "https://www.zoomeye.org/",
-    "desc": "China search",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "FOFA",
-    "url": "https://fofa.info/",
-    "desc": "Network search",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Onyphe",
-    "url": "https://www.onyphe.io/",
-    "desc": "Cyber data",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "GreyNoise",
-    "url": "https://viz.greynoise.io/",
-    "desc": "Internet noise",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "AbuseIPDB",
-    "url": "https://www.abuseipdb.com/",
-    "desc": "IP database",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "VirusTotal",
-    "url": "https://www.virustotal.com/",
-    "desc": "File scanner",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Hybrid Analysis",
-    "url": "https://hybrid-analysis.com/",
-    "desc": "File analysis",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Any.Run",
-    "url": "https://any.run/",
-    "desc": "Interactive malware",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Joe Sandbox",
-    "url": "https://www.joesandbox.com/",
-    "desc": "Malware analysis",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "URLhaus",
-    "url": "https://urlhaus.abuse.ch/",
-    "desc": "Malware URLs",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "URLScan",
-    "url": "https://urlscan.io/",
-    "desc": "URL analysis",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Triage",
-    "url": "https://tria.ge/",
-    "desc": "Malware sandbox",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "InQuest",
     "url": "https://www.inquest.net/",
     "desc": "Threat intel",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "ThreatFox",
-    "url": "https://threatfox.abuse.ch/",
-    "desc": "IOC database",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "MalwareBazaar",
-    "url": "https://bazaar.abuse.ch/",
-    "desc": "Malware samples",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "AlienVault OTX",
-    "url": "https://otx.alienvault.com/",
-    "desc": "Pulse",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "MISP",
-    "url": "https://www.misp-project.org/",
-    "desc": "Threat sharing",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "CVE Details",
-    "url": "https://www.cvedetails.com/",
-    "desc": "CVE database",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "NVD",
-    "url": "https://nvd.nist.gov/",
-    "desc": "National DB",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Exploit DB",
-    "url": "https://www.exploit-db.com/",
-    "desc": "Exploits",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "PacketStorm",
-    "url": "https://packetstormsecurity.com/",
-    "desc": "Security news",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Sploitus",
-    "url": "https://sploitus.com/",
-    "desc": "Exploit search",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Vulners",
-    "url": "https://vulners.com/",
-    "desc": "Vulnerability search",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Wappalyzer",
-    "url": "https://www.wappalyzer.com/",
-    "desc": "Tech detector",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "BuiltWith",
-    "url": "https://builtwith.com/",
-    "desc": "Tech profiler",
     "category": "Cybersecurity"
   },
   {
@@ -27906,24 +24216,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Subfinder",
-    "url": "https://github.com/projectdiscovery/subfinder",
-    "desc": "Subdomains",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Assetfinder",
-    "url": "https://github.com/tomnomnom/assetfinder",
-    "desc": "Find assets",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Httpx",
-    "url": "https://github.com/projectdiscovery/httpx",
-    "desc": "HTTP probe",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Nuclei",
     "url": "https://nuclei.projectdiscovery.io/",
     "desc": "Template scanning",
@@ -28008,51 +24300,9 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "OWASP",
-    "url": "https://owasp.org/",
-    "desc": "Web security",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Hacktricks",
-    "url": "https://book.hacktricks.xyz/",
-    "desc": "Pentest guide",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "PayloadsAll",
-    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
-    "desc": "Web attacks",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "GTFOBins",
-    "url": "https://gtfobins.github.io/",
-    "desc": "Privilege escalation",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "LOLBAS",
-    "url": "https://lolbas-project.github.io/",
-    "desc": "Windows bins",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "LinPEAS",
     "url": "https://github.com/carlospolop/PEASS-ng",
     "desc": "Linux enum",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "WinPEAS",
-    "url": "https://github.com/carlospolop/PEASS-ng",
-    "desc": "Windows enum",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "PEAS",
-    "url": "https://github.com/carlospolop/PEASS-ng",
-    "desc": "Privilege esc",
     "category": "Cybersecurity"
   },
   {
@@ -28152,27 +24402,9 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "MITRE ATT&CK",
-    "url": "https://attack.mitre.org/",
-    "desc": "Framework",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "CAPEC",
     "url": "https://capec.mitre.org/",
     "desc": "Attack patterns",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "CWE",
-    "url": "https://cwe.mitre.org/",
-    "desc": "Weaknesses",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "CVE",
-    "url": "https://cve.mitre.org/",
-    "desc": "Vulnerabilities",
     "category": "Cybersecurity"
   },
   {
@@ -28206,33 +24438,9 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Lynis",
-    "url": "https://cisofy.com/lynis/",
-    "desc": "Linux hardening",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Chkrootkit",
     "url": "https://www.chkrootkit.org/",
     "desc": "Rootkit detector",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Rkhunter",
-    "url": "https://rkhunter.sourceforge.net/",
-    "desc": "Rootkit hunter",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "ClamAV",
-    "url": "https://www.clamav.net/",
-    "desc": "Antivirus",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "YARA",
-    "url": "https://virustotal.github.io/yara/",
-    "desc": "Malware classification",
     "category": "Cybersecurity"
   },
   {
@@ -28260,27 +24468,9 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Moloch",
-    "url": "https://arkime.com/",
-    "desc": "Large-scale PCAP",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Security Onion",
     "url": "https://securityonion.net/",
     "desc": "Security distro",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "pfSense",
-    "url": "https://www.pfsense.org/",
-    "desc": "Firewall",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "OPNsense",
-    "url": "https://opnsense.org/",
-    "desc": "Firewall",
     "category": "Cybersecurity"
   },
   {
@@ -28302,24 +24492,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "nftables",
-    "url": "https://www.netfilter.org/",
-    "desc": "Linux firewall",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Crowdsec",
-    "url": "https://www.crowdsec.net/",
-    "desc": "Collaborative defense",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Fail2ban",
-    "url": "https://www.fail2ban.org/",
-    "desc": "Ban attackers",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "SSHGuard",
     "url": "https://sshguard.net/",
     "desc": "SSH protection",
@@ -28329,12 +24501,6 @@
     "name": "DenyHosts",
     "url": "https://denyhosts.net/",
     "desc": "SSH hardening",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "AIDE",
-    "url": "https://aide.github.io/",
-    "desc": "File integrity",
     "category": "Cybersecurity"
   },
   {
@@ -28359,12 +24525,6 @@
     "name": "Cortex",
     "url": "https://github.com/TheHive-Project/Cortex",
     "desc": "Analysis engine",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "MISP",
-    "url": "https://www.misp-project.org/",
-    "desc": "Threat sharing",
     "category": "Cybersecurity"
   },
   {
@@ -28395,12 +24555,6 @@
     "name": "Kroll",
     "url": "https://www.kroll.com/",
     "desc": "Artfacts parser",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Timeline Explorer",
-    "url": "https://ericzimmerman.github.io/#!index.md",
-    "desc": "Timeline tool",
     "category": "Cybersecurity"
   },
   {
@@ -28458,39 +24612,9 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Bash History",
-    "url": "https://github.com/libyal/libw",
-    "desc": "Bash history",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "OpenVPN",
-    "url": "https://openvpn.net/",
-    "desc": "VPN",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "WireGuard",
-    "url": "https://www.wireguard.com/",
-    "desc": "Modern VPN",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "StrongSwan",
     "url": "https://www.strongswan.org/",
     "desc": "IPsec VPN",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "OpenConnect",
-    "url": "https://www.infradead.org/ocserv/",
-    "desc": "Cisco VPN",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Algo VPN",
-    "url": "https://github.com/trailofbits/algo",
-    "desc": "WireGuard VPN",
     "category": "Cybersecurity"
   },
   {
@@ -28512,24 +24636,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Tor",
-    "url": "https://www.torproject.org/",
-    "desc": "Anonymity network",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "I2P",
-    "url": "https://geti2p.net/",
-    "desc": "Anonymous network",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Freenet",
-    "url": "https://freenetproject.org/",
-    "desc": "Censorship-resistant",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "GNUnet",
     "url": "https://gnunet.org/",
     "desc": "P2P network",
@@ -28542,39 +24648,15 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Dat",
-    "url": "https://dat.foundation/",
-    "desc": "P2P protocol",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Safe Network",
     "url": "https://safenetforum.org/",
     "desc": "Decentralized",
     "category": "Cybersecurity"
   },
   {
-    "name": "Scuttlebutt",
-    "url": "https://scuttlebutt.nz/",
-    "desc": "P2P social",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "SecureScuttlebutt",
-    "url": "https://github.com/ssbc/patchwork",
-    "desc": "SSB client",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Keybase",
     "url": "https://keybase.io/",
     "desc": "Key management",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Keyoxide",
-    "url": "https://keyoxide.org/",
-    "desc": "Identity verification",
     "category": "Cybersecurity"
   },
   {
@@ -28596,12 +24678,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "acme.sh",
-    "url": "https://github.com/acmesh-official/acme.sh",
-    "desc": "ACME client",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "SmallStep",
     "url": "https://smallstep.com/",
     "desc": "PKI",
@@ -28611,12 +24687,6 @@
     "name": "CFSSL",
     "url": "https://github.com/cloudflare/cfssl",
     "desc": "PKI toolkit",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Vault",
-    "url": "https://www.vaultproject.io/",
-    "desc": "Secrets management",
     "category": "Cybersecurity"
   },
   {
@@ -28668,72 +24738,6 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "Matrix",
-    "url": "https://matrix.org/",
-    "desc": "E2E encrypted chat",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Signal",
-    "url": "https://signal.org/",
-    "desc": "Encrypted messaging",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Wire",
-    "url": "https://wire.com/",
-    "desc": "Secure messenger",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Threema",
-    "url": "https://threema.ch/",
-    "desc": "Privacy messenger",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Tox",
-    "url": "https://tox.chat/",
-    "desc": "P2P messenger",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Matrix",
-    "url": "https://element.io/",
-    "desc": "Matrix client",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Cinny",
-    "url": "https://cinny.in/",
-    "desc": "Matrix client",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "FluffyChat",
-    "url": "https://fluffychat.im/",
-    "desc": "Matrix client",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Nheko",
-    "url": "https://nheko-reborn.github.io/",
-    "desc": "Matrix client",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Quaternion",
-    "url": "https://github.com/quotient-im/Quaternion",
-    "desc": "Matrix client",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Syphon",
-    "url": "https://syphon.org/",
-    "desc": "Privacy chat",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Ricochet",
     "url": "https://ricochetrefresh.net/",
     "desc": "Anonymous IM",
@@ -28743,18 +24747,6 @@
     "name": "Securly",
     "url": "https://securly.com/",
     "desc": "Email encryption",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "ProtonMail",
-    "url": "https://proton.me/mail",
-    "desc": "Encrypted email",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Tutanota",
-    "url": "https://tutanota.com/",
-    "desc": "Encrypted email",
     "category": "Cybersecurity"
   },
   {
@@ -28770,69 +24762,15 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "GPG",
-    "url": "https://gnupg.org/",
-    "desc": "Encryption",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "GPG4Win",
     "url": "https://www.gpg4win.org/",
     "desc": "GPG for Windows",
     "category": "Cybersecurity"
   },
   {
-    "name": "GPG Suite",
-    "url": "https://gpgtools.org/",
-    "desc": "GPG for Mac",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Keybase",
-    "url": "https://keybase.io/",
-    "desc": "Key management",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Paperkey",
-    "url": "https://www.jabberwocky.com/software/paperkey/",
-    "desc": "Printable key",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Tails",
-    "url": "https://tails.boum.org/",
-    "desc": "Live USB OS",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Whonix",
-    "url": "https://www.whonix.org/",
-    "desc": "Anonymity OS",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Qubes",
-    "url": "https://www.qubes-os.org/",
-    "desc": "Security OS",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Kicksecure",
-    "url": "https://kicksecure.com/",
-    "desc": "Hardened OS",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "Debian",
     "url": "https://www.debian.org/",
     "desc": "Stable OS",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Arch",
-    "url": "https://archlinux.org/",
-    "desc": "Rolling release",
     "category": "Cybersecurity"
   },
   {
@@ -28860,51 +24798,15 @@
     "category": "Cybersecurity"
   },
   {
-    "name": "FreeBSD",
-    "url": "https://www.freebsd.org/",
-    "desc": "BSD OS",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "OpenBSD",
-    "url": "https://www.openbsd.org/",
-    "desc": "Security BSD",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "HardenedBSD",
     "url": "https://hardenedbsd.org/",
     "desc": "Hardened FreeBSD",
     "category": "Cybersecurity"
   },
   {
-    "name": "NetBSD",
-    "url": "https://www.netbsd.org/",
-    "desc": "Portable BSD",
-    "category": "Cybersecurity"
-  },
-  {
     "name": "DragonFly",
     "url": "https://www.dragonflybsd.org/",
     "desc": "BSD",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Whonix",
-    "url": "https://www.whonix.org/",
-    "desc": "Anonymity OS",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Tails",
-    "url": "https://tails.boum.org/",
-    "desc": "Amnesic OS",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Qubes OS",
-    "url": "https://www.qubes-os.org/",
-    "desc": "Security OS",
     "category": "Cybersecurity"
   },
   {
