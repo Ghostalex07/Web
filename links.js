@@ -27550,5 +27550,299 @@ const linksData = [
     "url": "https://blender.org/",
     "desc": "3D creation suite",
     "category": "Software & Apps"
+  },
+  {
+    "name": "ISCABBS",
+    "url": "https://iscabbs.rocks/",
+    "desc": "Oldest continuously operating free online community since 1989",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "DarkAges BBS",
+    "url": "https://darkagesbbs.com/",
+    "desc": "Telnet accessible BBS",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "Shibboleths BBS",
+    "url": "http://shibboleths.org/",
+    "desc": "Old-school text ANSI CP437 BBS",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "This Old BBS",
+    "url": "http://www.icequake.net/bbs/",
+    "desc": "BBS history and telnet access",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "The Major BBS",
+    "url": "https://www.themajorbbs.com/",
+    "desc": "Galacticomm Major BBS preservation",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "The Last BBS",
+    "url": "http://www.thelastbbs.com/",
+    "desc": "BBS community forum",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "SilverHawk BBS",
+    "url": "http://www.silverhawk.no/",
+    "desc": "Norwegian BBS established 1992",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "Major BBS Restoration",
+    "url": "http://themajorbbs.elwynor.com/",
+    "desc": "Documentation and preservation project",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "ExecNet BBS",
+    "url": "https://execnet.com/",
+    "desc": "History of The Executive Network BBS",
+    "category": "Retro Computing & BBS"
+  },
+  {
+    "name": "Project Gemini",
+    "url": "https://geminiprotocol.net/",
+    "desc": "Official Gemini protocol site",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "Lagrange",
+    "url": "https://github.com/skyjake/Doomsday-Engine",
+    "desc": "Modern Gemini GUI browser",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "Amfora",
+    "url": "https://github.com/makeworldone/amfora",
+    "desc": "Terminal-based Gemini browser",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "Gemini Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gemini_(protocol)",
+    "desc": "Gemini protocol article",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "GUS Search",
+    "url": "gemini://gus.guru/",
+    "desc": "Gemini Universal Search",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "SDF Gopher",
+    "url": "gopher://sdf.org/",
+    "desc": "SDF Public Access UNIX System",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "Gopherpedia",
+    "url": "gopher://gopherpedia.com/",
+    "desc": "Wikipedia mirror via Gopher",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "Quux Gopher",
+    "url": "gopher://gopher.quux.org/",
+    "desc": "Classic Gopher server",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "ASCII Art Archive",
+    "url": "https://asciiart.com/",
+    "desc": "Largest ASCII art community",
+    "category": "Creative"
+  },
+  {
+    "name": "Text-mode.org",
+    "url": "https://text-mode.org/",
+    "desc": "ASCII PETSCII text graphics",
+    "category": "Creative"
+  },
+  {
+    "name": "Binary Passion",
+    "url": "https://binarypassion.com/",
+    "desc": "Textmode art tribute site",
+    "category": "Creative"
+  },
+  {
+    "name": "Text0wnz",
+    "url": "https://text0wnz.com/",
+    "desc": "Web-based textmode art editor",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "ASCII Mozz",
+    "url": "https://ascii.mozz.us/",
+    "desc": "Textmode art mirror",
+    "category": "Creative"
+  },
+  {
+    "name": "Askii Party",
+    "url": "https://askii.party/",
+    "desc": "Create and share ASCII art",
+    "category": "Creative"
+  },
+  {
+    "name": "AnsiDraw",
+    "url": "https://ansidraw.com/",
+    "desc": "Free online ANSI art editor",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "MoebiusXBIN",
+    "url": "https://www.glyphdrawing.club/",
+    "desc": "ASCII ANSI editor with custom fonts",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "8BitMUSH",
+    "url": "http://ansiart.com/",
+    "desc": "ANSI art virtual world game",
+    "category": "Games"
+  },
+  {
+    "name": "p5.asciify",
+    "url": "https://p5.textmode.art/",
+    "desc": "ASCII conversion library for p5.js",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Don Even Reply",
+    "url": "https://www.dontevenreply.com/",
+    "desc": "Absurd email conversations",
+    "category": "Weird Web"
+  },
+  {
+    "name": "SCP Foundation",
+    "url": "http://scpwiki.com/",
+    "desc": "Alternative SCP wiki",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Lemmy",
+    "url": "https://beehaw.org/",
+    "desc": "Lemmy instance for general topics",
+    "category": "Fediverse"
+  },
+  {
+    "name": "Gitea",
+    "url": "https://about.gitea.com/",
+    "desc": "Self-hosted git service",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Cgit",
+    "url": "https://git.zx2c4.com/",
+    "desc": "Lightweight git web viewer",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Stagit",
+    "url": "https://codemadness.org/stagit.1.html",
+    "desc": "Static git web generator",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Static Site Generators",
+    "url": "https://jamstack.org/",
+    "desc": "Modern static sites",
+    "category": "Developer"
+  },
+  {
+    "name": "MkDocs",
+    "url": "https://www.mkdocs.org/",
+    "desc": "Project documentation",
+    "category": "Developer"
+  },
+  {
+    "name": "Obsidian Publish",
+    "url": "https://obsidian.md/publish",
+    "desc": "Publish notes online",
+    "category": "Wikis"
+  },
+  {
+    "name": "Tiki",
+    "url": "https://tiki.org/",
+    "desc": "Full-featured CMS wiki",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Ampache",
+    "url": "https://ampache.org/",
+    "desc": "Self-hosted music streaming",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Subsonic",
+    "url": "http://www.subsonic.org/",
+    "desc": "Music streaming server",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Olaris",
+    "url": "https://olaris.io/",
+    "desc": "Open media platform",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Dim",
+    "url": "https://github.com/DashIP/dim",
+    "desc": "Media manager",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "SyncTube",
+    "url": "https://github.com/synctube/synctube",
+    "desc": "Watch videos together",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Dim",
+    "url": "https://github.com/basmave/dim",
+    "desc": "Watch videos with friends",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Castopod",
+    "url": "https://castopod.org/",
+    "desc": "Self-hosted podcasts",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Mbin",
+    "url": "https://join-mbin.org/",
+    "desc": "Fediverse platform",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Shynet",
+    "url": "https://github.com/m1r0n0/shynet",
+    "desc": "Web analytics",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Goaccess",
+    "url": "https://goaccess.io/",
+    "desc": "Web log analyzer",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Piwigo",
+    "url": "https://piwigo.org/",
+    "desc": "Photo gallery",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Chevereto",
+    "url": "https://chevereto.com/",
+    "desc": "Image hosting",
+    "category": "Self-Hosting"
   }
 ];
