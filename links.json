@@ -25864,5 +25864,245 @@
     "url": "https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles",
     "desc": "Weird Wikipedia pages",
     "category": "Weird Web"
+  },
+  {
+    "name": "Find the Invisible Cow",
+    "url": "http://findtheinvisiblecow.com/",
+    "desc": "Find the invisible cow",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Ever Dream This Man",
+    "url": "https://everdreamthisman.com/",
+    "desc": "Who is this man",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Please Like",
+    "url": "https://please-likes.com/",
+    "desc": "Internet fame experiment",
+    "category": "Weird Web"
+  },
+  {
+    "name": "RGB",
+    "url": "https://rgb.wtf/",
+    "desc": "RGB color exploration",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Neave Interactive",
+    "url": "https://neave.com/",
+    "desc": "Web toys and experiments",
+    "category": "Weird Web"
+  },
+  {
+    "name": "BoredHumans",
+    "url": "https://boredhumans.com/",
+    "desc": "Free AI experiments",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Cloudhiker",
+    "url": "https://cloudhiker.net/",
+    "desc": "Explore hand-picked websites",
+    "category": "Weird Web"
+  },
+  {
+    "name": "kerfluffle",
+    "url": "https://kerfluffle.space/cool_sites.html",
+    "desc": "Cool websites collection",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Failing Sectors",
+    "url": "http://failingsectors.com/",
+    "desc": "Website on a floppy disk",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Actual World",
+    "url": "https://actualworld.net/",
+    "desc": "Nominal library",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Weird Web Space",
+    "url": "https://weirdweb.space/catalog-index",
+    "desc": "Catalog of experimental web",
+    "category": "Weird Web"
+  },
+  {
+    "name": "HyperPhysics",
+    "url": "http://hyperphysics.phy-astr.gsu.edu/hp/hp.html",
+    "desc": "Physics exploration",
+    "category": "Knowledge"
+  },
+  {
+    "name": "The Scale of the Universe",
+    "url": "https://htwins.net/scale2/",
+    "desc": "Scale from atoms to galaxies",
+    "category": "Knowledge"
+  },
+  {
+    "name": "If the Moon Were Only 1 Pixel",
+    "url": "https://joshworth.com/dev/pixels/picasso.html",
+    "desc": "Solar system to scale",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Gun Violence Archive",
+    "url": "https://www.gunviolencearchive.org/",
+    "desc": "Gun violence data",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Music-Map",
+    "url": "https://music-map.com/",
+    "desc": "Find similar artists",
+    "category": "Fun"
+  },
+  {
+    "name": "Quick Draw",
+    "url": "https://quickdraw.withgoogle.com/",
+    "desc": "Draw and AI guesses",
+    "category": "Fun"
+  },
+  {
+    "name": "Evolution of Trust",
+    "url": "https://ncase.me/trust/",
+    "desc": "Game theory playground",
+    "category": "Fun"
+  },
+  {
+    "name": "Langscape",
+    "url": "https://www.livingtokyo.com/langscape/",
+    "desc": "Interactive language map",
+    "category": "Fun"
+  },
+  {
+    "name": "Hex Clock",
+    "url": "https://www.jacopocolo.com/hexclock/",
+    "desc": "Colorful clock",
+    "category": "Fun"
+  },
+  {
+    "name": "Watch Grass Grow",
+    "url": "https://watchgrassgrow.com/",
+    "desc": "Watch grass grow",
+    "category": "Fun"
+  },
+  {
+    "name": "CSS Zen Garden",
+    "url": "https://csszengarden.com/",
+    "desc": "Same HTML endless designs",
+    "category": "Fun"
+  },
+  {
+    "name": "Windows93",
+    "url": "https://windows93.net/",
+    "desc": "Fake Windows 93 OS",
+    "category": "Fun"
+  },
+  {
+    "name": "Dontevenreply",
+    "url": "http://dontevenreply.com/",
+    "desc": "Absurd email responses",
+    "category": "Fun"
+  },
+  {
+    "name": "The Quiet Place",
+    "url": "https://thequietplaceproject.xyz/",
+    "desc": "Calm and minimal",
+    "category": "Fun"
+  },
+  {
+    "name": "Psyche Links",
+    "url": "https://www.psyche.com/psyche/links/2022.html",
+    "desc": "250k+ esoteric links",
+    "category": "Fun"
+  },
+  {
+    "name": "JSPaint",
+    "url": "https://jspaint.app/",
+    "desc": "MS Paint in browser",
+    "category": "Creative"
+  },
+  {
+    "name": "PureRef",
+    "url": "https://www.pureref.com/",
+    "desc": "Image reference organizer",
+    "category": "Creative"
+  },
+  {
+    "name": "Cool Backgrounds",
+    "url": "https://coolbackgrounds.io/",
+    "desc": "Generate cool backgrounds",
+    "category": "Creative"
+  },
+  {
+    "name": "Khroma",
+    "url": "https://www.khroma.co/",
+    "desc": "AI color palette generator",
+    "category": "Creative"
+  },
+  {
+    "name": "Velvetype",
+    "url": "https://velvetyne.fr/",
+    "desc": "Funky typefaces",
+    "category": "Creative"
+  },
+  {
+    "name": "Hypertalk",
+    "url": "https://hypertalk.com/",
+    "desc": "HyperCard revival",
+    "category": "Creative"
+  },
+  {
+    "name": "Noclip",
+    "url": "https://noclip.video/",
+    "desc": "Video game levels museum",
+    "category": "Creative"
+  },
+  {
+    "name": "Omni Calculator",
+    "url": "https://www.omnicalculator.com/",
+    "desc": "Every calculator imaginable",
+    "category": "Tools"
+  },
+  {
+    "name": "Taste Dive",
+    "url": "https://tastedive.com/",
+    "desc": "Find similar things",
+    "category": "Tools"
+  },
+  {
+    "name": "Polypane",
+    "url": "https://polypane.app/",
+    "desc": "Browser for developers",
+    "category": "Tools"
+  },
+  {
+    "name": "TLDList",
+    "url": "https://tld-list.com/",
+    "desc": "Compare domain prices",
+    "category": "Tools"
+  },
+  {
+    "name": "Privacy Tools",
+    "url": "https://privacytools.io/",
+    "desc": "Privacy recommendations",
+    "category": "Privacy"
+  },
+  {
+    "name": "EFF Cover Your Tracks",
+    "url": "https://coveryourtracks.eff.org/",
+    "desc": "Browser fingerprinting test",
+    "category": "Privacy"
+  },
+  {
+    "name": "Shadows",
+    "url": "https://影子.tools/",
+    "desc": "Shadow tools",
+    "category": "Privacy"
   }
 ]
