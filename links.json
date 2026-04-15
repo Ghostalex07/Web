@@ -28966,5 +28966,1001 @@
     "url": "https://fedoraproject.org/wiki/security",
     "desc": "Security spins",
     "category": "Cybersecurity"
+  },
+  {
+    "name": "The Secret Door",
+    "url": "https://thesecretdoor.com/",
+    "desc": "Click a door, go somewhere random",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Is It Wednesday",
+    "url": "https://isitwednesday.co.uk/",
+    "desc": "Minimalist answer to eternal question",
+    "category": "Weird Web"
+  },
+  {
+    "name": "A Single Div",
+    "url": "https://a.singlediv.com/",
+    "desc": "Illustrations made with CSS only",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Paper Weights",
+    "url": "https://paperweights.app/",
+    "desc": "Satisfying paper-like visuals",
+    "category": "Weird Web"
+  },
+  {
+    "name": "The Nicest Place",
+    "url": "https://theNicestPlace.net/",
+    "desc": "Internet hugs",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Crash Course",
+    "url": "https://thecrashcourse.com/",
+    "desc": "Video courses on many topics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "TED-Ed",
+    "url": "https://ed.ted.com/",
+    "desc": "Lessons worth sharing",
+    "category": "Knowledge"
+  },
+  {
+    "name": "PhET",
+    "url": "https://phet.colorado.edu/",
+    "desc": "Interactive simulations",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Flowing Data",
+    "url": "https://flowingdata.com/",
+    "desc": "Data visualization news",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Information is Beautiful",
+    "url": "https://informationisbeautiful.net/",
+    "desc": "Data visualization awards",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Nautilus",
+    "url": "https://nautilus.us/",
+    "desc": "Science and philosophy",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Edge",
+    "url": "https://www.edge.org/",
+    "desc": "World's smartest websites",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Listverse",
+    "url": "https://listverse.com/",
+    "desc": "Top 10 lists of facts",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Factinate",
+    "url": "https://factinate.com/",
+    "desc": "Facts that will blow your mind",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Mental Floss",
+    "url": "https://www.mentalfloss.com/",
+    "desc": "Random knowledge",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Random Screaming",
+    "url": "https://randomscreaming.com/",
+    "desc": "Press space for screams",
+    "category": "Weird Web"
+  },
+  {
+    "name": "The Spinning Rat",
+    "url": "https://spinningrat.com/",
+    "desc": "Eternal spinning rat",
+    "category": "Weird Web"
+  },
+  {
+    "name": "LMGTFY",
+    "url": "https://lmgtfy.com/",
+    "desc": "Let me google that for you",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Museum of Jurassic Technology",
+    "url": "https://mjt.org/",
+    "desc": "Peculiar museum",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Earth Cam",
+    "url": "https://www.earthcam.com/",
+    "desc": "Live webcams worldwide",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Fake Text Message",
+    "url": "https://fakeinfake.com/",
+    "desc": "Create fake conversations",
+    "category": "Weird Web"
+  },
+  {
+    "name": "SCP Foundation",
+    "url": "http://www.scpwiki.com/",
+    "desc": "Collaborative fiction wiki",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Creepypasta",
+    "url": "https://creepypasta.com/",
+    "desc": "Horror stories",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Digital Public Library",
+    "url": "https://dp.la/",
+    "desc": "Digital archives",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Fourmilab",
+    "url": "https://fourmilab.ch/",
+    "desc": "Science experiments",
+    "category": "Knowledge"
+  },
+  {
+    "name": "HTTP Cats",
+    "url": "https://http.cat/",
+    "desc": "HTTP status as cats",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Dog CEO",
+    "url": "https://dog.ceo/",
+    "desc": "Dog API",
+    "category": "Knowledge"
+  },
+  {
+    "name": "The Cat API",
+    "url": "https://thecatapi.com/",
+    "desc": "Cat pictures API",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Fontshare",
+    "url": "https://www.fontshare.com/",
+    "desc": "Free fonts",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Starship",
+    "url": "https://starship.rs/",
+    "desc": "Cross-shell prompt",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Oh My Zsh",
+    "url": "https://ohmyz.sh/",
+    "desc": "Shell framework",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Alacritty",
+    "url": "https://github.com/alacritty/alacritty",
+    "desc": "GPU terminal",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Kitty",
+    "url": "https://sw.kovidgoyal.net/",
+    "desc": "Terminal emulator",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Hyper",
+    "url": "https://hyper.is/",
+    "desc": "Terminal built on web",
+    "category": "Knowledge"
+  },
+  {
+    "name": "VisuAlgo",
+    "url": "https://visualgo.net/",
+    "desc": "Algorithm visualization",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Algorithm Visualizer",
+    "url": "https://algorithm-visualizer.org/",
+    "desc": "Visualize algorithms",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Big O Cheatsheet",
+    "url": "https://www.bigocheatsheet.com/",
+    "desc": "Complexity reference",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Learn X in Y",
+    "url": "https://learnxinyminutes.com/",
+    "desc": "Quick language intro",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Rosetta Code",
+    "url": "https://rosettacode.org/",
+    "desc": "Code comparisons",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Turso",
+    "url": "https://turso.tech/",
+    "desc": "SQLite edge",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Metabase",
+    "url": "https://www.metabase.com/",
+    "desc": "Analytics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Mockoon",
+    "url": "https://mockoon.com/",
+    "desc": "Mock APIs",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Webhook.site",
+    "url": "https://webhook.site/",
+    "desc": "Test webhooks",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Audiobookshelf",
+    "url": "https://audiobookshelf.org/",
+    "desc": "Audiobooks",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Ente",
+    "url": "https://ente.io/",
+    "desc": "Photos app",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Write.as",
+    "url": "https://write.as/",
+    "desc": "Publishing",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Bear Blog",
+    "url": "https://bearblog.dev/",
+    "desc": "Minimal blogging",
+    "category": "Knowledge"
+  },
+  {
+    "name": "VS Code Web",
+    "url": "https://vscode.dev/",
+    "desc": "Browser VS Code",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Bundlephobia",
+    "url": "https://bundlephobia.com/",
+    "desc": "Package size",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Libraries.io",
+    "url": "https://libraries.io/",
+    "desc": "Find libraries",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Sourcegraph",
+    "url": "https://sourcegraph.com/",
+    "desc": "Code search",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Argo CD",
+    "url": "https://argoproj.github.io/",
+    "desc": "GitOps",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Wave",
+    "url": "https://wave.webaim.org/",
+    "desc": "Accessibility checker",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Amplitude",
+    "url": "https://amplitude.com/",
+    "desc": "Analytics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Mixpanel",
+    "url": "https://mixpanel.com/",
+    "desc": "Product analytics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Screaming Frog",
+    "url": "https://www.screamingfrog.co.uk/seo-spider/",
+    "desc": "SEO crawler",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Product Hunt",
+    "url": "https://producthunt.com/",
+    "desc": "New products",
+    "category": "Knowledge"
+  },
+  {
+    "name": "SaaS Mantra",
+    "url": "https://saasmantra.com/",
+    "desc": "Tools directory",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Postman",
+    "url": "https://www.postman.com/",
+    "desc": "API testing",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Insomnia",
+    "url": "https://insomnia.rest/",
+    "desc": "API client",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Bruno",
+    "url": "https://www.usebruno.com/",
+    "desc": "API client",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Gallery DL",
+    "url": "https://github.com/mikf/gallery-dl",
+    "desc": "Image downloader",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Lalal AI",
+    "url": "https://www.lalal.ai/",
+    "desc": "Stem splitter",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Pixabay Music",
+    "url": "https://pixabay.com/music/",
+    "desc": "Free music",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Ableton",
+    "url": "https://www.ableton.com/",
+    "desc": "Music production",
+    "category": "Knowledge"
+  },
+  {
+    "name": "FL Studio",
+    "url": "https://www.image-line.com/",
+    "desc": "DAW",
+    "category": "Knowledge"
+  },
+  {
+    "name": "This Cat Does Not Exist",
+    "url": "https://thiscatdoesnotexist.com/",
+    "desc": "Fake cats",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Which Face is Real",
+    "url": "https://www.whichfaceisreal.com/",
+    "desc": "Real vs fake faces",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Gather",
+    "url": "https://gather.town/",
+    "desc": "Virtual office",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Whimsical",
+    "url": "https://whimsical.com/",
+    "desc": "Visual collaboration",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Haikei",
+    "url": "https://haikei.app/",
+    "desc": "SVG shapes generator",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Get Waves",
+    "url": "https://getwaves.io/",
+    "desc": "SVG wave generator",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Fancy Border Radius",
+    "url": "https://9elements.github.io/fancy-border-radius/",
+    "desc": "Border radius tool",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Neumorphism",
+    "url": "https://neumorphism.io/",
+    "desc": "CSS neumorphism",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Drip Canvas",
+    "url": "https://dripcanvas.com/",
+    "desc": "Drip art",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Magic Eraser",
+    "url": "https://magiceraser.io/",
+    "desc": "Remove anything",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Cleanup.pictures",
+    "url": "https://cleanup.pictures/",
+    "desc": "Remove objects",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Upscayl",
+    "url": "https://upscayl.org/",
+    "desc": "AI upscale images",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Clipdrop",
+    "url": "https://clipdrop.co/",
+    "desc": "AI image tools",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai/",
+    "desc": "AI platform",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Playground AI",
+    "url": "https://playgroundai.com/",
+    "desc": "AI image creation",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Kandinsky",
+    "url": "https://ai.google.dev/models/kandinsky",
+    "desc": "Google AI art",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Flux",
+    "url": "https://blackforestlabs.ai/",
+    "desc": "AI image model",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Runway",
+    "url": "https://runwayml.com/",
+    "desc": "AI video",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Pika",
+    "url": "https://pika.art/",
+    "desc": "AI video generation",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Udio",
+    "url": "https://www.udio.com/",
+    "desc": "AI music creation",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Eleven Labs",
+    "url": "https://elevenlabs.io/",
+    "desc": "AI voice",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Mubert",
+    "url": "https://mubert.com/",
+    "desc": "AI music",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Boomy",
+    "url": "https://boomy.com/",
+    "desc": "Make music",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Capcut",
+    "url": "https://www.capcut.com/",
+    "desc": "Video editor",
+    "category": "Knowledge"
+  },
+  {
+    "name": "VEED",
+    "url": "https://www.veed.io/",
+    "desc": "Video editing",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Opus Clip",
+    "url": "https://www.opus.pro/",
+    "desc": "Long to shorts",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Height",
+    "url": "https://height.app/",
+    "desc": "Project tracker",
+    "category": "Knowledge"
+  },
+  {
+    "name": "TikZ",
+    "url": "https://texample.net/tikz/",
+    "desc": "LaTeX graphics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Asymptote",
+    "url": "https://asymptote.sourceforge.net/",
+    "desc": "Vector graphics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "PSTricks",
+    "url": "https://tug.org/PSTricks/",
+    "desc": "LaTeX graphics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "TikZ cd",
+    "url": "https://ctan.org/pkg/tikz-cd",
+    "desc": "Commutative diagrams",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Overleaf",
+    "url": "https://www.overleaf.com/",
+    "desc": "LaTeX online",
+    "category": "Knowledge"
+  },
+  {
+    "name": "1Password",
+    "url": "https://1password.com/",
+    "desc": "Password manager",
+    "category": "Privacy"
+  },
+  {
+    "name": "KeepassXC",
+    "url": "https://keepassxc.org/",
+    "desc": "Cross-platform Keepass",
+    "category": "Privacy"
+  },
+  {
+    "name": "Proton Pass",
+    "url": "https://proton.me/pass",
+    "desc": "Password manager",
+    "category": "Privacy"
+  },
+  {
+    "name": "NordPass",
+    "url": "https://nordpass.com/",
+    "desc": "Password manager",
+    "category": "Privacy"
+  },
+  {
+    "name": "Dashlane",
+    "url": "https://www.dashlane.com/",
+    "desc": "Password manager",
+    "category": "Privacy"
+  },
+  {
+    "name": "LastPass",
+    "url": "https://lastpass.com/",
+    "desc": "Password manager",
+    "category": "Privacy"
+  },
+  {
+    "name": "Bing",
+    "url": "https://www.bing.com/",
+    "desc": "Microsoft search",
+    "category": "Search"
+  },
+  {
+    "name": "Phind",
+    "url": "https://phind.com/",
+    "desc": "AI search for devs",
+    "category": "Search"
+  },
+  {
+    "name": "You.com",
+    "url": "https://you.com/",
+    "desc": "AI-powered search",
+    "category": "Search"
+  },
+  {
+    "name": "Neeva",
+    "url": "https://neeva.com/",
+    "desc": "Subscription search",
+    "category": "Search"
+  },
+  {
+    "name": "MetaGer",
+    "url": "https://metager.org/",
+    "desc": "Privacy search",
+    "category": "Search"
+  },
+  {
+    "name": "Whoogle",
+    "url": "https://whoogle.sdf.org/",
+    "desc": "Privacy proxy",
+    "category": "Search"
+  },
+  {
+    "name": "Ask HN",
+    "url": "https://hn.algolia.com/",
+    "desc": "Search Hacker News",
+    "category": "Search"
+  },
+  {
+    "name": "Hacker News",
+    "url": "https://hn.algolia.com/?dropdown=search",
+    "desc": "HN search",
+    "category": "Search"
+  },
+  {
+    "name": "Google",
+    "url": "https://www.google.com/",
+    "desc": "Search engine",
+    "category": "Search"
+  },
+  {
+    "name": "Baidu",
+    "url": "https://www.baidu.com/",
+    "desc": "Chinese search",
+    "category": "Search"
+  },
+  {
+    "name": "Naver",
+    "url": "https://www.naver.com/",
+    "desc": "Korean search",
+    "category": "Search"
+  },
+  {
+    "name": "Word Counter",
+    "url": "https://wordcounter.io/",
+    "desc": "Word frequency",
+    "category": "Tools"
+  },
+  {
+    "name": "Typist",
+    "url": "https://typiost.com/",
+    "desc": "Practice typing",
+    "category": "Tools"
+  },
+  {
+    "name": "Monkeytype",
+    "url": "https://monkeytype.com/",
+    "desc": "Minimalist typing",
+    "category": "Tools"
+  },
+  {
+    "name": "Keybr",
+    "url": "https://www.keybr.com/",
+    "desc": "Learn typing",
+    "category": "Tools"
+  },
+  {
+    "name": "10FastFingers",
+    "url": "https://10fastfingers.com/",
+    "desc": "Typing test",
+    "category": "Tools"
+  },
+  {
+    "name": "Type Racer",
+    "url": "https://typeracer.com/",
+    "desc": "Race typing",
+    "category": "Tools"
+  },
+  {
+    "name": "Nolebase",
+    "url": "https://nolebase.ayltai.net/",
+    "desc": "Knowledge base",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Heptapod",
+    "url": "https://heptapod.net/",
+    "desc": "GitLab fork",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Gitea Actions",
+    "url": "https://gitea.com/gitea/act",
+    "desc": "Gitea CI",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Flatpak",
+    "url": "https://flatpak.org/",
+    "desc": "Linux apps",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Snapcraft",
+    "url": "https://snapcraft.io/",
+    "desc": "Linux packages",
+    "category": "Knowledge"
+  },
+  {
+    "name": "AppImage",
+    "url": "https://appimage.org/",
+    "desc": "Portable Linux",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Dockge",
+    "url": "https://dockge.kuma.pet/",
+    "desc": "Docker Compose UI",
+    "category": "Knowledge"
+  },
+  {
+    "name": "FreedomBox",
+    "url": "https://freedombox.org/",
+    "desc": "Personal server",
+    "category": "Knowledge"
+  },
+  {
+    "name": "OwnCloud",
+    "url": "https://owncloud.com/",
+    "desc": "Cloud storage",
+    "category": "Knowledge"
+  },
+  {
+    "name": "FileRun",
+    "url": "https://filerun.com/",
+    "desc": "Cloud file manager",
+    "category": "Knowledge"
+  },
+  {
+    "name": "UrBackup",
+    "url": "https://www.urbackup.org/",
+    "desc": "Network backup",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Pop!_OS",
+    "url": "https://pop.system76.com/",
+    "desc": "Linux for creators",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Zorin",
+    "url": "https://zorin.com/os/",
+    "desc": "Windows-like Linux",
+    "category": "Knowledge"
+  },
+  {
+    "name": " elementary",
+    "url": "https://elementary.io/",
+    "desc": "Beautiful Linux",
+    "category": "Knowledge"
+  },
+  {
+    "name": "MX Linux",
+    "url": "https://mxlinux.org/",
+    "desc": "Lightweight Linux",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Garuda",
+    "url": "https://garudalinux.org/",
+    "desc": "Arch gaming",
+    "category": "Knowledge"
+  },
+  {
+    "name": "SELKS",
+    "url": "https://www.selks.io/",
+    "desc": "IDS platform",
+    "category": "Privacy"
+  },
+  {
+    "name": "ufw",
+    "url": "https://launchpad.net/ufw",
+    "desc": "Firewall",
+    "category": "Privacy"
+  },
+  {
+    "name": "nftables",
+    "url": "https://www.nftables.org/",
+    "desc": "Firewall",
+    "category": "Privacy"
+  },
+  {
+    "name": "tcpdump",
+    "url": "https://www.tcpdump.org/",
+    "desc": "Packet capture",
+    "category": "Privacy"
+  },
+  {
+    "name": "Nikto",
+    "url": "https://www.cirt.net/Nikto2",
+    "desc": "Web server scanner",
+    "category": "Privacy"
+  },
+  {
+    "name": "Hashcat",
+    "url": "https://hashcat.net/hashcat/",
+    "desc": "Password cracker",
+    "category": "Privacy"
+  },
+  {
+    "name": "Wifite",
+    "url": "https://github.com/derv82/wifite2",
+    "desc": "WiFi attack",
+    "category": "Privacy"
+  },
+  {
+    "name": "Reaver",
+    "url": "https://github.com/t6x/reaver-wps-fork-t6x",
+    "desc": "WPS cracker",
+    "category": "Privacy"
+  },
+  {
+    "name": "Shellter",
+    "url": "https://www.shellterproject.com/",
+    "desc": "AV evasion",
+    "category": "Privacy"
+  },
+  {
+    "name": "Responder",
+    "url": "https://github.com/lgandx/Responder",
+    "desc": "LLMNR poison",
+    "category": "Privacy"
+  },
+  {
+    "name": "Cobalt Strike",
+    "url": "https://www.cobaltstrike.com/",
+    "desc": "Red team",
+    "category": "Privacy"
+  },
+  {
+    "name": "Hunter",
+    "url": "https://hunter.io/",
+    "desc": "Email finder",
+    "category": "Privacy"
+  },
+  {
+    "name": "Phonebook",
+    "url": "https://phonebook.cz/",
+    "desc": "Email finder",
+    "category": "Privacy"
+  },
+  {
+    "name": "SecurityTrails",
+    "url": "https://securitytrails.com/",
+    "desc": "DNS records",
+    "category": "Privacy"
+  },
+  {
+    "name": "Httprobe",
+    "url": "https://github.com/tomnomnom/httprobe",
+    "desc": "HTTP prober",
+    "category": "Privacy"
+  },
+  {
+    "name": "Gau",
+    "url": "https://github.com/lc/gau",
+    "desc": "URL scraper",
+    "category": "Privacy"
+  },
+  {
+    "name": "Waymore",
+    "url": "https://github.com/ghostsec404/waymore",
+    "desc": "Wayback URLs",
+    "category": "Privacy"
+  },
+  {
+    "name": "ParamSpider",
+    "url": "https://github.com/devanshbatham/ParamSpider",
+    "desc": "Param finder",
+    "category": "Privacy"
+  },
+  {
+    "name": "KXSS",
+    "url": "https://github.com/tomnomnom/qsreplace",
+    "desc": "XSS hunter",
+    "category": "Privacy"
+  },
+  {
+    "name": "Dalfox",
+    "url": "https://github.com/hahwul/dalfox",
+    "desc": "XSS scanner",
+    "category": "Privacy"
+  },
+  {
+    "name": "XSS Strike",
+    "url": "https://github.com/s0md3v/XSStrike",
+    "desc": "XSS scanner",
+    "category": "Privacy"
+  },
+  {
+    "name": "Commix",
+    "url": "https://github.com/commixproject/commix",
+    "desc": "Command injection",
+    "category": "Privacy"
+  },
+  {
+    "name": "SSRFmap",
+    "url": "https://github.com/swisskyrepo/SSRFmap",
+    "desc": "SSRF scanner",
+    "category": "Privacy"
+  },
+  {
+    "name": "OpenRedirect",
+    "url": "https://github.com/t3l3scopy/OpenRedirect",
+    "desc": "Redirect scanner",
+    "category": "Privacy"
+  },
+  {
+    "name": "Corsy",
+    "url": "https://github.com/s0md3v/Corsy",
+    "desc": "CORS scanner",
+    "category": "Privacy"
+  },
+  {
+    "name": "Race condition",
+    "url": "https://github.com/paramsingh/rcenabled",
+    "desc": "Race condition",
+    "category": "Privacy"
+  },
+  {
+    "name": "SiteDorks",
+    "url": "https://github.com/ZephrFish/LinkFinder",
+    "desc": "JS endpoints",
+    "category": "Privacy"
+  },
+  {
+    "name": "Cagll",
+    "url": "https://cataas.com/",
+    "desc": "Cat as a service",
+    "category": "Fun"
+  },
+  {
+    "name": "Wikipedia Unusual Articles",
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles",
+    "desc": "Weird Wikipedia pages",
+    "category": "Weird Web"
   }
 ]
