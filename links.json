@@ -1279,7 +1279,7 @@
   },
   {
     "name": "Asteroid",
-    "url": "https://github.com/astral蹬/",
+    "url": "https://github.com/astral\u8e6c/",
     "desc": "Terminal Gemini client",
     "category": "Programming & Dev"
   },
@@ -5148,8 +5148,8 @@
     "category": "Anime & Manga"
   },
   {
-    "name": "Anime水位",
-    "url": "https://anime水位.net/",
+    "name": "Anime\u6c34\u4f4d",
+    "url": "https://anime\u6c34\u4f4d.net/",
     "desc": "Anime watching together",
     "category": "Anime & Manga"
   },
@@ -10572,7 +10572,7 @@
     "category": "News"
   },
   {
-    "name": "El País",
+    "name": "El Pa\u00eds",
     "url": "https://elpais.com/",
     "desc": "Spanish newspaper",
     "category": "News"
@@ -10651,7 +10651,7 @@
   },
   {
     "name": "Proxitok",
-    "url": "https://proxitok.pшёлч.com/",
+    "url": "https://proxitok.p\u0448\u0451\u043b\u0447.com/",
     "desc": "TikTok alternative",
     "category": "Alt Frontends"
   },
@@ -10873,7 +10873,7 @@
   },
   {
     "name": "Open Source Jobs",
-    "url": "https://opensourcem世.io/",
+    "url": "https://opensourcem\u4e16.io/",
     "desc": "Open source jobs",
     "category": "Open Source"
   },
@@ -11413,7 +11413,7 @@
   },
   {
     "name": "Frog",
-    "url": "https://彩色.today/",
+    "url": "https://\u5f69\u8272.today/",
     "desc": "Gemini browser for Android",
     "category": "Miscellaneous"
   },
@@ -12366,7 +12366,7 @@
     "category": "Weird Web"
   },
   {
-    "name": "港湾",
+    "name": "\u6e2f\u6e7e",
     "url": "https://harborwave.net/",
     "desc": "Japanese web archive",
     "category": "Weird Web"
@@ -12378,7 +12378,7 @@
     "category": "Weird Web"
   },
   {
-    "name": "Play井",
+    "name": "Play\u4e95",
     "url": "https://play-oi.com/",
     "desc": "Japanese games",
     "category": "Weird Web"
@@ -12684,8 +12684,8 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "N中关村",
-    "url": "https://n中关村.com/",
+    "name": "N\u4e2d\u5173\u6751",
+    "url": "https://n\u4e2d\u5173\u6751.com/",
     "desc": "Chinese tech forum",
     "category": "Forums & Communities"
   },
@@ -13122,7 +13122,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Anon言",
+    "name": "Anon\u8a00",
     "url": "https://anon.top/",
     "desc": "Anonymous chat",
     "category": "Forums & Communities"
@@ -14334,7 +14334,7 @@
     "category": "Web Tools"
   },
   {
-    "name": "PostgreSQL试",
+    "name": "PostgreSQL\u8bd5",
     "url": "https://www.postgresql.org/docs/current/tutorial-start.html",
     "desc": "PostgreSQL tutorial",
     "category": "Web Tools"
@@ -14941,7 +14941,7 @@
   },
   {
     "name": "RSS Bridge",
-    "url": "https://rss-bridge.org/梅花源/",
+    "url": "https://rss-bridge.org/\u6885\u82b1\u6e90/",
     "desc": "RSS for sites",
     "category": "Social Media"
   },
@@ -15924,7 +15924,7 @@
     "category": "Retro Computing"
   },
   {
-    "name": "LÖVE",
+    "name": "L\u00d6VE",
     "url": "https://love2d.org/",
     "desc": "Lua game engine",
     "category": "Retro Computing"
@@ -16237,7 +16237,7 @@
   },
   {
     "name": "G200ik",
-    "url": "https://weirdor卸.com/",
+    "url": "https://weirdor\u5378.com/",
     "desc": "Synthesizer",
     "category": "Retro Computing"
   },
@@ -16364,7 +16364,7 @@
   {
     "name": "Crayon",
     "url": "https://github.com/RobLoach/crayon",
-    "desc": "LÖVE framework",
+    "desc": "L\u00d6VE framework",
     "category": "Retro Computing"
   },
   {
@@ -17479,7 +17479,7 @@
   },
   {
     "name": "Hometown",
-    "url": "https://github.com/zدم/hometown",
+    "url": "https://github.com/z\u062f\u0645/hometown",
     "desc": "Mastodon fork",
     "category": "Fediverse"
   },
@@ -17706,8 +17706,8 @@
     "category": "Fediverse"
   },
   {
-    "name": "K红",
-    "url": "https://github.com/s叙述红/k2",
+    "name": "K\u7ea2",
+    "url": "https://github.com/s\u53d9\u8ff0\u7ea2/k2",
     "desc": "Mastodon web",
     "category": "Fediverse"
   },
@@ -17857,7 +17857,7 @@
   },
   {
     "name": "Source",
-    "url": "https://github.com/c象ss/source",
+    "url": "https://github.com/c\u8c61ss/source",
     "desc": "Scuttlebutt app",
     "category": "Fediverse"
   },
@@ -18583,7 +18583,7 @@
   },
   {
     "name": "CM-SS13",
-    "url": "https://github.com/cm魔女rd/CM-SS13",
+    "url": "https://github.com/cm\u9b54\u5973rd/CM-SS13",
     "desc": "CM SS13",
     "category": "Self-Hosting"
   },
@@ -18757,7 +18757,7 @@
   },
   {
     "name": "Rollback Netcode",
-    "url": "https://github.com/h定格C/rollback-netcode",
+    "url": "https://github.com/h\u5b9a\u683cC/rollback-netcode",
     "desc": "Rollback netcode",
     "category": "Self-Hosting"
   },
@@ -18948,7 +18948,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Bit侃",
+    "name": "Bit\u4f83",
     "url": "https://bitcointalk.org/",
     "desc": "Crypto forum",
     "category": "Forums & Communities"
@@ -20563,7 +20563,7 @@
   },
   {
     "name": "PCAFlow",
-    "url": "https://github.com/gуль/PCA-Flow",
+    "url": "https://github.com/g\u0443\u043b\u044c/PCA-Flow",
     "desc": "Optical flow",
     "category": "Forums & Communities"
   },
@@ -20605,7 +20605,7 @@
   },
   {
     "name": "Tusimple",
-    "url": "https://github.com/Tusimple-org/tusimple数据集",
+    "url": "https://github.com/Tusimple-org/tusimple\u6570\u636e\u96c6",
     "desc": "Lane detection",
     "category": "Forums & Communities"
   },
@@ -21679,7 +21679,7 @@
   },
   {
     "name": "Pixel Synth",
-    "url": "https://生活.yamex.io/pixel/",
+    "url": "https://\u751f\u6d3b.yamex.io/pixel/",
     "desc": "Make music with pixels",
     "category": "Weird & Interesting"
   },
@@ -22578,7 +22578,7 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "Takahē",
+    "name": "Takah\u0113",
     "url": "https://jointakahe.org/",
     "desc": "Fediverse server",
     "category": "Fediverse"
@@ -23425,7 +23425,7 @@
   },
   {
     "name": "HyperTube",
-    "url": "https://tube.k最大x.de/",
+    "url": "https://tube.k\u6700\u5927x.de/",
     "desc": "YouTube front-end",
     "category": "Video & Streaming"
   },
@@ -23490,7 +23490,7 @@
     "category": "Video & Streaming"
   },
   {
-    "name": "Archive影视",
+    "name": "Archive\u5f71\u89c6",
     "url": "https://archive.org/details/etree",
     "desc": "Live music",
     "category": "Video & Streaming"
@@ -26101,8 +26101,1454 @@
   },
   {
     "name": "Shadows",
-    "url": "https://影子.tools/",
+    "url": "https://\u5f71\u5b50.tools/",
     "desc": "Shadow tools",
     "category": "Privacy"
+  },
+  {
+    "name": "1000 Free Tools",
+    "url": "https://1000freetools.com/",
+    "desc": "200+ free browser tools",
+    "category": "Tools"
+  },
+  {
+    "name": "Found Tools",
+    "url": "https://found-tools.com/en/",
+    "desc": "350+ niche digital tools",
+    "category": "Tools"
+  },
+  {
+    "name": "LazyTools",
+    "url": "https://lazytools.io/",
+    "desc": "200+ free browser tools",
+    "category": "Tools"
+  },
+  {
+    "name": "TheNextTool",
+    "url": "https://thenexttool.com/",
+    "desc": "30+ free productivity tools",
+    "category": "Tools"
+  },
+  {
+    "name": "ToolsNest",
+    "url": "https://www.usetoolnest.com/",
+    "desc": "100+ free tools",
+    "category": "Tools"
+  },
+  {
+    "name": "AllTools",
+    "url": "https://alltools.app/",
+    "desc": "623 free tools",
+    "category": "Tools"
+  },
+  {
+    "name": "ToolsBox",
+    "url": "https://toolsbox.io/",
+    "desc": "500+ free tools",
+    "category": "Tools"
+  },
+  {
+    "name": "ToolsDock",
+    "url": "https://toolsdock.com/",
+    "desc": "Free online tools",
+    "category": "Tools"
+  },
+  {
+    "name": "Absolutool",
+    "url": "https://absolutool.com/",
+    "desc": "240+ free tools",
+    "category": "Tools"
+  },
+  {
+    "name": "TinyToolkit",
+    "url": "https://tinytoolkit.net/",
+    "desc": "192 free utility tools",
+    "category": "Tools"
+  },
+  {
+    "name": "Instantly Tools",
+    "url": "https://instantly.tools/",
+    "desc": "68 professional tools",
+    "category": "Tools"
+  },
+  {
+    "name": "Vayce",
+    "url": "https://vayce.app/",
+    "desc": "Browser utilities toolbox",
+    "category": "Tools"
+  },
+  {
+    "name": "Productive Toolbox",
+    "url": "https://productivetoolbox.com/",
+    "desc": "100+ free tools",
+    "category": "Tools"
+  },
+  {
+    "name": "TaskHug",
+    "url": "https://taskhug.com/",
+    "desc": "AI SEO finance developer tools",
+    "category": "Tools"
+  },
+  {
+    "name": "OnlineToolsPlus",
+    "url": "https://onlinetoolsplus.com/",
+    "desc": "200+ free tools",
+    "category": "Tools"
+  },
+  {
+    "name": "Clevr Tools",
+    "url": "https://www.clevr.tools/",
+    "desc": "Free file text tools",
+    "category": "Tools"
+  },
+  {
+    "name": "MOSS",
+    "url": "https://www.moss.town/",
+    "desc": "Painting toy with programmable brushes",
+    "category": "Creative"
+  },
+  {
+    "name": "Quenq",
+    "url": "https://quenq.com/",
+    "desc": "Museum of internet culture",
+    "category": "Creative"
+  },
+  {
+    "name": "Digidrifters",
+    "url": "https://digidrifters.com/",
+    "desc": "Personal internet magazine",
+    "category": "Creative"
+  },
+  {
+    "name": "Museum Drift",
+    "url": "https://museumdrift.com/",
+    "desc": "Browse Met collection free",
+    "category": "Creative"
+  },
+  {
+    "name": "Daily Dev",
+    "url": "https://daily.dev/",
+    "desc": "Developer news",
+    "category": "Creative"
+  },
+  {
+    "name": "Nautilus",
+    "url": "https://nautil.us/",
+    "desc": "Science and philosophy",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Damn Interesting",
+    "url": "https://www.damninteresting.com/",
+    "desc": "Science history psychology",
+    "category": "Knowledge"
+  },
+  {
+    "name": "The Millions",
+    "url": "https://www.themillions.com/",
+    "desc": "Books and culture",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Hart Island Project",
+    "url": "https://www.thehartislandproject.com/",
+    "desc": "Unclaimed burials archive",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Pi.co",
+    "url": "https://pi.co/",
+    "desc": "Interviews with interesting people",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Antipope",
+    "url": "http://www.antipope.org/",
+    "desc": "Charlie Stross blog",
+    "category": "Knowledge"
+  },
+  {
+    "name": "SuperCook",
+    "url": "https://www.supercook.com/",
+    "desc": "Recipe from ingredients",
+    "category": "Fun"
+  },
+  {
+    "name": "I Waste So Much Time",
+    "url": "https://www.iwastesomuchtime.com/",
+    "desc": "Fun images and memes",
+    "category": "Fun"
+  },
+  {
+    "name": "A Good Movie To Watch",
+    "url": "https://agoodmovietowatch.com/",
+    "desc": "Hidden gem movies",
+    "category": "Fun"
+  },
+  {
+    "name": "My Retro TV",
+    "url": "https://80s.myretrotvs.com/",
+    "desc": "Retro TV simulator",
+    "category": "Fun"
+  },
+  {
+    "name": "LibraryThing",
+    "url": "https://www.librarything.com/",
+    "desc": "Book cataloging community",
+    "category": "Fun"
+  },
+  {
+    "name": "Math For You",
+    "url": "https://mathforyou.net/en/",
+    "desc": "Math problems",
+    "category": "Fun"
+  },
+  {
+    "name": "Sleep Cycle Calculator",
+    "url": "https://sleepopolis.com/calculators/sleep/",
+    "desc": "Sleep calculator",
+    "category": "Fun"
+  },
+  {
+    "name": "Random Recipe",
+    "url": "https://recipescal.com/",
+    "desc": "Random recipe generator",
+    "category": "Fun"
+  },
+  {
+    "name": "Good",
+    "url": "https://www.good.is/",
+    "desc": "Live well do good",
+    "category": "Fun"
+  },
+  {
+    "name": "Gamma",
+    "url": "https://gamma.app/",
+    "desc": "Presentations AI",
+    "category": "Search"
+  },
+  {
+    "name": "Consensus",
+    "url": "https://consensus.app/",
+    "desc": "Research answers AI",
+    "category": "Search"
+  },
+  {
+    "name": "Poe",
+    "url": "https://poe.com/",
+    "desc": "AI chatbots hub",
+    "category": "Search"
+  },
+  {
+    "name": "Base44",
+    "url": "https://base44.com/",
+    "desc": "Build apps no code",
+    "category": "Search"
+  },
+  {
+    "name": "Shower Thoughts",
+    "url": "https://www.reddit.com/r/Showerthoughts/",
+    "desc": "Random deep thoughts",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Dictonary of Obscure Sorrows",
+    "url": "https://www.dictionaryofobscuresorrows.com/",
+    "desc": " invented words for emotions",
+    "category": "Weird Web"
+  },
+  {
+    "name": "YTMND",
+    "url": "https://ytmnd.com/",
+    "desc": "You're That Man Now Dog",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Null Island",
+    "url": "https://www.nullisland.com/",
+    "desc": "0 0 coordinate",
+    "category": "Weird Web"
+  },
+  {
+    "name": "88x31 Collection",
+    "url": "https://88x31.org/",
+    "desc": "Mini web buttons",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Eighty Eight Thirty One",
+    "url": "https://eighty88threeone.com/",
+    "desc": "88x31 collection",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Tableflipper",
+    "url": "https://tableflipper.com/",
+    "desc": "Digital angst vent",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Visual6502",
+    "url": "https://visual6502.org/",
+    "desc": "Vintage CPU simulation",
+    "category": "Developer"
+  },
+  {
+    "name": "Cornify",
+    "url": "https://cornify.com/",
+    "desc": "Unicornify your browser",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Procatinator",
+    "url": "https://procatinator.com/",
+    "desc": "Random gif and music",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Noooooo",
+    "url": "https://nooooooo.com/",
+    "desc": "No button",
+    "category": "Weird Web"
+  },
+  {
+    "name": "You Should Have Seen This",
+    "url": "http://www.youshouldhaveseenthis.com/",
+    "desc": "Internet oddities",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Bees Bees Bees",
+    "url": "http://www.beesbeesbees.com/",
+    "desc": "All about bees",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Weird or Confusing",
+    "url": "https://weirdorconfusing.com/",
+    "desc": "Weird products",
+    "category": "Weird Web"
+  },
+  {
+    "name": "ILookLikeYou",
+    "url": "http://www.ilooklikeyou.com/",
+    "desc": "Twin finder",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Jummbox",
+    "url": "https://jummbox.us/",
+    "desc": "Browser music maker",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Serb",
+    "url": "https://www.sherb.net/",
+    "desc": "Music production",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Chiptune",
+    "url": "https://chiptune.com/",
+    "desc": "8-bit music",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Orca",
+    "url": "https://orca.pet/",
+    "desc": "Terminal whale",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Blob Global",
+    "url": "https://blob.global/",
+    "desc": "Blob game",
+    "category": "Weird Web"
+  },
+  {
+    "name": "17776",
+    "url": "https://whatfootballlooklikeinthefuture.com/",
+    "desc": "Football in future",
+    "category": "Games"
+  },
+  {
+    "name": "Sleeping Beacoup",
+    "url": "https://sleeping-beacoup.com/",
+    "desc": "Weird narrative game",
+    "category": "Games"
+  },
+  {
+    "name": "The Beatles Never Broke Up",
+    "url": "https://thebeatlesneverbrokeup.com/",
+    "desc": "What if game",
+    "category": "Games"
+  },
+  {
+    "name": "A Slow Year",
+    "url": "https://www.aslowyear.com/",
+    "desc": "Slow game",
+    "category": "Games"
+  },
+  {
+    "name": "One Round",
+    "url": "https://www.onround.com/",
+    "desc": "One round games",
+    "category": "Games"
+  },
+  {
+    "name": "Drawception",
+    "url": "https://drawception.com/",
+    "desc": "Draw and guess game",
+    "category": "Games"
+  },
+  {
+    "name": "Pretend Youre X",
+    "url": "https://pretendyoure.xyz/",
+    "desc": "ARG style game",
+    "category": "Games"
+  },
+  {
+    "name": "Hexapodia",
+    "url": "https://hexapodia.xyz/",
+    "desc": "Weird blog",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Bob Anchor",
+    "url": "https://bobsite.com/",
+    "desc": "Personal website",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Dannarchy",
+    "url": "https://dannarchy.com/",
+    "desc": "Art and experiments",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Won Help",
+    "url": "https://www.wonthelp.com/",
+    "desc": "Strange site",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Big Long Now",
+    "url": "http://www.longnow.org/",
+    "desc": "Long term thinking",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Serial Experiments Lain",
+    "url": "https://serialexperimentslain.com/",
+    "desc": "Lain fan site",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Chao Island",
+    "url": "https://chao.atoap.com/",
+    "desc": "Sonic Chao garden",
+    "category": "Games"
+  },
+  {
+    "name": "Galactic Circus",
+    "url": "https://galacticcircus.com/",
+    "desc": "Flash games archive",
+    "category": "Games"
+  },
+  {
+    "name": "PSX Data Center",
+    "url": "https://psxdatacenter.com/",
+    "desc": "PlayStation database",
+    "category": "Games"
+  },
+  {
+    "name": "Khinsider",
+    "url": "https://khinsider.com/",
+    "desc": "Video game music",
+    "category": "Games"
+  },
+  {
+    "name": "Aternos",
+    "url": "https://aternos.org/",
+    "desc": "Free Minecraft hosting",
+    "category": "Games"
+  },
+  {
+    "name": "Fighters Generation",
+    "url": "https://www.fightersgeneration.com/",
+    "desc": "Fighting games database",
+    "category": "Games"
+  },
+  {
+    "name": "Scroll Down To Riker",
+    "url": "https://scrolltorieker.com/",
+    "desc": "Riker meme generator",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Extra Ordinary",
+    "url": "https://www.extr ordinary.com/",
+    "desc": "Webcomic",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Spacetrawler",
+    "url": "https://www.spacetrawler.com/",
+    "desc": "Sci-fi webcomic",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Fuck You Broccoli",
+    "url": "https://fuckyoubroccoli.com/",
+    "desc": "About vegetables",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Swear Trek",
+    "url": "https://sweartrek.com/",
+    "desc": "Star Trek swears",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Diamond Geezer",
+    "url": "https://diamondgeezer.co.uk/",
+    "desc": "London blog",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Baseball Reference",
+    "url": "https://www.baseball-reference.com/",
+    "desc": "Baseball statistics",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Street Dog Millionaires",
+    "url": "https://streetdogmillionaires.com/",
+    "desc": "Dogs from India Africa",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Bowie Branchia",
+    "url": "http://www.bowiebranchia.com/",
+    "desc": "Bowie nudibranchs",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Worldometers",
+    "url": "https://www.worldometers.info/",
+    "desc": "Real time statistics",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Satflare",
+    "url": "https://www.satflare.com/",
+    "desc": "ISS tracker",
+    "category": "Knowledge"
+  },
+  {
+    "name": "ISS Tracker",
+    "url": "https://www.isslive.com/",
+    "desc": "ISS location",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Transit Finder",
+    "url": "https://transitfinder.com/",
+    "desc": "Find transit",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Flight Connections",
+    "url": "https://www.flightconnections.com/",
+    "desc": "Flight routes",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Seat Spy",
+    "url": "https://www.seatspy.io/",
+    "desc": "Airplane seat reviews",
+    "category": "Knowledge"
+  },
+  {
+    "name": "OONI Probe",
+    "url": "https://ooni.org/",
+    "desc": "Censorship detection",
+    "category": "Privacy"
+  },
+  {
+    "name": "Hyperpipe",
+    "url": "https://hyperpipe.codeberg.org/",
+    "desc": "YouTube alt frontend",
+    "category": "Alt Frontends"
+  },
+  {
+    "name": "LibreX",
+    "url": "https://librex.beparanoid.de/",
+    "desc": "Google search alt",
+    "category": "Alt Frontends"
+  },
+  {
+    "name": "RescueTime",
+    "url": "https://rescuetime.com/",
+    "desc": "Time tracking",
+    "category": "Productivity"
+  },
+  {
+    "name": "Clockify",
+    "url": "https://clockify.me/",
+    "desc": "Free time tracking",
+    "category": "Productivity"
+  },
+  {
+    "name": "Toggl",
+    "url": "https://toggl.com/",
+    "desc": "Time tracker",
+    "category": "Productivity"
+  },
+  {
+    "name": "Asana",
+    "url": "https://asana.com/",
+    "desc": "Team tasks",
+    "category": "Productivity"
+  },
+  {
+    "name": "Trello",
+    "url": "https://trello.com/",
+    "desc": "Board tasks",
+    "category": "Productivity"
+  },
+  {
+    "name": "RemNote",
+    "url": "https://www.remnote.com/",
+    "desc": "Spaced repetition notes",
+    "category": "Productivity"
+  },
+  {
+    "name": "Tldraw",
+    "url": "https://tldraw.com/",
+    "desc": "Infinite canvas",
+    "category": "Productivity"
+  },
+  {
+    "name": "Radiooooo",
+    "url": "https://radiooooo.com/",
+    "desc": "Time travel music",
+    "category": "Music"
+  },
+  {
+    "name": "DI FM",
+    "url": "https://www.di.fm/",
+    "desc": "Electronic music",
+    "category": "Music"
+  },
+  {
+    "name": "Juno Download",
+    "url": "https://www.junodownload.com/",
+    "desc": "Electronic music",
+    "category": "Music"
+  },
+  {
+    "name": "Audiotact",
+    "url": "https://audiotact.ai/",
+    "desc": "AI music tool",
+    "category": "Music"
+  },
+  {
+    "name": "Soundful",
+    "url": "https://soundful.com/",
+    "desc": "AI music generator",
+    "category": "Music"
+  },
+  {
+    "name": "Mobbin",
+    "url": "https://mobbin.com/",
+    "desc": "UI design inspiration",
+    "category": "Design"
+  },
+  {
+    "name": "Refero",
+    "url": "https://refero.design/",
+    "desc": "Design reference",
+    "category": "Design"
+  },
+  {
+    "name": "Lapa",
+    "url": "https://www.lapa.com/",
+    "desc": "Landing page inspiration",
+    "category": "Design"
+  },
+  {
+    "name": "Httpster",
+    "url": "https://httpster.net/",
+    "desc": "Web design inspiration",
+    "category": "Design"
+  },
+  {
+    "name": "Designspiration",
+    "url": "https://www.designspiration.com/",
+    "desc": "Visual search",
+    "category": "Design"
+  },
+  {
+    "name": "Niice",
+    "url": "https://niice.co/",
+    "desc": "Visual search engine",
+    "category": "Design"
+  },
+  {
+    "name": "Online Books Page",
+    "url": "https://onlinebooks.com/",
+    "desc": "Books online",
+    "category": "Books"
+  },
+  {
+    "name": "FreeBookSpot",
+    "url": "https://www.freebookspot.com/",
+    "desc": "Free books",
+    "category": "Books"
+  },
+  {
+    "name": "Z-Library",
+    "url": "https://singlelogin.re/",
+    "desc": "Book library",
+    "category": "Books"
+  },
+  {
+    "name": "OriDachi",
+    "url": "https://oridachi.com/",
+    "desc": "Anime community",
+    "category": "Anime"
+  },
+  {
+    "name": "Anime News Network",
+    "url": "https://www.animenewsnetwork.com/",
+    "desc": "Anime news",
+    "category": "Anime"
+  },
+  {
+    "name": "Weirdnet",
+    "url": "https://weirdnet.org/",
+    "desc": "Human-curated small web observatory",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Internet Living Museum",
+    "url": "https://internetlivingmuseum.org/",
+    "desc": "Experience web design through the ages",
+    "category": "Weird Web"
+  },
+  {
+    "name": "The World's Highest Website",
+    "url": "http://worlds-highest-website.com/",
+    "desc": "A CSS experiment - 18.94km high",
+    "category": "Weird Web"
+  },
+  {
+    "name": "The World's Slowest Website",
+    "url": "https://theworldsslowestwebsite.com/",
+    "desc": "Stuart Semple's slowest loading experience",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Failingsectors",
+    "url": "https://failingsectors.com/",
+    "desc": "Site served from a floppy disk",
+    "category": "Weird Web"
+  },
+  {
+    "name": "SociopathAI",
+    "url": "https://sociopathai.org/",
+    "desc": "Autonomous AI civilization experiment",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Strange Attractor",
+    "url": "https://strange-attractor.net/",
+    "desc": "Interactive browser game",
+    "category": "Weird Web"
+  },
+  {
+    "name": "The Woosphere",
+    "url": "https://woowoo.land/",
+    "desc": "Choose your own delusion experience",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Awaymessage",
+    "url": "https://awaymessage.lol/",
+    "desc": "Random away messages",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Konalt",
+    "url": "https://konalt.net/",
+    "desc": "Personal site with cool projects",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Stardustverse",
+    "url": "https://stardustverse.neocities.org/",
+    "desc": "Worldbuilding encyclopedia",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Radio Garden",
+    "url": "http://radio.garden/",
+    "desc": "Listen to radio worldwide",
+    "category": "Music"
+  },
+  {
+    "name": "Hackershare",
+    "url": "https://hackershare.dev/",
+    "desc": "Hacker resource sharing",
+    "category": "Hacking"
+  },
+  {
+    "name": "Indie Hackers",
+    "url": "https://indiehackers.com/",
+    "desc": "Work together to build profitable businesses",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "BuildShipGrow",
+    "url": "https://www.buildshipgrow.com/",
+    "desc": "Community for indie hackers and solo builders",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "IndieSaaS Forge",
+    "url": "https://indiesaasforge.com/",
+    "desc": "Guides for indie hackers and solo founders",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "Shippers Life",
+    "url": "https://shippers.life/",
+    "desc": "Private community for indie hackers using AI",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "Hacker Cabin",
+    "url": "https://hackercabin.com/",
+    "desc": "Community of makers building profitable businesses",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "Builder Campus",
+    "url": "https://buildercampus.com/",
+    "desc": "Production-first alliance for independent builders",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "Indie Makers Hub",
+    "url": "https://indiemakershub.com/",
+    "desc": "Indie product launches and curated tools",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "Indie Hacker Projects",
+    "url": "https://indiehackerprojects.com/",
+    "desc": "Beautiful projects by indie hackers",
+    "category": "Programming & Dev"
+  },
+  {
+    "name": "TinkerAtlas",
+    "url": "https://tinkeratlas.com/",
+    "desc": "Premier DIY maker community platform",
+    "category": "Creative"
+  },
+  {
+    "name": "MakerSpaces Directory",
+    "url": "https://makerspace.com/",
+    "desc": "Makerspace directory worldwide",
+    "category": "Creative"
+  },
+  {
+    "name": "Offpunk",
+    "url": "https://offpunk.net/",
+    "desc": "Offline-first command-line browser for Web, Gemini, Gopher, RSS",
+    "category": "Terminal"
+  },
+  {
+    "name": "Browsh",
+    "url": "https://www.brow.sh/",
+    "desc": "Fully-modern text-based browser rendering HTML5/CSS3/JS",
+    "category": "Terminal"
+  },
+  {
+    "name": "Brow6el",
+    "url": "https://www.brow6el.dev/",
+    "desc": "Terminal web browser with Sixel graphics support",
+    "category": "Terminal"
+  },
+  {
+    "name": "Chawan",
+    "url": "https://chawan.net/",
+    "desc": "TUI web browser with CSS, inline images, JavaScript",
+    "category": "Terminal"
+  },
+  {
+    "name": "Bombadillo",
+    "url": "https://bombadillo.colorfield.space/",
+    "desc": "Non-web browser for Gemini, Gopher, Finger, Spartan",
+    "category": "Terminal"
+  },
+  {
+    "name": "Edbrowse",
+    "url": "https://edbrowse.org/",
+    "desc": "Command line editor browser and mail client",
+    "category": "Terminal"
+  },
+  {
+    "name": "Aethelgard",
+    "url": "https://aethelgard.space/",
+    "desc": "Decentralized social network hub",
+    "category": "Fediverse"
+  },
+  {
+    "name": "Refind",
+    "url": "https://refind.com/",
+    "desc": "Brain food, delivered daily",
+    "category": "Knowledge"
+  },
+  {
+    "name": "PieFed",
+    "url": "https://piefed.com/",
+    "desc": "Reddit alternative for the Fediverse",
+    "category": "Fediverse"
+  },
+  {
+    "name": "Mbin",
+    "url": "https://joinmbin.com/",
+    "desc": "Fediverse content aggregator",
+    "category": "Fediverse"
+  },
+  {
+    "name": "Innumbra",
+    "url": "https://www.innumbra.com/",
+    "desc": "Dark web meta-search engine for OSINT",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Onion Engine",
+    "url": "https://onionengine.org/",
+    "desc": "Decentralized toolkit for navigating onion networks",
+    "category": "Dark Web"
+  },
+  {
+    "name": "DarkWeb",
+    "url": "https://hiddenweb.net/",
+    "desc": "Discover hidden gems of the internet",
+    "category": "Dark Web"
+  },
+  {
+    "name": "DarkWiki",
+    "url": "https://darkwiki.ink/",
+    "desc": "Complete darknet encyclopedia and history",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Secret Onions",
+    "url": "https://secretonions.neocities.org/",
+    "desc": "Community maintained hidden wiki",
+    "category": "Dark Web"
+  },
+  {
+    "name": "DeepSearch",
+    "url": "https://deepsearch0x41ocg.onion/",
+    "desc": "Deep indexing dark web search",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Abandoned UE",
+    "url": "https://www.abandonedue.com/",
+    "desc": "Urban exploration photography and reports",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Abandoned World Photography",
+    "url": "https://www.abandonedworldphotography.com/",
+    "desc": "Urbex photography worldwide",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Freaktography",
+    "url": "https://freaktography.com/",
+    "desc": "Abandoned places and urban exploration",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "UrbEx.nl",
+    "url": "https://www.urbex.nl/",
+    "desc": "Abandoned and lost places in Europe",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Abandoned Photos",
+    "url": "https://abandonedphotos.com/",
+    "desc": "Urban exploration photography and prints",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Adam X Photography",
+    "url": "https://adamxphotos.com/",
+    "desc": "Urban exploration and photography",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Talking Walls",
+    "url": "https://www.talkingwallsphoto.com/",
+    "desc": "Ontario's abandoned places",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "GRONK",
+    "url": "https://www.gronkue.com/",
+    "desc": "Urban exploration across Europe",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Abandoned Planet",
+    "url": "http://www.abandonedplanet.net/",
+    "desc": "Urban exploration based in Toronto",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Urbexology",
+    "url": "https://urbexology.com/",
+    "desc": "Abandoned places near you map",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Chernobyl One",
+    "url": "https://chernobyl.one/",
+    "desc": "Chernobyl and Pripyat resource",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Lumberwoods",
+    "url": "https://www.lumberwoods.org/",
+    "desc": "Unnatural history museum folklore",
+    "category": "Weird & Interesting"
+  },
+  {
+    "name": "Shady URL",
+    "url": "https://shadyurl.com/",
+    "desc": "Create suspicious-looking URLs",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Nooooooooooo",
+    "url": "https://nooooooooooooooo.com/",
+    "desc": "The button of despair",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Paper Toilet",
+    "url": "https://www.papertoilet.com/",
+    "desc": "Endless roll of toilet paper",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Is It Christmas",
+    "url": "https://isit christmas.com/",
+    "desc": "Is it Christmas?",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Khroma",
+    "url": "https://khroma.co/",
+    "desc": "AI color palette generator",
+    "category": "Design"
+  },
+  {
+    "name": "Vervemill",
+    "url": "https://vervelyn.fr/",
+    "desc": "Funky typefaces",
+    "category": "Design"
+  },
+  {
+    "name": "RGB",
+    "url": "https://www.rgb.xyz/",
+    "desc": "Tribute to Red, Green, Blue",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Heeeeeeey",
+    "url": "https://heeeeeeeey.com/",
+    "desc": "Single greeting endless",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Everyday",
+    "url": "https://everyday.com/",
+    "desc": "Calendar that shows what happened on this day",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Coding Font",
+    "url": "https://www.codingfont.com/",
+    "desc": "Find your perfect coding font",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Explain That Stuff",
+    "url": "https://www.explainthatstuff.com/",
+    "desc": "Technology explained simply",
+    "category": "Knowledge"
+  },
+  {
+    "name": "HyperPhysics",
+    "url": "http://hyperphysics.phy-astr.gsu.edu/",
+    "desc": "Physics concepts searchable",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "ciechanow.ski",
+    "url": "https://ciechanow.ski/",
+    "desc": "Interactive mechanical watch explained",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Bruno Simon",
+    "url": "https://bruno-simon.com/",
+    "desc": "Interactive 3D portfolio website",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Floor 796",
+    "url": "https://floor796.com/",
+    "desc": "Animated pixel art scene",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Boring Boring Boring",
+    "url": "https://boringboringboring.com/",
+    "desc": "The most boring website",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Pixel Art",
+    "url": "https://www.pixelartcss.com/",
+    "desc": "Create pixel art with CSS",
+    "category": "Creative"
+  },
+  {
+    "name": "Scribble Maps",
+    "url": "https://www.scribblemaps.com/",
+    "desc": "Create custom maps",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Parade",
+    "url": "https://parade.com/1116816/marynliles/fun-websites/",
+    "desc": "80 fun websites to waste time",
+    "category": "Curated Lists"
+  },
+  {
+    "name": "50 Weird Websites",
+    "url": "https://middlehost.com/blog/100-weird-websites/",
+    "desc": "100 weird websites list",
+    "category": "Curated Lists"
+  },
+  {
+    "name": "Middlehost",
+    "url": "https://middlehost.com/",
+    "desc": "Web hosting and weird lists",
+    "category": "Weird Web"
+  },
+  {
+    "name": "Phish",
+    "url": "https://phish.sh/",
+    "desc": "Phishing platform awareness",
+    "category": "Privacy & Security"
+  },
+  {
+    "name": "Naked Security",
+    "url": "https://nakedsecurity.sophos.com/",
+    "desc": "Security news and advice",
+    "category": "Privacy & Security"
+  },
+  {
+    "name": "Musixmatch",
+    "url": "https://musixmatch.com/",
+    "desc": "Lyrics platform",
+    "category": "Music"
+  },
+  {
+    "name": "Screensaver Wild",
+    "url": "https://screensaverwild.com/",
+    "desc": "Classic screensavers",
+    "category": "Fun & Games"
+  },
+  {
+    "name": "Connect The Dots",
+    "url": "https://connectthedotsgame.com/",
+    "desc": "Connect the dots game",
+    "category": "Fun & Games"
+  },
+  {
+    "name": "Wikipedia Racing",
+    "url": "https://wikipedia-racing.herokuapp.com/",
+    "desc": "Race through Wikipedia",
+    "category": "Fun & Games"
+  },
+  {
+    "name": "Crossword",
+    "url": "https://crossword.huhmagazine.co.uk/",
+    "desc": "Daily crossword",
+    "category": "Fun & Games"
+  },
+  {
+    "name": "Jigsaw",
+    "url": "https://www.jigsawplanet.com/",
+    "desc": "Online jigsaw puzzles",
+    "category": "Fun & Games"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://perplexity.ai/",
+    "desc": "AI search and answers",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Wiby",
+    "url": "https://wiby.org/",
+    "desc": "Surprise search engine for small web",
+    "category": "Search"
+  },
+  {
+    "name": "Torch",
+    "url": "http://xmh57jrknzkhv6y3.onion/",
+    "desc": "Tor search engine",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Haystak",
+    "url": "https://www.onionsearchengine.com/",
+    "desc": "Dark web search with billions of pages",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Greatist",
+    "url": "https://greatist.com/",
+    "desc": "Health and fitness articles",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Today I Found Out",
+    "url": "https://www.todayifoundout.com/",
+    "desc": "Daily educational videos",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Curious",
+    "url": "https://curious.com/",
+    "desc": "Learn anything from experts",
+    "category": "Learning"
+  },
+  {
+    "name": "OpenLearn",
+    "url": "https://www.open.edu/openlearn/",
+    "desc": "Free courses from Open University",
+    "category": "Learning"
+  },
+  {
+    "name": "ProPublica",
+    "url": "https://www.propublica.org/",
+    "desc": "Investigative journalism",
+    "category": "News"
+  },
+  {
+    "name": "The Intercept",
+    "url": "https://theintercept.com/",
+    "desc": "Fearless journalism",
+    "category": "News"
+  },
+  {
+    "name": "Rest of World",
+    "url": "https://restofworld.org/",
+    "desc": "Tech news beyond the west",
+    "category": "News"
+  },
+  {
+    "name": "404 Media",
+    "url": "https://www.404media.co/",
+    "desc": "Independent tech journalism",
+    "category": "News"
+  },
+  {
+    "name": "The Kid Should See This",
+    "url": "https://thekidshouldseethis.com/",
+    "desc": "Educational videos for kids",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "NOVA",
+    "url": "https://www.pbs.org/wgbh/nova/",
+    "desc": "Science programming",
+    "category": "Science & Nature"
+  },
+  {
+    "name": "Pixeltrue",
+    "url": "https://www.pixeltrue.com/",
+    "desc": "Free illustration packs",
+    "category": "Creative"
+  },
+  {
+    "name": "Undraw",
+    "url": "https://undraw.co/",
+    "desc": "Open-source illustrations",
+    "category": "Creative"
+  },
+  {
+    "name": "Humaaans",
+    "url": "https://www.humaaans.com/",
+    "desc": "Mix-and-match people illustrations",
+    "category": "Creative"
+  },
+  {
+    "name": "Book of Icons",
+    "url": "https://icon.kitchen/",
+    "desc": "Free icon packs",
+    "category": "Creative"
+  },
+  {
+    "name": "Translate Google",
+    "url": "https://translate.google.com/",
+    "desc": "Translate between languages",
+    "category": "Web Tools"
+  },
+  {
+    "name": "Google Ngram",
+    "url": "https://books.google.com/ngrams/",
+    "desc": "Search books over time",
+    "category": "Knowledge"
+  },
+  {
+    "name": "Cheat.sh",
+    "url": "https://cheat.sh/",
+    "desc": "Unified cheat sheet",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Big O Checker",
+    "url": "https://bigocalc.com/",
+    "desc": "Calculate algorithm complexity",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "OneCompiler",
+    "url": "https://onecompiler.com/",
+    "desc": "Run code in multiple languages",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Coolmath Games",
+    "url": "https://www.coolmathgames.com/",
+    "desc": "Math and logic games",
+    "category": "Games"
+  },
+  {
+    "name": "Paper.io",
+    "url": "https://paper-io.com/",
+    "desc": "Territory capture game",
+    "category": "Games"
+  },
+  {
+    "name": "Mope.io",
+    "url": "https://mope.io/",
+    "desc": "Animal survival game",
+    "category": "Games"
+  },
+  {
+    "name": "Surviv.io",
+    "url": "https://surviv.io/",
+    "desc": "Battle royale io game",
+    "category": "Games"
+  },
+  {
+    "name": "Lainchan",
+    "url": "https://lainchan.net/",
+    "desc": "Tech-focused imageboard",
+    "category": "Imageboards & Chans"
+  },
+  {
+    "name": "Sepples",
+    "url": "https://sepples.top/",
+    "desc": "Vintage tech imageboard",
+    "category": "Imageboards & Chans"
+  },
+  {
+    "name": "Bookmarks",
+    "url": "https://bookmarks.hediservices.com/",
+    "desc": "Digital bookmark library",
+    "category": "Books"
+  },
+  {
+    "name": "Cached View",
+    "url": "https://cachedview.com/",
+    "desc": "View cached pages",
+    "category": "Archives & Preservation"
+  },
+  {
+    "name": "Webrx",
+    "url": "https://webrx.org/",
+    "desc": "Retro computing archive",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Porkbun",
+    "url": "https://porkbun.com/",
+    "desc": "Domain registrar",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Cloudflare",
+    "url": "https://cloudflare.com/",
+    "desc": "CDN and DNS",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "Terminal WT",
+    "url": "https://terminal-wiki.com/",
+    "desc": "Terminal knowledge base",
+    "category": "Terminal"
+  },
+  {
+    "name": "Pure Bash Bible",
+    "url": "https://github.com/dylanaraps/pure-bash-bible",
+    "desc": "Portable bash scripts",
+    "category": "Terminal"
+  },
+  {
+    "name": "The Dots",
+    "url": "https://the-dots.com/",
+    "desc": "Personal scheduling calendar",
+    "category": "Productivity"
+  },
+  {
+    "name": "Notion",
+    "url": "https://notion.so/",
+    "desc": "Notes and workspace",
+    "category": "Productivity"
+  },
+  {
+    "name": "LibreOffice",
+    "url": "https://libreoffice.org/",
+    "desc": "Office suite",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "GIMP",
+    "url": "https://gimp.org/",
+    "desc": "Image editor",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "Blender",
+    "url": "https://blender.org/",
+    "desc": "3D creation suite",
+    "category": "Software & Apps"
   }
 ]
