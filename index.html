@@ -4,75 +4,300 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>[-] Aion</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      background: #111;
+      color: #888;
+      font-family: monospace;
+      margin: 0;
+      padding: 20px;
+    }
+    a {
+      color: #666;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    a:hover {
+      color: #999;
+      text-decoration: underline;
+    }
+    h1 {
+      color: #444;
+      font-size: 24px;
+      margin: 0 0 10px 0;
+    }
+    h2 {
+      color: #555;
+      font-size: 16px;
+      margin: 20px 0 10px 0;
+    }
+    h3 {
+      color: #666;
+      font-size: 14px;
+      margin: 15px 0 8px 0;
+    }
+    nav {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #222;
+    }
+    nav a {
+      margin-right: 20px;
+    }
+    .search-box {
+      margin-bottom: 20px;
+      padding: 10px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+    }
+    .search-box input {
+      background: #080808;
+      border: 1px solid #222;
+      color: #888;
+      padding: 8px;
+      width: 300px;
+      font-family: monospace;
+      font-size: 12px;
+    }
+    .search-box input:focus {
+      outline: none;
+      border-color: #444;
+    }
+    .search-box label {
+      color: #444;
+      font-size: 12px;
+    }
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+    .thread {
+      margin-bottom: 12px;
+      padding: 10px;
+      background: #0a0a0a;
+      border-left: 2px solid #333;
+      cursor: pointer;
+    }
+    .thread:hover {
+      border-left-color: #555;
+    }
+    .thread-meta {
+      color: #444;
+      font-size: 11px;
+    }
+    .thread-title {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .thread-desc {
+      color: #333;
+      font-size: 12px;
+      margin: 5px 0;
+    }
+    .thread-replies {
+      color: #333;
+      font-size: 11px;
+      margin-top: 3px;
+    }
+    .article-content {
+      padding: 15px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+      margin-top: 15px;
+    }
+    .article-content p {
+      color: #555;
+      margin: 8px 0;
+      line-height: 1.5;
+    }
+    .article-content code {
+      background: #080808;
+      padding: 2px 6px;
+      color: #777;
+    }
+    .article-content a {
+      color: #666;
+    }
+    .article-content a:hover {
+      color: #999;
+    }
+    .article-img {
+      max-width: 100%;
+      max-height: 200px;
+      margin: 15px 0;
+      border: 1px solid #222;
+    }
+    footer {
+      font-size: 12px;
+      color: #444;
+      margin-top: 30px;
+      border-top: 1px solid #222;
+      padding-top: 10px;
+    }
+    .back-btn {
+      margin-bottom: 15px;
+    }
+    .back-btn a {
+      padding: 5px 10px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+    }
+    .board-section {
+      margin-bottom: 25px;
+    }
+    .no-results {
+      color: #444;
+      padding: 20px;
+      text-align: center;
+    }
+    #category-filters {
+      padding: 10px;
+      background: #0a0a0a;
+      border: 1px solid #222;
+      border-radius: 0;
+      flex-wrap: wrap;
+      display: flex;
+      gap: 5px;
+    }
+    .cat-filter {
+      color: #666;
+      font-size: 11px;
+      padding: 3px 8px;
+      background: #111;
+      border: 1px solid #333;
+    }
+    .cat-filter:hover {
+      color: #999;
+      border-color: #555;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <nav>
-    <a href="#" onclick="app.goHome(); return false;">[HOME]</a>
-    <a href="#" onclick="app.showLinks(); return false;">[LINKS]</a>
+    <a onclick="goHome()">[HOME]</a>
+    <a onclick="showSection('links')">[LINKS]</a>
   </nav>
 
   <!-- HOME PAGE -->
   <div id="page-index" class="page active">
     <h1>[-] Aion</h1>
-    <div class="hero-box">
-   ┌─────────────────────────────────────┐
-   │  ███╗   ███╗ █████╗ ██████╗ ███████╗  │
-   │  ████╗ ████║██╔══██╗██╔══██╗██╔════╝  │
-   │  ██╔████╔██║███████║██████╔╝███████╗  │
-   │  ██║╚██╔╝██║██╔══██║██╔═══╝ ╚════██║  │
-   │  ██║ ╚═╝ ██║██║  ██║██║     ███████║  │
-   │  ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝  │
-   └─────────────────────────────────────┘
-    </div>
-    <div class="stats">
-      <div class="stat-box">
-        <span class="stat-number" id="total-links">0</span>
-        <span class="stat-label">Links</span>
-      </div>
-      <div class="stat-box">
-        <span class="stat-number" id="total-cats">0</span>
-        <span class="stat-label">Categories</span>
-      </div>
-    </div>
-    <div class="hero-box" style="font-size: 11px;">
-   ┌─────────────────────────────────────┐
-   │  > NO LOGGING                       │
-   │  > NO TRACKING                      │
-   │  > NO CENSORSHIP                    │
-   │  > OPEN SOURCE                       │
-   └─────────────────────────────────────┘
-    </div>
-    <p style="color: #009933; margin-top: 15px;">
-      Welcome to Aion — A curated collection of internet gems.<br>
-      Navigate using the menu above or press keys:
-    </p>
-    <div class="keyboard-hint">
-      <kbd>H</kbd> Home &nbsp;
-      <kbd>L</kbd> Links &nbsp;
-      <kbd>Esc</kbd> Clear filters
-    </div>
-    <div id="featured-links"></div>
+    <pre style="color: #333; font-size: 14px; margin-top: 10px;">
+   ┌────────────────────────────┐
+   │                            │
+   │   NO LOGGING               │
+   │   NO TRACKING              │
+   │   NO CENSORSHIP            │
+   │                            │
+   └────────────────────────────┘
+    </pre>
+    <p style="margin-top: 15px;">Welcome to Aion. Select a section from the menu above.</p>
+    <div id="featured-links" style="margin-top: 30px;"></div>
   </div>
 
   <!-- LINKS PAGE -->
   <div id="page-links" class="page">
     <h1>[-] Links</h1>
     <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search links..." onkeyup="app.searchLinks()">
+      <label>Search: </label>
+      <input type="text" id="search-links" placeholder="Search links..." onkeyup="searchLinks()">
     </div>
-    <div id="category-filters"></div>
+    <div id="category-filters" style="margin-bottom: 15px;"></div>
     <div id="links-content"></div>
   </div>
 
   <footer>
     <p>Aion © 2026 — Information wants to be free.</p>
-    <p style="font-size: 10px; margin-top: 5px;">
-      <a href="https://github.com/Ghostalex07/Web" target="_blank">Source Code</a>
-    </p>
   </footer>
 
   <script src="links.js"></script>
-  <script src="js/app.js"></script>
+  <script>
+    let currentSection = 'index';
+    
+    function renderLinks(filter = '', categoryFilter = '') {
+      const container = document.getElementById('links-content');
+      let html = '';
+      const categories = {};
+      
+      linksData.forEach(link => {
+        const searchStr = (link.name + link.desc + link.category).toLowerCase();
+        const matchesSearch = !filter || searchStr.includes(filter.toLowerCase());
+        const matchesCategory = !categoryFilter || link.category === categoryFilter;
+        if (matchesSearch && matchesCategory) {
+          if (!categories[link.category]) categories[link.category] = [];
+          categories[link.category].push(link);
+        }
+      });
+      
+      if (Object.keys(categories).length === 0) {
+        html = '<div class="no-results">No results found</div>';
+      } else {
+        Object.keys(categories).forEach(cat => {
+          html += `<div class="board-section"><h2>${cat}</h2>`;
+          categories[cat].forEach(link => {
+            html += `<div class="thread">
+              <p class="thread-title"><a href="${link.url}" target="_blank">${link.name}</a></p>
+              <p class="thread-desc">${link.desc}</p>
+            </div>`;
+          });
+          html += '</div>';
+        });
+      }
+      container.innerHTML = html;
+    }
+
+    function renderCategoryFilters() {
+      const container = document.getElementById('category-filters');
+      const categories = [...new Set(linksData.map(l => l.category))].sort();
+      let html = '<span style="color: #444; font-size: 12px;">Filter: </span>';
+      html += `<a onclick="filterByCategory('')" style="cursor:pointer; margin-right: 10px;" class="cat-filter" data-cat="">All</a>`;
+      categories.forEach(cat => {
+        html += `<a onclick="filterByCategory('${cat}')" style="cursor:pointer; margin-right: 10px;" class="cat-filter" data-cat="${cat}">${cat}</a>`;
+      });
+      container.innerHTML = html;
+    }
+
+    function filterByCategory(cat) {
+      window.currentCategoryFilter = cat;
+      document.querySelectorAll('.cat-filter').forEach(el => {
+        el.style.color = el.dataset.cat === cat ? '#999' : '#666';
+        el.style.fontWeight = el.dataset.cat === cat ? 'bold' : 'normal';
+      });
+      renderLinks(document.getElementById('search-links').value, cat);
+    }
+
+    function searchLinks() { renderLinks(document.getElementById('search-links').value, window.currentCategoryFilter || ''); }
+
+    function goHome() { currentSection = 'index'; showPage('index'); renderFeatured(); }
+
+    function renderFeatured() {
+      const shuffled = [...linksData].sort(() => 0.5 - Math.random());
+      const selected = shuffled.slice(0, 8);
+      const html = '<h2 style="color: #555; margin: 20px 0 10px 0;">Featured</h2>' + 
+        selected.map(link => `<div class="thread"><p class="thread-title"><a href="${link.url}" target="_blank">${link.name}</a></p><p class="thread-desc">${link.desc}</p></div>`).join('');
+      document.getElementById('featured-links').innerHTML = html;
+    }
+
+    function showSection(section) {
+      currentSection = section;
+      showPage(section);
+      if (section === 'links') { window.currentCategoryFilter = ''; renderCategoryFilters(); renderLinks(); }
+    }
+
+    function showPage(pageName) {
+      document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+      document.getElementById('page-' + pageName).classList.add('active');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT') return;
+      if (e.key === 'h' || e.key === 'H') goHome();
+      else if (e.key === 'l') showSection('links');
+    });
+
+    goHome();
+  </script>
 </body>
 </html>
