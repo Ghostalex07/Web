@@ -28414,5 +28414,491 @@
     "url": "http://www.littlebigdetails.com/",
     "desc": "Design inspiration",
     "category": "Design"
+  },
+  {
+    "name": "AByteBehind",
+    "url": "https://www.abytebehind.com/",
+    "desc": "Vintage computer restoration",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "RetroMels Archive",
+    "url": "https://www.retromelsarchive.com/",
+    "desc": "Vintage software preservation",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Vintage Computing Wiki",
+    "url": "https://wiki.preterhuman.net/",
+    "desc": "Higher intellect vintage wiki",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Emupedia",
+    "url": "https://emupedia.fit/",
+    "desc": "Retro software in browser",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "The Trailing Edge",
+    "url": "https://bitsavers.trailingedge.com/",
+    "desc": "Computing history archive",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Macintosh Repository",
+    "url": "http://macintoshrepository.org/",
+    "desc": "Old Mac software archive",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Tandycom",
+    "url": "https://tandycom.net/",
+    "desc": "TRS-80 Color Computer archives",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Vintage Computer Net",
+    "url": "https://vintagecomputer.net/",
+    "desc": "Vintage computing restoration",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Old Version",
+    "url": "https://www.oldversion.com/",
+    "desc": "Old software versions",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "Old Bytes",
+    "url": "https://oldbytes.app/",
+    "desc": "Retro computing resources",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Curlie Retrocomputing",
+    "url": "https://curlie.org/Computers/Hardware/Historical/Retrocomputing/",
+    "desc": "Retrocomputing directory",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "MetaGer",
+    "url": "https://metager.de/",
+    "desc": "Privacy metasearch",
+    "category": "Search"
+  },
+  {
+    "name": "Gibiru",
+    "url": "https://gibiru.com/",
+    "desc": "Anonymous uncensored search",
+    "category": "Search"
+  },
+  {
+    "name": "Gigablast",
+    "url": "https://gigablast.org/",
+    "desc": "Open source private search",
+    "category": "Search"
+  },
+  {
+    "name": "Presearch",
+    "url": "https://presearch.com/",
+    "desc": "Decentralized private search",
+    "category": "Search"
+  },
+  {
+    "name": "AOL Search",
+    "url": "https://search.aol.com/",
+    "desc": "AOL web search",
+    "category": "Search"
+  },
+  {
+    "name": "WorldTune",
+    "url": "https://worldtune.app/",
+    "desc": "Live radio player",
+    "category": "Music"
+  },
+  {
+    "name": "Deliria Radio",
+    "url": "https://deliria.live/",
+    "desc": "Tracker music radio",
+    "category": "Music"
+  },
+  {
+    "name": "RadioLuv",
+    "url": "https://www.radioluv.org/",
+    "desc": "Human DJ radio",
+    "category": "Music"
+  },
+  {
+    "name": "Random Radio",
+    "url": "http://randomradio.net/",
+    "desc": "One button random radio",
+    "category": "Music"
+  },
+  {
+    "name": "Midtempo",
+    "url": "https://midtempo.net/",
+    "desc": "AI blended music",
+    "category": "Music"
+  },
+  {
+    "name": "Deep Orb",
+    "url": "https://deeporb.net/",
+    "desc": "Deep learning radio",
+    "category": "Music"
+  },
+  {
+    "name": "Last Radio Station",
+    "url": "https://www.lastradio.earth/",
+    "desc": "Cosmic ambient radio",
+    "category": "Music"
+  },
+  {
+    "name": "Orbit Radio",
+    "url": "https://orbitradio.cloud/",
+    "desc": "Synchronized orbital web radio",
+    "category": "Music"
+  },
+  {
+    "name": "RadioPeng",
+    "url": "https://radiopeng.net/",
+    "desc": "Freeform independent radio",
+    "category": "Music"
+  },
+  {
+    "name": "Aircheck Radio",
+    "url": "https://aircheckradio.us/",
+    "desc": "Historical radio broadcasts",
+    "category": "Music"
+  },
+  {
+    "name": "Frank Nora Archive",
+    "url": "https://franknora.com/",
+    "desc": "Overnightscape radio archive",
+    "category": "Music"
+  },
+  {
+    "name": "NTS Radio",
+    "url": "https://www.nts.live/",
+    "desc": "Independent radio",
+    "category": "Music"
+  },
+  {
+    "name": "Monocle Radio",
+    "url": "https://monocle.radio/",
+    "desc": "Culture and design radio",
+    "category": "Music"
+  },
+  {
+    "name": "Rinse FM",
+    "url": "https://rinse.fm/",
+    "desc": "Music discovery radio",
+    "category": "Music"
+  },
+  {
+    "name": "Do You Radio",
+    "url": "https://doyouradio.com/",
+    "desc": "Human curated radio",
+    "category": "Music"
+  },
+  {
+    "name": "Radiooooo",
+    "url": "https://www.radiooooo.com/",
+    "desc": "Music through time and space",
+    "category": "Music"
+  },
+  {
+    "name": "Vintage FM",
+    "url": "https://www.vintagefm.net/",
+    "desc": "40 year old vinyl music",
+    "category": "Music"
+  },
+  {
+    "name": "Totally Wired Radio",
+    "url": "https://totallywiredradio.com/",
+    "desc": "Left-field music radio",
+    "category": "Music"
+  },
+  {
+    "name": "EasyEDA",
+    "url": "https://easyeda.com/",
+    "desc": "Online PCB design",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "FreeCAD",
+    "url": "https://www.freecad.org/",
+    "desc": "Open source 3D modeler",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "PlatformIO",
+    "url": "https://platformio.org/",
+    "desc": "IoT development",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Espruino",
+    "url": "https://www.espruino.com/",
+    "desc": "JavaScript for microcontrollers",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "TransferKit",
+    "url": "https://transferkit.com/",
+    "desc": "Peer to peer file transfer",
+    "category": "Tools"
+  },
+  {
+    "name": "Droppy",
+    "url": "https://droppy.bytes.farm/",
+    "desc": "Self-hosted file drop",
+    "category": "Self-Hosting"
+  },
+  {
+    "name": "FileStash",
+    "url": "https://filestash.app/",
+    "desc": "Modern file manager",
+    "category": "Tools"
+  },
+  {
+    "name": "Cload",
+    "url": "https://cload.app/",
+    "desc": "Anonymous file sharing",
+    "category": "Tools"
+  },
+  {
+    "name": "SmugWares",
+    "url": "https://www.smug.wang/",
+    "desc": "Share files peer to peer",
+    "category": "Tools"
+  },
+  {
+    "name": "GitHub Codespaces",
+    "url": "https://github.com/features/codespaces",
+    "desc": "Cloud development",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "TIO",
+    "url": "https://tio.run/",
+    "desc": "Try it online",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com/",
+    "desc": "OpenAI chatbot",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Gemini",
+    "url": "https://gemini.google.com/",
+    "desc": "Google AI",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Groq",
+    "url": "https://groq.com/",
+    "desc": "Fast AI inference",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Oboat",
+    "url": "https://www.boatpand.com/",
+    "desc": "Free AI chatbot",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Phira",
+    "url": "https://phira.app/",
+    "desc": "AI music generator",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Windsurf",
+    "url": "https://windsurf.com/",
+    "desc": "AI coding assistant",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Copilot",
+    "url": "https://github.com/features/copilot",
+    "desc": "AI pair programmer",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Mesen",
+    "url": "https://mesen.net/",
+    "desc": "NES SNES emulator",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "FCEUX",
+    "url": "https://fceux.com/",
+    "desc": "NES emulator",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Nestopia",
+    "url": "https://nestopia-plus.sourceforge.net/",
+    "desc": "NES emulator",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "MAME Web",
+    "url": "https://archive.org/details/mame",
+    "desc": "MAME in browser",
+    "category": "Retro Computing"
+  },
+  {
+    "name": "Newgrounds",
+    "url": "https://www.newgrounds.com/",
+    "desc": "Indie games and animation",
+    "category": "Games"
+  },
+  {
+    "name": "NewGrounds Audio",
+    "url": "https://audio.newgrounds.com/",
+    "desc": "Music and audio portal",
+    "category": "Music"
+  },
+  {
+    "name": "Humble Bundle",
+    "url": "https://www.humblebundle.com/",
+    "desc": "Game bundles charity",
+    "category": "Games"
+  },
+  {
+    "name": "Free Games Jungle",
+    "url": "https://www.freegamesjungle.com/",
+    "desc": "Free PC games",
+    "category": "Games"
+  },
+  {
+    "name": "Comic Walker",
+    "url": "https://comic-walker.com/",
+    "desc": "Free manga",
+    "category": "Anime & Manga"
+  },
+  {
+    "name": "Comixology",
+    "url": "https://www.comixology.com/",
+    "desc": "Digital comics",
+    "category": "Books"
+  },
+  {
+    "name": "Hive Comics",
+    "url": "https://hivecomics.com/",
+    "desc": "Comic reader",
+    "category": "Books"
+  },
+  {
+    "name": "Graphic Novel Library",
+    "url": "https://gnlibrary.net/",
+    "desc": "Free graphic novels",
+    "category": "Books"
+  },
+  {
+    "name": "DALL-E",
+    "url": "https://openai.com/index/dall-e-3/",
+    "desc": "OpenAI image generator",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Craiyon",
+    "url": "https://craiyon.com/",
+    "desc": "Free AI image generator",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Bing Image Creator",
+    "url": "https://www.bing.com/images/create",
+    "desc": "Microsoft AI images",
+    "category": "AI & LLMs"
+  },
+  {
+    "name": "Flightaware",
+    "url": "https://flightaware.com/",
+    "desc": "Flight tracking",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Transit",
+    "url": "https://transitapp.com/",
+    "desc": "Public transit app",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Citymapper",
+    "url": "https://citymapper.com/",
+    "desc": "Urban navigation",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "OsmAnd",
+    "url": "https://osmand.net/",
+    "desc": "Offline maps",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Organic Maps",
+    "url": "https://organicmaps.app/",
+    "desc": "Privacy focused maps",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Mapcomplete",
+    "url": "https://mapcomplete.org/",
+    "desc": "Open street map improvements",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "K_VIEW",
+    "url": "https://k_VIEW.com/",
+    "desc": "Satellite imagery",
+    "category": "Maps & Geo"
+  },
+  {
+    "name": "Censys",
+    "url": "https://censys.io/",
+    "desc": "Internet asset discovery",
+    "category": "Cybersecurity"
+  },
+  {
+    "name": "Nerd Fonts",
+    "url": "https://www.nerdfonts.com/",
+    "desc": "Patched programming fonts",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "JetBrains Mono",
+    "url": "https://www.jetbrains.com/lp/mono/",
+    "desc": "Developer font",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Fira Code",
+    "url": "https://github.com/tonsky/FiraCode",
+    "desc": "Monospace font with ligatures",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Iosevka",
+    "url": "https://github.com/be5invis/Iosevka",
+    "desc": "Customizable font",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "Hack Font",
+    "url": "https://sourcefoundry.org/hack/",
+    "desc": "Monospace bitmap font",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "OpenDyslexic",
+    "url": "https://opendyslexic.org/",
+    "desc": "Dyslexia friendly font",
+    "category": "Design"
   }
 ]
