@@ -1,148 +1,148 @@
 # Aion - Links Hub
 
-> Un hub de enlaces con temática cyberpunk. Colección de websites interesantes organizados por categoría.
+> A cyberpunk-themed links hub. A collection of interesting websites organized by category.
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 Web/
-├── index.html           # Página principal (HTML + CSS + JS inline)
+├── index.html           # Main page (HTML + CSS + inline JS)
 ├── scripts/
-│   ├── manager.py       # Gestor completo de links
-│   ├── add_link.py      # Script rápido para agregar un link
-│   └── deduplicate.py   # Eliminar duplicados
-├── links.json           # Datos de links (fuente de verdad)
-├── links.js             # JS con los links (generado automáticamente)
-└── README.md            # Documentación
+│   ├── manager.py       # Full links manager
+│   ├── add_link.py      # Quick script to add a link
+│   └── deduplicate.py   # Remove duplicates
+├── links.json           # Links data (source of truth)
+├── links.js             # JS with links (auto-generated from JSON)
+└── README.md           # Documentation
 ```
 
-## Cómo funciona
+## How it works
 
-1. **`links.json`** - Contiene todos los links en formato JSON (fuente de verdad)
-2. **`links.js`** - Archivo JS que carga los links (generado desde JSON)
-3. **`index.html`** - Página principal que carga todo
-4. **`scripts/`** - Scripts para gestionar los links
+1. **`links.json`** - Contains all links in JSON format (source of truth)
+2. **`links.js`** - JS file that loads the links (auto-generated from JSON)
+3. **`index.html`** - Main page that loads everything
+4. **`scripts/`** - Scripts to manage links
 
-## Primeros pasos
+## Getting Started
 
-### 1. Clonar el repositorio
+### 1. Clone the repository
 ```bash
 git clone https://github.com/Ghostalex07/Web.git
 cd Web
 ```
 
-### 2. Abrir en navegador
+### 2. Open in browser
 ```bash
-# Con Python
+# With Python
 python -m http.server 8000
 
-# Con PHP
+# With PHP
 php -S localhost:8000
 
-# Con Node.js
+# With Node.js
 npx serve
 ```
 
-Luego abrir: `http://localhost:8000`
+Then open: `http://localhost:8000`
 
-## Agregar links
+## Adding links
 
-### Opción 1: Script rápido (recomendado)
+### Option 1: Quick script (recommended)
 ```bash
-python scripts/add_link.py "Nombre" "https://url.com" "Descripción" "Categoría"
+python scripts/add_link.py "Name" "https://url.com" "Description" "Category"
 ```
 
-Ejemplo:
+Example:
 ```bash
 python scripts/add_link.py "GitHub" "https://github.com" "Code hosting" "Development"
 ```
 
-### Opción 2: Gestor completo
+### Option 2: Full manager
 ```bash
-python scripts/manager.py add "Nombre" "https://url.com" "Descripción" "Categoría"
+python scripts/manager.py add "Name" "https://url.com" "Description" "Category"
 ```
 
-### Opción 3: Editar directamente
-Abrir `links.json` y agregar:
+### Option 3: Edit directly
+Open `links.json` and add:
 ```json
 {
-  "name": "Nombre del sitio",
-  "url": "https://ejemplo.com",
-  "desc": "Descripción breve",
-  "category": "Nombre de categoría"
+  "name": "Site name",
+  "url": "https://example.com",
+  "desc": "Short description",
+  "category": "Category name"
 }
 ```
 
-Después regenerar `links.js`:
+Then regenerate `links.js`:
 ```bash
 python scripts/manager.py generate
 ```
 
-## Gestionar links
+## Managing links
 
-### Ver categorías
+### List categories
 ```bash
 python scripts/manager.py categories
 ```
 
-### Buscar links
+### Search links
 ```bash
-python scripts/manager.py search "término"
+python scripts/manager.py search "term"
 ```
 
-### Eliminar duplicados
+### Remove duplicates
 ```bash
 python scripts/manager.py duplicates
-# o simplemente
+# or simply
 python scripts/deduplicate.py
 ```
 
-### Validar links
+### Validate links
 ```bash
 python scripts/manager.py validate
 ```
 
-### Exportar a Markdown
+### Export to Markdown
 ```bash
 python scripts/manager.py export
 ```
 
-## Subir cambios a GitHub
+## Push to GitHub
 
 ```bash
 git add .
-git commit -m "Agregar nuevos links"
+git commit -m "Add new links"
 git push
 ```
 
-## Formato de link
+## Link format
 
 ```json
 {
-  "name": "Nombre visible del link",
-  "url": "https://url-completa.com",
-  "desc": "Descripción corta (1-2 líneas)",
-  "category": "Categoría (se crea automáticamente)"
+  "name": "Visible link name",
+  "url": "https://full-url.com",
+  "desc": "Short description (1-2 lines)",
+  "category": "Category (auto-created)"
 }
 ```
 
-## Atajos de teclado
+## Keyboard shortcuts
 
-- `H` - Ir a Home
-- `L` - Ir a Links
+- `H` - Go to Home
+- `L` - Go to Links
 
-## Requisitos
+## Requirements
 
-- Python 3.6+ (para scripts)
-- Navegador moderno (Chrome, Firefox, Safari, Edge)
+- Python 3.6+ (for scripts)
+- Modern browser (Chrome, Firefox, Safari, Edge)
 
-## Notas
+## Notes
 
-- Las categorías se generan automáticamente desde los links
-- Verificar que no haya duplicados antes de hacer push
-- Las URLs deben usar `https://` cuando sea posible
-- El archivo `links.js` se genera automáticamente desde `links.json`
+- Categories are auto-generated from links
+- Check for duplicates before pushing
+- URLs should use `https://` when possible
+- `links.js` is auto-generated from `links.json`
 
-## Licencia
+## License
 
 MIT License
