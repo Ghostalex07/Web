@@ -1170,7 +1170,7 @@
     "category": "Privacy & Security"
   },
   {
-    "name": "st",
+    "name": "st (Simple Terminal)",
     "url": "https://st.suckless.org/",
     "desc": "Simple terminal",
     "category": "Privacy & Security"
@@ -2658,7 +2658,7 @@
     "category": "Programming & Dev"
   },
   {
-    "name": "V",
+    "name": "V Programming Language",
     "url": "https://vlang.io/",
     "desc": "Simple language",
     "category": "Programming & Dev"
@@ -3114,7 +3114,7 @@
     "category": "Self-Hosting"
   },
   {
-    "name": "S3",
+    "name": "S3 (MinIO)",
     "url": "https://min.io/",
     "desc": "MinIO - S3 compatible storage",
     "category": "Self-Hosting"
@@ -5562,7 +5562,7 @@
     "category": "Anime & Manga"
   },
   {
-    "name": "X",
+    "name": "X (Clamp manga)",
     "url": "https://myanimelist.net/manga/27/",
     "desc": "Clamp apocalyptic manga",
     "category": "Anime & Manga"
@@ -5954,7 +5954,7 @@
   {
     "name": " Ardour",
     "url": "https://ardour.org/",
-    "desc": "DAW",
+    "desc": "Digital Audio Workstation for recording",
     "category": "Music"
   },
   {
@@ -6134,7 +6134,7 @@
   {
     "name": "MusE",
     "url": "https://muse-sequencer.github.io/",
-    "desc": "DAW",
+    "desc": "Linux digital audio workstation",
     "category": "Music"
   },
   {
@@ -6170,7 +6170,7 @@
   {
     "name": "Qtractor",
     "url": "https://qtractor.org/",
-    "desc": "DAW",
+    "desc": "Qt-based digital audio workstation",
     "category": "Music"
   },
   {
@@ -6254,7 +6254,7 @@
   {
     "name": "Tracktion",
     "url": "https://www.tracktion.com/",
-    "desc": "DAW",
+    "desc": "Professional DAW and Sequencer",
     "category": "Music"
   },
   {
@@ -6704,7 +6704,7 @@
   {
     "name": "Disco Elysium",
     "url": "https://discoelysium.com/",
-    "desc": "RPG",
+    "desc": "Isometric detective RPG",
     "category": "Weird Web"
   },
   {
@@ -7286,7 +7286,7 @@
   {
     "name": "Path of Exile",
     "url": "https://www.pathofexile.com/",
-    "desc": "ARPG",
+    "desc": "Free action RPG game",
     "category": "Weird Web"
   },
   {
@@ -10314,7 +10314,7 @@
     "category": "Hacking"
   },
   {
-    "name": "ix",
+    "name": "ix (CLI Pastebin)",
     "url": "https://ix.io/",
     "desc": "CLI pastebin",
     "category": "Hacking"
@@ -11126,7 +11126,7 @@
   {
     "name": "Open Source",
     "url": "https://opensource.org/",
-    "desc": "OSI",
+    "desc": "Open Source Initiative",
     "category": "Legal"
   },
   {
@@ -12786,7 +12786,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "Y8",
+    "name": "Y8 (Browser Games)",
     "url": "https://www.y8.com/",
     "desc": "Browser games",
     "category": "Forums & Communities"
@@ -16268,7 +16268,7 @@
   {
     "name": "Studio One",
     "url": "https://www.presonus.com/products/studio-one/",
-    "desc": "DAW",
+    "desc": "Music production DAW",
     "category": "Retro Computing"
   },
   {
@@ -16430,7 +16430,7 @@
   {
     "name": "Thrift",
     "url": "https://thrift.apache.org/",
-    "desc": "IDL",
+    "desc": "Apache Thrift IDL framework",
     "category": "Retro Computing"
   },
   {
@@ -16532,7 +16532,7 @@
   {
     "name": "New Relic",
     "url": "https://newrelic.com/",
-    "desc": "APM",
+    "desc": "Application Performance Monitoring",
     "category": "Retro Computing"
   },
   {
@@ -16770,7 +16770,7 @@
     "category": "Retro Computing"
   },
   {
-    "name": "UV",
+    "name": "UV (Python Package Manager)",
     "url": "https://astral.sh/uv/",
     "desc": "Fast Python tool",
     "category": "Retro Computing"
@@ -17238,7 +17238,7 @@
     "category": "Imageboards & Chans"
   },
   {
-    "name": "b",
+    "name": "b (minimal imageboard)",
     "url": "https://b.riedel.dev/",
     "desc": "Minimal imageboard",
     "category": "Imageboards & Chans"
@@ -20778,7 +20778,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "JD",
+    "name": "JD (Warehouse Robot)",
     "url": "https://jd.com/",
     "desc": "Warehouse robot",
     "category": "Forums & Communities"
@@ -20850,7 +20850,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "UR",
+    "name": "UR (Cobot)",
     "url": "https://www.universal-robots.com/",
     "desc": "Cobot",
     "category": "Forums & Communities"
@@ -21084,7 +21084,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "LG",
+    "name": "LG (Home Robot)",
     "url": "https://www.lg.com/",
     "desc": "Home robot",
     "category": "Forums & Communities"
@@ -21228,7 +21228,7 @@
     "category": "Forums & Communities"
   },
   {
-    "name": "JD",
+    "name": "JD (E-commerce)",
     "url": "https://www.jd.com/",
     "desc": "Chinese store",
     "category": "Forums & Communities"
@@ -29049,13 +29049,13 @@
     "name": "Distributed Proofreaders",
     "url": "https://www.pgdp.net/",
     "desc": "Volunteer platform that has produced 50k+ ebooks for Project Gutenberg",
-    "category": "Books & Literature"
+    "category": "Books & Fiction"
   },
   {
     "name": "The Sifter",
     "url": "https://thesifter.org/",
     "desc": "Search thousands of historical cookbooks dating back to the Middle Ages",
-    "category": "Books & Literature"
+    "category": "Books & Fiction"
   },
   {
     "name": "OnionMail",
@@ -32508,7 +32508,7 @@
     "category": "Niche Hobbies"
   },
   {
-    "name": "LQ",
+    "name": "LQ (Letterboxing)",
     "url": "https://www.lq.com/",
     "desc": "Letterboxing HQ",
     "category": "Niche Hobbies"
@@ -34254,7 +34254,7 @@
     "category": "Finance"
   },
   {
-    "name": "FT",
+    "name": "FT (Financial Times)",
     "url": "https://www.ft.com/",
     "desc": "Financial Times",
     "category": "Finance"
