@@ -6,11 +6,7 @@
 
 ```
 Web/
-├── index.html           # Página principal
-├── css/
-│   └── styles.css       # Estilos CSS
-├── js/
-│   └── app.js           # Lógica de la aplicación
+├── index.html           # Página principal (HTML + CSS + JS inline)
 ├── scripts/
 │   ├── manager.py       # Gestor completo de links
 │   ├── add_link.py      # Script rápido para agregar un link
@@ -24,9 +20,8 @@ Web/
 
 1. **`links.json`** - Contiene todos los links en formato JSON (fuente de verdad)
 2. **`links.js`** - Archivo JS que carga los links (generado desde JSON)
-3. **`css/styles.css`** - Estilos de la página
-4. **`js/app.js`** - Lógica de navegación, búsqueda y renderizado
-5. **`index.html`** - Página principal que carga todo
+3. **`index.html`** - Página principal que carga todo
+4. **`scripts/`** - Scripts para gestionar los links
 
 ## Primeros pasos
 
@@ -135,7 +130,6 @@ git push
 
 - `H` - Ir a Home
 - `L` - Ir a Links
-- `Esc` - Limpiar filtros
 
 ## Requisitos
 
