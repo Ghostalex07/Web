@@ -212,21 +212,10 @@
     <p>Aion © 2026 — Information wants to be free.</p>
   </footer>
 
+  <script src="links.js"></script>
   <script>
     let currentSection = 'index';
     
-    let linksData = [];
-
-    async function loadLinks() {
-      try {
-        const response = await fetch('links.json');
-        linksData = await response.json();
-      } catch (e) {
-        console.error('Failed to load links:', e);
-        linksData = [];
-      }
-    }
-
     function renderLinks(filter = '', categoryFilter = '') {
       const container = document.getElementById('links-content');
       let html = '';
@@ -308,7 +297,7 @@
       else if (e.key === 'l') showSection('links');
     });
 
-    loadLinks().then(() => goHome());
+    goHome();
   </script>
 </body>
 </html>
