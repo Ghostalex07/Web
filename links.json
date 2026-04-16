@@ -37156,5 +37156,2477 @@
     "url": "https://www.jabberwockygraphix.com/",
     "desc": "Small press comics",
     "category": "Underground Comics & Zines"
+  },
+  {
+    "name": "HerbMed",
+    "url": "https://herbmed.org/",
+    "desc": "Herbal medicine database",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Rainbow Voice",
+    "url": "https://www.rainbowvoice.com/",
+    "desc": "Holistic health",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "MediHerb",
+    "url": "https://mediherb.com/",
+    "desc": "Professional herbalism",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Ayuurveda",
+    "url": "https://www.ayurveda.com/",
+    "desc": "Ayurvedic medicine",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "TCM Wiki",
+    "url": "https://tcmwiki.com/",
+    "desc": "Traditional Chinese Medicine",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Naturopathy",
+    "url": "https://www.naturopathy.org/",
+    "desc": "Naturopathic medicine",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Homeopathy Center",
+    "url": "https://homeopathycenter.org/",
+    "desc": "Homeopathic resources",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Acupuncture Today",
+    "url": "https://www.acupuncturetoday.com/",
+    "desc": "Acupuncture news",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Herb School",
+    "url": "https://theherbschool.com/",
+    "desc": "Herbal education",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Plant Healer",
+    "url": "https://planthealer.org/",
+    "desc": "Herbalist conferences",
+    "category": "Alternative Medicine"
+  },
+  {
+    "name": "Wood Magazine",
+    "url": "https://www.woodmagazine.com/",
+    "desc": "Woodworking projects",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "Popular Woodworking",
+    "url": "https://www.popularwoodworking.com/",
+    "desc": "Woodworking tips",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "Rex Kruger",
+    "url": "https://www.rexkruger.com/",
+    "desc": "Woodworking humor",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "Woodworking for Engineers",
+    "url": "https://engineeringmemes.org/",
+    "desc": "Engineer woodworkers",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "Lost Art Press",
+    "url": "https://blog.lostartpress.com/",
+    "desc": "Hand tool woodworking",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "茅Forum",
+    "url": "https://www.woodworkingtalk.com/",
+    "desc": "Woodworking forum",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "Sawmill Creek",
+    "url": "https://www.sawmillcreek.org/",
+    "desc": "Woodworking community",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "The Wood Whisperer",
+    "url": "https://thewoodwhisperer.com/",
+    "desc": "Woodworking videos",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "Marc Adams School",
+    "url": "https://marcadams.com/",
+    "desc": "Woodworking school",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "K\tbody",
+    "url": "https://www.rockler.com/",
+    "desc": "Woodworking supplies",
+    "category": "Furniture Building"
+  },
+  {
+    "name": "Old Radio Shows",
+    "url": "https://www.oldradioprograms.com/",
+    "desc": "Vintage radio archives",
+    "category": "Lost TV & Radio"
+  },
+  {
+    "name": "Xtreme Radio",
+    "url": "https://www.xtremehost.org/",
+    "desc": "Community radio",
+    "category": "Lost TV & Radio"
+  },
+  {
+    "name": "Old Time Radio",
+    "url": "https://www.otrcat.com/",
+    "desc": "Vintage radio shows",
+    "category": "Lost TV & Radio"
+  },
+  {
+    "name": "Radio Locator",
+    "url": "https://radio-locator.com/",
+    "desc": "Find radio stations",
+    "category": "Lost TV & Radio"
+  },
+  {
+    "name": "FBi Radio",
+    "url": "https://www.fbi.org/",
+    "desc": "Community radio",
+    "category": "Lost TV & Radio"
+  },
+  {
+    "name": "College Radio Day",
+    "url": "https://collegeradioday.org/",
+    "desc": "College radio celebration",
+    "category": "Independent Radio"
+  },
+  {
+    "name": "Radio Free Berkeley",
+    "url": "https://radiofreeberkeley.org/",
+    "desc": "Pirate radio archive",
+    "category": "Independent Radio"
+  },
+  {
+    "name": "BFF.fm",
+    "url": "https://bff.fm/",
+    "desc": "Bay Area indie radio",
+    "category": "Independent Radio"
+  },
+  {
+    "name": "Dublab",
+    "url": "https://dublab.com/",
+    "desc": "Experimental radio",
+    "category": "Independent Radio"
+  },
+  {
+    "name": "Boiler Room",
+    "url": "https://boilerroom.tv/",
+    "desc": "Underground music",
+    "category": "Independent Radio"
+  },
+  {
+    "name": "Sudbury Schools",
+    "url": "https://www.sudburyschools.org/",
+    "desc": "Democratic education",
+    "category": "Alternative Education"
+  },
+  {
+    "name": "Waldorf Education",
+    "url": "https://www.waldorfeducation.org/",
+    "desc": "Waldorf method",
+    "category": "Alternative Education"
+  },
+  {
+    "name": "Montessori",
+    "url": "https://amshq.org/",
+    "desc": "Montessori method",
+    "category": "Alternative Education"
+  },
+  {
+    "name": "Unschooling",
+    "url": "https://unschooling.com/",
+    "desc": "Unschooling resources",
+    "category": "Alternative Education"
+  },
+  {
+    "name": "Living Math",
+    "url": "https://livingmath.net/",
+    "desc": "Unschooling math",
+    "category": "Alternative Education"
+  },
+  {
+    "name": "Wild Math",
+    "url": "https://www.wildmath.com/",
+    "desc": "Outdoor math",
+    "category": "Alternative Education"
+  },
+  {
+    "name": "Project Based Learning",
+    "url": "https://bie.org/",
+    "desc": "PBL resources",
+    "category": "Alternative Education"
+  },
+  {
+    "name": "Bodyweight Fitness",
+    "url": "https://www.reddit.com/r/bodyweightfitness/",
+    "desc": "Calisthenics sub",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "Old Time Strongman",
+    "url": "https://www.oldtimestrongman.com/",
+    "desc": "Historical strength",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "Circus Fitness",
+    "url": "https://www.circusarts.org/",
+    "desc": "Circus training",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "Parkour",
+    "url": "https://www.waptrick.me/",
+    "desc": "Movement art",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "Breakdancing",
+    "url": "https://www.bboyworld.com/",
+    "desc": "B-boy culture",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "Capoeira",
+    "url": "https://www.capoeira-angola.org/",
+    "desc": "Brazilian martial art",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "HEMA",
+    "url": "https://www.hemago.com/",
+    "desc": "Historical European martial arts",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "Kettlebells",
+    "url": "https://www.strongfirst.com/",
+    "desc": "Kettlebell training",
+    "category": "Niche Fitness"
+  },
+  {
+    "name": "Retro Stage",
+    "url": "https://www.retrostage.com/",
+    "desc": "Retro fashion",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "What I Wore",
+    "url": "https://whatiwore.tumblr.com/",
+    "desc": "Vintage style blog",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "Dressing the Decades",
+    "url": "https://www.dressingthedecades.com/",
+    "desc": "Historical fashion",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "Vintage Runner",
+    "url": "https://www.vintagerunner.com/",
+    "desc": "Vintage athletic wear",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "Collective Zine",
+    "url": "https://collective-zine.com/",
+    "desc": "Fashion zine culture",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "Fashion Era",
+    "url": "https://www.fashion-era.com/",
+    "desc": "Fashion history",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "The Vintage Pattern Matcher",
+    "url": "https://vintagepatterns.com/",
+    "desc": "Vintage patterns",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "The D菌",
+    "url": "https://www.thedotsstore.com/",
+    "desc": "Retro clothing",
+    "category": "Vintage Fashion"
+  },
+  {
+    "name": "Lector",
+    "url": "https://en.wikipedia.org/wiki/Lector",
+    "desc": "Factory readers",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Knocker-Up",
+    "url": "https://en.wikipedia.org/wiki/Knocker-up",
+    "desc": "Wake-up callers",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Lamplighter",
+    "url": "https://en.wikipedia.org/wiki/Lamplighter",
+    "desc": "Street lamp lighter",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Chimney Sweep",
+    "url": "https://www.chimneysweep.co.uk/",
+    "desc": "Historical sweep",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Town Crier",
+    "url": "https://www.towncrier.com/",
+    "desc": "Public announcer",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Ice Cutter",
+    "url": "https://en.wikipedia.org/wiki/Ice_cutting",
+    "desc": "Ice harvesters",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Foghorn",
+    "url": "https://en.wikipedia.org/wiki/Foghorn",
+    "desc": "Lighthouse operators",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Typewriter Repair",
+    "url": "https://www.typewriterrepair.com/",
+    "desc": "Typewriter techs",
+    "category": "Obsolete Professions"
+  },
+  {
+    "name": "Galileo Open",
+    "url": "https://galileo-open.org/",
+    "desc": "Controversial research",
+    "category": "Fringe Science"
+  },
+  {
+    "name": "Institute for the Study",
+    "url": "https://www.iqs.org/",
+    "desc": "Anomalous research",
+    "category": "Fringe Science"
+  },
+  {
+    "name": "Skeptoid",
+    "url": "https://skeptoid.com/",
+    "desc": "Science debunking",
+    "category": "Fringe Science"
+  },
+  {
+    "name": "Bad Science",
+    "url": "https://www.badscience.net/",
+    "desc": "Critique of bad science",
+    "category": "Fringe Science"
+  },
+  {
+    "name": "Retraction Watch",
+    "url": "https://retractionwatch.com/",
+    "desc": "Scientific retractions",
+    "category": "Fringe Science"
+  },
+  {
+    "name": "Cold Tibbers",
+    "url": "https://coldtibbers.org/",
+    "desc": "Unexplained phenomena",
+    "category": "Fringe Science"
+  },
+  {
+    "name": "Gr不相等",
+    "url": "https://www.gresearch.co.uk/",
+    "desc": "Strange science",
+    "category": "Fringe Science"
+  },
+  {
+    "name": "Time Bank",
+    "url": "https://timebank.org/",
+    "desc": "Time-based currency",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "LETS",
+    "url": "https://www.community-exchange.org/",
+    "desc": "Local exchange",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "Bitcoin",
+    "url": "https://bitcoin.org/",
+    "desc": "Cryptocurrency",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "Local Bytes",
+    "url": "https://localbites.com/",
+    "desc": "Local currency",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "Community Forge",
+    "url": "https://communityforge.net/",
+    "desc": "Open source currency",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "Ripple",
+    "url": "https://ripple.com/",
+    "desc": "Payment network",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "Stellar",
+    "url": "https://stellar.org/",
+    "desc": "Payment currency",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "Dogecoin",
+    "url": "https://dogecoin.com/",
+    "desc": "Meme currency",
+    "category": "Alternative Currencies"
+  },
+  {
+    "name": "Museum of Retro Tech",
+    "url": "https://www.museumofretrorech.com/",
+    "desc": "Failed tech museum",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Obsolete Inventions",
+    "url": "https://obsoleteinventions.com/",
+    "desc": "Forgotten devices",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Patent Dreams",
+    "url": "https://patents.google.com/",
+    "desc": "Abandoned patents",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Retro Tech Archive",
+    "url": "https://www.retrotecharchive.com/",
+    "desc": "Vintage tech",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Dead Tech",
+    "url": "https://deadsites.com/",
+    "desc": "Failed startups",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Discontinued Tech",
+    "url": "https://discontinuedtech.com/",
+    "desc": "Discontinued gadgets",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Fossilized Tech",
+    "url": "https://fossilized.tech/",
+    "desc": "Old technology",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Tech Graveyard",
+    "url": "https://techgraveyard.com/",
+    "desc": "Dead products",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Chess Boxing",
+    "url": "https://www.chessboxing.info/",
+    "desc": "Chess plus boxing",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Cheese Rolling",
+    "url": "https://cheese-rolling.com/",
+    "desc": "Cooper's Hill race",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Wife Carrying",
+    "url": "https://www.wifecarrying.com/",
+    "desc": "Finnish sport",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Bog Snorkeling",
+    "url": "https://www.bogsnorkeling.com/",
+    "desc": "Welsh sport",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Underwater Hockey",
+    "url": "https://www.cmas.org/underwater-hockey",
+    "desc": "Aquatic sport",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Quidditch",
+    "url": "https://www.iqa-sport.com/",
+    "desc": "Real-life Quidditch",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Ossgevolleyball",
+    "url": "https://ossgevolleyball.com/",
+    "desc": "Netherlands sport",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Camel Racing",
+    "url": "https://www.camelracing.net/",
+    "desc": "Desert racing",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Holiday Insights",
+    "url": "https://www.holidayinsights.com/",
+    "desc": "Weird holidays",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "Days of the Year",
+    "url": "https://www.daysoftheyear.com/",
+    "desc": "Strange celebrations",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "Holiday Calendar",
+    "url": "https://www.holidaycalendar.com/",
+    "desc": "Unusual holidays",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "Weird Holidays",
+    "url": "https://weird离奇.com/",
+    "desc": "Bizarre holidays",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "Amusing Holiday",
+    "url": "https://www.amusingholiday.com/",
+    "desc": "Fun holidays",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "National Day",
+    "url": "https://nationaltoday.com/",
+    "desc": "Special days",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "SCA",
+    "url": "https://www.sca.org/",
+    "desc": "Society for Creative Anachronism",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Historical European Martial Arts",
+    "url": "https://www.hemaalliance.com/",
+    "desc": "Historical sword fighting",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Civil War Trust",
+    "url": "https://www.britannica.com/",
+    "desc": "Civil war reenactment",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Regency Society",
+    "url": "https://www.regencysociety.com/",
+    "desc": "Regency era reenactment",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Viking reenactment",
+    "url": "https://www.vikingreenactment.com/",
+    "desc": "Norse history",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "World War II Reenactment",
+    "url": "https://www.wwiireenactment.com/",
+    "desc": "WW2 living history",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Colonial Williamsburg",
+    "url": "https://www.colonialwilliamsburg.org/",
+    "desc": "Colonial era",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Living History Farm",
+    "url": "https://www.livinghistoryfarm.org/",
+    "desc": "Agricultural history",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Stare Cat",
+    "url": "https://theuselessweb.com/stare/",
+    "desc": "Cat staring at you",
+    "category": "Useless Websites"
+  },
+  {
+    "name": "Make It Pink",
+    "url": "https://makeitpink.com/",
+    "desc": "Make anything pink",
+    "category": "Useless Websites"
+  },
+  {
+    "name": "Dada",
+    "url": "https://www.dada.com/",
+    "desc": "Dada movement",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Situationist International",
+    "url": "https://www.cddc.vt.edu/sionline/",
+    "desc": "Situationist archive",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Art Institute",
+    "url": "https://www.artic.edu/",
+    "desc": "Modern art",
+    "category": "Art Movements"
+  },
+  {
+    "name": "MoMA",
+    "url": "https://www.moma.org/",
+    "desc": "Modern art museum",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Tate Modern",
+    "url": "https://www.tate.org.uk/",
+    "desc": "Contemporary art",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Centre Pompidou",
+    "url": "https://www.centrepompidou.fr/",
+    "desc": "Modern art center",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Guggenheim",
+    "url": "https://www.guggenheim.org/",
+    "desc": "Contemporary collection",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Street Art News",
+    "url": "https://www.streetartnews.net/",
+    "desc": "Street art updates",
+    "category": "Street Art"
+  },
+  {
+    "name": "Graffiti Archive",
+    "url": "https://www.graffiti.org/",
+    "desc": "Graffiti documentation",
+    "category": "Street Art"
+  },
+  {
+    "name": "Banksy",
+    "url": "https://banksy.co.uk/",
+    "desc": "Banksy official",
+    "category": "Street Art"
+  },
+  {
+    "name": "Art in Streets",
+    "url": "https://www.artnet.com/",
+    "desc": "Urban art network",
+    "category": "Street Art"
+  },
+  {
+    "name": "Graffiti Street",
+    "url": "https://graffitistreet.com/",
+    "desc": "Graffiti gallery",
+    "category": "Street Art"
+  },
+  {
+    "name": "Street Art Cities",
+    "url": "https://streetartcities.com/",
+    "desc": "Urban art map",
+    "category": "Street Art"
+  },
+  {
+    "name": "Stencil Archive",
+    "url": "https://stencilarchive.org/",
+    "desc": "Stencil art",
+    "category": "Street Art"
+  },
+  {
+    "name": "Wooster Collective",
+    "url": "https://www.woostercollective.com/",
+    "desc": "Street art collective",
+    "category": "Street Art"
+  },
+  {
+    "name": "Incus Records",
+    "url": "https://incusrecords.co.uk/",
+    "desc": "Free improv label",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "New Music Circle",
+    "url": "https://www.newmusiccircle.org/",
+    "desc": "Experimental music",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "Brainwashed",
+    "url": "https://brainwashed.com/",
+    "desc": "Experimental music",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "UbuWeb",
+    "url": "https://ubu.com/",
+    "desc": "Experimental resources",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "KRAAK",
+    "url": "https://kraak.net/",
+    "desc": "Experimental label",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "Panic",
+    "url": "https://panic.net/",
+    "desc": "Noise music",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "Touch",
+    "url": "https://touch33.net/",
+    "desc": "Experimental label",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "Arcade Museum",
+    "url": "https://www.arcademuseum.com/",
+    "desc": "Arcade history",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Killer List of Videogames",
+    "url": "https://klov.com/",
+    "desc": "Video game database",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Arcade History",
+    "url": "https://www.arcade-history.com/",
+    "desc": "Arcade preservation",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Double Tap",
+    "url": "https://doubletaparcade.com/",
+    "desc": "Arcade revival",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Arcade Club",
+    "url": "https://www.arcadeclub.com/",
+    "desc": "UK arcade",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Pinball Archive",
+    "url": "https://www.pinballarchive.org/",
+    "desc": "Pinball history",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Arcade 78",
+    "url": "https://arcade78.com/",
+    "desc": "Arcade restoration",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Sleep",
+    "url": "https://sleepyti.me/",
+    "desc": "Sleep calculator",
+    "category": "Niche Tools"
+  },
+  {
+    "name": "No Sleep",
+    "url": "https://nosleeping.com/",
+    "desc": "Sleep stories",
+    "category": "Niche Tools"
+  },
+  {
+    "name": "Rainy Mood",
+    "url": "https://rainymood.com/",
+    "desc": "Rain sounds",
+    "category": "Niche Tools"
+  },
+  {
+    "name": "Cozy",
+    "url": "https://cozoyeh.com/",
+    "desc": "Relaxing sounds",
+    "category": "Niche Tools"
+  },
+  {
+    "name": "Calm",
+    "url": "https://calm.com/",
+    "desc": "Relaxation app",
+    "category": "Niche Tools"
+  },
+  {
+    "name": "ASCII Art Archive",
+    "url": "https://asciiart.website/",
+    "desc": "ASCII art collection",
+    "category": "ASCII Art"
+  },
+  {
+    "name": "Text ASCII Art",
+    "url": "https://www.asciiart.eu/",
+    "desc": "ASCII art gallery",
+    "category": "ASCII Art"
+  },
+  {
+    "name": "Pixel Art Academy",
+    "url": "https://pixelartacademy.com/",
+    "desc": "Learn pixel art",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "Lospec Palette List",
+    "url": "https://lospec.com/palette-list",
+    "desc": "Pixel art palettes",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "PixelJoint",
+    "url": "https://pixeljoint.com/",
+    "desc": "Pixel art gallery",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "Pixel Planet",
+    "url": "https://pixeljoint.com/pixels/",
+    "desc": "Pixel art archive",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "Tatooine",
+    "url": "https://starwars.fandom.com/",
+    "desc": "Star Wars wiki",
+    "category": "Fandom Wikis"
+  },
+  {
+    "name": "Wookieepedia",
+    "url": "https://starwars.fandom.com/wiki/Main_Page",
+    "desc": "Star Wars encyclopedia",
+    "category": "Fandom Wikis"
+  },
+  {
+    "name": "Memory Alpha",
+    "url": "https://memory-alpha.fandom.com/",
+    "desc": "Star Trek wiki",
+    "category": "Fandom Wikis"
+  },
+  {
+    "name": "Harry Potter Wiki",
+    "url": "https://harrypotter.fandom.com/",
+    "desc": "Potter encyclopedia",
+    "category": "Fandom Wikis"
+  },
+  {
+    "name": "Elder Scrolls Wiki",
+    "url": "https://elderscrolls.fandom.com/",
+    "desc": "TES encyclopedia",
+    "category": "Fandom Wikis"
+  },
+  {
+    "name": "Fallout Wiki",
+    "url": "https://fallout.fandom.com/",
+    "desc": "Fallout encyclopedia",
+    "category": "Fandom Wikis"
+  },
+  {
+    "name": "Weird Universe",
+    "url": "https://weirduniverse.net/",
+    "desc": "Weird photos",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "Old Photos",
+    "url": "https://www.oldphotoarchive.com/",
+    "desc": "Historical photos",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "Shorpy",
+    "url": "https://www.shorpy.com/",
+    "desc": "Vintage photos",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "Picryl",
+    "url": "https://www.picryl.com/",
+    "desc": "Public domain photos",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "Weird Google Street View",
+    "url": "https://www.google.com/maps/streetview/",
+    "desc": "Strange Street View",
+    "category": "Weird Maps"
+  },
+  {
+    "name": "Pixel Maps",
+    "url": "https://pixelmap.graphics/",
+    "desc": "Pixel style maps",
+    "category": "Weird Maps"
+  },
+  {
+    "name": "Map Gamers",
+    "url": "https://www.mapgam.com/",
+    "desc": "Video game maps",
+    "category": "Weird Maps"
+  },
+  {
+    "name": "The Nib",
+    "url": "https://thenib.monicabuyer.com/",
+    "desc": "Political cartoons",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "SMBC Comics",
+    "url": "https://www.smbc-comics.com/",
+    "desc": "Saturday math comics",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "Penny Arcade",
+    "url": "https://www.penny-arcade.com/",
+    "desc": "Gaming comics",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "Ctrl+Alt+Del",
+    "url": "https://cad-comic.com/",
+    "desc": "Gaming webcomic",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "Art of Problem Solving",
+    "url": "https://artofproblemsolving.com/",
+    "desc": "Math community",
+    "category": "Math Puzzles"
+  },
+  {
+    "name": "nrich",
+    "url": "https://nrich.maths.org/",
+    "desc": "Math enrichment",
+    "category": "Math Puzzles"
+  },
+  {
+    "name": "Brainzilla",
+    "url": "https://www.brainzilla.com/",
+    "desc": "Brain teasers",
+    "category": "Brain Teasers"
+  },
+  {
+    "name": "Riddles",
+    "url": "https://www.riddles.com/",
+    "desc": "Riddle collection",
+    "category": "Brain Teasers"
+  },
+  {
+    "name": "Brilliant Puzzles",
+    "url": "https://brilliant.org/puzzles/",
+    "desc": "Logic puzzles",
+    "category": "Brain Teasers"
+  },
+  {
+    "name": "Puzzle Baron",
+    "url": "https://www.puzzlebaron.com/",
+    "desc": "Logic puzzles",
+    "category": "Brain Teasers"
+  },
+  {
+    "name": "Shortwave Receiver",
+    "url": "https://shortwaves.com/",
+    "desc": "Shortwave listening",
+    "category": "World Radio"
+  },
+  {
+    "name": "WebSDR",
+    "url": "http://websdr.org/",
+    "desc": "Online SDR receivers",
+    "category": "World Radio"
+  },
+  {
+    "name": "Wildlife Webcams",
+    "url": "https://www.wildlifecams.com/",
+    "desc": "Live animal cams",
+    "category": "Nature Cams"
+  },
+  {
+    "name": "Explore.org",
+    "url": "https://explore.org/",
+    "desc": "Live nature cams",
+    "category": "Nature Cams"
+  },
+  {
+    "name": "Bird Cams",
+    "url": "https://www.allaboutbirds.org/cams/",
+    "desc": "Bird watching cams",
+    "category": "Nature Cams"
+  },
+  {
+    "name": "San Diego Zoo",
+    "url": "https://zoo.sandiegozoo.org/cams",
+    "desc": "Zoo animal cams",
+    "category": "Nature Cams"
+  },
+  {
+    "name": "Space Cams",
+    "url": "https://www.nasa.gov/mission_pages/station/main/",
+    "desc": "ISS live cam",
+    "category": "Space Cams"
+  },
+  {
+    "name": "Slooh",
+    "url": "https://www.slooh.com/",
+    "desc": "Telescope online",
+    "category": "Space Cams"
+  },
+  {
+    "name": "Deep Sea News",
+    "url": "https://www.deepseanews.com/",
+    "desc": "Ocean science",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "Monterey Bay Aquarium",
+    "url": "https://www.mbari.org/",
+    "desc": "Marine research",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "Ocean Explorer",
+    "url": "https://oceanexplorer.noaa.gov/",
+    "desc": "NOAA exploration",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "Reef Builder",
+    "url": "https://www.reefbuilders.com/",
+    "desc": "Reef aquarium",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "NASA Earth",
+    "url": "https://www.nasa.gov/content/goddard/living-with-a-star",
+    "desc": "Earth from space",
+    "category": "Earth Observation"
+  },
+  {
+    "name": "City Lights",
+    "url": "https://www.nasa.gov/mission_pages/station/images/index.html",
+    "desc": "Night lights from orbit",
+    "category": "Earth Observation"
+  },
+  {
+    "name": "Deep Look",
+    "url": "https://www.youtube.com/channel/UCbW9Blg9RZeXfbKPNgqKbA",
+    "desc": "Microscopic videos",
+    "category": "Science Videos"
+  },
+  {
+    "name": "Kurzgesagt",
+    "url": "https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q",
+    "desc": "Science animations",
+    "category": "Science Videos"
+  },
+  {
+    "name": "Veritasium",
+    "url": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+    "desc": "Science videos",
+    "category": "Science Videos"
+  },
+  {
+    "name": "SmarterEveryday",
+    "url": "https://www.youtube.com/channel/UC6107grRI4m0o2aG6qYqXgw",
+    "desc": "Engineering videos",
+    "category": "Science Videos"
+  },
+  {
+    "name": "Etymology",
+    "url": "https://www.etymonline.com/",
+    "desc": "Word origins",
+    "category": "Language & Etymology"
+  },
+  {
+    "name": "Behind the Name",
+    "url": "https://www.behindthename.com/",
+    "desc": "Name origins",
+    "category": "Language & Etymology"
+  },
+  {
+    "name": "Word Origins",
+    "url": "https://www.wordorigins.org/",
+    "desc": "Etymology articles",
+    "category": "Language & Etymology"
+  },
+  {
+    "name": "The Phrase Finder",
+    "url": "https://www.phrases.org.uk/",
+    "desc": "Phrase origins",
+    "category": "Language & Etymology"
+  },
+  {
+    "name": "World Atlas",
+    "url": "https://www.worldatlas.com/",
+    "desc": "Country information",
+    "category": "Geography"
+  },
+  {
+    "name": "Country Profiles",
+    "url": "https://www.countryprofiles.com/",
+    "desc": "Nation facts",
+    "category": "Geography"
+  },
+  {
+    "name": "Statista",
+    "url": "https://www.statista.com/",
+    "desc": "Statistics portal",
+    "category": "Geography"
+  },
+  {
+    "name": "NationMaster",
+    "url": "https://www.nationmaster.com/",
+    "desc": "Country data",
+    "category": "Geography"
+  },
+  {
+    "name": "Cryptic Crosswords",
+    "url": "https://www.crypticcrosswords.org/",
+    "desc": "British style crosswords",
+    "category": "Word Games"
+  },
+  {
+    "name": "Wordle",
+    "url": "https://www.nytimes.com/games/wordle/index.html",
+    "desc": "Daily word game",
+    "category": "Word Games"
+  },
+  {
+    "name": "OneLook",
+    "url": "https://www.onelook.com/",
+    "desc": "Dictionary lookup",
+    "category": "Word Games"
+  },
+  {
+    "name": "Wordnik",
+    "url": "https://www.wordnik.com/",
+    "desc": "Word dictionary",
+    "category": "Word Games"
+  },
+  {
+    "name": "Obscure Facts",
+    "url": "https://www.obscurefacts.com/",
+    "desc": "Strange trivia",
+    "category": "Trivia"
+  },
+  {
+    "name": "Today I Learned",
+    "url": "https://www.reddit.com/r/todayilearned/",
+    "desc": "TIL sub",
+    "category": "Trivia"
+  },
+  {
+    "name": "Ripley's Believe",
+    "url": "https://www.ripleys.com/",
+    "desc": "Weird facts",
+    "category": "Trivia"
+  },
+  {
+    "name": "Factinate",
+    "url": "https://www.factinate.com/",
+    "desc": "Facts database",
+    "category": "Trivia"
+  },
+  {
+    "name": "The Cow",
+    "url": "https://thecowwebsite.com/",
+    "desc": "It's about a cow",
+    "category": "Useless Websites"
+  },
+  {
+    "name": "Sandbox",
+    "url": "https://sandbox.com/",
+    "desc": "Just sandbox",
+    "category": "Useless Websites"
+  },
+  {
+    "name": "Deepart",
+    "url": "https://deepart.io/",
+    "desc": "AI art effects",
+    "category": "Useless Websites"
+  },
+  {
+    "name": "Click to explode",
+    "url": "https://explodingkittens.com/",
+    "desc": "Click anywhere",
+    "category": "Useless Websites"
+  },
+  {
+    "name": "Hue Test",
+    "url": "https://www.huetutorial.com/",
+    "desc": "Color perception test",
+    "category": "Useless Websites"
+  },
+  {
+    "name": "Liminal Photos",
+    "url": "https://liminalphotos.com/",
+    "desc": "Liminal photography",
+    "category": "Liminal & Dreams"
+  },
+  {
+    "name": "Backrooms Game",
+    "url": "https://backrooms-game.com/",
+    "desc": "Backrooms horror game",
+    "category": "Liminal & Dreams"
+  },
+  {
+    "name": "Dream Journal",
+    "url": "https://dreamjournal.net/",
+    "desc": "Record your dreams",
+    "category": "Liminal & Dreams"
+  },
+  {
+    "name": "Dream Dictionary",
+    "url": "https://dreamdictionary.org/",
+    "desc": "Dream meanings",
+    "category": "Liminal & Dreams"
+  },
+  {
+    "name": "Sleep Dream",
+    "url": "https://sleep.org/dreams/",
+    "desc": "Dream science",
+    "category": "Liminal & Dreams"
+  },
+  {
+    "name": "Space Jam",
+    "url": "https://www.spacejam.com/",
+    "desc": "Classic 90s website",
+    "category": "Retro Internet"
+  },
+  {
+    "name": "Ask Jeeves",
+    "url": "https://ask.com/",
+    "desc": "Old search engine",
+    "category": "Retro Internet"
+  },
+  {
+    "name": "Yahoo Geocities",
+    "url": "https://www.oocities.org/",
+    "desc": "GeoCities archive",
+    "category": "Retro Internet"
+  },
+  {
+    "name": "Space Jam Archive",
+    "url": "https://web.archive.org/web/2000/",
+    "desc": "Web Archive 2000",
+    "category": "Retro Internet"
+  },
+  {
+    "name": "Quick Meme",
+    "url": "https://www.quickmeme.com/",
+    "desc": "Fast memes",
+    "category": "Meme & Internet Culture"
+  },
+  {
+    "name": "Vintage Computer Federation",
+    "url": "https://www.vcfed.org/",
+    "desc": "Retro computing club",
+    "category": "Retro Communities"
+  },
+  {
+    "name": "Retro Comp",
+    "url": "https://retrocomp.org/",
+    "desc": "Retro computing",
+    "category": "Retro Communities"
+  },
+  {
+    "name": "ASCII Art Generator",
+    "url": "https://www.ascii-artgenerator.org/",
+    "desc": "Create ASCII art",
+    "category": "ASCII Art"
+  },
+  {
+    "name": "Textify",
+    "url": "https://www.textify.net/",
+    "desc": "ASCII text generator",
+    "category": "ASCII Art"
+  },
+  {
+    "name": "ASCII World",
+    "url": "https://www.asciiartfarts.com/",
+    "desc": "ASCII art and farts",
+    "category": "ASCII Art"
+  },
+  {
+    "name": "Cow Say",
+    "url": "https://cowsay.mmore.org/",
+    "desc": "Cow saying things",
+    "category": "ASCII Art"
+  },
+  {
+    "name": "Big Text",
+    "url": "https://bigtext.io/",
+    "desc": "Big text generator",
+    "category": "ASCII Art"
+  },
+  {
+    "name": "Math Playground",
+    "url": "https://www.mathplayground.com/",
+    "desc": "Math games",
+    "category": "Math Puzzles"
+  },
+  {
+    "name": "AOPS",
+    "url": "https://artofproblemsolving.com/community",
+    "desc": "Math competition",
+    "category": "Math Puzzles"
+  },
+  {
+    "name": "TuneIn",
+    "url": "https://tunein.com/",
+    "desc": "Radio aggregator",
+    "category": "World Radio"
+  },
+  {
+    "name": "myTuner",
+    "url": "https://mytuner-radio.com/",
+    "desc": "Radio worldwide",
+    "category": "World Radio"
+  },
+  {
+    "name": "Radio IO",
+    "url": "https://www.radio.io/",
+    "desc": "Streaming radio",
+    "category": "World Radio"
+  },
+  {
+    "name": "ISS HD Earth",
+    "url": "https://www.youtube.com/nasa",
+    "desc": "NASA live stream",
+    "category": "Space Cams"
+  },
+  {
+    "name": "Space Station Cam",
+    "url": "https://www.ustream.tv/channel/iss-hdev-payload",
+    "desc": "ISS live feed",
+    "category": "Space Cams"
+  },
+  {
+    "name": "Mars Rover",
+    "url": "https://mars.nasa.gov/msl/eyes/",
+    "desc": "Mars rover cam",
+    "category": "Space Cams"
+  },
+  {
+    "name": "Space Comms",
+    "url": "https://www.nasa.gov/mission_pages/station/communications/",
+    "desc": "Space comms",
+    "category": "Space Cams"
+  },
+  {
+    "name": "Flood Map",
+    "url": "https://flood.concord.org/",
+    "desc": "Sea level rise",
+    "category": "Earth Observation"
+  },
+  {
+    "name": "ioBroker",
+    "url": "https://www.iobroker.net/",
+    "desc": "IoT automation",
+    "category": "Home Automation"
+  },
+  {
+    "name": "Pixel Art Maker",
+    "url": "https://pixelartmaker.com/",
+    "desc": "Create pixel art",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "Pxlie",
+    "url": "https://pxlie.com/",
+    "desc": "Draw pixel art",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "Make 8-bit",
+    "url": "https://make8bitart.com/",
+    "desc": "8-bit art tool",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "Sprite Mine",
+    "url": "https://www.spritemate.com/",
+    "desc": "Sprite editor",
+    "category": "Pixel Art"
+  },
+  {
+    "name": "EarthPorn",
+    "url": "https://www.reddit.com/r/EarthPorn/",
+    "desc": "Beautiful Earth",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "Map Porn",
+    "url": "https://www.reddit.com/r/MapPorn/",
+    "desc": "Beautiful maps",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "Car Porn",
+    "url": "https://www.reddit.com/r/carporn/",
+    "desc": "Beautiful cars",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "Abandoned",
+    "url": "https://www.reddit.com/r/abandonedporn/",
+    "desc": "Abandoned places",
+    "category": "Weird Photos"
+  },
+  {
+    "name": "XKCD",
+    "url": "https://xkcd.com/",
+    "desc": "Science comics",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "Dilbert",
+    "url": "https://dilbert.com/",
+    "desc": "Office humor",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "Doonesbury",
+    "url": "https://www.salon.com/column/doonesbury/",
+    "desc": "Political satire",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "Get Your War",
+    "url": "https://www.getyourwar.com/",
+    "desc": "Anti-war comics",
+    "category": "Political Cartoons"
+  },
+  {
+    "name": "Lateral Thinking",
+    "url": "https://www.lateralpuzzles.com/",
+    "desc": "Think sideways",
+    "category": "Brain Teasers"
+  },
+  {
+    "name": "Mind Your Decisions",
+    "url": "https://mindyourdecisions.com/",
+    "desc": "Math puzzles",
+    "category": "Brain Teasers"
+  },
+  {
+    "name": "Monterey Bay Cam",
+    "url": "https://www.montereybayaquarium.org/animals/live-cams",
+    "desc": "Sea otters and more",
+    "category": "Nature Cams"
+  },
+  {
+    "name": "Critter Cam",
+    "url": "https://crittercam.com/",
+    "desc": "Wildlife cameras",
+    "category": "Nature Cams"
+  },
+  {
+    "name": "Monterey Bay Aquarium",
+    "url": "https://www.montereybayaquarium.org/",
+    "desc": "Ocean conservation",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "NOAA Ocean",
+    "url": "https://oceanservice.noaa.gov/",
+    "desc": "Ocean service",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "Marine Bio",
+    "url": "https://www.marinebio.org/",
+    "desc": "Marine life",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "Reef Relief",
+    "url": "https://reefrelief.org/",
+    "desc": "Coral reef protection",
+    "category": "Ocean & Marine"
+  },
+  {
+    "name": "Vsauce",
+    "url": "https://www.youtube.com/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA",
+    "desc": "Mind questions",
+    "category": "Science Videos"
+  },
+  {
+    "name": "Minute Physics",
+    "url": "https://www.youtube.com/user/minutephysics",
+    "desc": "Short physics",
+    "category": "Science Videos"
+  },
+  {
+    "name": "Physics Girl",
+    "url": "https://www.youtube.com/user/physicsdemos",
+    "desc": "Physics demos",
+    "category": "Science Videos"
+  },
+  {
+    "name": "Logophile",
+    "url": "https://www.logophile.org/",
+    "desc": "Word lovers",
+    "category": "Language & Etymology"
+  },
+  {
+    "name": "World Wide Words",
+    "url": "https://www.worldwidewords.org/",
+    "desc": "Word articles",
+    "category": "Language & Etymology"
+  },
+  {
+    "name": "Bugtraq",
+    "url": "https://www.securityfocus.com/archive/1",
+    "desc": "Security mailing list",
+    "category": "Security Forums"
+  },
+  {
+    "name": "Full Disclosure",
+    "url": "https://seclists.org/fulldisclosure/",
+    "desc": "Security list",
+    "category": " Security Forums"
+  },
+  {
+    "name": "Security Stack",
+    "url": "https://security.stackexchange.com/",
+    "desc": "Security Q&A",
+    "category": "Security Forums"
+  },
+  {
+    "name": "Museum of Cryptozoology",
+    "url": "https://cryptozoology.com/",
+    "desc": "Cryptozoology museum",
+    "category": "Creepy & Horror"
+  },
+  {
+    "name": "Mothman",
+    "url": "https://www.mothman.org/",
+    "desc": "Mothman museum",
+    "category": "Creepy & Horror"
+  },
+  {
+    "name": "Zorbing",
+    "url": "https://www.zorbing.com/",
+    "desc": "Ball rolling sport",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Sepak Takraw",
+    "url": "https://www.sepaktakraw.org/",
+    "desc": "Kick volleyball",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Bo-taoshi",
+    "url": "https://en.wikipedia.org/wiki/Bo-taoshi",
+    "desc": "Japanese pole game",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Cycle Ball",
+    "url": "https://en.wikipedia.org/wiki/Cycle_ball",
+    "desc": "Bicycle football",
+    "category": "Esoteric Sports"
+  },
+  {
+    "name": "Tesla Memorial",
+    "url": "https://www.teslasociety.com/",
+    "desc": "Tesla inventions",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Edison Archives",
+    "url": "https://www.edisonmuckers.org/",
+    "desc": "Edison artifacts",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Invention Archive",
+    "url": "https://www.inventionarchive.com/",
+    "desc": "Historical patents",
+    "category": "Lost Inventions"
+  },
+  {
+    "name": "Talk Like a Pirate",
+    "url": "https://www.talklikeapirateday.com/",
+    "desc": "Arrr matey",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "Celebrate",
+    "url": "https://celebrate.fandom.com/",
+    "desc": "Odd holidays",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "Primo",
+    "url": "https://www.primelegend.com/",
+    "desc": "Primo holidays",
+    "category": "Obscure Holidays"
+  },
+  {
+    "name": "Ancient Warfare",
+    "url": "https://www.ancient-warfare.org/",
+    "desc": "Roman reenactment",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Napoleonic Wars",
+    "url": "https://www.napoleonic-war.com/",
+    "desc": "Napoleon reenactors",
+    "category": "Historical Enactment"
+  },
+  {
+    "name": "Neo-Dada",
+    "url": "https://www.neo-dada.org/",
+    "desc": "Neo-Dada movement",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Pop Art",
+    "url": "https://www.moma.org/collection/terms/collection-terms",
+    "desc": "Pop art movement",
+    "category": "Art Movements"
+  },
+  {
+    "name": "Graffiti Kingdom",
+    "url": "https://graffitikingdom.com/",
+    "desc": "Graffiti art",
+    "category": "Street Art"
+  },
+  {
+    "name": "Graffiti Gallery",
+    "url": "https://graffitigallery.com/",
+    "desc": "Graffiti images",
+    "category": "Street Art"
+  },
+  {
+    "name": "Cited",
+    "url": "https://cited.ws/",
+    "desc": "Experimental audio",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "Clone",
+    "url": "https://clonewheel.com/",
+    "desc": "Tape loop art",
+    "category": "Experimental Music"
+  },
+  {
+    "name": "Arcade History Museum",
+    "url": "https://arcadehistorymuseum.org/",
+    "desc": "Arcade preservation",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "Twisted Pixel",
+    "url": "https://twistedpixel.com/",
+    "desc": "Game development",
+    "category": "Lost Arcade Games"
+  },
+  {
+    "name": "VRChat",
+    "url": "https://hello.vrchat.com/",
+    "desc": "VR social platform",
+    "category": "Virtual Reality"
+  },
+  {
+    "name": "AltspaceVR",
+    "url": "https://altvr.com/",
+    "desc": "Social VR",
+    "category": "Virtual Reality"
+  },
+  {
+    "name": "Rec Room",
+    "url": "https://recroom.com/",
+    "desc": "VR social gaming",
+    "category": "Virtual Reality"
+  },
+  {
+    "name": "VR Museum",
+    "url": "https://www.vrmuseum.com/",
+    "desc": "VR art exhibits",
+    "category": "Virtual Reality"
+  },
+  {
+    "name": "WebXR",
+    "url": "https://immersiveweb.dev/",
+    "desc": "Web VR standards",
+    "category": "Virtual Reality"
+  },
+  {
+    "name": "A-Frame",
+    "url": "https://aframe.io/",
+    "desc": "WebVR framework",
+    "category": "Virtual Reality"
+  },
+  {
+    "name": "Spatial",
+    "url": "https://spatial.io/",
+    "desc": "3D collaboration",
+    "category": "Virtual Reality"
+  },
+  {
+    "name": "MyMiniFactory",
+    "url": "https://www.myminifactory.com/",
+    "desc": "Curated 3D prints",
+    "category": "3D Printing"
+  },
+  {
+    "name": "Thangs",
+    "url": "https://thangs.com/",
+    "desc": "3D model search",
+    "category": "3D Printing"
+  },
+  {
+    "name": "Cults3D",
+    "url": "https://cults3d.com/",
+    "desc": "3D design marketplace",
+    "category": "3D Printing"
+  },
+  {
+    "name": "Creality",
+    "url": "https://www.creality.com/",
+    "desc": "Budget 3D printers",
+    "category": "3D Printing"
+  },
+  {
+    "name": "Bambu Lab",
+    "url": "https://bambulab.com/",
+    "desc": "Modern 3D printers",
+    "category": "3D Printing"
+  },
+  {
+    "name": "DRL",
+    "url": "https://drone racing-league.com/",
+    "desc": "Drone Racing League",
+    "category": "Drone Racing"
+  },
+  {
+    "name": "FPV Uno",
+    "url": "https://fpvUno.com/",
+    "desc": "FPV racing",
+    "category": "Drone Racing"
+  },
+  {
+    "name": "Get FPV",
+    "url": "https://getfpv.com/",
+    "desc": "FPV equipment",
+    "category": "Drone Racing"
+  },
+  {
+    "name": "FPV Franco",
+    "url": "https://www.fpvfranco.com/",
+    "desc": "FPV tutorials",
+    "category": "Drone Racing"
+  },
+  {
+    "name": "Rotor Riot",
+    "url": "https://rotorriot.com/",
+    "desc": "FPV community",
+    "category": "Drone Racing"
+  },
+  {
+    "name": "UAV Futures",
+    "url": "https://www.uavfutures.com/",
+    "desc": "Drone news",
+    "category": "Drone Racing"
+  },
+  {
+    "name": "NAR",
+    "url": "https://www.nar.org/",
+    "desc": "National Association of Rocketry",
+    "category": "Amateur Rocketry"
+  },
+  {
+    "name": "Tripoli",
+    "url": "https://www.tripoli.org/",
+    "desc": "High power rocketry",
+    "category": "Amateur Rocketry"
+  },
+  {
+    "name": "Apogee Rockets",
+    "url": "https://www.apogeerockets.com/",
+    "desc": "Rocket supplies",
+    "category": "Amateur Rocketry"
+  },
+  {
+    "name": "Rocketry Planet",
+    "url": "https://www.rocketryplanet.com/",
+    "desc": "Rocket forum",
+    "category": "Amateur Rocketry"
+  },
+  {
+    "name": "Horizon Rockets",
+    "url": "https://horizonrockets.com/",
+    "desc": "Rocket kits",
+    "category": "Amateur Rocketry"
+  },
+  {
+    "name": "Rocket Launch",
+    "url": "https://www.rocketlaunch.live/",
+    "desc": "Launch schedule",
+    "category": "Amateur Rocketry"
+  },
+  {
+    "name": "Enthusiast",
+    "url": "https://escapeenthusiast.com/",
+    "desc": "Escape room community",
+    "category": "Escape Rooms"
+  },
+  {
+    "name": "Room Escape Artist",
+    "url": "https://roomescapeartist.com/",
+    "desc": "Escape room reviews",
+    "category": "Escape Rooms"
+  },
+  {
+    "name": "Enigma Rooms",
+    "url": "https://www.enigmarooms.com/",
+    "desc": "Escape room design",
+    "category": "Escape Rooms"
+  },
+  {
+    "name": "Puzzle Break",
+    "url": "https://www.puzzlebreak.com/",
+    "desc": "Escape room games",
+    "category": "Escape Rooms"
+  },
+  {
+    "name": "Jigsaw Explorer",
+    "url": "https://www.jigex.com/",
+    "desc": "Online jigsaw puzzles",
+    "category": "Jigsaw Puzzles"
+  },
+  {
+    "name": "Jigsaw Online",
+    "url": "https://www.jigsaw-online.com/",
+    "desc": "Browser puzzles",
+    "category": "Jigsaw Puzzles"
+  },
+  {
+    "name": "Puzzle Warehouse",
+    "url": "https://www.puzzlewarehouse.com/",
+    "desc": "Puzzle store",
+    "category": "Jigsaw Puzzles"
+  },
+  {
+    "name": "Nostalgic Puzzles",
+    "url": "https://nostalgicpuzzles.com/",
+    "desc": "Vintage puzzles",
+    "category": "Jigsaw Puzzles"
+  },
+  {
+    "name": "Tabletop Simulator",
+    "url": "https://store.steampowered.com/app/286160/Tabletop_Simulator/",
+    "desc": "Virtual tabletop",
+    "category": "Board Game Apps"
+  },
+  {
+    "name": "Steam Workshop",
+    "url": "https://steamcommunity.com/app/286160/workshops/",
+    "desc": "Game mods",
+    "category": "Board Game Apps"
+  },
+  {
+    "name": "Boiteajeux",
+    "url": "https://www.boiteajeux.net/",
+    "desc": "French board games",
+    "category": "Board Game Apps"
+  },
+  {
+    "name": "Chess24",
+    "url": "https://chess24.com/",
+    "desc": "Chess platform",
+    "category": "Chess"
+  },
+  {
+    "name": "Chess Kid",
+    "url": "https://www.chesskid.com/",
+    "desc": "Chess for kids",
+    "category": "Chess"
+  },
+  {
+    "name": "GameKnot",
+    "url": "https://gameknot.com/",
+    "desc": "Async chess",
+    "category": "Chess"
+  },
+  {
+    "name": "Chess Variants",
+    "url": "https://www.chessvariants.com/",
+    "desc": "Variant chess",
+    "category": "Chess"
+  },
+  {
+    "name": "OGS",
+    "url": "https://online-go.com/",
+    "desc": "Online Go server",
+    "category": "Go Game"
+  },
+  {
+    "name": "KGS",
+    "url": "https://www.gokgs.com/",
+    "desc": "KGS Go server",
+    "category": "Go Game"
+  },
+  {
+    "name": "Weiqi",
+    "url": "https://www.weiqichina.com/",
+    "desc": "Chinese Go",
+    "category": "Go Game"
+  },
+  {
+    "name": "Baduk",
+    "url": "https://www.baduk.com/",
+    "desc": "Korean Go",
+    "category": "Go Game"
+  },
+  {
+    "name": "Hemmings",
+    "url": "https://www.hemmings.com/",
+    "desc": "Vintage car marketplace",
+    "category": "Vintage Cars"
+  },
+  {
+    "name": "Barrett-Jackson",
+    "url": "https://www.barrett-jackson.com/",
+    "desc": "Classic car auctions",
+    "category": "Vintage Cars"
+  },
+  {
+    "name": "Classic Cars",
+    "url": "https://www.classiccars.com/",
+    "desc": "Vintage car sales",
+    "category": "Vintage Cars"
+  },
+  {
+    "name": "AACA",
+    "url": "https://www.aaca.org/",
+    "desc": "Antique automobile club",
+    "category": "Vintage Cars"
+  },
+  {
+    "name": "ADVRider",
+    "url": "https://advrider.com/",
+    "desc": "Adventure riding",
+    "category": "Motorcycles"
+  },
+  {
+    "name": "Cycle World",
+    "url": "https://www.cycleworld.com/",
+    "desc": "Motorcycle news",
+    "category": "Motorcycles"
+  },
+  {
+    "name": "Motorcycle.com",
+    "url": "https://www.motorcycle.com/",
+    "desc": "Moto reviews",
+    "category": "Motorcycles"
+  },
+  {
+    "name": "Motorcyclist",
+    "url": "https://www.motorcyclistonline.com/",
+    "desc": "Motorcycle mag",
+    "category": "Motorcycles"
+  },
+  {
+    "name": "Sailing Anarchy",
+    "url": "https://sailinganarchy.com/",
+    "desc": "Sailing forum",
+    "category": "Sailing"
+  },
+  {
+    "name": "Cruiser Forum",
+    "url": "https://www.cruisersforum.com/",
+    "desc": "Cruising sailors",
+    "category": "Sailing"
+  },
+  {
+    "name": "Sailrite",
+    "url": "https://www.sailrite.com/",
+    "desc": "Sail making",
+    "category": "Sailing"
+  },
+  {
+    "name": "Paddle",
+    "url": "https://www.paddlemag.com/",
+    "desc": "Paddlesport magazine",
+    "category": "Kayaking"
+  },
+  {
+    "name": "ACA",
+    "url": "https://americancanoe.org/",
+    "desc": "American Canoe Association",
+    "category": "Kayaking"
+  },
+  {
+    "name": "Werner Paddles",
+    "url": "https://www.wernerpaddles.com/",
+    "desc": "Paddle gear",
+    "category": "Kayaking"
+  },
+  {
+    "name": "Hiking Project",
+    "url": "https://www.hikingproject.com/",
+    "desc": "Trail guides",
+    "category": "Hiking"
+  },
+  {
+    "name": "Trail Runners",
+    "url": "https://www.trailrunnermag.com/",
+    "desc": "Trail running",
+    "category": "Hiking"
+  },
+  {
+    "name": "Backpacker",
+    "url": "https://www.backpacker.com/",
+    "desc": "Hiking magazine",
+    "category": "Hiking"
+  },
+  {
+    "name": "Mountain Project",
+    "url": "https://www.mountainproject.com/",
+    "desc": "Climbing routes",
+    "category": "Climbing"
+  },
+  {
+    "name": "Climbing",
+    "url": "https://www.climbing.com/",
+    "desc": "Climbing magazine",
+    "category": "Climbing"
+  },
+  {
+    "name": "UKClimbing",
+    "url": "https://www.ukclimbing.com/",
+    "desc": "UK climbing",
+    "category": "Climbing"
+  },
+  {
+    "name": "8a.nu",
+    "url": "https://www.8a.nu/",
+    "desc": "Bouldering scores",
+    "category": "Climbing"
+  },
+  {
+    "name": "Surfline",
+    "url": "https://www.surfline.com/",
+    "desc": "Surf forecasts",
+    "category": "Surfing"
+  },
+  {
+    "name": "Magic Seaweed",
+    "url": "https://magicseaweed.com/",
+    "desc": "Surf reports",
+    "category": "Surfing"
+  },
+  {
+    "name": "Surfer",
+    "url": "https://www.surfer.com/",
+    "desc": "Surfing magazine",
+    "category": "Surfing"
+  },
+  {
+    "name": "Skateboarders",
+    "url": "https://www.skateboarders.com/",
+    "desc": "Skate culture",
+    "category": "Skateboarding"
+  },
+  {
+    "name": "Skate Log",
+    "url": "https://www.skatelog.com/",
+    "desc": "Skateboarding news",
+    "category": "Skateboarding"
+  },
+  {
+    "name": "Skatepark Directory",
+    "url": "https://www.skateparkdirectory.com/",
+    "desc": "Find skateparks",
+    "category": "Skateboarding"
+  },
+  {
+    "name": "Bird Watch",
+    "url": "https://www.birdwatching.com/",
+    "desc": "Birding resources",
+    "category": "Birdwatching"
+  },
+  {
+    "name": "Astronomy.com",
+    "url": "https://astronomy.com/",
+    "desc": "Astronomy news",
+    "category": "Astronomy"
+  },
+  {
+    "name": "Sky & Telescope",
+    "url": "https://skyandtelescope.org/",
+    "desc": "Amateur astronomy",
+    "category": "Astronomy"
+  },
+  {
+    "name": "FamilySearch",
+    "url": "https://www.familysearch.org/",
+    "desc": "Free genealogy",
+    "category": "Genealogy"
+  },
+  {
+    "name": "Ancestry",
+    "url": "https://www.ancestry.com/",
+    "desc": "Genealogy records",
+    "category": "Genealogy"
+  },
+  {
+    "name": "MyHeritage",
+    "url": "https://www.myheritage.com/",
+    "desc": "Family tree",
+    "category": "Genealogy"
+  },
+  {
+    "name": "Find A Grave",
+    "url": "https://www.findagrave.com/",
+    "desc": "Grave records",
+    "category": "Genealogy"
+  },
+  {
+    "name": "Pimsleur",
+    "url": "https://www.pimsleur.com/",
+    "desc": "Audio language",
+    "category": "Language Learning"
+  },
+  {
+    "name": "Rosetta Stone",
+    "url": "https://www.rosettastone.com/",
+    "desc": "Language software",
+    "category": "Language Learning"
+  },
+  {
+    "name": "America's Test Kitchen",
+    "url": "https://www.americastestkitchen.com/",
+    "desc": "Recipe testing",
+    "category": "Cooking"
+  },
+  {
+    "name": "Food Wishes",
+    "url": "https://www.foodwishes.blogspot.com/",
+    "desc": "Cooking videos",
+    "category": "Cooking"
+  },
+  {
+    "name": "Bon Appetit",
+    "url": "https://www.bonappetit.com/",
+    "desc": "Recipe magazine",
+    "category": "Cooking"
+  },
+  {
+    "name": "Difford's Guide",
+    "url": "https://www.diffordsguide.com/",
+    "desc": "Cocktail recipes",
+    "category": "Cocktails"
+  },
+  {
+    "name": "Cocktail Builder",
+    "url": "https://www.cocktailbuilder.com/",
+    "desc": "Make cocktails",
+    "category": "Cocktails"
+  },
+  {
+    "name": "Tequila",
+    "url": "https://www.tequila.net/",
+    "desc": "Tequila guide",
+    "category": "Cocktails"
+  },
+  {
+    "name": "Home Bar",
+    "url": "https://homebard.com/",
+    "desc": "Home bartending",
+    "category": "Cocktails"
+  },
+  {
+    "name": "Home Brew",
+    "url": "https://www.homebrewersassociation.org/",
+    "desc": "Homebrew community",
+    "category": "Beer Brewing"
+  },
+  {
+    "name": "Brew Father",
+    "url": "https://www.brewfather.app/",
+    "desc": "Brewing software",
+    "category": "Beer Brewing"
+  },
+  {
+    "name": "Northern Brewer",
+    "url": "https://www.northernbrewer.com/",
+    "desc": "Brewing supplies",
+    "category": "Beer Brewing"
+  },
+  {
+    "name": "Mr. Beer",
+    "url": "https://www.mrbeer.com/",
+    "desc": "Beginner brewing",
+    "category": "Beer Brewing"
+  },
+  {
+    "name": "Wine Enthusiast",
+    "url": "https://www.winemag.com/",
+    "desc": "Wine ratings",
+    "category": "Wine"
+  },
+  {
+    "name": "Wine Spectator",
+    "url": "https://www.winespectator.com/",
+    "desc": "Wine magazine",
+    "category": "Wine"
+  },
+  {
+    "name": "Vivino",
+    "url": "https://www.vivino.com/",
+    "desc": "Wine scanner",
+    "category": "Wine"
+  },
+  {
+    "name": "The Fermentation Association",
+    "url": "https://www.fermentationassociation.org/",
+    "desc": "Fermentation info",
+    "category": "Fermentation"
+  },
+  {
+    "name": "Wild Fermentation",
+    "url": "https://www.wildfermentation.com/",
+    "desc": "Fermented foods",
+    "category": "Fermentation"
+  },
+  {
+    "name": "Cultures",
+    "url": "https://www.culturesforhealth.com/",
+    "desc": "Fermenting cultures",
+    "category": "Fermentation"
+  },
+  {
+    "name": "Gianaclis",
+    "url": "https://www.gianaclis.com/",
+    "desc": "Cheese making",
+    "category": "Cheesemaking"
+  },
+  {
+    "name": "Curd Nerd",
+    "url": "https://www.curdnerd.com/",
+    "desc": "Cheese forum",
+    "category": "Cheesemaking"
+  },
+  {
+    "name": "Cheese.com",
+    "url": "https://www.cheese.com/",
+    "desc": "Cheese database",
+    "category": "Cheesemaking"
+  },
+  {
+    "name": "The Perfect Loaf",
+    "url": "https://www.theperfectloaf.com/",
+    "desc": "Sourdough baking",
+    "category": "Bread Baking"
+  },
+  {
+    "name": "Breadtopia",
+    "url": "https://breadtopia.com/",
+    "desc": "Bread baking",
+    "category": "Bread Baking"
+  },
+  {
+    "name": "King Arthur Flour",
+    "url": "https://www.kingarthurflour.com/",
+    "desc": "Baking resources",
+    "category": "Bread Baking"
+  },
+  {
+    "name": "Amazing Ribs",
+    "url": "https://amazingribs.com/",
+    "desc": "BBQ and smoking",
+    "category": "Meat Smoking"
+  },
+  {
+    "name": "Virtual Weber",
+    "url": "https://virtualweberbullet.com/",
+    "desc": "Weber smoking",
+    "category": "Meat Smoking"
+  },
+  {
+    "name": "Smoking Meat",
+    "url": "https://www.smoking-meat.com/",
+    "desc": "Smoking guide",
+    "category": "Meat Smoking"
+  },
+  {
+    "name": "Gardeners",
+    "url": "https://www.gardeners.com/",
+    "desc": "Garden supplies",
+    "category": "Gardening"
+  },
+  {
+    "name": "Growing",
+    "url": "https://www.growing.com/",
+    "desc": "Gardening tips",
+    "category": "Gardening"
+  },
+  {
+    "name": "Vegetable Gardener",
+    "url": "https://www.vegetablegardener.com/",
+    "desc": "Vegetable gardening",
+    "category": "Gardening"
+  },
+  {
+    "name": "Gardenista",
+    "url": "https://www.gardenista.com/",
+    "desc": "Garden design",
+    "category": "Gardening"
+  },
+  {
+    "name": "Bonsai Empire",
+    "url": "https://www.bonsaiempire.com/",
+    "desc": "Bonsai tutorials",
+    "category": "Bonsai"
+  },
+  {
+    "name": "Bonsai Society",
+    "url": "https://www.bonsai.org/",
+    "desc": "Bonsai community",
+    "category": "Bonsai"
+  },
+  {
+    "name": "Bonsai Tonight",
+    "url": "https://bonsaitonight.com/",
+    "desc": "Bonsai blog",
+    "category": "Bonsai"
+  },
+  {
+    "name": "Farming",
+    "url": "https://www.farming.com/",
+    "desc": "Modern farming",
+    "category": "Urban Farming"
+  },
+  {
+    "name": "Community Gardens",
+    "url": "https://communitygarden.org/",
+    "desc": "Garden network",
+    "category": "Urban Farming"
+  },
+  {
+    "name": "Vertical Farm",
+    "url": "https://www.verticalfarm.com/",
+    "desc": "Vertical farming",
+    "category": "Urban Farming"
+  },
+  {
+    "name": "Woodworking",
+    "url": "https://www.woodworking.com/",
+    "desc": "Woodworking community",
+    "category": "Woodworking"
+  },
+  {
+    "name": "Woodnet",
+    "url": "https://www.woodnet.net/",
+    "desc": "Woodworking forum",
+    "category": "Woodworking"
+  },
+  {
+    "name": "Hand Tool Rescue",
+    "url": "https://handtoolrescue.com/",
+    "desc": "Hand tool repair",
+    "category": "Woodworking"
+  },
+  {
+    "name": "R Archives",
+    "url": "https://www.bridle扣.com/",
+    "desc": "Leather archives",
+    "category": "Leatherworking"
+  },
+  {
+    "name": "Leather Worker",
+    "url": "https://leatherworker.net/",
+    "desc": "Leather forum",
+    "category": "Leatherworking"
+  },
+  {
+    "name": "Blacksmithing",
+    "url": "https://www.blacksmithing.org/",
+    "desc": "Blacksmithing info",
+    "category": "Metalworking"
+  },
+  {
+    "name": "Jewelry Making",
+    "url": "https://www.jewelrymaking.com/",
+    "desc": "Jewelry tutorials",
+    "category": "Metalworking"
+  },
+  {
+    "name": "Build Electronic",
+    "url": "https://www.build-electronic.com/",
+    "desc": "Circuit building",
+    "category": "Electronics"
+  },
+  {
+    "name": "IEEE Robotics",
+    "url": "https://robots.ieee.org/",
+    "desc": "Robotics standards",
+    "category": "Robotics"
   }
 ]
