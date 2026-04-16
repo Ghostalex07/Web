@@ -2769,7 +2769,7 @@
     "name": "Akkoma",
     "url": "https://akkoma.social/",
     "desc": "Fediverse server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "AppFlowy",
@@ -2793,7 +2793,7 @@
     "name": "Beszel",
     "url": "https://beszel.dev/",
     "desc": "Lightweight monitoring",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Borg",
@@ -2805,19 +2805,19 @@
     "name": "Caddy",
     "url": "https://caddyserver.com/",
     "desc": "Web server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "CasaOS",
     "url": "https://casaos.io/",
     "desc": "Simple home cloud",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "CasaOS",
     "url": "https://www.casaos.io/",
     "desc": "Simple home cloud",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "DataLad",
@@ -2829,7 +2829,7 @@
     "name": "DockStation",
     "url": "https://dockstation.io/",
     "desc": "Docker GUI",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Docmost",
@@ -2847,7 +2847,7 @@
     "name": "Duplicati",
     "url": "https://github.com/duplicati/duplicati",
     "desc": "Backup to any cloud",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "ESPHome",
@@ -2859,43 +2859,43 @@
     "name": "File Browser",
     "url": "https://filebrowser.org/",
     "desc": "Web file manager",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Filestash",
     "url": "https://www.filestash.app/",
     "desc": "Web file manager",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Firefish",
     "url": "https://joinfirefish.org/",
     "desc": "Fediverse server (ActivityPub)",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "FreshRSS",
     "url": "https://freshrss.org/",
     "desc": "Self-hosted RSS reader",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Glance",
     "url": "https://glance-app.com/",
     "desc": "Self-hosted media dashboard",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Gophernicus",
     "url": "https://github.com/gophernicus/gophernicus",
     "desc": "Modern Gopher server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Gotify",
     "url": "https://gotify.net/",
     "desc": "Self-hosted notifications",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Guacamole",
@@ -2907,19 +2907,19 @@
     "name": "Home Assistant",
     "url": "https://www.home-assistant.io/",
     "desc": "Home automation",
-    "category": "Self-Hosting"
+    "category": "Home Automation"
   },
   {
     "name": "Homepage",
     "url": "https://github.com/benphelps/homepage",
     "desc": "Dashboard for self-hosted services",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Immich",
     "url": "https://immich.app/",
     "desc": "Self-hosted Google Photos",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "JamesDSP",
@@ -2943,7 +2943,7 @@
     "name": "LibrePhotos",
     "url": "https://github.com/LibrePhotos/librephotos",
     "desc": "Self-hosted photo management",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "LinkStack",
@@ -2961,7 +2961,7 @@
     "name": "LocalAI",
     "url": "https://localai.io/",
     "desc": "Self-hosted AI",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Mindustry",
@@ -2985,7 +2985,7 @@
     "name": "NASA Images",
     "url": "https://images.nasa.gov/",
     "desc": "Space photos",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Neocities",
@@ -2997,7 +2997,7 @@
     "name": "Nextcloud",
     "url": "https://nextcloud.com/",
     "desc": "Self-hosted cloud",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Nginx Proxy Manager",
@@ -3015,19 +3015,19 @@
     "name": "Ombi",
     "url": "https://ombi.io/",
     "desc": "Media requests",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "OpenHAB",
     "url": "https://www.openhab.org/",
     "desc": "Home automation",
-    "category": "Self-Hosting"
+    "category": "Home Automation"
   },
   {
     "name": "OpenMediaVault",
     "url": "https://www.openmediavault.org/",
     "desc": "NAS OS",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Outline",
@@ -3039,7 +3039,7 @@
     "name": "Overseerr",
     "url": "https://overseerr.io/",
     "desc": "Media request interface",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "Paperless",
@@ -3051,7 +3051,7 @@
     "name": "Phosphor",
     "url": "https://phosphor.app/",
     "desc": "Gopher server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "PhotoPrism",
@@ -3069,13 +3069,13 @@
     "name": "Pleroma",
     "url": "https://pleroma.social/",
     "desc": "Fediverse server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Portainer",
     "url": "https://www.portainer.io/",
     "desc": "Docker GUI",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Posthog",
@@ -3087,7 +3087,7 @@
     "name": "Proton Drive",
     "url": "https://drive.proton.me/",
     "desc": "Privacy cloud storage",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Proxmox",
@@ -3099,43 +3099,43 @@
     "name": "Pterodactyl",
     "url": "https://pterodactyl.io/",
     "desc": "Game server panel",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Rclone",
     "url": "https://rclone.org/",
     "desc": "Sync to cloud storage",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Rockstor",
     "url": "https://rockstor.com/",
     "desc": "BTRFS NAS",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "S3 (MinIO)",
     "url": "https://min.io/",
     "desc": "MinIO - S3 compatible storage",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "SSL Labs",
     "url": "https://www.ssllabs.com/ssltest/",
     "desc": "SSL server test",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Seafile",
     "url": "https://www.seafile.com/",
     "desc": "File sync and share",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Self hosted Drive",
     "url": "https://github.com/stevenzty/small-business-private-cloud",
     "desc": "Self-hosted Google Drive",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Shiori",
@@ -3147,7 +3147,7 @@
     "name": "Simple XXX",
     "url": "https://github.com/jlesage/docker-simple-xxx",
     "desc": "Docker templates",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "SuperTokens",
@@ -3159,13 +3159,13 @@
     "name": "Syncthing",
     "url": "https://syncthing.net/",
     "desc": "Continuous file sync",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "TagSpaces",
     "url": "https://www.tagspaces.org/",
     "desc": "File manager",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Tasmota",
@@ -3177,13 +3177,13 @@
     "name": "Tautulli",
     "url": "https://tautulli.com/",
     "desc": "Plex stats",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "Technitium",
     "url": "https://technitium.com/",
     "desc": "DNS server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Terminal",
@@ -3195,7 +3195,7 @@
     "name": "Tournant",
     "url": "https://tournant.cloud/",
     "desc": "Plex companion",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "Traefik",
@@ -3213,7 +3213,7 @@
     "name": "TrueNAS",
     "url": "https://www.truenas.com/",
     "desc": "FreeNAS successor",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "TubeArchivist",
@@ -3225,7 +3225,7 @@
     "name": "UNRAID",
     "url": "https://unraid.net/",
     "desc": "Home server OS",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Umami",
@@ -3237,7 +3237,7 @@
     "name": "Uptime Kuma",
     "url": "https://github.com/louislam/uptime-kuma",
     "desc": "Self-hosted monitoring",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Wallabag",
@@ -3261,13 +3261,13 @@
     "name": "XigmaNAS",
     "url": "https://www.xigmanas.com/",
     "desc": "NAS OS",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Yacht",
     "url": "https://github.com/SelfhostedPro/Yacht",
     "desc": "Docker management",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Zen Photos",
@@ -3285,37 +3285,37 @@
     "name": "n8n",
     "url": "https://n8n.io/",
     "desc": "Workflow automation",
-    "category": "Self-Hosting"
+    "category": "Home Automation"
   },
   {
     "name": "r/DataHoarder",
     "url": "https://www.reddit.com/r/DataHoarder/",
     "desc": "Data storage",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "r/HomeAssistant",
     "url": "https://www.reddit.com/r/homeassistant/",
     "desc": "Home automation",
-    "category": "Self-Hosting"
+    "category": "Home Automation"
   },
   {
     "name": "r/HomeLab",
     "url": "https://www.reddit.com/r/homelab/",
     "desc": "Homelab community",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "r/HomeServer",
     "url": "https://www.reddit.com/r/HomeServer/",
     "desc": "Home servers",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "r/Jellyfin",
     "url": "https://www.reddit.com/r/jellyfin/",
     "desc": "Jellyfin community",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "r/Proxmox",
@@ -3327,43 +3327,43 @@
     "name": "r/Syncology",
     "url": "https://www.reddit.com/r/Synology/",
     "desc": "Synology community",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "r/plex",
     "url": "https://www.reddit.com/r/plex/",
     "desc": "Plex Media Server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "r/radarr",
     "url": "https://www.reddit.com/r/radarr/",
     "desc": "Radarr community",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "r/selfhosted",
     "url": "https://www.reddit.com/r/selfhosted/",
     "desc": "Self-hosting",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "r/sonarr",
     "url": "https://www.reddit.com/r/sonarr/",
     "desc": "Sonarr community",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "r/truenas",
     "url": "https://www.reddit.com/r/truenas/",
     "desc": "TrueNAS community",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "r/unRAID",
     "url": "https://www.reddit.com/r/unRAID/",
     "desc": "unRAID community",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "13chan",
@@ -3405,7 +3405,7 @@
     "name": "4th Kingdom",
     "url": "https://4thkingdom.com/",
     "desc": "Private community since 1998, no ads, no algorithms",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "7chan",
@@ -3435,13 +3435,13 @@
     "name": "Aftermath",
     "url": "https://aftermath.site/",
     "desc": "Forum discovery site",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Agora Road",
     "url": "https://forum.agoraroad.com/",
     "desc": "Cyberpunk/vaporwave forum with hidden internet section",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "AllChans",
@@ -3453,7 +3453,7 @@
     "name": "Anime Pictures",
     "url": "https://anime-pictures.net/",
     "desc": "Anime art community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Anthro",
@@ -3471,25 +3471,25 @@
     "name": "Anything Forums",
     "url": "https://www.uovalor.com/",
     "desc": "Low moderation general discussion forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Arch Forum",
     "url": "https://bbs.archlinux.org/",
     "desc": "Arch Linux forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "BAUD Stiff",
     "url": "https://baudstiff.com/",
     "desc": "Adult BBS community since 1995, old-school vibes",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Barbelith",
     "url": "https://barbelith.iamcal.com/",
     "desc": "Subcultural engagement community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Bharatchan",
@@ -3501,7 +3501,7 @@
     "name": "Brainstorms Metanetwork",
     "url": "http://brainstormscommunity.org/",
     "desc": "Thoughtful discussion, no feeds or follows",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Chud.win",
@@ -3519,7 +3519,7 @@
     "name": "Colour Lovers",
     "url": "https://www.colourlovers.com/",
     "desc": "Color community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Comfychan",
@@ -3531,13 +3531,13 @@
     "name": "Counter Social",
     "url": "https://countersocial.com/",
     "desc": "No-Facebook Twitter alternative",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Creatures Caves",
     "url": "https://creatures.fandom.com/wiki/Creatures_Caves",
     "desc": "Virtual pet game community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Cyberix",
@@ -3549,7 +3549,7 @@
     "name": "Cyrellia BBS",
     "url": "https://cyrellia.com/",
     "desc": "Retro community BBS in Orlando",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Danbooru",
@@ -3579,7 +3579,7 @@
     "name": "DodgeThis",
     "url": "https://dodgethis.moe/",
     "desc": "Niche anime community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Easychan",
@@ -3597,7 +3597,7 @@
     "name": "Epsilon",
     "url": "https://epsilon.glitch.social/",
     "desc": "Glitch social",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Erischan",
@@ -3609,7 +3609,7 @@
     "name": "Famiboards",
     "url": "https://famiboards.com/",
     "desc": "Nintendo rumor/leak forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Fchan",
@@ -3621,13 +3621,13 @@
     "name": "Foresty",
     "url": "https://forestry.io/",
     "desc": "Community for nature lovers",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Fuwa",
     "url": "https://fuwa.cafe/",
     "desc": "Anime community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Gelbooru",
@@ -3705,25 +3705,25 @@
     "name": "Lemmy (Linux)",
     "url": "https://linux.community/",
     "desc": "Lemmy for Linux users",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Lemmy (Program)",
     "url": "https://programming.dev/",
     "desc": "Lemmy for programmers",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Lobste.rs",
     "url": "https://lobste.rs/",
     "desc": "Invited tech discussion",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Lolcow",
     "url": "https://lolcow.farm/",
     "desc": "Snarky discussion",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Lolnada",
@@ -3735,7 +3735,7 @@
     "name": "Mariana Bay",
     "url": "https://marianabay.com/",
     "desc": "Old web revival movement forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Mastodon",
@@ -3759,7 +3759,7 @@
     "name": "Neme",
     "url": "https://neme.site/",
     "desc": "Textboard community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Netlify",
@@ -3771,25 +3771,25 @@
     "name": "Nicechan",
     "url": "https://nicechan.org/",
     "desc": "Anonymous ephemeral discussion forum, $3/mo",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "NixOS Discourse",
     "url": "https://discourse.nixos.org/",
     "desc": "NixOS community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Nixers",
     "url": "https://nixers.net/",
     "desc": "Unix/Linux enthusiasts forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Notabug",
     "url": "https://notabug.org/",
     "desc": "Developer community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "PeerTube",
@@ -3807,7 +3807,7 @@
     "name": "Pixiv",
     "url": "https://www.pixiv.net/",
     "desc": "Japanese art community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Plus4chan",
@@ -3825,43 +3825,43 @@
     "name": "RPGnet",
     "url": "https://forum.rpg.net/",
     "desc": "Tabletop RPG forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Raddle",
     "url": "https://raddle.me/",
     "desc": "Leftist discussion",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Reddit",
     "url": "https://www.reddit.com/",
     "desc": "Link aggregation (with r/all)",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Retro Computer Cavern",
     "url": "https://www.retrocomputercavern.com/",
     "desc": "Retro computing forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Retro32 BBS",
     "url": "https://www.retro32.com/",
     "desc": "Amiga-focused BBS community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "SDF",
     "url": "https://sdf.org/",
     "desc": "Public access Unix",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Saidit",
     "url": "https://saidit.net/",
     "desc": "Reddit alternative (open source)",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Sankaku Complex",
@@ -3873,19 +3873,19 @@
     "name": "Secret Projects",
     "url": "https://www.secretprojects.co.uk/",
     "desc": "Unbuilt aircraft/spacecraft forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Sidecartridge",
     "url": "https://www.sidecartridge.com/",
     "desc": "Coprocessor boards for vintage computers",
-    "category": "Forums & Communities"
+    "category": "Retro Communities"
   },
   {
     "name": "Silent Comedy Mafia",
     "url": "https://www.silentcomedymafia.com/",
     "desc": "Silent film community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Soyjak Party",
@@ -3897,13 +3897,13 @@
     "name": "Space Battles",
     "url": "https://forums.spacebattles.com/",
     "desc": "Sci-fi forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "StackBlitz",
     "url": "https://stackblitz.com/",
     "desc": "Online IDE",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Sturdychan",
@@ -3921,61 +3921,61 @@
     "name": "Temple of Roguelike",
     "url": "https://forums.roguetemple.com/",
     "desc": "Roguelike game forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "The Black Vault",
     "url": "https://www.theblackvault.com/",
     "desc": "Extreme metal forum & community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "The Last BBS",
     "url": "https://www.thelastbbs.com/",
     "desc": "Forum since 2001",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "The Oasis BBS",
     "url": "https://theoasisbbs.com/",
     "desc": "Commodore/Amiga community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "The Vespiary",
     "url": "https://www.thevespiary.org/",
     "desc": "Chemistry/psychedelics forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Tilde Club",
     "url": "https://tilde.club/",
     "desc": "Classic tilde community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Tilde Forum",
     "url": "https://forum.tilde.club/",
     "desc": "Tilde community forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Tilde Institute",
     "url": "https://tilde.institute/",
     "desc": "Tech-focused tilde",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Tildes",
     "url": "https://tildes.net/",
     "desc": "Non-profit discussion",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Tildeverse",
     "url": "https://tildeverse.org/",
     "desc": "Federation of tildes",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Trakter",
@@ -3993,19 +3993,19 @@
     "name": "Trisqur",
     "url": "https://trisqur.com/",
     "desc": "Video watching community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Ubuntu Forums",
     "url": "https://ubuntuforums.org/",
     "desc": "Ubuntu community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "VCF Forums",
     "url": "https://forum.vcfed.org/",
     "desc": "Vintage Computer Federation",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Vastalauta",
@@ -4023,19 +4023,19 @@
     "name": "Vivaldi Forum",
     "url": "https://forum.vivaldi.net/",
     "desc": "Vivaldi browser community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Void Forums",
     "url": "https://forum.voidlinux.org/",
     "desc": "Void Linux forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Walking Carpet",
     "url": "https://walkingcarpet.net/",
     "desc": "Movie/TV/sci-fi forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Wapchan",
@@ -4047,13 +4047,13 @@
     "name": "WinWorld Forums",
     "url": "https://winworldpc.com/",
     "desc": "Community for classic software preservation",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Wizchan",
     "url": "https://wizchan.org/",
     "desc": "For wizards (celibate men), support and discussion",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "World2ch",
@@ -4065,19 +4065,19 @@
     "name": "XenForo Community",
     "url": "https://xenforo.com/community/",
     "desc": "Forum software community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Zelda Universe",
     "url": "https://zeldauniverse.net/",
     "desc": "Zelda gaming forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "ZooChat",
     "url": "https://www.zoochat.com/",
     "desc": "Zoo photography forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "e621",
@@ -6525,7 +6525,7 @@
     "name": "Bored Button",
     "url": "https://boredbutton.com/",
     "desc": "Random weird sites",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "CSS Gradient",
@@ -6771,7 +6771,7 @@
     "name": "Falling Garten",
     "url": "https://fallinggarten.com/",
     "desc": "Strange art project",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Fast",
@@ -7227,7 +7227,7 @@
     "name": "Old Web Ring",
     "url": "https://hwtech.club/~zorbeltuss/webring.html",
     "desc": "Classic webring",
-    "category": "Weird Web"
+    "category": "Retro Internet"
   },
   {
     "name": "One Million",
@@ -7281,7 +7281,7 @@
     "name": "Passweird",
     "url": "https://passweird.com/",
     "desc": "Password weirdness",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Path of Exile",
@@ -7623,7 +7623,7 @@
     "name": "Staggering Beauty",
     "url": "https://www.staggeringbeauty.com/",
     "desc": "Weird flash (seizure warning)",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Stardew Valley",
@@ -7731,7 +7731,7 @@
     "name": "The Useless Web",
     "url": "https://www.theuselessweb.com/",
     "desc": "Random weird sites",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "The Witness",
@@ -7779,7 +7779,7 @@
     "name": "Tina Ipsum",
     "url": "https://www.tinaipsum.com/",
     "desc": "Weird text generator",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Tiny PNG",
@@ -7791,7 +7791,7 @@
     "name": "Touch Warp",
     "url": "https://touchwarp.netlify.app/",
     "desc": "Weird web experiment",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Twitter Card",
@@ -7893,7 +7893,7 @@
     "name": "Weird History",
     "url": "https://www.weird-history.org/",
     "desc": "Weird historical facts",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "What Was There",
@@ -7905,7 +7905,7 @@
     "name": "Wiby Search",
     "url": "https://wiby.me/",
     "desc": "Search old web",
-    "category": "Weird Web"
+    "category": "Retro Internet"
   },
   {
     "name": "WikiMapia",
@@ -11925,7 +11925,7 @@
     "name": "Camerons World",
     "url": "https://www.cameronsworld.net/",
     "desc": "GeoCities archive collage",
-    "category": "Weird Web"
+    "category": "Retro Internet"
   },
   {
     "name": "Deadsites",
@@ -11943,13 +11943,13 @@
     "name": "Liminal Web",
     "url": "https://liminalweb.neocities.org/",
     "desc": "Liminal space aesthetics",
-    "category": "Weird Web"
+    "category": "Liminal & Dreams"
   },
   {
     "name": "Strange Website",
     "url": "https://strange.website/",
     "desc": "Philosophical weirdness",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Delimiter",
@@ -11979,19 +11979,19 @@
     "name": "Cube Well",
     "url": "https://cubewell.itch.io/",
     "desc": "Weird music explorer",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Weird Web October",
     "url": "https://twixels.neocities.org/",
     "desc": "Monthly weird web challenges",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Stupid Cow",
     "url": "https://stupidcow.com/",
     "desc": "Random weirdness",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Huge List of Popup",
@@ -12081,7 +12081,7 @@
     "name": "Not Everwhere",
     "url": "https://not.everwhere.com/",
     "desc": "Random weirdness",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Hackermouth",
@@ -12099,7 +12099,7 @@
     "name": "Yesterweb",
     "url": "https://yesterweb.org/",
     "desc": "Old web revival movement",
-    "category": "Weird Web"
+    "category": "Retro Internet"
   },
   {
     "name": "The Web Archive",
@@ -12399,97 +12399,97 @@
     "name": "Forum Lists",
     "url": "https://forumlist.neocities.org/",
     "desc": "Forum directory",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Find A Forum",
     "url": "https://www.findaforum.net/",
     "desc": "1731 forums directory",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Forum List",
     "url": "https://forum-list.com/",
     "desc": "Best forums directory",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Cheapskates Forum List",
     "url": "https://cheapskatesguide.org/articles/forum-list.html",
     "desc": "Curated forum list",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Something Awful",
     "url": "https://forums.somethingawful.com/",
     "desc": "Classic forum since 1999",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "RPG Codex",
     "url": "https://rpgcodex.net/",
     "desc": "RPG game forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Alternate History",
     "url": "https://www.alternatehistory.com/",
     "desc": "Alternate history forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Civfanatics",
     "url": "https://forums.civfanatics.com/",
     "desc": "Civilization forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Baystation12",
     "url": "https://baystation12.net/",
     "desc": "SS13 forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "ResetERA",
     "url": "https://resetera.com/",
     "desc": "Gaming forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "GameFAQs",
     "url": "https://gamefaqs.gamespot.com/",
     "desc": "Gaming guides",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Giant Bomb",
     "url": "https://www.giantbomb.com/",
     "desc": "Gaming community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Retro Gaming",
     "url": "https://www.retrogaming.io/",
     "desc": "Retro gaming community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Obscure Games",
     "url": "https://www.obscuregames.com/",
     "desc": "Rare game preservation",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Digital Foundry",
     "url": "https://www.eurogamer.net/digitalfoundry",
     "desc": "Tech gaming analysis",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Metafilter",
     "url": "https://www.metafilter.com/",
     "desc": "Old blog community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Fark",
@@ -12501,7 +12501,7 @@
     "name": "Slashdot",
     "url": "https://slashdot.org/",
     "desc": "Tech news",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Digg",
@@ -12513,25 +12513,25 @@
     "name": "Mastodon",
     "url": "https://mastodon.social/about",
     "desc": "Decentralized social",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Wilders Security",
     "url": "https://www.wilderssecurity.com/",
     "desc": "Security forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "EEVBlog",
     "url": "https://www.eevblog.com/",
     "desc": "Electronics forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Sundance",
     "url": "https://sundance.org/",
     "desc": "Indie film community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "RateYourMusic",
@@ -12543,7 +12543,7 @@
     "name": "Obscure Media",
     "url": "https://www.obscuremedia.com/",
     "desc": "Rare media forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "The Lost Media Wiki",
@@ -12555,31 +12555,31 @@
     "name": "Secret Projects Forum",
     "url": "https://www.secretprojects.co.uk/forum/",
     "desc": "Secret projects discussion",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Nairaland",
     "url": "https://www.nairaland.com/",
     "desc": "Nigerian forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Stupid Stuff",
     "url": "https://www.stupidstuff.org/",
     "desc": "Forum community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "City Data",
     "url": "https://www.city-data.com/",
     "desc": "Statistics forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Airliners",
     "url": "https://www.airliners.net/",
     "desc": "Aviation forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "NYCAviation",
@@ -12591,25 +12591,25 @@
     "name": "Pistonheads",
     "url": "https://www.pistonheads.com/",
     "desc": "Car forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Anandtech",
     "url": "https://www.anandtech.com/",
     "desc": "Hardware reviews",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Hardcore Gaming",
     "url": "https://hardcoregaming.net/",
     "desc": "Retro gaming",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "IndieGamesPlus",
     "url": "https://indiegamesplus.com/",
     "desc": "Indie game news",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "RPGFan",
@@ -12627,25 +12627,25 @@
     "name": "Rock Paper Shotgun",
     "url": "https://www.rockpapershotgun.com/",
     "desc": "Gaming news",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "PC Gamer",
     "url": "https://www.pcgamer.com/",
     "desc": "PC gaming",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "RPS Chum",
     "url": "https://chum.rps.net/",
     "desc": "Gaming community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Moby Games",
     "url": "https://www.mobygames.com/",
     "desc": "Game database",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "RPG Maker",
@@ -12657,7 +12657,7 @@
     "name": "Drucker",
     "url": "https://www.drucker.net/",
     "desc": "Print community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Instructables",
@@ -12669,25 +12669,25 @@
     "name": "Makezine",
     "url": "https://makezine.com/",
     "desc": "Maker community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Hackster",
     "url": "https://www.hackster.io/",
     "desc": "Hardware projects",
-    "category": "Forums & Communities"
+    "category": "Security & Hacking Forums"
   },
   {
     "name": "Hackaday IO",
     "url": "https://hackaday.io/",
     "desc": "Hardware projects",
-    "category": "Forums & Communities"
+    "category": "Security & Hacking Forums"
   },
   {
     "name": "N中关村",
     "url": "https://n中关村.com/",
     "desc": "Chinese tech forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Quora",
@@ -12699,31 +12699,31 @@
     "name": "Stack Exchange",
     "url": "https://stackexchange.com/",
     "desc": "Q&A network",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "AllTheFallen",
     "url": "https://allthefallen.org/",
     "desc": "Niche anime community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Dark Forum",
     "url": "https://www.darkforum.com/",
     "desc": "Various discussions",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Math Is Fun",
     "url": "https://www.mathisfunforum.com/",
     "desc": "Math forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "AFN",
     "url": "https://www.anime-forum.net/",
     "desc": "Anime forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Anime Planet",
@@ -12735,97 +12735,97 @@
     "name": "Board Game Geek",
     "url": "https://boardgamegeek.com/",
     "desc": "Board games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "RPG Maker Community",
     "url": "https://forums.rpgmakerweb.com/",
     "desc": "RPG Maker",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Game Dev",
     "url": "https://game-dev.net/",
     "desc": "Game development",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Newgrounds",
     "url": "https://newgrounds.com/",
     "desc": "Indie games/art",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Kongregate",
     "url": "https://www.kongregate.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Armor Games",
     "url": "https://armorgames.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Addicting Games",
     "url": "https://www.addictinggames.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Miniclip",
     "url": "https://www.miniclip.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Crazy Games",
     "url": "https://www.crazygames.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Y8 (Browser Games)",
     "url": "https://www.y8.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Kizi",
     "url": "https://www.kizi.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Poki",
     "url": "https://poki.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Silvergames",
     "url": "https://www.silvergames.com/",
     "desc": "Browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Gamaverse",
     "url": "https://gamaverse.com/",
     "desc": "Niche browser games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Roblox",
     "url": "https://www.roblox.com/",
     "desc": "User generated games",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Minecraft",
     "url": "https://www.minecraft.net/",
     "desc": "Sandbox game",
-    "category": "Forums & Communities"
+    "category": "Gaming Communities"
   },
   {
     "name": "Volta",
@@ -12837,13 +12837,13 @@
     "name": "Alltheall",
     "url": "https://www.alltheall.com/",
     "desc": "Search aggregator",
-    "category": "Forums & Communities"
+    "category": "Linux & Unix Communities"
   },
   {
     "name": "Archive",
     "url": "https://www.archive.org/",
     "desc": "Digital library",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Perlentauchen",
@@ -13311,7 +13311,7 @@
     "name": "Binary Edge",
     "url": "https://www.binaryedge.io/",
     "desc": "Security scanning",
-    "category": "Forums & Communities"
+    "category": "Security & Hacking Forums"
   },
   {
     "name": "Netcraft",
@@ -13365,7 +13365,7 @@
     "name": "Intezer",
     "url": "https://www.intezer.com/",
     "desc": "Code analysis",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "AlienVault OTX",
@@ -13401,7 +13401,7 @@
     "name": "PTES",
     "url": "http://www.pentest-standard.org/",
     "desc": "Pentest standard",
-    "category": "Forums & Communities"
+    "category": "Security Forums"
   },
   {
     "name": "CWE",
@@ -13413,13 +13413,13 @@
     "name": "CVE",
     "url": "https://cve.mitre.org/",
     "desc": "Vulnerability list",
-    "category": "Forums & Communities"
+    "category": "Security & Hacking Forums"
   },
   {
     "name": "0day Today",
     "url": "https://0day.today/",
     "desc": "Exploit market",
-    "category": "Forums & Communities"
+    "category": "Security & Hacking Forums"
   },
   {
     "name": "CVELib",
@@ -13431,7 +13431,7 @@
     "name": "Vuln Check",
     "url": "https://vulncheck.com/",
     "desc": "Vulnerability checking",
-    "category": "Forums & Communities"
+    "category": "Security & Hacking Forums"
   },
   {
     "name": "Intrigue Core",
@@ -13815,25 +13815,25 @@
     "name": "OtakuBoards",
     "url": "https://www.otakuboards.com/",
     "desc": "Anime manga forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "AnimeSuki",
     "url": "http://www.animesuki.org/",
     "desc": "Anime community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Old School Otaku",
     "url": "http://www.oldschoolotaku.com/forum/",
     "desc": "Retro anime forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "AniList Forum",
     "url": "https://anilist.co/forum",
     "desc": "Anime forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "CodeSandbox",
@@ -17997,7 +17997,7 @@
     "name": "Pufferpanel",
     "url": "https://www.pufferpanel.com/",
     "desc": "Game server panel",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "MCPM",
@@ -18009,19 +18009,19 @@
     "name": "Pocketmine",
     "url": "https://www.pocketmine.net/",
     "desc": "Minecraft server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Spigot",
     "url": "https://www.spigotmc.org/",
     "desc": "Minecraft server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Paper",
     "url": "https://papermc.io/",
     "desc": "Minecraft server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Forge",
@@ -18075,7 +18075,7 @@
     "name": "uCMA",
     "url": "https://github.com/JoeGamers/JoeGamersServerConfig",
     "desc": "MCPE server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Source Engine",
@@ -18087,37 +18087,37 @@
     "name": "SRCDS",
     "url": "https://srcds.com/",
     "desc": "Source server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Rust Server",
     "url": "https://facespunch.com/",
     "desc": "Rust dedicated",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Ark Server",
     "url": "https://survivetheark.com/",
     "desc": "ARK server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Valheim Server",
     "url": "https://valheim.com/",
     "desc": "Valheim server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Palworld Server",
     "url": "https://palworld.gg/",
     "desc": "Palworld server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Mindustry Server",
     "url": "https://github.com/Anuken/MindustryServer",
     "desc": "Mindustry server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Space Engineers",
@@ -18129,43 +18129,43 @@
     "name": "7 Days to Die",
     "url": "https://www.7daystodie.com/",
     "desc": "7DTD server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Barotrauma",
     "url": "https://barotraumagame.com/",
     "desc": "Barotrauma server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "DayZ Server",
     "url": "https://dayz.com/",
     "desc": "DayZ server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "V Rising",
     "url": "https://playvrising.com/",
     "desc": "V Rising server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Icarus Server",
     "url": "https://www.icarusgame.com/",
     "desc": "Icarus server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Sons of the Forest",
     "url": "https://sonsoftheforestgame.com/",
     "desc": "SotF server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Enshrouded",
     "url": "https://enshrouded.com/",
     "desc": "Enshrouded server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Lethal Company",
@@ -18177,235 +18177,235 @@
     "name": "Among Us",
     "url": "https://innersloth.itch.io/among-us",
     "desc": "Among Us server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Starbound Server",
     "url": "https://starbounder.org/",
     "desc": "Starbound server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Stationeers Server",
     "url": "https://www.stationeers.com/",
     "desc": "Stationeers server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Project Zomboid",
     "url": "https://projectzomboid.com/",
     "desc": "PZ server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Unturned Server",
     "url": "https://smartlydressed.github.io/",
     "desc": "Unturned server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Eco Server",
     "url": "https://playeco.com/",
     "desc": "Eco server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Soulmask",
     "url": "https://soulmask.com/",
     "desc": "Soulmask server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Grounded",
     "url": "https://www.groundedgame.com/",
     "desc": "Grounded server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "The Forest",
     "url": "https://survivetheforest.com/",
     "desc": "The Forest server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Green Hell",
     "url": "https://www.greenhellgame.com/",
     "desc": "Green Hell server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Conan Exiles",
     "url": "https://www.conanexiles.com/",
     "desc": "Conan server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Team Fortress 2",
     "url": "https://www.teamfortress.com/",
     "desc": "TF2 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Counter-Strike 2",
     "url": "https://www.counter-strike.net/",
     "desc": "CS2 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Left 4 Dead 2",
     "url": "https://www.l4d.com/",
     "desc": "L4D2 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Garrys Mod",
     "url": "https://gmod.facepunch.com/",
     "desc": "GMod server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Sven Co-op",
     "url": "https://svenco-op.com/",
     "desc": "Sven Co-op server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Insurgency",
     "url": "https://playinsurgency.com/",
     "desc": "Insurgency server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Day of Defeat",
     "url": "https://www.dayofdefeat.com/",
     "desc": "DoD server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Army War",
     "url": "https://www.armyment.com/",
     "desc": "Army War server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Natural Selection",
     "url": "https://www.natural-selection2.com/",
     "desc": "NS2 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Holdfast",
     "url": "https://www.holdfastgame.com/",
     "desc": "Holdfast server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Mordhau",
     "url": "https://mordhau.com/",
     "desc": "Mordhau server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Chivalry 2",
     "url": "https://chivalry2.com/",
     "desc": "Chivalry server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Mount & Blade",
     "url": "https://www.taleworlds.com/",
     "desc": "M&B server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Mount & Blade II",
     "url": "https://store.steampowered.com/app/1250410/Mount_Blade_II_Bannerlord/",
     "desc": "Bannerlord server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Hell Let Loose",
     "url": "https://www.hellletloose.com/",
     "desc": "HLL server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Squad",
     "url": "https://joinsquad.com/",
     "desc": "Squad server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Post Scriptum",
     "url": "https://postscriptumgame.com/",
     "desc": "PS server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Foxhole",
     "url": "https://www.foxholegame.com/",
     "desc": "Foxhole server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Subnautica",
     "url": "https://unknownworlds.com/subnautica/",
     "desc": "Subnautica server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Subnautica Below Zero",
     "url": "https://unknownworlds.com/subnautica-below-zero/",
     "desc": "SBZ server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Core Keeper",
     "url": "https://corekeeper.com/",
     "desc": "Core Keeper server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Vintage Story",
     "url": "https://www.vintagestory.com/",
     "desc": "Vintage Story server",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Satisfactory",
     "url": "https://www.satisfactorygame.com/",
     "desc": "Satisfactory server",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Dyson Sphere Program",
     "url": "https://www.dysonsphereprogram.com/",
     "desc": "DSP server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Space Marine",
     "url": "https://www.warhammer40000.space/",
     "desc": "Warhammer server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Ready or Not",
     "url": "https://readyornotgame.com/",
     "desc": "RoN server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Battlefield",
     "url": "https://www.ea.com/games/battlefield",
     "desc": "BF server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Battlefield 1942",
     "url": "https://www.battlefield.com/",
     "desc": "BF1942 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Battlefield Modding",
@@ -18417,61 +18417,61 @@
     "name": "Nexuiz",
     "url": "https://alientrap.org/wiki/nexuiz/",
     "desc": "Nexuiz server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Alien Arena",
     "url": "https://www.alienarena.info/",
     "desc": "Alien Arena server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Xonotic",
     "url": "https://xonotic.org/",
     "desc": "Xonotic server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "OpenArena",
     "url": "https://openarena.io/",
     "desc": "OpenArena server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Warsow",
     "url": "https://warsow.net/",
     "desc": "Warsow server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Quake",
     "url": "https://www.quake.com/",
     "desc": "Quake server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Doom",
     "url": "https://www.doomworld.com/",
     "desc": "Doom server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Zandronum",
     "url": "https://zandronum.com/",
     "desc": "Doom server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "ZDaemon",
     "url": "https://www.zdaemon.org/",
     "desc": "Doom server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Odamex",
     "url": "https://odamex.net/",
     "desc": "Doom server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Doom64 EX",
@@ -18483,13 +18483,13 @@
     "name": "Doom Builder",
     "url": "https://www.doombuilder.com/",
     "desc": "Doom editor",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "SLADE",
     "url": "https://slade.mancubus.net/",
     "desc": "Doom editor",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "GZDoom",
@@ -18519,7 +18519,7 @@
     "name": "Duke3D",
     "url": "https://www.muggel.net/dn3d/",
     "desc": "Duke Nukem server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "EDuke32",
@@ -18555,19 +18555,19 @@
     "name": "Rotwood",
     "url": "https://rotwood.io/",
     "desc": "Caves of Qud server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Cataclysm Dark Days Ahead",
     "url": "https://cataclysmdda.org/",
     "desc": "C:DDA server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Space Station 13",
     "url": "https://spacestation13.com/",
     "desc": "SS13 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "BeeStation",
@@ -18609,7 +18609,7 @@
     "name": "Borealis",
     "url": "https://github.com/Borealis-Bots/borealis",
     "desc": "SS14 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Robust Toolbox",
@@ -18633,109 +18633,109 @@
     "name": "Raft",
     "url": "https://www.raft-game.com/",
     "desc": "Raft server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Noita",
     "url": "https://noitagame.com/",
     "desc": "Noita server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Stellaris",
     "url": "https://forum.paradoxplaza.com/",
     "desc": "Stellaris server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Crusader Kings",
     "url": "https://www.crusaderkings.com/",
     "desc": "CK server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Hearts of Iron",
     "url": "https://www.hearts-ofiron.com/",
     "desc": "HOI server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Europa Universalis",
     "url": "https://www.europauniversalis4.com/",
     "desc": "EU4 server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Victoria",
     "url": "https://www.victoria3game.com/",
     "desc": "Vic3 server",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Imperator",
     "url": "https://www.imperatorromegame.com/",
     "desc": "Imperator server",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Age of Empires",
     "url": "https://www.ageofempires.com/",
     "desc": "AoE server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Company of Heroes",
     "url": "https://www.companyofheroes.com/",
     "desc": "COH server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Relic",
     "url": "https://www.relic.com/",
     "desc": "Relic server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Total War",
     "url": "https://www.totalwar.com/",
     "desc": "Total War server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Mortal Kombat",
     "url": "https://www.mortalkombat.com/",
     "desc": "MK server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Street Fighter",
     "url": "https://www.streetfighter.com/",
     "desc": "SF server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Tekken",
     "url": "https://en.bandainamcoproject.com/tekken/",
     "desc": "Tekken server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Guilty Gear",
     "url": "https://www.arcsystemworks.com/",
     "desc": "GG server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Dragon Ball FighterZ",
     "url": "https://en.bandainamcoproject.com/dbfz/",
     "desc": "DBFZ server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Smash Bros",
     "url": "https://www.smashbros.com/",
     "desc": "Smash server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Slippi",
@@ -18777,13 +18777,13 @@
     "name": "Netmaker",
     "url": "https://www.netmaker.io/",
     "desc": "WireGuard VPN",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Algo VPN",
     "url": "https://github.com/trailofbits/algo",
     "desc": "WireGuard VPN",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Stash",
@@ -18795,37 +18795,37 @@
     "name": "sshuttle",
     "url": "https://github.com/sshuttle/sshuttle",
     "desc": "VPN over SSH",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "OpenVPN",
     "url": "https://openvpn.net/",
     "desc": "VPN server",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "SoftEther",
     "url": "https://www.softether.org/",
     "desc": "VPN server",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "OpenVPN",
     "url": "https://openvpn.net/community/",
     "desc": "OpenVPN source",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "ocserv",
     "url": "https://www.infradead.org/ocserv/",
     "desc": "Cisco VPN",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "ocserv",
     "url": "https://www.ginier.com/",
     "desc": "VPN server",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Hamachi",
@@ -18837,31 +18837,31 @@
     "name": "Radmin VPN",
     "url": "https://www.radmin-vpn.com/",
     "desc": "VPN",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "FreeLAN",
     "url": "https://freelan.org/",
     "desc": "VPN software",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "n2n",
     "url": "https://github.com/ntop/n2n",
     "desc": "P2P VPN",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Fastd",
     "url": "https://github.com/porecc/fastd",
     "desc": "Fastd VPN",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Calyx Institute",
     "url": "https://calyxinstitute.org/",
     "desc": "VPN Institute",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "DNSCrypt",
@@ -18891,7 +18891,7 @@
     "name": "CoreDNS",
     "url": "https://coredns.io/",
     "desc": "DNS server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Knot Resolver",
@@ -18903,13 +18903,13 @@
     "name": "PowerDNS",
     "url": "https://www.powerdns.com/",
     "desc": "DNS server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "BIND",
     "url": "https://www.isc.org/bind/",
     "desc": "DNS server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Dnsmasq",
@@ -18939,19 +18939,19 @@
     "name": "Counter Social",
     "url": "https://counter.social/",
     "desc": "Cyber security social",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Bit侃",
     "url": "https://bitcointalk.org/",
     "desc": "Crypto forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Steemit",
     "url": "https://steemit.com/",
     "desc": "Blockchain social",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Hive",
@@ -18963,31 +18963,31 @@
     "name": "Mighty Networks",
     "url": "https://www.mightynetworks.com/",
     "desc": "Community platform",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Circle",
     "url": "https://circle.so/",
     "desc": "Community platform",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "bbPress",
     "url": "https://bbpress.org/",
     "desc": "WordPress forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "ForoH",
     "url": "https://forums.ea.com/",
     "desc": "EA forums",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Retro Modding",
     "url": "https://www.retromodding.com/",
     "desc": "Retro console mods",
-    "category": "Forums & Communities"
+    "category": "Retro Communities"
   },
   {
     "name": "Adafruit",
@@ -19011,13 +19011,13 @@
     "name": "Lets Make Robots",
     "url": "https://www.robotshop.com/",
     "desc": "Robot community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Society of Robots",
     "url": "https://www.societyofrobots.com/",
     "desc": "Robotics forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Robot Room",
@@ -19029,25 +19029,25 @@
     "name": "Raspberry Pi",
     "url": "https://www.raspberrypi.org/",
     "desc": "Pi community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Arduino",
     "url": "https://www.arduino.cc/",
     "desc": "Arduino community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "ESP32",
     "url": "https://www.esp32.com/",
     "desc": "ESP32 forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "STM32",
     "url": "https://www.stm32mpu.com/",
     "desc": "STM32 forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "BeagleBone",
@@ -19083,7 +19083,7 @@
     "name": "Pine64",
     "url": "https://www.pine64.org/",
     "desc": "Pine64 community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Radxa",
@@ -19149,7 +19149,7 @@
     "name": "Lichee",
     "url": "https://lichee.th1520.cn/",
     "desc": "Linux SBC",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "T-Head",
@@ -19185,7 +19185,7 @@
     "name": "OpenTitan",
     "url": "https://opentitan.org/",
     "desc": "Security chip",
-    "category": "Forums & Communities"
+    "category": "Security & Hacking Forums"
   },
   {
     "name": "OpenHW Group",
@@ -19209,7 +19209,7 @@
     "name": "OpenMPW",
     "url": "https://www.efabless.com/",
     "desc": "Shuttle program",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Google SkyWater",
@@ -19311,25 +19311,25 @@
     "name": "SiFive GitHub",
     "url": "https://github.com/sifive",
     "desc": "SiFive repos",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "StarFive GitHub",
     "url": "https://github.com/starfive-tech",
     "desc": "StarFive repos",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "T-Head GitHub",
     "url": "https://github.com/T-head-semiconductor",
     "desc": "T-Head repos",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Kendryte GitHub",
     "url": "https://github.com/kendryte",
     "desc": "Kendryte repos",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Rocket Chip",
@@ -19539,7 +19539,7 @@
     "name": "Navigation Stack",
     "url": "http://wiki.ros.org/navigation",
     "desc": "Navigation",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Stage",
@@ -20013,19 +20013,19 @@
     "name": "GLPK",
     "url": "https://www.gnu.org/software/glpk/",
     "desc": "Linear programming",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "LP Solve",
     "url": "http://lpsolve.sourceforge.net/",
     "desc": "Linear programming",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Clp",
     "url": "https://github.com/coin-or/Clp",
     "desc": "Linear programming",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "CBC",
@@ -20673,7 +20673,7 @@
     "name": "Comma AI",
     "url": "https://comma.com/",
     "desc": "AV research",
-    "category": "Forums & Communities"
+    "category": "Linux & Unix Communities"
   },
   {
     "name": "Drive.ai",
@@ -20841,7 +20841,7 @@
     "name": "Franka",
     "url": "https://www.franka.de/",
     "desc": "Research robot",
-    "category": "Forums & Communities"
+    "category": "Linux & Unix Communities"
   },
   {
     "name": "Kuka",
@@ -20961,13 +20961,13 @@
     "name": "TRI",
     "url": "https://www.tri.global/",
     "desc": "Toyota research",
-    "category": "Forums & Communities"
+    "category": "Linux & Unix Communities"
   },
   {
     "name": "Honda Research",
     "url": "https://research.honda/",
     "desc": "Honda R&D",
-    "category": "Forums & Communities"
+    "category": "Linux & Unix Communities"
   },
   {
     "name": "Honda ASIMO",
@@ -21009,7 +21009,7 @@
     "name": "Jibo",
     "url": "https://www.jibo.com/",
     "desc": "Social robot",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Kuri",
@@ -21141,7 +21141,7 @@
     "name": "Dreametech",
     "url": "https://www.dreametech.com/",
     "desc": "Robot vacuum",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "yeedi",
@@ -21213,7 +21213,7 @@
     "name": "Fasttech",
     "url": "https://www.fasttech.com/",
     "desc": "Electronics store",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "TaoBao",
@@ -21363,13 +21363,13 @@
     "name": "Ubuntu Server",
     "url": "https://ubuntu.com/download/server",
     "desc": "Ubuntu for Pi",
-    "category": "Forums & Communities"
+    "category": "Linux & Unix Communities"
   },
   {
     "name": "Arch Linux ARM",
     "url": "https://archlinuxarm.org/",
     "desc": "Arch for Pi",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Manjaro ARM",
@@ -21381,7 +21381,7 @@
     "name": "Fedora IoT",
     "url": "https://iot.fedoraproject.org/",
     "desc": "Fedora for Pi",
-    "category": "Forums & Communities"
+    "category": "Linux & Unix Communities"
   },
   {
     "name": "openSUSE",
@@ -21459,7 +21459,7 @@
     "name": "Sensor.Community",
     "url": "https://sensor.community/",
     "desc": "Air quality",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "OpenMQTTGateway",
@@ -21615,13 +21615,13 @@
     "name": "Home Assistant Community",
     "url": "https://community.home-assistant.io/",
     "desc": "HA forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Home Assistant Reddit",
     "url": "https://reddit.com/r/homeassistant",
     "desc": "HA subreddit",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Home Assistant Discord",
@@ -22407,13 +22407,13 @@
     "name": "Yunohost",
     "url": "https://yunohost.org/",
     "desc": "Server OS",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Plausible",
     "url": "https://plausible.io/",
     "desc": "Privacy analytics",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Shynet",
@@ -22425,7 +22425,7 @@
     "name": "Ackee",
     "url": "https://ackee.electerious.com/",
     "desc": "Self-hosted analytics",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Fathom",
@@ -22461,7 +22461,7 @@
     "name": "Homebox",
     "url": "https://homebox.software/",
     "desc": "Home inventory",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Homechart",
@@ -22521,25 +22521,25 @@
     "name": "Zipline",
     "url": "https://zipline.dicer.sh/",
     "desc": "Share files",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Gokapi",
     "url": "https://github.com/Forceu/Gokapi",
     "desc": "File sharing",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Filegator",
     "url": "https://filegator.io/",
     "desc": "File manager",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "DataSync",
     "url": "https://datasync.app/",
     "desc": "Cloud sync",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "BorgBase",
@@ -22557,13 +22557,13 @@
     "name": "Watchstate",
     "url": "https://github.com/adriv/watched",
     "desc": "Sync watch status",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Mediatracker",
     "url": "https://github.com/ManuelLerchner/Mediatracker",
     "desc": "Track media",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "Wallos",
@@ -24981,7 +24981,7 @@
     "name": "Creepypasta",
     "url": "https://creepypasta.com/",
     "desc": "Horror stories",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Digital Public Library",
@@ -25839,7 +25839,7 @@
     "name": "Wikipedia Unusual Articles",
     "url": "https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles",
     "desc": "Weird Wikipedia pages",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Find the Invisible Cow",
@@ -25851,7 +25851,7 @@
     "name": "Ever Dream This Man",
     "url": "https://everdreamthisman.com/",
     "desc": "Who is this man",
-    "category": "Weird Web"
+    "category": "Liminal & Dreams"
   },
   {
     "name": "Please Like",
@@ -25905,7 +25905,7 @@
     "name": "Weird Web Space",
     "url": "https://weirdweb.space/catalog-index",
     "desc": "Catalog of experimental web",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "HyperPhysics",
@@ -26391,7 +26391,7 @@
     "name": "You Should Have Seen This",
     "url": "http://www.youshouldhaveseenthis.com/",
     "desc": "Internet oddities",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Bees Bees Bees",
@@ -26403,7 +26403,7 @@
     "name": "Weird or Confusing",
     "url": "https://weirdorconfusing.com/",
     "desc": "Weird products",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "ILookLikeYou",
@@ -26487,7 +26487,7 @@
     "name": "Hexapodia",
     "url": "https://hexapodia.xyz/",
     "desc": "Weird blog",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Bob Anchor",
@@ -26505,7 +26505,7 @@
     "name": "Won Help",
     "url": "https://www.wonthelp.com/",
     "desc": "Strange site",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Big Long Now",
@@ -26559,7 +26559,7 @@
     "name": "Scroll Down To Riker",
     "url": "https://scrolltorieker.com/",
     "desc": "Riker meme generator",
-    "category": "Weird Web"
+    "category": "Meme & Internet Culture"
   },
   {
     "name": "Extra Ordinary",
@@ -26805,7 +26805,7 @@
     "name": "Weirdnet",
     "url": "https://weirdnet.org/",
     "desc": "Human-curated small web observatory",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Internet Living Museum",
@@ -26841,7 +26841,7 @@
     "name": "Strange Attractor",
     "url": "https://strange-attractor.net/",
     "desc": "Interactive browser game",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "The Woosphere",
@@ -27225,7 +27225,7 @@
     "name": "Middlehost",
     "url": "https://middlehost.com/",
     "desc": "Web hosting and weird lists",
-    "category": "Weird Web"
+    "category": "Weird & Bizarre Sites"
   },
   {
     "name": "Phish",
@@ -27477,7 +27477,7 @@
     "name": "Cloudflare",
     "url": "https://cloudflare.com/",
     "desc": "CDN and DNS",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Terminal WT",
@@ -27705,7 +27705,7 @@
     "name": "Gitea",
     "url": "https://about.gitea.com/",
     "desc": "Self-hosted git service",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Cgit",
@@ -27717,7 +27717,7 @@
     "name": "Stagit",
     "url": "https://codemadness.org/stagit.1.html",
     "desc": "Static git web generator",
-    "category": "Self-Hosting"
+    "category": "Privacy Services"
   },
   {
     "name": "Static Site Generators",
@@ -27747,31 +27747,31 @@
     "name": "Ampache",
     "url": "https://ampache.org/",
     "desc": "Self-hosted music streaming",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Subsonic",
     "url": "http://www.subsonic.org/",
     "desc": "Music streaming server",
-    "category": "Self-Hosting"
+    "category": "Homelab"
   },
   {
     "name": "Olaris",
     "url": "https://olaris.io/",
     "desc": "Open media platform",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "Dim",
     "url": "https://github.com/DashIP/dim",
     "desc": "Media manager",
-    "category": "Self-Hosting"
+    "category": "Media Servers"
   },
   {
     "name": "SyncTube",
     "url": "https://github.com/synctube/synctube",
     "desc": "Watch videos together",
-    "category": "Self-Hosting"
+    "category": "File Sync"
   },
   {
     "name": "Dim",
@@ -27783,7 +27783,7 @@
     "name": "Castopod",
     "url": "https://castopod.org/",
     "desc": "Self-hosted podcasts",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Mbin",
@@ -28623,7 +28623,7 @@
     "name": "Droppy",
     "url": "https://droppy.bytes.farm/",
     "desc": "Self-hosted file drop",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "FileStash",
@@ -28959,7 +28959,7 @@
     "name": "PhotoPrism",
     "url": "https://photoprism.org/",
     "desc": "AI-powered photos app for decentralized web - self-hosted Google Photos alternative",
-    "category": "Self-Hosting"
+    "category": "Self-Hosting Apps"
   },
   {
     "name": "Vaultwarden",
@@ -29379,25 +29379,25 @@
     "name": "ALL SCIFI",
     "url": "https://www.allscifi.com/",
     "desc": "Science fiction and fantasy forum community",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Vampire Movie Posters Forum",
     "url": "https://www.vampiremovieposters.com/forum/",
     "desc": "Forum for vampire movie enthusiasts",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Dairy Goat Info Forums",
     "url": "https://dairygoatinfo.com/",
     "desc": "Forum for dairy goat farmers and enthusiasts",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Horse Forum",
     "url": "https://www.horseforum.com/",
     "desc": "Large equestrian community forum",
-    "category": "Forums & Communities"
+    "category": "General Forums & Communities"
   },
   {
     "name": "Software Heritage",
@@ -32769,13 +32769,13 @@
     "name": "Darknet",
     "url": "https://darknet.org/",
     "desc": "Tech news aggregator",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "MIT Tech Review",
     "url": "https://www.technologyreview.com/",
     "desc": "Tech analysis",
-    "category": "Forums & Communities"
+    "category": "Tech Forums & Communities"
   },
   {
     "name": "Demoscene",
@@ -36070,5 +36070,1091 @@
     "url": "https://www.reddit.com/r/Warhammer40k/",
     "desc": "40K sub",
     "category": "Miscellaneous"
+  },
+  {
+    "name": "Vaporwave.net",
+    "url": "https://vaporwave.net/",
+    "desc": "Vaporwave music and aesthetic",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Donkasu",
+    "url": "https://donkasu.com/",
+    "desc": "Lo-fi music and aesthetics",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Gorilla vs Bear",
+    "url": "https://gorillavsbear.net/",
+    "desc": "Music blog with indie and subculture",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Cave In",
+    "url": "https://cavein.journals.com/",
+    "desc": "Underground music zine",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Post-Punk",
+    "url": "https://post-punk.com/",
+    "desc": "Post-punk and gothic music",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Gothic Magazine",
+    "url": "https://gothicmag.com/",
+    "desc": "Goth culture and music",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Scene Point Blank",
+    "url": "https://www.scenepointblank.com/",
+    "desc": "Underground music reviews",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Ambient Music Guide",
+    "url": "https://ambientmusicguide.com/",
+    "desc": "Ambient and drone music",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Music for Airports",
+    "url": "https://musicforairports.com/",
+    "desc": "Ambient music community",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Hipster Runnings",
+    "url": "https://hipsterrunnings.com/",
+    "desc": "Internet culture and music",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "When You Microwave",
+    "url": "https://whenyoumicrowave.com/",
+    "desc": "Vaporwave art and memes",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "NTS Radio",
+    "url": "https://www.ntsradio.com/",
+    "desc": "Independent music radio",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Boards of Canada",
+    "url": "https://boardsofcanada.com/",
+    "desc": "Electronic music duo",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Macplus",
+    "url": "https://macplus.org/",
+    "desc": "Seapunk and cyberculture",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Fetishize",
+    "url": "https://fetishize.me/",
+    "desc": "Underground art and culture",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Stereogum",
+    "url": "https://www.stereogum.com/",
+    "desc": "Indie music news",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Tiny Mix Tapes",
+    "url": "https://tinymixtapes.com/",
+    "desc": "Underground music reviews",
+    "category": "Subculture Sites"
+  },
+  {
+    "name": "Wikispecies",
+    "url": "https://species.wikimedia.org/",
+    "desc": "Wikimedia species database",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "Tree of Life",
+    "url": "https://tolweb.org/",
+    "desc": "Tree of Life web project",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "Encyclopedia of Life",
+    "url": "https://eol.org/",
+    "desc": "Global species catalog",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "ITIS",
+    "url": "https://www.itis.gov/",
+    "desc": "Integrated Taxonomic Information",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "Catalogue of Life",
+    "url": "https://www.catalogueoflife.org/",
+    "desc": "Species checklist",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "BioNames",
+    "url": "https://bionames.org/",
+    "desc": "Biological nomenclature database",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "Taxonomy Browser",
+    "url": "https://www.ncbi.nlm.nih.gov/taxonomy",
+    "desc": "NCBI taxonomy database",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "The Cryptid Wiki",
+    "url": "https://cryptidwiki.org/",
+    "desc": "Cryptid and mythical creatures",
+    "category": "Weird Taxonomy"
+  },
+  {
+    "name": "Morse Code World",
+    "url": "https://morsecodeworld.com/",
+    "desc": "Morse code resources",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "Air Mail Morse",
+    "url": "https://airmaillabs.com/morse/",
+    "desc": "Learn Morse code app",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "Morse Translator",
+    "url": "https://morsetranslator.com/",
+    "desc": "Online Morse translator",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "Morse Code Test",
+    "url": "https://morsecode.digital/",
+    "desc": "Practice Morse online",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "CWops Morse Academy",
+    "url": "https://cwops.org/morse-code-academy/",
+    "desc": "Morse training program",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "Ham Radio Morse",
+    "url": "https://hamradiomorse.com/",
+    "desc": "Ham radio CW practice",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "Just Learn Morse",
+    "url": "https://www.justlearnmorsecode.com/",
+    "desc": "Morse code training",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "Telegraph Office",
+    "url": "https://www.telegraphoffice.com/",
+    "desc": "Historical telegraphy",
+    "category": "Morse Code & Telegraphy"
+  },
+  {
+    "name": "Ham Radio Outlet",
+    "url": "https://www.hamradio.com/",
+    "desc": "Ham radio equipment",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "HamTestOnline",
+    "url": "https://www.hamtestonline.com/",
+    "desc": "Ham license practice",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "DX World",
+    "url": "https://dxworld.com/",
+    "desc": "DXing and ham radio",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "ARRL",
+    "url": "https://www.arrl.org/",
+    "desc": "National ham radio association",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "DX Summit",
+    "url": "https://www.dxsummit.fi/",
+    "desc": "DX cluster spots",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "HamQSL",
+    "url": "https://www.hamqsl.com/",
+    "desc": "Amateur radio tools",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "Repeater Book",
+    "url": "https://www.repeaterbook.com/",
+    "desc": "Repeater directory",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "HamSphere",
+    "url": "https://www.hamsphere.com/",
+    "desc": "Virtual ham radio",
+    "category": "Amateur Radio"
+  },
+  {
+    "name": "Chaos Computer Club",
+    "url": "https://ccc.de/",
+    "desc": "European hacker club",
+    "category": "Hacker Culture"
+  },
+  {
+    "name": "DEF CON",
+    "url": "https://defcon.org/",
+    "desc": "Hacker conference",
+    "category": "Hacker Culture"
+  },
+  {
+    "name": "Godot Asset Library",
+    "url": "https://godotengine.org/asset-library",
+    "desc": "Free game assets",
+    "category": "Indie Game Dev Tools"
+  },
+  {
+    "name": "OpenGameArt",
+    "url": "https://opengameart.org/",
+    "desc": "Free game assets",
+    "category": "Indie Game Dev Tools"
+  },
+  {
+    "name": "itch.io Game Jams",
+    "url": "https://itch.io/jams",
+    "desc": "Game jam listings",
+    "category": "Indie Game Dev Tools"
+  },
+  {
+    "name": "Game Dev Academy",
+    "url": "https://gamedevacademy.org/",
+    "desc": "Free game dev tutorials",
+    "category": "Indie Game Dev Tools"
+  },
+  {
+    "name": "GameMaker",
+    "url": "https://www.gamemaker.io/",
+    "desc": "2D game engine",
+    "category": "Indie Game Dev Tools"
+  },
+  {
+    "name": "Construct",
+    "url": "https://www.construct.net/",
+    "desc": "No-code game engine",
+    "category": "Indie Game Dev Tools"
+  },
+  {
+    "name": "Flappy Bird Clone",
+    "url": "https://www.linkedin.com/learning/flappy-bird-clone-in-unity",
+    "desc": "Unity tutorial",
+    "category": "Indie Game Dev Tools"
+  },
+  {
+    "name": "Archiveteam Warrior",
+    "url": "https://wiki.archiveteam.org/index.php/Warrior",
+    "desc": "Archive volunteer tool",
+    "category": "Digital Hoarding"
+  },
+  {
+    "name": "Conifer",
+    "url": "https://conifer.rhizome.org/",
+    "desc": "Web archiving service",
+    "category": "Digital Hoarding"
+  },
+  {
+    "name": "Tolkien Gateway",
+    "url": "https://www.tolkiengateway.org/",
+    "desc": "Tolkien languages",
+    "category": "Constructed Languages"
+  },
+  {
+    "name": "Esperanto USA",
+    "url": "https://esperanto usa.org/",
+    "desc": "Esperanto organization",
+    "category": "Constructed Languages"
+  },
+  {
+    "name": "Esperanto Panorama",
+    "url": "https://www.esperanto-panorama.de/",
+    "desc": "Esperanto resources",
+    "category": "Constructed Languages"
+  },
+  {
+    "name": "Vulgarlang",
+    "url": "https://www.vulgarlang.com/",
+    "desc": "Create your own language",
+    "category": "Constructed Languages"
+  },
+  {
+    "name": "UNESCO Atlas",
+    "url": "https://www.unesco.org/languages-atlas/",
+    "desc": "World language atlas",
+    "category": "Dying Languages"
+  },
+  {
+    "name": "World Atlas of Language Structures",
+    "url": "https://wals.info/",
+    "desc": "Language features database",
+    "category": "Dying Languages"
+  },
+  {
+    "name": "Ethnologue",
+    "url": "https://www.ethnologue.com/",
+    "desc": "Languages of the world",
+    "category": "Dying Languages"
+  },
+  {
+    "name": "Living Tongues",
+    "url": "https://livingtongues.org/",
+    "desc": "Endangered language institute",
+    "category": "Dying Languages"
+  },
+  {
+    "name": "Native Languages",
+    "url": "https://native-languages.org/",
+    "desc": "Indigenous language resources",
+    "category": "Dying Languages"
+  },
+  {
+    "name": "CryptPad",
+    "url": "https://cryptpad.fr/",
+    "desc": "Encrypted office suite",
+    "category": "Office"
+  },
+  {
+    "name": "Atlas of Country Names",
+    "url": "https://www.etymologynerd.com/",
+    "desc": "Country name origins",
+    "category": "Travel & Adventure"
+  },
+  {
+    "name": "Roadside America",
+    "url": "https://www.roadsideamerica.com/",
+    "desc": "Weird American attractions",
+    "category": "Travel & Adventure"
+  },
+  {
+    "name": "Atlas of Every Door",
+    "url": "https://www.atlasofeverydoor.com/",
+    "desc": "Every D martian embassy",
+    "category": "Travel & Adventure"
+  },
+  {
+    "name": "The Man in Seat 61",
+    "url": "https://www.seat61.com/",
+    "desc": "Train travel guide",
+    "category": "Travel & Adventure"
+  },
+  {
+    "name": "Strange Maps",
+    "url": "https://bigthink.com/strange-maps/",
+    "desc": "Weird cartography blog",
+    "category": "Weird Maps"
+  },
+  {
+    "name": "Weird Maps Only",
+    "url": "https://weirdmapsonly.com/",
+    "desc": "Strange cartography",
+    "category": "Weird Maps"
+  },
+  {
+    "name": "Maptic Maps",
+    "url": "https://mapticmaps.com/",
+    "desc": "Tactile maps",
+    "category": "Weird Maps"
+  },
+  {
+    "name": "Medieval Maps",
+    "url": "https://www.medievalmaps.org/",
+    "desc": "Historical cartography",
+    "category": "Weird Maps"
+  },
+  {
+    "name": "Amit Taylor Guitars",
+    "url": "https://www.amittaylor.com/",
+    "desc": "Luthier resources",
+    "category": "Luthiery"
+  },
+  {
+    "name": "Guitar Making",
+    "url": "https://www.guitar-making.com/",
+    "desc": "Step by step guide",
+    "category": "Luthiery"
+  },
+  {
+    "name": "BGD Luthier",
+    "url": "https://bgacoustics.com/",
+    "desc": "Luthier tutorials",
+    "category": "Luthiery"
+  },
+  {
+    "name": "Fret Finish",
+    "url": "https://www.fretfinish.com/",
+    "desc": "Guitar finishing",
+    "category": "Luthiery"
+  },
+  {
+    "name": "Coda Music",
+    "url": "https://www.codamusic.com/",
+    "desc": "Guitar repair tools",
+    "category": "Luthiery"
+  },
+  {
+    "name": "Writing.Com",
+    "url": "https://www.writing.com/",
+    "desc": "Online writing community",
+    "category": "Fiction & Writing"
+  },
+  {
+    "name": "Prose",
+    "url": "https://www.prose.com/",
+    "desc": "Write publish share",
+    "category": "Fiction & Writing"
+  },
+  {
+    "name": "Commaful",
+    "url": "https://commaful.com/",
+    "desc": "Visual storytelling",
+    "category": "Fiction & Writing"
+  },
+  {
+    "name": "Railfan",
+    "url": "https://www.railfan.com/",
+    "desc": "Railroading resources",
+    "category": "Train Spotting"
+  },
+  {
+    "name": "Railroadiana Auctions",
+    "url": "https://www.rr-auctions.com/",
+    "desc": "Railroad memorabilia",
+    "category": "Train Spotting"
+  },
+  {
+    "name": "American Rails",
+    "url": "https://www.americanrails.com/",
+    "desc": "Railroad information",
+    "category": "Train Spotting"
+  },
+  {
+    "name": "Train Web",
+    "url": "https://trainweb.com/",
+    "desc": "Railfan resources",
+    "category": "Train Spotting"
+  },
+  {
+    "name": "Rail Transit Reports",
+    "url": "https://www.railtransit.net/",
+    "desc": "Transit information",
+    "category": "Train Spotting"
+  },
+  {
+    "name": "Food Not Lawns",
+    "url": "https://foodnotlawns.com/",
+    "desc": "Edible landscaping",
+    "category": "Permaculture"
+  },
+  {
+    "name": "Paul Wheaton",
+    "url": "https://www.richsoil.com/paul-wheaton/",
+    "desc": "Permaculture videos",
+    "category": "Permaculture"
+  },
+  {
+    "name": "Oregon Permaculture",
+    "url": "https://www.oregonpermaculturenursery.com/",
+    "desc": "Permaculture nursery",
+    "category": "Permaculture"
+  },
+  {
+    "name": "Permaculture Notes",
+    "url": "https://permaculturenotes.wiki/",
+    "desc": "Community wiki",
+    "category": "Permaculture"
+  },
+  {
+    "name": "Carrot",
+    "url": "https://carrot.wiki/",
+    "desc": "Personal wiki",
+    "category": "Indie Web & Personal Sites"
+  },
+  {
+    "name": "SFAQ",
+    "url": "https://www.sfaq.com/",
+    "desc": "Arts publication",
+    "category": "Zine Culture & Indie Publishing"
+  },
+  {
+    "name": "McSweeney's",
+    "url": "https://www.mcsweeneys.net/",
+    "desc": "Literary humor",
+    "category": "Zine Culture & Indie Publishing"
+  },
+  {
+    "name": "Meme Archive",
+    "url": "https://meme-archive.com/",
+    "desc": "Meme collection",
+    "category": "Meme Archives"
+  },
+  {
+    "name": "Canva Meme",
+    "url": "https://www.canva.com/create/memes/",
+    "desc": "Meme maker",
+    "category": "Meme Archives"
+  },
+  {
+    "name": "Reddit Meme",
+    "url": "https://www.reddit.com/r/memes/",
+    "desc": "Meme subreddit",
+    "category": "Meme Archives"
+  },
+  {
+    "name": "Tumblr Dashboard",
+    "url": "https://www.tumblr.com/explore",
+    "desc": "Meme source",
+    "category": "Meme Archives"
+  },
+  {
+    "name": "Proxitok",
+    "url": "https://proxitok.pussthecat.org/",
+    "desc": "TikTok frontend",
+    "category": "Alt Frontends"
+  },
+  {
+    "name": "Bibliogram",
+    "url": "https://bibliogram.art/",
+    "desc": "Instagram frontend",
+    "category": "Alt Frontends"
+  },
+  {
+    "name": "LBRY",
+    "url": "https://lbry.tv/",
+    "desc": "YouTube alternative",
+    "category": "Alt Frontends"
+  },
+  {
+    "name": "Serious Eats",
+    "url": "https://www.seriouseats.com/",
+    "desc": "Food science and recipes",
+    "category": "Cooking & Food Niche Sites"
+  },
+  {
+    "name": "Tori Avey",
+    "url": "https://toriavey.com/",
+    "desc": "Food history recipes",
+    "category": "Cooking & Food Niche Sites"
+  },
+  {
+    "name": "Cooking For Engineers",
+    "url": "https://www.cookingforengineers.com/",
+    "desc": "Science of cooking",
+    "category": "Cooking & Food Niche Sites"
+  },
+  {
+    "name": "Eat Your Books",
+    "url": "https://www.eatyourbooks.com/",
+    "desc": "Recipe search",
+    "category": "Cooking & Food Niche Sites"
+  },
+  {
+    "name": "RPGFan",
+    "url": "https://www.rpgfan.com/",
+    "desc": "RPG reviews",
+    "category": "Games & Gaming"
+  },
+  {
+    "name": "Pinterest",
+    "url": "https://www.pinterest.com/",
+    "desc": "Visual discovery",
+    "category": "Graphics & Design"
+  },
+  {
+    "name": "Adobe Free",
+    "url": "https://www.adobe.com/express/",
+    "desc": "Free design tools",
+    "category": "Graphics & Design"
+  },
+  {
+    "name": "Sketch",
+    "url": "https://www.sketch.com/",
+    "desc": "Mac design tool",
+    "category": "Graphics & Design"
+  },
+  {
+    "name": "Monica",
+    "url": "https://monica.im/",
+    "desc": "Personal CRM",
+    "category": "Useful Tools"
+  },
+  {
+    "name": "Raycast",
+    "url": "https://www.raycast.com/",
+    "desc": "Productivity tool",
+    "category": "Useful Tools"
+  },
+  {
+    "name": "Cron",
+    "url": "https://cron.com/",
+    "desc": "Calendar app",
+    "category": "Useful Tools"
+  },
+  {
+    "name": "Amie",
+    "url": "https://www.amie.so/",
+    "desc": "Calendar and tasks",
+    "category": "Useful Tools"
+  },
+  {
+    "name": "Nano",
+    "url": "https://www.nano-editor.org/",
+    "desc": "Simple editor",
+    "category": "Text & Terminal"
+  },
+  {
+    "name": "Block ADS",
+    "url": "https://blockads.fiveborough.sh/",
+    "desc": "ASCII banner art",
+    "category": "ASCII Art & Text Art"
+  },
+  {
+    "name": "Z80",
+    "url": "https://www.z80.info/",
+    "desc": "Z80 CPU info",
+    "category": "Calculator Hacking"
+  },
+  {
+    "name": "Scribblers",
+    "url": "https://scribblers.co.uk/",
+    "desc": "Calligraphy course",
+    "category": "Bookbinding & Paper Crafts"
+  },
+  {
+    "name": "PFSE",
+    "url": "https://www.pfse.org/",
+    "desc": "Plant society",
+    "category": "Botany & Plant Care"
+  },
+  {
+    "name": "Writer Superstore",
+    "url": "https://www.writerssuperstore.com/",
+    "desc": "Vintage typewriters",
+    "category": "Typewriter Culture"
+  },
+  {
+    "name": "Chicago Typewriter",
+    "url": "https://www.chicagotypewriter.com/",
+    "desc": "Typewriter shop",
+    "category": "Typewriter Culture"
+  },
+  {
+    "name": "Mountain Home",
+    "url": "https://www.mountainhomebooks.com/",
+    "desc": "Typewriter books",
+    "category": "Typewriter Culture"
+  },
+  {
+    "name": "Dream Inn",
+    "url": "https://dreaminn.online/",
+    "desc": "Dreams and liminal",
+    "category": "Weird Fiction & Liminal"
+  },
+  {
+    "name": "Miniature Market",
+    "url": "https://www.miniaturemarket.com/",
+    "desc": "Board game store",
+    "category": "Tabletop Games"
+  },
+  {
+    "name": "Cool Stuff Inc",
+    "url": "https://www.coolstuffinc.com/",
+    "desc": "Game retailer",
+    "category": "Tabletop Games"
+  },
+  {
+    "name": "Meeple Source",
+    "url": "https://www.meeplesource.com/",
+    "desc": "Custom meeples",
+    "category": "Tabletop Games"
+  },
+  {
+    "name": "Tabletop Audio",
+    "url": "https://tabletopaudio.com/",
+    "desc": "Game ambience",
+    "category": "Tabletop Games"
+  },
+  {
+    "name": "Board Game Arena",
+    "url": "https://en.boardgamearena.com/",
+    "desc": "Online board games",
+    "category": "Tabletop Games"
+  },
+  {
+    "name": "Yucata",
+    "url": "https://www.yucata.de/en/",
+    "desc": "Free online games",
+    "category": "Tabletop Games"
+  },
+  {
+    "name": "Finviz",
+    "url": "https://finviz.com/",
+    "desc": "Stock screener",
+    "category": "Finance"
+  },
+  {
+    "name": "TradingView",
+    "url": "https://www.tradingview.com/",
+    "desc": "Charts and trading",
+    "category": "Finance"
+  },
+  {
+    "name": "MTG Salvation",
+    "url": "https://www.mtgthesource.com/",
+    "desc": "Magic source",
+    "category": "Card Games"
+  },
+  {
+    "name": "Scryfall",
+    "url": "https://scryfall.com/",
+    "desc": "Magic card search",
+    "category": "Card Games"
+  },
+  {
+    "name": "MTG Arena",
+    "url": "https://magicarena.com/",
+    "desc": "Digital Magic",
+    "category": "Card Games"
+  },
+  {
+    "name": "Apex Legends",
+    "url": "https://www.ea.com/games/apex",
+    "desc": "Battle royale",
+    "category": "Card Games"
+  },
+  {
+    "name": "Hearthstone",
+    "url": "https://hearthstone.blizzard.com/",
+    "desc": "Digital CCG",
+    "category": "Card Games"
+  },
+  {
+    "name": "Pokemon TCG",
+    "url": "https://www.pokemon.com/us/pokemon-tcg/",
+    "desc": "Pokemon cards",
+    "category": "Card Games"
+  },
+  {
+    "name": "Yu-Gi-Oh!",
+    "url": "https://www.yugioh-card.com/",
+    "desc": "Yu-Gi-Oh! TCG",
+    "category": "Card Games"
+  },
+  {
+    "name": "Netrunner DB",
+    "url": "https://netrunnerdb.com/",
+    "desc": "Android Netrunner",
+    "category": "Card Games"
+  },
+  {
+    "name": "BeagleBone",
+    "url": "https://www.beagleboard.org/",
+    "desc": "SBC",
+    "category": "Microcomputers & SBCs"
+  },
+  {
+    "name": "Rock Pi",
+    "url": "https://www.rock-chips.com/",
+    "desc": "Rockchip SBC",
+    "category": "Microcomputers & SBCs"
+  },
+  {
+    "name": "Banana Pi",
+    "url": "https://www.banana-pi.org/",
+    "desc": "Banana Pi SBC",
+    "category": "Microcomputers & SBCs"
+  },
+  {
+    "name": "RetroRGB Homebrew",
+    "url": "https://www.retrorgb.com/homebrew.html",
+    "desc": "Homebrew guides",
+    "category": "Retro Console Homebrew"
+  },
+  {
+    "name": "No Camera Bag",
+    "url": "https://nocamerabag.com/",
+    "desc": "Ghost town photos",
+    "category": "Abandoned Places"
+  },
+  {
+    "name": "The Prepared",
+    "url": "https://theprepared.com/",
+    "desc": "Self-reliance",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "The Survivalist Blog",
+    "url": "https://thesurvivalistblog.net/",
+    "desc": "Survival tips",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Backdoor Survival",
+    "url": "https://backdoorsurvival.com/",
+    "desc": "Survival preparedness",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Instinctive Survival",
+    "url": "https://instinctivesurvival.com/",
+    "desc": "Survival skills",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "NWS",
+    "url": "https://www.weather.gov/",
+    "desc": "Weather alerts",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Red Cross",
+    "url": "https://www.redcross.org/",
+    "desc": "Emergency prep",
+    "category": "Survival & Homesteading"
+  },
+  {
+    "name": "Yggdrasil",
+    "url": "https://yggdrasil-network.github.io/",
+    "desc": "Mesh network",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "cjdns",
+    "url": "https://github.com/cjdelisle/cjdns",
+    "desc": "Mesh routing",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "Scuttlebutt",
+    "url": "https://ssb.cookiehedgehog.com/",
+    "desc": "Social mesh",
+    "category": "Alternative Protocols"
+  },
+  {
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "desc": "World news",
+    "category": "News"
+  },
+  {
+    "name": "AP News",
+    "url": "https://apnews.com/",
+    "desc": "Associated Press",
+    "category": "News"
+  },
+  {
+    "name": "Democracy Now",
+    "url": "https://www.democracynow.org/",
+    "desc": "Independent news",
+    "category": "News"
+  },
+  {
+    "name": "Nolo",
+    "url": "https://www.nolo.com/",
+    "desc": "Legal information",
+    "category": "Legal"
+  },
+  {
+    "name": "Cornell Law",
+    "url": "https://www.law.cornell.edu/",
+    "desc": "Legal research",
+    "category": "Legal"
+  },
+  {
+    "name": "GPL",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+    "desc": "Open source license",
+    "category": "Legal"
+  },
+  {
+    "name": "Docker Hub",
+    "url": "https://hub.docker.com/",
+    "desc": "Container images",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "DuckDuckGo Tor",
+    "url": "https://3g2upl4pq6kufc4m.onion/",
+    "desc": "DDG for Tor",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Proton Mail",
+    "url": "https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r2o4by53rseagrliqd.onion/",
+    "desc": "Proton on Tor",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Hidden Wiki",
+    "url": "https://thehiddenwiki.com/",
+    "desc": "Dark web directory",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Onion Site",
+    "url": "https://onion-site.com/",
+    "desc": "Onion links",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Dark Web Links",
+    "url": "https://darkweb.link/",
+    "desc": "Dark web directory",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Fresh Onions",
+    "url": "https://鲜锋百科.com/",
+    "desc": "Onion links",
+    "category": "Dark Web"
+  },
+  {
+    "name": "Framer",
+    "url": "https://framer.com/",
+    "desc": "Prototyping",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "InVision",
+    "url": "https://www.invisionapp.com/",
+    "desc": "Design collab",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Principle",
+    "url": "https://principleformac.com/",
+    "desc": "Animation tool",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "LottieFiles",
+    "url": "https://lottiefiles.com/",
+    "desc": "JSON animations",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Rive",
+    "url": "https://rive.app/",
+    "desc": "Interactive animations",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "Haiku",
+    "url": "https://www.haikuanimator.com/",
+    "desc": "3D animation",
+    "category": "Creative Tools"
+  },
+  {
+    "name": "iTerm2",
+    "url": "https://iterm2.com/",
+    "desc": "Mac terminal",
+    "category": "Terminal"
+  },
+  {
+    "name": "Windows Terminal",
+    "url": "https://aka.ms/terminal",
+    "desc": "Windows terminal",
+    "category": "Terminal"
+  },
+  {
+    "name": "Alacritty",
+    "url": "https://alacritty.org/",
+    "desc": "GPU terminal",
+    "category": "Terminal"
+  },
+  {
+    "name": "Kitty",
+    "url": "https://sw.kovidgoyal.net/kitty/",
+    "desc": "Fast terminal",
+    "category": "Terminal"
+  },
+  {
+    "name": "WezTerm",
+    "url": "https://wezfurlong.org/wezterm/",
+    "desc": "Cross-platform",
+    "category": "Terminal"
+  },
+  {
+    "name": "Terminus",
+    "url": "https://eugeny.github.io/terminus/",
+    "desc": "Windows terminal",
+    "category": "Terminal"
+  },
+  {
+    "name": "Guake",
+    "url": "https://github.com/Guake/guake",
+    "desc": "Drop-down terminal",
+    "category": "Terminal"
+  },
+  {
+    "name": "Slant",
+    "url": "https://www.slant.co/",
+    "desc": "Product opinions",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "SaaS Genie",
+    "url": "https://www.saasgenie.co/",
+    "desc": "SaaS directory",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "There's An App For That",
+    "url": "https://thereisanappforthat.com/",
+    "desc": "App directory",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "Alternative.me",
+    "url": "https://alternative.me/",
+    "desc": "App alternatives",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "OpenSource",
+    "url": "https://opensourcedirectory.com/",
+    "desc": "Open source apps",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "LibreBoard",
+    "url": "https://libreboard.com/",
+    "desc": "Open source apps",
+    "category": "Software & Apps"
+  },
+  {
+    "name": "Jabberwocky Graphix",
+    "url": "https://www.jabberwockygraphix.com/",
+    "desc": "Small press comics",
+    "category": "Underground Comics & Zines"
   }
 ]
