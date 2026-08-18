@@ -3,34 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[-] Aion</title>
+  <title>Aion</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>">
 </head>
 <body>
-  <nav>
-    <a id="nav-home" onclick="renderHome()">[HOME]</a>
-    <a id="nav-links" onclick="renderLinksPage()">[LINKS]</a>
-    <span class="stats">7,562 links / 32 categories</span>
-  </nav>
+  <div class="shell">
+    <nav>
+      <div class="logo">A<span>ion</span></div>
+      <a id="nav-home" onclick="renderHome()">Home</a>
+      <a id="nav-links" onclick="renderLinksPage()">Links</a>
+      <span class="meta" id="nav-meta"></span>
+    </nav>
 
-  <!-- HOME -->
-  <div id="page-home" class="page active">
-    <div id="home-content"></div>
+    <div id="page-home" class="page active"></div>
+    <div id="page-links" class="page"></div>
+
+    <footer>7,562 curated links &middot; No logging, no tracking, no censorship</footer>
   </div>
-
-  <!-- LINKS -->
-  <div id="page-links" class="page">
-    <h1>[-] Links</h1>
-    <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search (supports multiple words)..." oninput="onSearch()">
-      <span class="result-count" id="result-count"></span>
-    </div>
-    <div class="cat-tree" id="cat-tree"></div>
-    <div class="links-list" id="links-list"></div>
-    <div class="pagination" id="pagination"></div>
-  </div>
-
-  <footer>Aion © 2026 — Information wants to be free. | [H] Home [L] Links</footer>
 
   <script src="links.js"></script>
   <script src="js/app.js"></script>

@@ -1,227 +1,189 @@
 const PAGE_SIZE = 50;
-let currentCategory = '';
+let currentCat = '';
 let currentSub = '';
 let currentPage = 1;
-let filteredLinks = [];
+let filtered = [];
 
 function init() {
-  buildStats();
-  buildCatTree();
+  buildIndex();
   renderHome();
 }
 
-// ── Stats ──────────────────────────────────
-function buildStats() {
-  const cats = {};
-  const subs = {};
+function buildIndex() {
+  window.catIndex = {};
   linksData.forEach(l => {
-    cats[l.category] = (cats[l.category] || 0) + 1;
-    const key = l.category + '|' + (l.subcategory || '');
-    subs[key] = (subs[key] || 0) + 1;
+    if (!catIndex[l.category]) catIndex[l.category] = {};
+    const s = l.subcategory || 'General';
+    catIndex[l.category][s] = (catIndex[l.category][s] || 0) + 1;
   });
-  window.totalCats = Object.keys(cats).length;
-  window.totalSubs = Object.keys(subs).length;
-  window.totalLinks = linksData.length;
+  window.totalCats = Object.keys(catIndex).length;
+  window.totalSubs = Object.values(catIndex).reduce((a, c) => a + Object.keys(c).length, 0);
+  document.getElementById('nav-meta').textContent = `${linksData.length} links`;
 }
 
+// ── Home ──────────────────────────────────
 function renderHome() {
   showPage('home');
-  setActiveNav('home');
+  setActive('home');
+  const picks = [...linksData].sort(() => 0.5 - Math.random()).slice(0, 8);
 
-  const el = document.getElementById('home-content');
-  const featured = [...linksData].sort(() => 0.5 - Math.random()).slice(0, 12);
-  el.innerHTML = `
-    <div class="hero">
-      <pre>┌────────────────────────────┐
-│                            │
-│   NO LOGGING               │
-│   NO TRACKING              │
-│   NO CENSORSHIP            │
-│                            │
-└────────────────────────────┘</pre>
-      <p>Welcome to Aion — ${window.totalLinks} curated links across ${window.totalCats} categories.</p>
+  document.getElementById('page-home').innerHTML = `
+    <div class="home-hero">
+      <h1>A<span>ion</span></h1>
+      <p>A curated collection of interesting websites, tools, and resources across the internet.</p>
     </div>
-    <div class="stats-grid">
-      <div class="stat-card"><div class="num">${window.totalLinks}</div><div class="label">Links</div></div>
-      <div class="stat-card"><div class="num">${window.totalCats}</div><div class="label">Categories</div></div>
-      <div class="stat-card"><div class="num">${window.totalSubs}</div><div class="label">Subcategories</div></div>
+    <div class="home-stats">
+      <div class="home-stat"><div class="num">${linksData.length.toLocaleString()}</div><div class="label">Links</div></div>
+      <div class="home-stat"><div class="num">${totalCats}</div><div class="label">Categories</div></div>
+      <div class="home-stat"><div class="num">${totalSubs}</div><div class="label">Subcategories</div></div>
     </div>
-    <h2>Random Picks</h2>
-    ${featured.map(l => renderLinkCard(l)).join('')}
+    <div class="section-title">Random picks</div>
+    <div class="link-list">${picks.map(renderCard).join('')}</div>
   `;
-}
-
-// ── Category tree ──────────────────────────
-function buildCatTree() {
-  const tree = {};
-  linksData.forEach(l => {
-    if (!tree[l.category]) tree[l.category] = {};
-    const sub = l.subcategory || 'General';
-    tree[l.category][sub] = (tree[l.category][sub] || 0) + 1;
-  });
-  window.catTree = tree;
-}
-
-function renderCatTree() {
-  const tree = window.catTree;
-  const el = document.getElementById('cat-tree');
-  let html = `<div class="cat-group"><div class="cat-parent ${!currentCategory ? 'active' : ''}" onclick="selectCat('')" style="color: #569cd6;">All Categories <span class="count">${linksData.length}</span></div></div>`;
-
-  Object.keys(tree).sort().forEach(cat => {
-    const total = Object.values(tree[cat]).reduce((a, b) => a + b, 0);
-    const isOpen = cat === currentCategory;
-    html += `<div class="cat-group">
-      <div class="cat-parent ${isOpen ? 'active' : ''}" onclick="selectCat('${esc(cat)}')">${esc(cat)} <span class="count">${total}</span></div>
-      <div class="cat-subs ${isOpen ? 'open' : ''}">`;
-
-    Object.keys(tree[cat]).sort().forEach(sub => {
-      const isActive = cat === currentCategory && sub === currentSub;
-      html += `<div class="cat-sub ${isActive ? 'active' : ''}" onclick="selectSub('${esc(cat)}','${esc(sub)}')">${esc(sub)} <span class="count">${tree[cat][sub]}</span></div>`;
-    });
-
-    html += `</div></div>`;
-  });
-  el.innerHTML = html;
-}
-
-function selectCat(cat) {
-  currentCategory = cat;
-  currentSub = '';
-  currentPage = 1;
-  applyFilter();
-  renderCatTree();
-}
-
-function selectCatFromFilter(cat) {
-  currentCategory = cat;
-  currentSub = '';
-  currentPage = 1;
-  applyFilter();
-  renderCatTree();
-  showPage('links');
-  setActiveNav('links');
-}
-
-function selectSub(cat, sub) {
-  currentCategory = cat;
-  currentSub = sub;
-  currentPage = 1;
-  applyFilter();
-  renderCatTree();
 }
 
 // ── Links page ─────────────────────────────
 function renderLinksPage() {
   showPage('links');
-  setActiveNav('links');
-  renderCatTree();
-  document.getElementById('search-input').value = '';
+  setActive('links');
   currentPage = 1;
-  applyFilter();
+  currentCat = '';
+  currentSub = '';
+  filtered = linksData;
+  renderLinksUI();
 }
 
-function applyFilter() {
-  const query = (document.getElementById('search-input')?.value || '').toLowerCase().trim();
+function renderLinksUI() {
+  const page = document.getElementById('page-links');
+  const cats = Object.keys(catIndex).sort();
 
-  filteredLinks = linksData.filter(l => {
-    if (currentCategory && l.category !== currentCategory) return false;
-    if (currentSub && (l.subcategory || 'General') !== currentSub) return false;
-    if (query) {
-      const haystack = (l.name + ' ' + l.desc + ' ' + l.url + ' ' + (l.subcategory || '')).toLowerCase();
-      const words = query.split(/\s+/);
-      if (!words.every(w => haystack.includes(w))) return false;
-    }
-    return true;
-  });
-
-  renderLinkList();
-  renderPagination();
-
-  const countEl = document.getElementById('result-count');
-  if (countEl) countEl.textContent = `${filteredLinks.length} links`;
+  page.innerHTML = `
+    <div class="links-header">
+      <h1>Links</h1>
+      <div class="search-row">
+        <input class="search-input" id="search" placeholder="Search..." oninput="onSearch()">
+        <span class="result-count" id="count">${filtered.length}</span>
+      </div>
+    </div>
+    <div class="cat-bar" id="cat-bar">
+      <button class="cat-pill ${!currentCat ? 'active' : ''}" onclick="pickCat('')">All</button>
+      ${cats.map(c => {
+        const n = Object.values(catIndex[c]).reduce((a, b) => a + b, 0);
+        return `<button class="cat-pill ${c === currentCat ? 'active' : ''}" onclick="pickCat('${esc(c)}')">${esc(c)}<span class="count">${n}</span></button>`;
+      }).join('')}
+    </div>
+    ${currentCat ? renderSubBar() : ''}
+    <div class="link-list" id="list">${filtered.slice(0, PAGE_SIZE).map(renderCard).join('')}</div>
+    <div class="pager" id="pager"></div>
+  `;
+  renderPager();
 }
 
-function renderLinkList() {
-  const el = document.getElementById('links-list');
-  const start = (currentPage - 1) * PAGE_SIZE;
-  const page = filteredLinks.slice(start, start + PAGE_SIZE);
-
-  if (page.length === 0) {
-    el.innerHTML = '<div style="color:#444; padding:20px; text-align:center;">No results found.</div>';
-    return;
-  }
-
-  el.innerHTML = page.map(l => renderLinkCard(l)).join('');
-}
-
-function renderLinkCard(l) {
-  const sub = l.subcategory ? `<span class="cat-label">${esc(l.subcategory)}</span>` : '';
-  return `<div class="link-card">
-    <a class="name" href="${esc(l.url)}" target="_blank">${esc(l.name)}</a>
-    <div class="desc">${esc(l.desc)}</div>
-    <div class="meta">${sub}</div>
+function renderSubBar() {
+  const subs = catIndex[currentCat] || {};
+  return `<div class="sub-bar">
+    <button class="sub-pill ${!currentSub ? 'active' : ''}" onclick="pickSub('')">All ${esc(currentCat)}</button>
+    ${Object.keys(subs).sort().map(s =>
+      `<button class="sub-pill ${s === currentSub ? 'active' : ''}" onclick="pickSub('${esc(s)}')">${esc(s)}</button>`
+    ).join('')}
   </div>`;
 }
 
-// ── Pagination ─────────────────────────────
-function renderPagination() {
-  const el = document.getElementById('pagination');
-  const totalPages = Math.ceil(filteredLinks.length / PAGE_SIZE);
-  if (totalPages <= 1) { el.innerHTML = ''; return; }
-
-  let html = '';
-  html += `<button ${currentPage === 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">&laquo;</button>`;
-
-  const range = 3;
-  let startP = Math.max(1, currentPage - range);
-  let endP = Math.min(totalPages, currentPage + range);
-
-  if (startP > 1) html += `<button onclick="goPage(1)">1</button><button disabled>...</button>`;
-  for (let i = startP; i <= endP; i++) {
-    html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
-  }
-  if (endP < totalPages) html += `<button disabled>...</button><button onclick="goPage(${totalPages})">${totalPages}</button>`;
-
-  html += `<button ${currentPage === totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">&raquo;</button>`;
-  el.innerHTML = html;
+function pickCat(cat) {
+  currentCat = cat;
+  currentSub = '';
+  currentPage = 1;
+  applyFilter();
+  renderLinksUI();
 }
 
-function goPage(p) {
-  currentPage = p;
-  renderLinkList();
-  renderPagination();
-  document.getElementById('links-list').scrollIntoView({ behavior: 'smooth' });
+function pickSub(sub) {
+  currentSub = sub;
+  currentPage = 1;
+  applyFilter();
+  renderLinksUI();
 }
 
 function onSearch() {
   currentPage = 1;
   applyFilter();
+  document.getElementById('list').innerHTML = filtered.slice(0, PAGE_SIZE).map(renderCard).join('');
+  document.getElementById('count').textContent = filtered.length;
+  renderPager();
 }
 
-// ── Navigation ─────────────────────────────
+function applyFilter() {
+  const q = (document.getElementById('search')?.value || '').toLowerCase().trim();
+  filtered = linksData.filter(l => {
+    if (currentCat && l.category !== currentCat) return false;
+    if (currentSub && (l.subcategory || 'General') !== currentSub) return false;
+    if (q) {
+      const h = (l.name + ' ' + l.desc + ' ' + l.url).toLowerCase();
+      if (!q.split(/\s+/).every(w => h.includes(w))) return false;
+    }
+    return true;
+  });
+  document.getElementById('count').textContent = filtered.length;
+}
+
+// ── Card ──────────────────────────────────
+function renderCard(l) {
+  return `<div class="link-card">
+    <a class="name" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a>
+    <span class="sep">&mdash;</span>
+    <span class="desc">${esc(l.desc)}</span>
+    ${l.subcategory ? `<span class="tag">${esc(l.subcategory)}</span>` : ''}
+  </div>`;
+}
+
+// ── Pager ─────────────────────────────────
+function renderPager() {
+  const total = Math.ceil(filtered.length / PAGE_SIZE);
+  const el = document.getElementById('pager');
+  if (!el || total <= 1) { if (el) el.innerHTML = ''; return; }
+
+  let h = '';
+  h += `<button ${currentPage === 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">&larr;</button>`;
+  const r = 2;
+  const s = Math.max(1, currentPage - r);
+  const e = Math.min(total, currentPage + r);
+  if (s > 1) h += `<button onclick="goPage(1)">1</button><button disabled>&hellip;</button>`;
+  for (let i = s; i <= e; i++) h += `<button class="${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
+  if (e < total) h += `<button disabled>&hellip;</button><button onclick="goPage(${total})">${total}</button>`;
+  h += `<button ${currentPage === total ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">&rarr;</button>`;
+  el.innerHTML = h;
+}
+
+function goPage(p) {
+  currentPage = p;
+  const el = document.getElementById('list');
+  el.innerHTML = filtered.slice((p - 1) * PAGE_SIZE, p * PAGE_SIZE).map(renderCard).join('');
+  renderPager();
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ── Nav helpers ────────────────────────────
 function showPage(name) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  const el = document.getElementById('page-' + name);
-  if (el) el.classList.add('active');
+  document.getElementById('page-' + name).classList.add('active');
 }
 
-function setActiveNav(name) {
+function setActive(name) {
   document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-  const el = document.getElementById('nav-' + name);
-  if (el) el.classList.add('active');
+  document.getElementById('nav-' + name)?.classList.add('active');
 }
 
 function esc(s) {
   if (!s) return '';
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
 }
 
-// ── Keyboard shortcuts ─────────────────────
 document.addEventListener('keydown', e => {
-  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
-  if (e.key === 'h' || e.key === 'H') renderHome();
-  if (e.key === 'l' || e.key === 'L') renderLinksPage();
+  if (e.target.tagName === 'INPUT') return;
+  if (e.key === 'h') renderHome();
+  if (e.key === 'l') renderLinksPage();
 });
 
-// ── Start ──────────────────────────────────
 document.addEventListener('DOMContentLoaded', init);
