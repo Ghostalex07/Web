@@ -1,25 +1,26 @@
 #!/usr/bin/env python3
 """
 Aion Links Manager
-Script to manage links in the hub
+Manage links in the hub: add, remove, search, validate, export.
 """
 
 import json
 import sys
 import os
+from datetime import datetime
 
-LINKS_FILE = 'links.json'
-JS_FILE = 'links.js'
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SCRIPT_DIR)
+LINKS_FILE = os.path.join(ROOT_DIR, 'links.json')
+JS_FILE = os.path.join(ROOT_DIR, 'links.js')
 
 
 def load_links():
-    """Load links from JSON"""
     with open(LINKS_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
 def save_links(links):
-    """Save links to JSON and regenerate JS"""
     with open(LINKS_FILE, 'w', encoding='utf-8') as f:
         json.dump(links, f, ensure_ascii=False, indent=2)
     generate_js()
@@ -27,154 +28,134 @@ def save_links(links):
 
 
 def generate_js():
-    """Generate links.js from links.json"""
     with open(LINKS_FILE, 'r', encoding='utf-8') as f:
         links = json.load(f)
-
-    js_content = f'const linksData = {json.dumps(links, ensure_ascii=False)};\n'
-
+    js = f'const linksData = {json.dumps(links, ensure_ascii=False)};\n'
     with open(JS_FILE, 'w', encoding='utf-8') as f:
-        f.write(js_content)
-
-    print(f"Generated: {JS_FILE} ({len(links)} links)")
+        f.write(js)
+    print(f"Generated: links.js ({len(links)} links)")
 
 
 def add_links(new_links):
-    """Add new links"""
     links = load_links()
-    existing_urls = {link['url'] for link in links}
-
+    existing = {l['url'] for l in links}
     added = 0
     for link in new_links:
-        if link['url'] not in existing_urls:
+        if link['url'] not in existing:
+            link.setdefault('subcategory', link.get('subcategory', 'General'))
             links.append(link)
-            existing_urls.add(link['url'])
+            existing.add(link['url'])
             added += 1
-
     save_links(links)
-    print(f"Added: {added} links")
+    print(f"Added: {added} new links")
     return added
 
 
 def remove_duplicates():
-    """Remove duplicate links by URL"""
     links = load_links()
-    original_count = len(links)
-
     seen = set()
-    unique_links = []
-    for link in links:
-        if link['url'] not in seen:
-            unique_links.append(link)
-            seen.add(link['url'])
-
-    removed = original_count - len(unique_links)
-    save_links(unique_links)
-    print(f"Removed: {removed} duplicates")
-    print(f"Total: {len(unique_links)} links")
-    return removed
+    unique = []
+    for l in links:
+        if l['url'] not in seen:
+            unique.append(l)
+            seen.add(l['url'])
+    removed = len(links) - len(unique)
+    save_links(unique)
+    print(f"Removed: {removed} duplicates, {len(unique)} remaining")
 
 
 def list_categories():
-    """List all categories"""
     links = load_links()
-    categories = {}
-    for link in links:
-        cat = link.get('category', 'Uncategorized')
-        categories[cat] = categories.get(cat, 0) + 1
+    tree = {}
+    for l in links:
+        cat = l.get('category', 'Uncategorized')
+        sub = l.get('subcategory', 'General')
+        if cat not in tree:
+            tree[cat] = {}
+        tree[cat][sub] = tree[cat].get(sub, 0) + 1
 
-    print("\n=== Categories ===")
-    for cat, count in sorted(categories.items()):
-        print(f"  {cat}: {count}")
-    print(f"\nTotal: {len(categories)} categories, {len(links)} links")
+    print(f"\n=== Categories ({len(tree)} main) ===\n")
+    for cat in sorted(tree.keys()):
+        total = sum(tree[cat].values())
+        print(f"  {cat} ({total})")
+        for sub, count in sorted(tree[cat].items()):
+            print(f"    {sub}: {count}")
+        print()
 
 
 def search_links(query):
-    """Search links by name, description or URL"""
     links = load_links()
-    query_lower = query.lower()
-
-    results = []
-    for link in links:
-        if (query_lower in link['name'].lower() or
-            query_lower in link['desc'].lower() or
-            query_lower in link['url'].lower()):
-            results.append(link)
-
-    print(f"\n=== Results for '{query}' ({len(results)}) ===")
-    for link in results[:20]:
-        print(f"  [{link['category']}] {link['name']}")
-        print(f"    {link['url']}")
-
+    q = query.lower()
+    results = [l for l in links if q in (l['name'] + l['desc'] + l['url'] + l.get('category', '') + l.get('subcategory', '')).lower()]
+    print(f"\n=== Results for '{query}' ({len(results)}) ===\n")
+    for l in results[:20]:
+        print(f"  [{l.get('category', '?')}/{l.get('subcategory', '?')}] {l['name']}")
+        print(f"    {l['url']}")
     if len(results) > 20:
         print(f"  ... and {len(results) - 20} more")
-
     return results
 
 
 def validate_links():
-    """Validate link format"""
     links = load_links()
     errors = []
-
-    for i, link in enumerate(links):
-        required = ['name', 'url', 'desc', 'category']
-        for field in required:
-            if field not in link:
-                errors.append(f"Missing '{field}' in link {i}: {link.get('name', 'Unknown')}")
-
-        if 'url' in link and not link['url'].startswith(('http://', 'https://')):
-            errors.append(f"Invalid URL: {link['url']}")
+    for i, l in enumerate(links):
+        for field in ['name', 'url', 'desc', 'category']:
+            if field not in l:
+                errors.append(f"Missing '{field}' in link {i}: {l.get('name', '?')}")
+        if 'url' in l and not l['url'].startswith(('http://', 'https://', 'gopher://')):
+            errors.append(f"Invalid URL: {l['url']}")
+        if not l.get('subcategory'):
+            errors.append(f"Missing subcategory: {l.get('name', '?')}")
 
     if errors:
-        print("\n=== Errors found ===")
-        for err in errors[:20]:
-            print(f"  {err}")
-        if len(errors) > 20:
-            print(f"  ... and {len(errors) - 20} more")
+        print(f"\n=== {len(errors)} errors found ===")
+        for e in errors[:20]:
+            print(f"  {e}")
     else:
-        print("All links are valid")
-
+        print("All links valid")
     return len(errors) == 0
 
 
 def export_to_markdown():
-    """Export links to Markdown format"""
     links = load_links()
-
-    categories = {}
-    for link in links:
-        cat = link.get('category', 'Uncategorized')
-        if cat not in categories:
-            categories[cat] = []
-        categories[cat].append(link)
+    tree = {}
+    for l in links:
+        cat = l.get('category', 'Uncategorized')
+        sub = l.get('subcategory', 'General')
+        if cat not in tree:
+            tree[cat] = {}
+        if sub not in tree[cat]:
+            tree[cat][sub] = []
+        tree[cat][sub].append(l)
 
     md = "# Aion Links\n\n"
-    md += f"> Total: {len(links)} links in {len(categories)} categories\n\n"
-
-    for cat in sorted(categories.keys()):
+    md += f"> {len(links)} links across {len(tree)} categories\n\n"
+    for cat in sorted(tree.keys()):
         md += f"## {cat}\n\n"
-        for link in sorted(categories[cat], key=lambda x: x['name']):
-            md += f"- [{link['name']}]({link['url']}) - {link['desc']}\n"
-        md += "\n"
+        for sub in sorted(tree[cat].keys()):
+            md += f"### {sub}\n\n"
+            for l in sorted(tree[cat][sub], key=lambda x: x['name']):
+                md += f"- [{l['name']}]({l['url']}) — {l['desc']}\n"
+            md += "\n"
 
-    with open('links.md', 'w', encoding='utf-8') as f:
+    out = os.path.join(ROOT_DIR, 'links.md')
+    with open(out, 'w', encoding='utf-8') as f:
         f.write(md)
-
     print(f"Exported to links.md ({len(links)} links)")
 
 
 def main():
     if len(sys.argv) < 2:
         print(__doc__)
-        print("\nUsage:")
-        print("  python manager.py add <name> <url> <desc> <category>")
-        print("  python manager.py duplicates")
-        print("  python manager.py categories")
-        print("  python manager.py search <query>")
-        print("  python manager.py validate")
-        print("  python manager.py export")
-        print("  python manager.py generate")
+        print("\nCommands:")
+        print("  add <name> <url> <desc> <category> [subcategory]")
+        print("  duplicates")
+        print("  categories")
+        print("  search <query>")
+        print("  validate")
+        print("  export")
+        print("  generate")
         sys.exit(1)
 
     cmd = sys.argv[1].lower()
@@ -184,28 +165,22 @@ def main():
             'name': sys.argv[2],
             'url': sys.argv[3],
             'desc': sys.argv[4],
-            'category': sys.argv[5]
+            'category': sys.argv[5],
+            'subcategory': sys.argv[6] if len(sys.argv) > 6 else 'General',
         }
         add_links([link])
-
     elif cmd == 'duplicates':
         remove_duplicates()
-
     elif cmd == 'categories':
         list_categories()
-
     elif cmd == 'search' and len(sys.argv) >= 3:
         search_links(sys.argv[2])
-
     elif cmd == 'validate':
         validate_links()
-
     elif cmd == 'export':
         export_to_markdown()
-
     elif cmd == 'generate':
         generate_js()
-
     else:
         print(f"Unknown command: {cmd}")
         sys.exit(1)
