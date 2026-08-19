@@ -7,17 +7,17 @@
 }
 
 :root {
-  --bg: #0c0c0c;
-  --bg-raised: #141414;
-  --bg-hover: #1a1a1a;
-  --border: #1e1e1e;
-  --border-hover: #2a2a2a;
-  --text: #717171;
-  --text-muted: #3f3f3f;
-  --text-strong: #a1a1a1;
-  --accent: #3ecf8e;
-  --accent-dim: #2a9d6a;
-  --accent-bg: rgba(62, 207, 142, 0.06);
+  --bg: #121212;
+  --bg-raised: #1a1a1a;
+  --bg-hover: #242424;
+  --border: #2a2a2a;
+  --border-hover: #3a3a3a;
+  --text: #a0a0a0;
+  --text-muted: #606060;
+  --text-strong: #d0d0d0;
+  --accent: #4ade80;
+  --accent-dim: #34c772;
+  --accent-bg: rgba(74, 222, 128, 0.08);
 }
 
 body {
@@ -35,7 +35,7 @@ a {
   transition: color 0.15s;
 }
 a:hover {
-  color: #5eeba8;
+  color: #6ee7a0;
 }
 
 /* ── Layout ───────────────────────────────── */
