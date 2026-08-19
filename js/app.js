@@ -49,6 +49,7 @@ function buildIndex() {
   window.totalCats = Object.keys(catIndex).length;
   window.totalSubs = Object.values(catIndex).reduce((a, c) => a + Object.keys(c).length, 0);
   document.getElementById('nav-meta').textContent = `${linksData.length.toLocaleString()} links`;
+  document.getElementById('footer-count').textContent = `${linksData.length.toLocaleString()} curated links`;
 }
 
 function getCatIcon(cat) {
