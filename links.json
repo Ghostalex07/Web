@@ -52937,5 +52937,516 @@
     "desc": "Firewall router",
     "category": "Tools",
     "subcategory": "Software"
+  },
+  {
+    "name": "IEEE Spectrum",
+    "url": "https://spectrum.ieee.org/",
+    "desc": "Engineering and technology",
+    "category": "Technology",
+    "subcategory": "News"
+  },
+  {
+    "name": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/",
+    "desc": "PC hardware reviews",
+    "category": "Technology",
+    "subcategory": "Hardware"
+  },
+  {
+    "name": "ServeTheHome",
+    "url": "https://www.servethehome.com/",
+    "desc": "Server and enterprise hardware",
+    "category": "Technology",
+    "subcategory": "Hardware"
+  },
+  {
+    "name": "Phoronix",
+    "url": "https://www.phoronix.com/",
+    "desc": "Linux hardware reviews",
+    "category": "Technology",
+    "subcategory": "Hardware"
+  },
+  {
+    "name": "OMG! Ubuntu",
+    "url": "https://www.omgubuntu.co.uk/",
+    "desc": "Ubuntu and Linux news",
+    "category": "Technology",
+    "subcategory": "Linux"
+  },
+  {
+    "name": "Phoronix",
+    "url": "https://www.phoronix.com/",
+    "desc": "Linux hardware reviews",
+    "category": "Technology",
+    "subcategory": "Linux"
+  },
+  {
+    "name": "Atom",
+    "url": "https://github.blog/2022-06-28-sunsetting-atom/",
+    "desc": "GitHub's text editor (archived)",
+    "category": "Tools",
+    "subcategory": "Editors"
+  },
+  {
+    "name": "Framer",
+    "url": "https://www.framer.com/",
+    "desc": "Interactive design tool",
+    "category": "Tools",
+    "subcategory": "Design"
+  },
+  {
+    "name": "Mermaid",
+    "url": "https://mermaid.js.org/",
+    "desc": "Diagram generation from text",
+    "category": "Tools",
+    "subcategory": "Design"
+  },
+  {
+    "name": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/",
+    "desc": "Biomedical literature",
+    "category": "Science",
+    "subcategory": "Preprints"
+  },
+  {
+    "name": "CERN",
+    "url": "https://home.cern/",
+    "desc": "Particle physics laboratory",
+    "category": "Science",
+    "subcategory": "Physics"
+  },
+  {
+    "name": "Scientific American",
+    "url": "https://www.scientificamerican.com/",
+    "desc": "Science magazine",
+    "category": "Science",
+    "subcategory": "Popular Science"
+  },
+  {
+    "name": "Nature",
+    "url": "https://www.nature.com/",
+    "desc": "Scientific journal",
+    "category": "Science",
+    "subcategory": "Journals"
+  },
+  {
+    "name": "Science",
+    "url": "https://www.science.org/",
+    "desc": "AAAS science journal",
+    "category": "Science",
+    "subcategory": "Journals"
+  },
+  {
+    "name": "Cell",
+    "url": "https://www.cell.com/",
+    "desc": "Biology journal",
+    "category": "Science",
+    "subcategory": "Journals"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve/",
+    "desc": "Professional video editing",
+    "category": "Creative",
+    "subcategory": "Video"
+  },
+  {
+    "name": "IMDb",
+    "url": "https://www.imdb.com/",
+    "desc": "Movie and TV database",
+    "category": "Entertainment",
+    "subcategory": "Movies"
+  },
+  {
+    "name": "TMDb",
+    "url": "https://www.themoviedb.org/",
+    "desc": "The Movie Database",
+    "category": "Entertainment",
+    "subcategory": "Movies"
+  },
+  {
+    "name": "Rotten Tomatoes",
+    "url": "https://www.rottentomatoes.com/",
+    "desc": "Movie reviews aggregator",
+    "category": "Entertainment",
+    "subcategory": "Movies"
+  },
+  {
+    "name": "Crunchyroll",
+    "url": "https://www.crunchyroll.com/",
+    "desc": "Anime streaming",
+    "category": "Entertainment",
+    "subcategory": "Anime"
+  },
+  {
+    "name": "Goodreads",
+    "url": "https://www.goodreads.com/",
+    "desc": "Book recommendations",
+    "category": "Entertainment",
+    "subcategory": "Books"
+  },
+  {
+    "name": "StoryGraph",
+    "url": "https://www.thestorygraph.com/",
+    "desc": "Book tracking",
+    "category": "Entertainment",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Libro.fm",
+    "url": "https://libro.fm/",
+    "desc": "Audiobooks from indie stores",
+    "category": "Entertainment",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Phold",
+    "url": "https://phold.com/",
+    "desc": "Hacker News frontend",
+    "category": "Communities",
+    "subcategory": "Forums"
+  },
+  {
+    "name": "Hubski",
+    "url": "https://hubski.com/",
+    "desc": "Thoughtful discussions",
+    "category": "Communities",
+    "subcategory": "Forums"
+  },
+  {
+    "name": "Bluesky",
+    "url": "https://bsky.app/",
+    "desc": "Decentralized social network",
+    "category": "Communities",
+    "subcategory": "Social"
+  },
+  {
+    "name": "Threads",
+    "url": "https://www.threads.net/",
+    "desc": "Meta's text-based app",
+    "category": "Communities",
+    "subcategory": "Social"
+  },
+  {
+    "name": "Cookie and Kate",
+    "url": "https://cookieandkate.com/",
+    "desc": "Whole foods cooking",
+    "category": "Food",
+    "subcategory": "Blogs"
+  },
+  {
+    "name": "Half Baked Harvest",
+    "url": "https://www.halfbakedharvest.com/",
+    "desc": "Creative recipes",
+    "category": "Food",
+    "subcategory": "Blogs"
+  },
+  {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/business/finance/",
+    "desc": "Financial news",
+    "category": "Finance",
+    "subcategory": "News"
+  },
+  {
+    "name": "Morningstar",
+    "url": "https://www.morningstar.com/",
+    "desc": "Investment research",
+    "category": "Finance",
+    "subcategory": "Investing"
+  },
+  {
+    "name": "Lifehacker",
+    "url": "https://lifehacker.com/",
+    "desc": "Tips and tricks",
+    "category": "Lifestyle",
+    "subcategory": "Tips"
+  },
+  {
+    "name": "Wirecutter",
+    "url": "https://www.nytimes.com/wirecutter/",
+    "desc": "Product recommendations",
+    "category": "Lifestyle",
+    "subcategory": "Reviews"
+  },
+  {
+    "name": "Consumer Reports",
+    "url": "https://www.consumerreports.org/",
+    "desc": "Product testing and ratings",
+    "category": "Lifestyle",
+    "subcategory": "Reviews"
+  },
+  {
+    "name": "Apartment Therapy",
+    "url": "https://www.apartmenttherapy.com/",
+    "desc": "Home decor and design",
+    "category": "Lifestyle",
+    "subcategory": "Home"
+  },
+  {
+    "name": "Zen Habits",
+    "url": "https://zenhabits.net/",
+    "desc": "Simple living blog",
+    "category": "Lifestyle",
+    "subcategory": "Wellness"
+  },
+  {
+    "name": "Mark's Daily Apple",
+    "url": "https://www.marksdailyapple.com/",
+    "desc": "Primal living",
+    "category": "Lifestyle",
+    "subcategory": "Wellness"
+  },
+  {
+    "name": "Precision Nutrition",
+    "url": "https://www.precisionnutrition.com/",
+    "desc": "Nutrition coaching",
+    "category": "Lifestyle",
+    "subcategory": "Health"
+  },
+  {
+    "name": "WhoSampled",
+    "url": "https://www.whosampled.com/",
+    "desc": "Music sampling database",
+    "category": "Music",
+    "subcategory": "Database"
+  },
+  {
+    "name": "Tunebat",
+    "url": "https://tunebat.com/",
+    "desc": "Key and BPM analyzer",
+    "category": "Music",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Chordify",
+    "url": "https://chordify.net/",
+    "desc": "Chord recognition",
+    "category": "Music",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Music Theory Net",
+    "url": "https://www.musictheory.net/",
+    "desc": "Free music theory lessons",
+    "category": "Music",
+    "subcategory": "Theory"
+  },
+  {
+    "name": "HowLongToBeat",
+    "url": "https://howlongtobeat.com/",
+    "desc": "Game completion times",
+    "category": "Gaming",
+    "subcategory": "Database"
+  },
+  {
+    "name": "PCGamingWiki",
+    "url": "https://www.pcgamingwiki.com/",
+    "desc": "PC game fixes and tweaks",
+    "category": "Gaming",
+    "subcategory": "Wiki"
+  },
+  {
+    "name": "Raspberry Pi",
+    "url": "https://www.raspberrypi.com/",
+    "desc": "Single board computers",
+    "category": "Hobbies",
+    "subcategory": "Electronics"
+  },
+  {
+    "name": "Espressif",
+    "url": "https://www.espressif.com/",
+    "desc": "ESP32 microcontrollers",
+    "category": "Hobbies",
+    "subcategory": "Electronics"
+  },
+  {
+    "name": "Cracked",
+    "url": "https://www.cracked.com/",
+    "desc": "Comedy and humor articles",
+    "category": "Internet Culture",
+    "subcategory": "Humor"
+  },
+  {
+    "name": "The Onion",
+    "url": "https://www.theonion.com/",
+    "desc": "Satirical news",
+    "category": "Internet Culture",
+    "subcategory": "Humor"
+  },
+  {
+    "name": "The Hard Times",
+    "url": "https://thehardtimes.net/",
+    "desc": "Satirical music news",
+    "category": "Internet Culture",
+    "subcategory": "Humor"
+  },
+  {
+    "name": "Reductress",
+    "url": "https://reductress.com/",
+    "desc": "Satirical women's media",
+    "category": "Internet Culture",
+    "subcategory": "Humor"
+  },
+  {
+    "name": "Ravelry",
+    "url": "https://www.ravelry.com/",
+    "desc": "Knitting and crochet community",
+    "category": "Crafts",
+    "subcategory": "Knitting"
+  },
+  {
+    "name": "Craftsy",
+    "url": "https://www.craftsy.com/",
+    "desc": "Craft classes and patterns",
+    "category": "Crafts",
+    "subcategory": "Classes"
+  },
+  {
+    "name": "Etsy",
+    "url": "https://www.etsy.com/",
+    "desc": "Handmade and vintage goods",
+    "category": "Crafts",
+    "subcategory": "Marketplace"
+  },
+  {
+    "name": "Maker's Mercantile",
+    "url": "https://www.makersmercantile.com/",
+    "desc": "Craft supplies",
+    "category": "Crafts",
+    "subcategory": "Supplies"
+  },
+  {
+    "name": "LoveCrafts",
+    "url": "https://www.lovecrafts.com/",
+    "desc": "Yarn and craft supplies",
+    "category": "Crafts",
+    "subcategory": "Supplies"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://telegram.org/",
+    "desc": "Cloud-based messaging",
+    "category": "Communication",
+    "subcategory": "Messaging"
+  },
+  {
+    "name": "WhatsApp",
+    "url": "https://www.whatsapp.com/",
+    "desc": "Meta messaging app",
+    "category": "Communication",
+    "subcategory": "Messaging"
+  },
+  {
+    "name": "Zoom",
+    "url": "https://zoom.us/",
+    "desc": "Video conferencing",
+    "category": "Communication",
+    "subcategory": "Video"
+  },
+  {
+    "name": "Jitsi",
+    "url": "https://jitsi.org/",
+    "desc": "Open-source video calls",
+    "category": "Communication",
+    "subcategory": "Video"
+  },
+  {
+    "name": "BigBlueButton",
+    "url": "https://bigbluebutton.org/",
+    "desc": "Open-source web conferencing",
+    "category": "Communication",
+    "subcategory": "Video"
+  },
+  {
+    "name": "Foundry VTT",
+    "url": "https://foundryvtt.com/",
+    "desc": "Virtual tabletop platform",
+    "category": "Tabletop",
+    "subcategory": "VTT"
+  },
+  {
+    "name": "Owlbear Rodeo",
+    "url": "https://www.owlbear.rodeo/",
+    "desc": "Simple virtual tabletop",
+    "category": "Tabletop",
+    "subcategory": "VTT"
+  },
+  {
+    "name": "D&D Beyond",
+    "url": "https://www.dndbeyond.com/",
+    "desc": "D&D digital tools",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "World Anvil",
+    "url": "https://www.worldanvil.com/",
+    "desc": "Worldbuilding platform",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Inkarnate",
+    "url": "https://inkarnate.com/",
+    "desc": "Fantasy map maker",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "Wonderdraft",
+    "url": "https://www.wonderdraft.net/",
+    "desc": "Fantasy map creation",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "Dungeon Scrawl",
+    "url": "https://dungeonscrawl.com/",
+    "desc": "Dungeon map generator",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "Lang-8",
+    "url": "https://lang-8.com/",
+    "desc": "Language correction community",
+    "category": "Languages",
+    "subcategory": "Practice"
+  },
+  {
+    "name": "The Hacker News",
+    "url": "https://thehackernews.com/",
+    "desc": "Cybersecurity news",
+    "category": "Security",
+    "subcategory": "News"
+  },
+  {
+    "name": "DeSmuME",
+    "url": "https://www.desmume.com/",
+    "desc": "Nintendo DS emulator",
+    "category": "Retro",
+    "subcategory": "Emulation"
+  },
+  {
+    "name": "Genesis Plus GX",
+    "url": "https://github.com/libretro/Genesis-Plus-GX",
+    "desc": "Sega Genesis emulator",
+    "category": "Retro",
+    "subcategory": "Emulation"
+  },
+  {
+    "name": "Emulation Zone",
+    "url": "https://www.emulationzone.org/",
+    "desc": "Emulation resources",
+    "category": "Retro",
+    "subcategory": "Resources"
+  },
+  {
+    "name": "The Emulator Zone",
+    "url": "https://www.emulator-zone.com/",
+    "desc": "Emulator downloads",
+    "category": "Retro",
+    "subcategory": "Resources"
   }
 ]
