@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +13,82 @@
       <div class="logo">A<span>ion</span></div>
       <a id="nav-home" onclick="renderHome()">Home</a>
       <a id="nav-links" onclick="renderLinksPage()">Links</a>
+      <a id="nav-about" onclick="renderAbout()">About</a>
       <span class="meta" id="nav-meta"></span>
+      <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
     </nav>
 
     <div id="page-home" class="page active"></div>
     <div id="page-links" class="page"></div>
+    <div id="page-about" class="page"></div>
 
-    <footer>7,562 curated links &middot; No logging, no tracking, no censorship</footer>
+    <footer>
+      <div class="footer-content">
+        <span>7,562 curated links</span>
+        <span class="footer-sep">&middot;</span>
+        <span>No logging, no tracking, no censorship</span>
+      </div>
+      <div class="footer-shortcuts">
+        Press <kbd>?</kbd> for keyboard shortcuts
+      </div>
+    </footer>
+  </div>
+
+  <button class="back-to-top" id="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <div class="shortcuts-modal" id="shortcuts-modal">
+    <div class="shortcuts-overlay" onclick="closeShortcuts()"></div>
+    <div class="shortcuts-content">
+      <div class="shortcuts-header">
+        <h3>Keyboard Shortcuts</h3>
+        <button class="shortcuts-close" onclick="closeShortcuts()">&times;</button>
+      </div>
+      <div class="shortcuts-grid">
+        <div class="shortcut-item">
+          <kbd>h</kbd>
+          <span>Go to Home</span>
+        </div>
+        <div class="shortcut-item">
+          <kbd>l</kbd>
+          <span>Go to Links</span>
+        </div>
+        <div class="shortcut-item">
+          <kbd>a</kbd>
+          <span>Go to About</span>
+        </div>
+        <div class="shortcut-item">
+          <kbd>/</kbd>
+          <span>Focus search</span>
+        </div>
+        <div class="shortcut-item">
+          <kbd>Esc</kbd>
+          <span>Close modal / Clear search</span>
+        </div>
+        <div class="shortcut-item">
+          <kbd>?</kbd>
+          <span>Show shortcuts</span>
+        </div>
+        <div class="shortcut-item">
+          <kbd>t</kbd>
+          <span>Toggle theme</span>
+        </div>
+        <div class="shortcut-item">
+          <kbd>r</kbd>
+          <span>Refresh random picks</span>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="links.js"></script>

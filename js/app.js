@@ -4,9 +4,39 @@ let currentSub = '';
 let currentPage = 1;
 let filtered = [];
 
+const catIcons = {
+  'Security Forums': { icon: '🛡️', color: 'rgba(239, 68, 68, 0.12)' },
+  'Books': { icon: '📚', color: 'rgba(59, 130, 246, 0.12)' },
+  'Business': { icon: '💼', color: 'rgba(168, 85, 247, 0.12)' },
+  'Design': { icon: '🎨', color: 'rgba(236, 72, 153, 0.12)' },
+  'Development': { icon: '💻', color: 'rgba(34, 197, 94, 0.12)' },
+  'Education': { icon: '🎓', color: 'rgba(234, 179, 8, 0.12)' },
+  'Entertainment': { icon: '🎮', color: 'rgba(249, 115, 22, 0.12)' },
+  'Finance': { icon: '💰', color: 'rgba(20, 184, 166, 0.12)' },
+  'Food': { icon: '🍔', color: 'rgba(244, 63, 94, 0.12)' },
+  'Gaming': { icon: '🕹️', color: 'rgba(139, 92, 246, 0.12)' },
+  'Health': { icon: '🏥', color: 'rgba(16, 185, 129, 0.12)' },
+  'Humor': { icon: '😄', color: 'rgba(251, 191, 36, 0.12)' },
+  'Lifestyle': { icon: '🌿', color: 'rgba(34, 197, 94, 0.12)' },
+  'Music': { icon: '🎵', color: 'rgba(236, 72, 153, 0.12)' },
+  'News': { icon: '📰', color: 'rgba(107, 114, 128, 0.12)' },
+  'Other': { icon: '🔗', color: 'rgba(156, 163, 175, 0.12)' },
+  'Photography': { icon: '📷', color: 'rgba(245, 158, 11, 0.12)' },
+  'Science': { icon: '🔬', color: 'rgba(6, 182, 212, 0.12)' },
+  'Shopping': { icon: '🛒', color: 'rgba(244, 63, 94, 0.12)' },
+  'Social': { icon: '💬', color: 'rgba(59, 130, 246, 0.12)' },
+  'Sports': { icon: '⚽', color: 'rgba(34, 197, 94, 0.12)' },
+  'Tech': { icon: '⚡', color: 'rgba(99, 102, 241, 0.12)' },
+  'Tools': { icon: '🛠️', color: 'rgba(107, 114, 128, 0.12)' },
+  'Travel': { icon: '✈️', color: 'rgba(14, 165, 233, 0.12)' },
+  'Video': { icon: '🎬', color: 'rgba(239, 68, 68, 0.12)' },
+};
+
 function init() {
   buildIndex();
+  loadTheme();
   renderHome();
+  setupScrollListener();
 }
 
 function buildIndex() {
@@ -18,14 +48,58 @@ function buildIndex() {
   });
   window.totalCats = Object.keys(catIndex).length;
   window.totalSubs = Object.values(catIndex).reduce((a, c) => a + Object.keys(c).length, 0);
-  document.getElementById('nav-meta').textContent = `${linksData.length} links`;
+  document.getElementById('nav-meta').textContent = `${linksData.length.toLocaleString()} links`;
+}
+
+function getCatIcon(cat) {
+  return catIcons[cat] || { icon: '🔗', color: 'rgba(156, 163, 175, 0.12)' };
+}
+
+// ── Theme ─────────────────────────────────
+function loadTheme() {
+  const saved = localStorage.getItem('aion-theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+  } else {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+  }
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('aion-theme', next);
+}
+
+// ── Scroll ─────────────────────────────────
+function setupScrollListener() {
+  const btn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  }, { passive: true });
+}
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // ── Home ──────────────────────────────────
 function renderHome() {
   showPage('home');
   setActive('home');
-  const picks = [...linksData].sort(() => 0.5 - Math.random()).slice(0, 8);
+
+  const featured = [...linksData]
+    .sort((a, b) => (b.name.length + b.desc.length) - (a.name.length + a.desc.length))
+    .slice(0, 12);
+
+  const cats = Object.keys(catIndex).sort();
+  const topCats = cats.slice(0, 8);
 
   document.getElementById('page-home').innerHTML = `
     <div class="home-hero">
@@ -37,9 +111,45 @@ function renderHome() {
       <div class="home-stat"><div class="num">${totalCats}</div><div class="label">Categories</div></div>
       <div class="home-stat"><div class="num">${totalSubs}</div><div class="label">Subcategories</div></div>
     </div>
-    <div class="section-title">Random picks</div>
-    <div class="link-list">${picks.map(renderCard).join('')}</div>
+    <div class="section-header">
+      <div class="section-title">Browse Categories</div>
+    </div>
+    <div class="cat-grid">
+      ${topCats.map(c => {
+        const info = getCatIcon(c);
+        const n = Object.values(catIndex[c]).reduce((a, b) => a + b, 0);
+        return `<div class="cat-card" onclick="jumpToCategory('${esc(c)}')">
+          <div class="cat-icon" style="background:${info.color}">${info.icon}</div>
+          <div class="cat-info">
+            <div class="cat-name">${esc(c)}</div>
+            <div class="cat-count">${n} links</div>
+          </div>
+        </div>`;
+      }).join('')}
+    </div>
+    <div class="section-header">
+      <div class="section-title">Featured Links</div>
+      <button class="section-action" onclick="refreshFeatured()">Refresh</button>
+    </div>
+    <div class="link-list" id="featured-list">${featured.map(renderCard).join('')}</div>
   `;
+}
+
+function refreshFeatured() {
+  const picks = [...linksData].sort(() => 0.5 - Math.random()).slice(0, 12);
+  const el = document.getElementById('featured-list');
+  if (el) {
+    el.style.opacity = '0';
+    setTimeout(() => {
+      el.innerHTML = picks.map(renderCard).join('');
+      el.style.opacity = '1';
+    }, 150);
+  }
+}
+
+function jumpToCategory(cat) {
+  renderLinksPage();
+  setTimeout(() => pickCat(cat), 10);
 }
 
 // ── Links page ─────────────────────────────
@@ -61,7 +171,7 @@ function renderLinksUI() {
     <div class="links-header">
       <h1>Links</h1>
       <div class="search-row">
-        <input class="search-input" id="search" placeholder="Search..." oninput="onSearch()">
+        <input class="search-input" id="search" placeholder="Search links..." oninput="onSearch()">
         <span class="result-count" id="count">${filtered.length}</span>
       </div>
     </div>
@@ -136,6 +246,39 @@ function renderCard(l) {
   </div>`;
 }
 
+// ── About ─────────────────────────────────
+function renderAbout() {
+  showPage('about');
+  setActive('about');
+
+  document.getElementById('page-about').innerHTML = `
+    <div class="about-content">
+      <h1>About Aion</h1>
+      <p>Aion is a curated collection of interesting websites, tools, and resources across the internet. No algorithms, no tracking, no censorship — just a hand-picked list of useful links.</p>
+      <p>Every link has been selected for its quality and usefulness. Whether you're looking for development tools, educational resources, or creative inspiration, you'll find something valuable here.</p>
+
+      <div class="about-section">
+        <h2>Keyboard Shortcuts</h2>
+        <ul class="about-list">
+          <li><span class="kbd">h</span> Go to Home</li>
+          <li><span class="kbd">l</span> Go to Links</li>
+          <li><span class="kbd">a</span> Go to About</li>
+          <li><span class="kbd">/</span> Focus search</li>
+          <li><span class="kbd">?</span> Show shortcuts modal</li>
+          <li><span class="kbd">t</span> Toggle dark/light theme</li>
+          <li><span class="kbd">r</span> Refresh random picks</li>
+          <li><span class="kbd">Esc</span> Close modal / Clear search</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h2>Data</h2>
+        <p>All link data is stored locally in your browser. No external requests are made except for the font files. Your browsing activity is completely private.</p>
+      </div>
+    </div>
+  `;
+}
+
 // ── Pager ─────────────────────────────────
 function renderPager() {
   const total = Math.ceil(filtered.length / PAGE_SIZE);
@@ -162,6 +305,15 @@ function goPage(p) {
   el.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+// ── Shortcuts Modal ────────────────────────
+function openShortcuts() {
+  document.getElementById('shortcuts-modal').classList.add('open');
+}
+
+function closeShortcuts() {
+  document.getElementById('shortcuts-modal').classList.remove('open');
+}
+
 // ── Nav helpers ────────────────────────────
 function showPage(name) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
@@ -180,10 +332,33 @@ function esc(s) {
   return d.innerHTML;
 }
 
+// ── Keyboard shortcuts ─────────────────────
 document.addEventListener('keydown', e => {
-  if (e.target.tagName === 'INPUT') return;
-  if (e.key === 'h') renderHome();
-  if (e.key === 'l') renderLinksPage();
+  if (e.target.tagName === 'INPUT') {
+    if (e.key === 'Escape') {
+      e.target.value = '';
+      e.target.blur();
+      if (document.getElementById('page-links').classList.contains('active')) {
+        onSearch();
+      }
+    }
+    return;
+  }
+
+  switch (e.key) {
+    case 'h': renderHome(); break;
+    case 'l': renderLinksPage(); break;
+    case 'a': renderAbout(); break;
+    case '/': e.preventDefault(); document.getElementById('search')?.focus(); break;
+    case '?': openShortcuts(); break;
+    case 't': toggleTheme(); break;
+    case 'r':
+      if (document.getElementById('page-home').classList.contains('active')) {
+        refreshFeatured();
+      }
+      break;
+    case 'Escape': closeShortcuts(); break;
+  }
 });
 
 document.addEventListener('DOMContentLoaded', init);
