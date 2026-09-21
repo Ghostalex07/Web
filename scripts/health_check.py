@@ -1,21 +1,29 @@
 #!/usr/bin/env python3
-"""Check if URLs in links.json are reachable."""
+"""Check if URLs in links.json are reachable.
+
+Usage:
+  python health_check.py [limit] [--insecure]
+  --insecure  skip TLS certificate verification (for hosts with broken certs)
+"""
 
 import json
 import os
 import sys
+import ssl
 import urllib.request
 import urllib.error
-import ssl
+
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
 
-def check_url(url, timeout=10):
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
+def check_url(url, timeout=10, insecure=False):
+    ctx = None
+    if insecure:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
     try:
         req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'Mozilla/5.0'})
         resp = urllib.request.urlopen(req, timeout=timeout, context=ctx)
@@ -30,13 +38,15 @@ def main():
     with open(os.path.join(ROOT_DIR, 'links.json'), 'r') as f:
         links = json.load(f)
 
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else len(links)
+    insecure = '--insecure' in sys.argv[1:]
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    limit = int(args[0]) if args else len(links)
     links = links[:limit]
 
-    print(f"Checking {len(links)} URLs...\n")
+    print(f"Checking {len(links)} URLs... (TLS verification: {'OFF' if insecure else 'ON'})\n")
     broken = []
     for i, l in enumerate(links):
-        status = check_url(l['url'])
+        status = check_url(l['url'], insecure=insecure)
         icon = '✓' if status and status < 400 else '✗'
         if icon == '✗':
             broken.append((l['name'], l['url'], status))

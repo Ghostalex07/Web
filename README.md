@@ -1,6 +1,6 @@
 # Aion - Links Hub
 
-> A cyberpunk-themed links hub. 7,500+ curated links organized into 32 categories with subcategories.
+> A cyberpunk-themed links hub. 7,500+ curated links organized into 22 categories with subcategories.
 
 ## Project Structure
 
@@ -9,8 +9,7 @@ Web/
 ├── index.html              # Main page
 ├── css/style.css           # Styles
 ├── js/app.js               # Frontend logic
-├── data/
-│   └── links.js            # Auto-generated from links.json
+├── links.js                # Auto-generated from links.json
 ├── scripts/
 │   ├── manager.py          # CLI: add, search, validate, export
 │   ├── migrate.py          # Category migration tool
@@ -79,6 +78,11 @@ python scripts/health_check.py 50
 
 - `H` — Home
 - `L` — Links
+- `A` — About
+- `/` — Focus search
+- `?` — Show shortcuts
+- `T` — Toggle theme
+- `R` — Refresh random picks
 
 ## License
 

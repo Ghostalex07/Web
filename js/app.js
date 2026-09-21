@@ -5,31 +5,28 @@ let currentPage = 1;
 let filtered = [];
 
 const catIcons = {
-  'Security Forums': { icon: '🛡️', color: 'rgba(239, 68, 68, 0.12)' },
   'Books': { icon: '📚', color: 'rgba(59, 130, 246, 0.12)' },
-  'Business': { icon: '💼', color: 'rgba(168, 85, 247, 0.12)' },
-  'Design': { icon: '🎨', color: 'rgba(236, 72, 153, 0.12)' },
-  'Development': { icon: '💻', color: 'rgba(34, 197, 94, 0.12)' },
-  'Education': { icon: '🎓', color: 'rgba(234, 179, 8, 0.12)' },
-  'Entertainment': { icon: '🎮', color: 'rgba(249, 115, 22, 0.12)' },
+  'Communication': { icon: '💬', color: 'rgba(6, 182, 212, 0.12)' },
+  'Communities': { icon: '👥', color: 'rgba(34, 197, 94, 0.12)' },
+  'Crafts': { icon: '✂️', color: 'rgba(249, 115, 22, 0.12)' },
+  'Creative': { icon: '🎨', color: 'rgba(168, 85, 247, 0.12)' },
+  'Entertainment': { icon: '🎮', color: 'rgba(236, 72, 153, 0.12)' },
   'Finance': { icon: '💰', color: 'rgba(20, 184, 166, 0.12)' },
   'Food': { icon: '🍔', color: 'rgba(244, 63, 94, 0.12)' },
   'Gaming': { icon: '🕹️', color: 'rgba(139, 92, 246, 0.12)' },
-  'Health': { icon: '🏥', color: 'rgba(16, 185, 129, 0.12)' },
-  'Humor': { icon: '😄', color: 'rgba(251, 191, 36, 0.12)' },
+  'Hobbies': { icon: '🧩', color: 'rgba(251, 191, 36, 0.12)' },
+  'Internet Culture': { icon: '🌐', color: 'rgba(217, 70, 239, 0.12)' },
+  'Knowledge': { icon: '📖', color: 'rgba(234, 179, 8, 0.12)' },
+  'Languages': { icon: '🗣️', color: 'rgba(59, 130, 246, 0.12)' },
   'Lifestyle': { icon: '🌿', color: 'rgba(34, 197, 94, 0.12)' },
   'Music': { icon: '🎵', color: 'rgba(236, 72, 153, 0.12)' },
-  'News': { icon: '📰', color: 'rgba(107, 114, 128, 0.12)' },
-  'Other': { icon: '🔗', color: 'rgba(156, 163, 175, 0.12)' },
-  'Photography': { icon: '📷', color: 'rgba(245, 158, 11, 0.12)' },
+  'Retro': { icon: '👾', color: 'rgba(6, 182, 212, 0.12)' },
   'Science': { icon: '🔬', color: 'rgba(6, 182, 212, 0.12)' },
-  'Shopping': { icon: '🛒', color: 'rgba(244, 63, 94, 0.12)' },
-  'Social': { icon: '💬', color: 'rgba(59, 130, 246, 0.12)' },
-  'Sports': { icon: '⚽', color: 'rgba(34, 197, 94, 0.12)' },
-  'Tech': { icon: '⚡', color: 'rgba(99, 102, 241, 0.12)' },
+  'Security': { icon: '🛡️', color: 'rgba(239, 68, 68, 0.12)' },
+  'Self-Hosting': { icon: '🏠', color: 'rgba(99, 102, 241, 0.12)' },
+  'Tabletop': { icon: '🎲', color: 'rgba(249, 115, 22, 0.12)' },
+  'Technology': { icon: '⚡', color: 'rgba(99, 102, 241, 0.12)' },
   'Tools': { icon: '🛠️', color: 'rgba(107, 114, 128, 0.12)' },
-  'Travel': { icon: '✈️', color: 'rgba(14, 165, 233, 0.12)' },
-  'Video': { icon: '🎬', color: 'rgba(239, 68, 68, 0.12)' },
 };
 
 function init() {
@@ -95,9 +92,7 @@ function renderHome() {
   showPage('home');
   setActive('home');
 
-  const featured = [...linksData]
-    .sort((a, b) => (b.name.length + b.desc.length) - (a.name.length + a.desc.length))
-    .slice(0, 12);
+  const featured = randomPicks(12);
 
   const cats = Object.keys(catIndex).sort();
   const topCats = cats.slice(0, 8);
@@ -136,8 +131,22 @@ function renderHome() {
   `;
 }
 
+function randomPicks(n) {
+  const shuffled = [...linksData].sort(() => 0.5 - Math.random());
+  const buckets = {};
+  for (const l of shuffled) (buckets[l.category] ||= []).push(l);
+  const cats = Object.keys(buckets);
+  const picked = [];
+  for (let pass = 0; picked.length < n && pass < n; pass++) {
+    const cat = cats[pass % cats.length];
+    const item = buckets[cat].pop();
+    if (item) picked.push(item);
+  }
+  return picked;
+}
+
 function refreshFeatured() {
-  const picks = [...linksData].sort(() => 0.5 - Math.random()).slice(0, 12);
+  const picks = randomPicks(12);
   const el = document.getElementById('featured-list');
   if (el) {
     el.style.opacity = '0';

@@ -3,8 +3,8 @@
     "name": "Full Disclosure",
     "url": "https://seclists.org/fulldisclosure/",
     "desc": "Security list",
-    "category": " Security Forums",
-    "subcategory": " Security Forums"
+    "category": "Security",
+    "subcategory": "Forums"
   },
   {
     "name": "Absolute Write",
@@ -1736,13 +1736,6 @@
     "subcategory": "Communication"
   },
   {
-    "name": "NewsBlur",
-    "url": "https://www.newsblur.com/",
-    "desc": "RSS reader",
-    "category": "Communication",
-    "subcategory": "Communication"
-  },
-  {
     "name": "Newsboat",
     "url": "https://newsboat.org/",
     "desc": "Terminal RSS",
@@ -2030,13 +2023,6 @@
     "subcategory": "Communication"
   },
   {
-    "name": "Radio Free Berkeley",
-    "url": "https://www.radiofreeberkeley.org/",
-    "desc": "Pirate radio station",
-    "category": "Communication",
-    "subcategory": "Communication"
-  },
-  {
     "name": "Radio Free Brooklyn",
     "url": "https://radiofreebrooklyn.com",
     "desc": "Online radio station representing Brooklyn's diverse independent music scene",
@@ -2096,13 +2082,6 @@
     "name": "Repeater Book",
     "url": "https://www.repeaterbook.com/",
     "desc": "Repeater directory",
-    "category": "Communication",
-    "subcategory": "Communication"
-  },
-  {
-    "name": "RepeaterBook",
-    "url": "https://repeaterbook.com/",
-    "desc": "Ham radio repeater database",
     "category": "Communication",
     "subcategory": "Communication"
   },
@@ -2415,13 +2394,6 @@
     "subcategory": "Communication"
   },
   {
-    "name": "Synapse",
-    "url": "https://github.com/matrix-org/synapse",
-    "desc": "Python homeserver",
-    "category": "Communication",
-    "subcategory": "Communication"
-  },
-  {
     "name": "Tailwind",
     "url": "https://www.tailwindapp.com/",
     "desc": "Pinterest tool",
@@ -2548,13 +2520,6 @@
     "subcategory": "Communication"
   },
   {
-    "name": "WSJT-X",
-    "url": "https://physics.princeton.edu/pulsar/K1JT/wsjtx.html",
-    "desc": "Amateur radio software",
-    "category": "Communication",
-    "subcategory": "Communication"
-  },
-  {
     "name": "WSPRnet",
     "url": "https://wsprnet.org/",
     "desc": "Weak signal propagation",
@@ -2572,13 +2537,6 @@
     "name": "WebSDR",
     "url": "https://www.websdr.org/",
     "desc": "Online SDR directory",
-    "category": "Communication",
-    "subcategory": "Communication"
-  },
-  {
-    "name": "WebSDR",
-    "url": "http://websdr.org/",
-    "desc": "Online SDR receivers",
     "category": "Communication",
     "subcategory": "Communication"
   },
@@ -4389,13 +4347,6 @@
     "subcategory": "Communities"
   },
   {
-    "name": "Guerrilla Mail",
-    "url": "https://www.guerrillamail.com/",
-    "desc": "Disposable email",
-    "category": "Communities",
-    "subcategory": "Communities"
-  },
-  {
     "name": "Gurobi",
     "url": "https://www.gurobi.com/",
     "desc": "QP solver",
@@ -4707,13 +4658,6 @@
     "name": "JD (E-commerce)",
     "url": "https://www.jd.com/",
     "desc": "Chinese store",
-    "category": "Communities",
-    "subcategory": "Communities"
-  },
-  {
-    "name": "JD (Warehouse Robot)",
-    "url": "https://jd.com/",
-    "desc": "Warehouse robot",
     "category": "Communities",
     "subcategory": "Communities"
   },
@@ -6188,13 +6132,6 @@
     "subcategory": "Communities"
   },
   {
-    "name": "Quora",
-    "url": "https://quora.com/",
-    "desc": "Q&A platform",
-    "category": "Communities",
-    "subcategory": "Communities"
-  },
-  {
     "name": "RAFT",
     "url": "https://github.com/princeton-vl/RAFT",
     "desc": "Optical flow",
@@ -6911,13 +6848,6 @@
   {
     "name": "StarFive",
     "url": "https://starfivetech.com/",
-    "desc": "RISC-V maker",
-    "category": "Communities",
-    "subcategory": "Communities"
-  },
-  {
-    "name": "StarFive",
-    "url": "https://www.starfivetech.com/",
     "desc": "RISC-V maker",
     "category": "Communities",
     "subcategory": "Communities"
@@ -7798,13 +7728,6 @@
     "subcategory": "Communities"
   },
   {
-    "name": "lainchan",
-    "url": "https://lainchan.org/",
-    "desc": "The original cyberpunk chan",
-    "category": "Communities",
-    "subcategory": "Communities"
-  },
-  {
     "name": "openSUSE",
     "url": "https://en.opensuse.org/",
     "desc": "SUSE for Pi",
@@ -7892,13 +7815,6 @@
     "name": "5ch",
     "url": "https://github.com/naijabeta5ch/5ch",
     "desc": "5ch software",
-    "category": "Communities",
-    "subcategory": "Imageboards"
-  },
-  {
-    "name": "7chan",
-    "url": "http://7chan.org/",
-    "desc": "Archive imageboard",
     "category": "Communities",
     "subcategory": "Imageboards"
   },
@@ -8981,13 +8897,6 @@
     "subcategory": "Crafts"
   },
   {
-    "name": "LumberJocks",
-    "url": "https://www.lumberjocks.com/",
-    "desc": "Active woodworking community",
-    "category": "Crafts",
-    "subcategory": "Crafts"
-  },
-  {
     "name": "Luthiery",
     "url": "https://www.luthier.org/",
     "desc": "Guitar making information",
@@ -9282,13 +9191,6 @@
     "subcategory": "Crafts"
   },
   {
-    "name": "Rex Kruger Woodworking",
-    "url": "https://www.rexkruger.com",
-    "desc": "Popular YouTube channel and site covering hand tool woodworking and furniture making",
-    "category": "Crafts",
-    "subcategory": "Crafts"
-  },
-  {
     "name": "Rich Soil",
     "url": "https://www.richsoil.com/",
     "desc": "Permaculture techniques",
@@ -9446,13 +9348,6 @@
     "name": "The Wood Whisperer",
     "url": "https://thewoodwhisperer.com/",
     "desc": "Woodworking videos",
-    "category": "Crafts",
-    "subcategory": "Crafts"
-  },
-  {
-    "name": "The Wood Whisperer",
-    "url": "https://www.thewoodwhisperer.com",
-    "desc": "Online woodworking education with video courses and community forums",
     "category": "Crafts",
     "subcategory": "Crafts"
   },
@@ -10259,13 +10154,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Figma",
-    "url": "https://figma.com/",
-    "desc": "Collaborative design",
-    "category": "Creative",
-    "subcategory": "General"
-  },
-  {
     "name": "Filmmaker Magazine",
     "url": "https://filmmakermagazine.com/",
     "desc": "Film production indie",
@@ -10541,13 +10429,6 @@
   {
     "name": "Khroma",
     "url": "https://khroma.co/",
-    "desc": "AI color palette generator",
-    "category": "Creative",
-    "subcategory": "General"
-  },
-  {
-    "name": "Khroma",
-    "url": "https://www.khroma.co/",
     "desc": "AI color palette generator",
     "category": "Creative",
     "subcategory": "General"
@@ -10988,13 +10869,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Printables",
-    "url": "https://printables.com/",
-    "desc": "3D models and prints",
-    "category": "Creative",
-    "subcategory": "General"
-  },
-  {
     "name": "Printed Matter",
     "url": "https://www.printedmatter.org/",
     "desc": "Artist publications",
@@ -11156,13 +11030,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Situationist International",
-    "url": "https://www.cddc.vt.edu/sionline",
-    "desc": "Archive of Situationist International texts and critical theory",
-    "category": "Creative",
-    "subcategory": "General"
-  },
-  {
     "name": "Sketch",
     "url": "https://www.sketch.com/",
     "desc": "Mac design tool",
@@ -11233,13 +11100,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Stencil Archive",
-    "url": "https://stencilarchive.org",
-    "desc": "International archive documenting stencil art and street artist works",
-    "category": "Creative",
-    "subcategory": "General"
-  },
-  {
     "name": "Stencil Board",
     "url": "https://stencilboard.at",
     "desc": "Austrian collective archiving stencil art and urban art projects",
@@ -11264,13 +11124,6 @@
     "name": "Street Art News",
     "url": "https://www.streetartnews.net/",
     "desc": "Street art updates",
-    "category": "Creative",
-    "subcategory": "General"
-  },
-  {
-    "name": "StreetArtNews",
-    "url": "https://streetartnews.net",
-    "desc": "Contemporary coverage of street art exhibitions and artists",
     "category": "Creative",
     "subcategory": "General"
   },
@@ -11726,13 +11579,6 @@
     "name": "Anime Statistics",
     "url": "https://animetrends.io/",
     "desc": "MAL stats",
-    "category": "Entertainment",
-    "subcategory": "General"
-  },
-  {
-    "name": "Anime-Planet",
-    "url": "https://anime-planet.com/",
-    "desc": "Anime recommendations",
     "category": "Entertainment",
     "subcategory": "General"
   },
@@ -12262,13 +12108,6 @@
     "subcategory": "General"
   },
   {
-    "name": "F隐ite",
-    "url": "https://www.anchor.fm/",
-    "desc": "Podcast by Spotify",
-    "category": "Entertainment",
-    "subcategory": "General"
-  },
-  {
     "name": "GlockApps",
     "url": "https://GlockApps.com/",
     "desc": "Spotify playlist",
@@ -12615,13 +12454,6 @@
     "name": "Limetown",
     "url": "https://www.limetown.com/",
     "desc": "Original audio drama",
-    "category": "Entertainment",
-    "subcategory": "General"
-  },
-  {
-    "name": "Limetown",
-    "url": "https://limetown.com/",
-    "desc": "Investigative podcast about mysterious disappearance",
     "category": "Entertainment",
     "subcategory": "General"
   },
@@ -13462,13 +13294,6 @@
     "name": "The Bright Sessions",
     "url": "https://www.thebrightsessions.com/",
     "desc": "Therapy podcast for people with superpowers",
-    "category": "Entertainment",
-    "subcategory": "General"
-  },
-  {
-    "name": "The Bright Sessions",
-    "url": "https://thebrightsessions.com/",
-    "desc": "Therapy for people with supernatural abilities",
     "category": "Entertainment",
     "subcategory": "General"
   },
@@ -14705,13 +14530,6 @@
     "subcategory": "Food"
   },
   {
-    "name": "RateBeer",
-    "url": "https://www.ratebeer.com/",
-    "desc": "Beer ratings and info",
-    "category": "Food",
-    "subcategory": "Food"
-  },
-  {
     "name": "Recipe Graveyard",
     "url": "https://www.recipegraveyard.com/",
     "desc": "Vintage recipe blog - nostalgic, post-1900 US focus",
@@ -15198,13 +15016,6 @@
     "name": "Boxtron",
     "url": "https://github.com/dreamer/boxtron",
     "desc": "DOSBox GPU",
-    "category": "Gaming",
-    "subcategory": "Gaming"
-  },
-  {
-    "name": "CSS Zen Garden",
-    "url": "https://csszengarden.com/",
-    "desc": "Same HTML endless designs",
     "category": "Gaming",
     "subcategory": "Gaming"
   },
@@ -16091,23 +15902,9 @@
     "subcategory": "Gaming"
   },
   {
-    "name": "NetHack",
-    "url": "https://nethack.org/",
-    "desc": "Classic roguelike",
-    "category": "Gaming",
-    "subcategory": "Gaming"
-  },
-  {
     "name": "Newgrounds",
     "url": "https://newgrounds.com/",
     "desc": "Indie games/art",
-    "category": "Gaming",
-    "subcategory": "Gaming"
-  },
-  {
-    "name": "Newgrounds",
-    "url": "https://www.newgrounds.com/",
-    "desc": "Indie games and animation",
     "category": "Gaming",
     "subcategory": "Gaming"
   },
@@ -16287,13 +16084,6 @@
     "subcategory": "Gaming"
   },
   {
-    "name": "ProtonDB",
-    "url": "https://www.protondb.com/",
-    "desc": "Steam Play compatibility",
-    "category": "Gaming",
-    "subcategory": "Gaming"
-  },
-  {
     "name": "Psyche Links",
     "url": "https://www.psyche.com/psyche/links/2022.html",
     "desc": "250k+ esoteric links",
@@ -16318,13 +16108,6 @@
     "name": "RPCS3",
     "url": "https://rpcs3.net/",
     "desc": "PS3 emulator",
-    "category": "Gaming",
-    "subcategory": "Gaming"
-  },
-  {
-    "name": "RPGFan",
-    "url": "https://www.rpgfan.com/",
-    "desc": "RPG reviews",
     "category": "Gaming",
     "subcategory": "Gaming"
   },
@@ -16924,13 +16707,6 @@
     "subcategory": "Hobbies"
   },
   {
-    "name": "ADVRider",
-    "url": "https://advrider.com/",
-    "desc": "Adventure riding",
-    "category": "Hobbies",
-    "subcategory": "Hobbies"
-  },
-  {
     "name": "AOPS",
     "url": "https://artofproblemsolving.com/community",
     "desc": "Math competition",
@@ -17190,13 +16966,6 @@
     "subcategory": "Hobbies"
   },
   {
-    "name": "Bog Snorkeling",
-    "url": "https://www.bogsnorkeling.com",
-    "desc": "Competitive event involving swimming through peat bogs with flippers",
-    "category": "Hobbies",
-    "subcategory": "Hobbies"
-  },
-  {
     "name": "Bonsai Empire",
     "url": "https://www.bonsaiempire.com/",
     "desc": "Bonsai tutorials",
@@ -17354,13 +17123,6 @@
     "name": "Cheese Rolling",
     "url": "https://cheese-rolling.com/",
     "desc": "Cooper's Hill race",
-    "category": "Hobbies",
-    "subcategory": "Hobbies"
-  },
-  {
-    "name": "Cheese Rolling at Cooper's Hill",
-    "url": "https://www.cheese-rolling.com",
-    "desc": "Official information for the annual cheese rolling competition in England",
     "category": "Hobbies",
     "subcategory": "Hobbies"
   },
@@ -17960,13 +17722,6 @@
     "subcategory": "Hobbies"
   },
   {
-    "name": "Lateral Thinking",
-    "url": "https://www.lateralpuzzles.com/",
-    "desc": "Think sideways",
-    "category": "Hobbies",
-    "subcategory": "Hobbies"
-  },
-  {
     "name": "Latitude 38",
     "url": "https://www.latitude38.com/",
     "desc": "West Coast sailing magazine",
@@ -18219,13 +17974,6 @@
     "subcategory": "Hobbies"
   },
   {
-    "name": "Old Time Strongman",
-    "url": "https://www.oldtimestrongman.com",
-    "desc": "Resource dedicated to historic strongman training and competitive lifting",
-    "category": "Hobbies",
-    "subcategory": "Hobbies"
-  },
-  {
     "name": "OneLook",
     "url": "https://www.onelook.com/",
     "desc": "Dictionary lookup",
@@ -18425,13 +18173,6 @@
     "name": "Quidditch",
     "url": "https://www.iqa-sport.com/",
     "desc": "Real-life Quidditch",
-    "category": "Hobbies",
-    "subcategory": "Hobbies"
-  },
-  {
-    "name": "Quidditch League",
-    "url": "https://www.iqa-sport.com",
-    "desc": "International Quidditch Association governing real-world broomstick sport",
     "category": "Hobbies",
     "subcategory": "Hobbies"
   },
@@ -19202,13 +18943,6 @@
     "name": "World Archery",
     "url": "https://worldarchery.sport/",
     "desc": "International archery",
-    "category": "Hobbies",
-    "subcategory": "Hobbies"
-  },
-  {
-    "name": "World Chess Boxing Organization",
-    "url": "https://www.chessboxing.info",
-    "desc": "Official organization for chess boxing, alternating between chess and boxing rounds",
     "category": "Hobbies",
     "subcategory": "Hobbies"
   },
@@ -20123,13 +19857,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "Creepypasta.com",
-    "url": "https://www.creepypasta.com/",
-    "desc": "Horror stories archive",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "Cron Job",
     "url": "https://cronjob.xyz/",
     "desc": "Free cron service",
@@ -20375,13 +20102,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "Don Even Reply",
-    "url": "https://www.dontevenreply.com/",
-    "desc": "Absurd email conversations",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "Donkasu",
     "url": "https://donkasu.com/",
     "desc": "Lo-fi music and aesthetics",
@@ -20550,13 +20270,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "Endless Horse",
-    "url": "http://endless.horse/",
-    "desc": "Infinite horse",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "Ever Dream This Man",
     "url": "https://everdreamthisman.com/",
     "desc": "Who is this man",
@@ -20616,13 +20329,6 @@
     "name": "Failing Sectors",
     "url": "http://failingsectors.com/",
     "desc": "Website on a floppy disk",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Failingsectors",
-    "url": "https://failingsectors.com/",
-    "desc": "Site served from a floppy disk",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -20732,13 +20438,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "Find the Invisible Cow",
-    "url": "http://findtheinvisiblecow.com/",
-    "desc": "Find the invisible cow",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "Fixer",
     "url": "https://fixer.io/",
     "desc": "Currency exchange API",
@@ -20791,13 +20490,6 @@
     "name": "Font Flame",
     "url": "https://fontflame.com/",
     "desc": "Font ligatures",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Font Pair",
-    "url": "https://fontpair.co/",
-    "desc": "Font combinations",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -20924,13 +20616,6 @@
     "name": "GeoCities",
     "url": "https://www.geocities.com/",
     "desc": "Still alive from the 90s",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "GeoGuessr",
-    "url": "https://geoguessr.com/",
-    "desc": "Guess locations from street view",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -21398,13 +21083,6 @@
   },
   {
     "name": "Is it Christmas",
-    "url": "https://isitchristmas.com/",
-    "desc": "Is it Christmas?",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Is it Christmas",
     "url": "https://isitschristmas.com/",
     "desc": "Is it christmas?",
     "category": "Internet Culture",
@@ -21442,20 +21120,6 @@
     "name": "Jabberwocky Graphix",
     "url": "https://www.jabberwockygraphix.com/comics.zines.html",
     "desc": "Small press comics and zines publisher since 1975",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Jabberwocky Graphix",
-    "url": "https://www.jabberwockygraphix.com/",
-    "desc": "Small press comics",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "JackBox",
-    "url": "https://www.jackboxgames.com/",
-    "desc": "Party games",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -21498,13 +21162,6 @@
     "name": "Kitten War",
     "url": "http://www.kittenwar.com/",
     "desc": "Cute kitten voting",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Kitten War",
-    "url": "https://www.kittenwar.com",
-    "desc": "Pointless game for choosing between photos of kittens",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -21589,13 +21246,6 @@
     "name": "Liminal Archives",
     "url": "https://liminal-archives.wikidot.com/",
     "desc": "Liminal space fiction and lore",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Liminal Archives",
-    "url": "http://liminal-archives.wikidot.com/",
-    "desc": "Database of liminal space fiction and lore",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -21992,13 +21642,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "NTS Radio",
-    "url": "https://www.ntsradio.com/",
-    "desc": "Independent music radio",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "NUFORC",
     "url": "https://nuforc.org/",
     "desc": "National UFO Reporting Center",
@@ -22030,13 +21673,6 @@
     "name": "Neocities",
     "url": "https://neocities.org/browse",
     "desc": "Browse neocities sites",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Neocities Directory",
-    "url": "https://neocities.org/browse/",
-    "desc": "Neocities sites",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -22128,13 +21764,6 @@
     "name": "Null Island",
     "url": "https://nullisland.com/",
     "desc": "Internet imaginary island",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Null Island",
-    "url": "https://www.nullisland.com/",
-    "desc": "0 0 coordinate",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -22342,13 +21971,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "Paper Toilet",
-    "url": "https://www.papertoilet.com/",
-    "desc": "Endless roll of toilet paper",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "Paper Weights",
     "url": "https://paperweights.app/",
     "desc": "Satisfying paper-like visuals",
@@ -22464,13 +22086,6 @@
     "name": "Phrack",
     "url": "https://phrack.org/",
     "desc": "Hacker magazine with technical articles",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Phrack",
-    "url": "http://phrack.org/",
-    "desc": "Hacker zine archive",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -22618,13 +22233,6 @@
     "name": "Pointer Pointer",
     "url": "https://pointerpointer.com/",
     "desc": "Finds your mouse pointer",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Pointer Pointer",
-    "url": "https://www.pointerpointer.com",
-    "desc": "Website that finds images of people pointing at your cursor location",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -22811,13 +22419,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "Remove BG",
-    "url": "https://www.remove.bg/",
-    "desc": "AI background remover",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "Reqres",
     "url": "https://reqres.in/",
     "desc": "Fake REST API",
@@ -22884,13 +22485,6 @@
     "name": "SCP Foundation",
     "url": "http://www.scpwiki.com/",
     "desc": "Collaborative fiction wiki",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "SCP Foundation",
-    "url": "http://scpwiki.com/",
-    "desc": "Alternative SCP wiki",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -23490,13 +23084,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "The Hermetic Library",
-    "url": "https://www.hermetic.com/",
-    "desc": "Comprehensive resource for Western esoteric texts",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "The Manual",
     "url": "https://themanual.org/",
     "desc": "Read articles ad-free",
@@ -23574,13 +23161,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "The Quiet Place",
-    "url": "https://www.thequietplaceproject.xyz/",
-    "desc": "Calm minimal site",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "The Screamers",
     "url": "https://www.thescreamersonline.com/",
     "desc": "Scream into the void",
@@ -23605,13 +23185,6 @@
     "name": "The Useless Web",
     "url": "https://www.theuselessweb.com/",
     "desc": "Random weird sites",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "The Useless Web",
-    "url": "https://theuselessweb.com",
-    "desc": "Randomly redirects to intentionally useless and bizarre websites",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -23847,13 +23420,6 @@
     "subcategory": "Internet Culture"
   },
   {
-    "name": "Urban Exploration Photography",
-    "url": "https://www.obsidianurbexphotography.com/",
-    "desc": "Photographer documenting abandoned Soviet locations",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
     "name": "Urbex Travel",
     "url": "https://urbextravel.com/",
     "desc": "Urbex destinations",
@@ -23871,13 +23437,6 @@
     "name": "Urbexology",
     "url": "https://www.urbexology.com/",
     "desc": "Urban exploration blog",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Urbexology",
-    "url": "https://urbexology.com/",
-    "desc": "Abandoned places near you map",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -24221,13 +23780,6 @@
     "name": "Zen Dog",
     "url": "https://www.zendog.org/",
     "desc": "Meditate with a dog",
-    "category": "Internet Culture",
-    "subcategory": "Internet Culture"
-  },
-  {
-    "name": "Zen Dog",
-    "url": "https://zendog.org/",
-    "desc": "Meditate with dog",
     "category": "Internet Culture",
     "subcategory": "Internet Culture"
   },
@@ -25023,13 +24575,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Factinate",
-    "url": "https://factinate.com/",
-    "desc": "Facts that will blow your mind",
-    "category": "Knowledge",
-    "subcategory": "General"
-  },
-  {
     "name": "Fallout Wiki",
     "url": "https://fallout.fandom.com/",
     "desc": "Fallout encyclopedia",
@@ -25347,13 +24892,6 @@
   {
     "name": "Khan Academy",
     "url": "https://khanacademy.org/",
-    "desc": "Free education",
-    "category": "Knowledge",
-    "subcategory": "General"
-  },
-  {
-    "name": "Khan Academy",
-    "url": "https://www.khanacademy.org/",
     "desc": "Free education",
     "category": "Knowledge",
     "subcategory": "General"
@@ -25681,13 +25219,6 @@
     "subcategory": "General"
   },
   {
-    "name": "OpenCulture",
-    "url": "https://openculture.com/",
-    "desc": "Free cultural courses",
-    "category": "Knowledge",
-    "subcategory": "General"
-  },
-  {
     "name": "OpenLearn",
     "url": "https://www.open.edu/openlearn/",
     "desc": "Free courses from Open University",
@@ -25796,13 +25327,6 @@
     "name": "Product Hunt",
     "url": "https://producthunt.com/",
     "desc": "New products",
-    "category": "Knowledge",
-    "subcategory": "General"
-  },
-  {
-    "name": "Project Gutenberg",
-    "url": "https://gutenberg.org/",
-    "desc": "Free ebooks",
     "category": "Knowledge",
     "subcategory": "General"
   },
@@ -25975,13 +25499,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Space Weather",
-    "url": "https://www.spaceweather.com/",
-    "desc": "Sun-Earth news",
-    "category": "Knowledge",
-    "subcategory": "General"
-  },
-  {
     "name": "Stanford Encyclopedia of Philosophy",
     "url": "https://plato.stanford.edu/",
     "desc": "Philosophy reference",
@@ -26048,13 +25565,6 @@
     "name": "The Internet Encyclopedia of Philosophy",
     "url": "https://iep.utm.edu/",
     "desc": "Open access philosophy",
-    "category": "Knowledge",
-    "subcategory": "General"
-  },
-  {
-    "name": "The Manual",
-    "url": "https://www.themanual.org/",
-    "desc": "Curious knowledge",
     "category": "Knowledge",
     "subcategory": "General"
   },
@@ -26363,13 +25873,6 @@
     "name": "Wikisource",
     "url": "https://www.wikisource.org/",
     "desc": "Free texts",
-    "category": "Knowledge",
-    "subcategory": "General"
-  },
-  {
-    "name": "Wikisource",
-    "url": "https://wikisource.org/",
-    "desc": "Free library",
     "category": "Knowledge",
     "subcategory": "General"
   },
@@ -26955,13 +26458,6 @@
     "subcategory": "Lifestyle"
   },
   {
-    "name": "Days of the Year",
-    "url": "https://www.daysoftheyear.com",
-    "desc": "Curated guide to unusual days and obscure celebrations worldwide",
-    "category": "Lifestyle",
-    "subcategory": "Lifestyle"
-  },
-  {
     "name": "DoYogaWithMe",
     "url": "https://www.doyogawithme.com/",
     "desc": "Free online yoga classes",
@@ -27270,13 +26766,6 @@
     "subcategory": "Lifestyle"
   },
   {
-    "name": "Holiday Insights",
-    "url": "https://www.holidayinsights.com",
-    "desc": "Detailed descriptions of bizarre holidays and odd observances",
-    "category": "Lifestyle",
-    "subcategory": "Lifestyle"
-  },
-  {
     "name": "Home Herbal",
     "url": "https://homeherbal.org",
     "desc": "Free resources for learning herbal medicine and home remedy preparation",
@@ -27301,13 +26790,6 @@
     "name": "House Truck Life",
     "url": "https://www.housetrucklife.com/",
     "desc": "Living in a house truck",
-    "category": "Lifestyle",
-    "subcategory": "Lifestyle"
-  },
-  {
-    "name": "House Truck Life",
-    "url": "https://housetrucklife.com/",
-    "desc": "Living mortgage-free in custom house trucks",
     "category": "Lifestyle",
     "subcategory": "Lifestyle"
   },
@@ -27613,13 +27095,6 @@
     "subcategory": "Lifestyle"
   },
   {
-    "name": "Plant Healer Magazine",
-    "url": "https://planthealer.org",
-    "desc": "Quarterly publication covering herbalism, wildcrafting, and folk medicine traditions",
-    "category": "Lifestyle",
-    "subcategory": "Lifestyle"
-  },
-  {
     "name": "Plum Village",
     "url": "https://plumvillage.org/",
     "desc": "Thich Nhat Hanh mindfulness",
@@ -27777,13 +27252,6 @@
     "name": "SCA",
     "url": "https://www.sca.org/",
     "desc": "Society for Creative Anachronism",
-    "category": "Lifestyle",
-    "subcategory": "Lifestyle"
-  },
-  {
-    "name": "SCA - Society for Creative Anachronism",
-    "url": "https://www.sca.org",
-    "desc": "International organization dedicated to medieval reenactment and living history",
     "category": "Lifestyle",
     "subcategory": "Lifestyle"
   },
@@ -28425,13 +27893,6 @@
     "subcategory": "General"
   },
   {
-    "name": "BeepBox",
-    "url": "https://beepbox.co/",
-    "desc": "Chiptune maker",
-    "category": "Music",
-    "subcategory": "General"
-  },
-  {
     "name": "Bleep",
     "url": "https://bleep.com/",
     "desc": "Electronic music vinyl",
@@ -28782,13 +28243,6 @@
     "subcategory": "General"
   },
   {
-    "name": "LALAL.AI",
-    "url": "https://lalal.ai/",
-    "desc": "Stem splitter",
-    "category": "Music",
-    "subcategory": "General"
-  },
-  {
     "name": "LMMS",
     "url": "https://lmms.io/",
     "desc": "Music production",
@@ -29111,22 +28565,8 @@
     "subcategory": "General"
   },
   {
-    "name": "Radio Garden",
-    "url": "http://radio.garden/",
-    "desc": "Listen to radio worldwide",
-    "category": "Music",
-    "subcategory": "General"
-  },
-  {
     "name": "Radio Paradise",
     "url": "https://radioparadise.com/",
-    "desc": "Curated radio",
-    "category": "Music",
-    "subcategory": "General"
-  },
-  {
-    "name": "Radio Paradise",
-    "url": "https://www.radioparadise.com/",
     "desc": "Curated radio",
     "category": "Music",
     "subcategory": "General"
@@ -29156,13 +28596,6 @@
     "name": "Radiooooo",
     "url": "https://radiooooo.com/",
     "desc": "Time travel music",
-    "category": "Music",
-    "subcategory": "General"
-  },
-  {
-    "name": "Radiooooo",
-    "url": "https://www.radiooooo.com/",
-    "desc": "Music through time and space",
     "category": "Music",
     "subcategory": "General"
   },
@@ -29489,13 +28922,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Udio",
-    "url": "https://udio.com/",
-    "desc": "AI music",
-    "category": "Music",
-    "subcategory": "General"
-  },
-  {
     "name": "Ultimate Guitar",
     "url": "https://www.ultimate-guitar.com/",
     "desc": "Guitar tabs",
@@ -29653,13 +29079,6 @@
     "name": "AMSynth",
     "url": "https://github.com/AM-Synths/AMSynth",
     "desc": "Synthesizer",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "ANSI Art",
-    "url": "https://www.ansiart.com/",
-    "desc": "Collection of ANSI and ASCII art",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -30038,13 +29457,6 @@
     "name": "Basilisk",
     "url": "https://basilisk.cebix.net/",
     "desc": "Mac emulator",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "BeagleBone",
-    "url": "https://www.beagleboard.org/",
-    "desc": "SBC",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -30875,13 +30287,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "Fashion Era",
-    "url": "https://www.fashion-era.com",
-    "desc": "Extensive archive of fashion history with detailed costume analysis",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "File Formats",
     "url": "https://www.fileformat.info/",
     "desc": "File format reference",
@@ -30906,13 +30311,6 @@
     "name": "FireAlpaca",
     "url": "https://firealpaca.com/",
     "desc": "Digital art",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "FiveFilters",
-    "url": "https://www.fivefilters.org/",
-    "desc": "Content extraction",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -31421,13 +30819,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "LSE",
-    "url": "https://lospec.com/palette-list/",
-    "desc": "Pixel palettes",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "Labor Heritage",
     "url": "https://laborheritage.org",
     "desc": "Preserving the history of traditional trades and craft professions",
@@ -31575,13 +30966,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "Macintosh Repository",
-    "url": "http://macintoshrepository.org/",
-    "desc": "Old Mac software archive",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "Magnum BBS",
     "url": "https://www.magnumbbs.net/",
     "desc": "UK BBS with dial-up options worldwide",
@@ -31641,13 +31025,6 @@
     "name": "Mersenne Forum",
     "url": "https://www.mersenneforum.org/",
     "desc": "Prime research",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "Mesen",
-    "url": "https://mesen.ca/",
-    "desc": "NES emulator",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -31883,13 +31260,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "Nikola Tesla",
-    "url": "https://tesla.com/",
-    "desc": "Tesla resources",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "Nimble",
     "url": "https://nimble.directory/",
     "desc": "Nim packages",
@@ -32040,13 +31410,6 @@
     "name": "Old Radio Programs",
     "url": "https://www.oldradioprograms.com",
     "desc": "Downloadable and streaming collection of classic radio shows from the Golden Age",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "Old Radio Shows",
-    "url": "https://www.oldradioprograms.com/",
-    "desc": "Vintage radio archives",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -32730,13 +32093,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "Retroarchive.org",
-    "url": "https://www.retroarchive.org/",
-    "desc": "CD-ROM and floppy disk software archive",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "Retrocampus BBS",
     "url": "https://bbs.retrocampus.com/",
     "desc": "Multi-platform retro BBS",
@@ -33045,13 +32401,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "Taiga",
-    "url": "https://www.taiga.io/",
-    "desc": "Project management",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "Tandy",
     "url": "https://www.tandywiki.org/",
     "desc": "Tandy/Radio Shack computer wiki",
@@ -33143,13 +32492,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "Textfiles.com",
-    "url": "https://textfiles.com/",
-    "desc": "Vintage BBS text files and ANSI art archive",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "The BBS Top 100",
     "url": "https://www.bbses.info/",
     "desc": "Directory of active BBS systems worldwide",
@@ -33167,13 +32509,6 @@
     "name": "The Jolly Roger BBS",
     "url": "https://www.thejollyrogerbbs.com/",
     "desc": "All retro computers BBS on RISC OS",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "The Last BBS",
-    "url": "http://www.thelastbbs.com/",
-    "desc": "BBS community forum",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -33363,13 +32698,6 @@
     "name": "Typewriter Forum",
     "url": "https://www.typewriterforum.com/",
     "desc": "Community for typewriter enthusiasts",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "Typewriter Forum",
-    "url": "https://typewriterforum.com/",
-    "desc": "Active community for typewriter collectors with repair tips",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -33598,13 +32926,6 @@
     "subcategory": "Retro"
   },
   {
-    "name": "Vintage Computer Federation",
-    "url": "https://vcfed.org/",
-    "desc": "Vintage computer community",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
     "name": "Vintage Computer Net",
     "url": "https://vintagecomputer.net/",
     "desc": "Vintage computing restoration",
@@ -33622,13 +32943,6 @@
     "name": "Vintage Computing",
     "url": "https://www.vintagecomputing.com/",
     "desc": "Vintage computing history",
-    "category": "Retro",
-    "subcategory": "Retro"
-  },
-  {
-    "name": "Vintage Computing",
-    "url": "https://www.vintage-computer.com/",
-    "desc": "Classic computer museum",
     "category": "Retro",
     "subcategory": "Retro"
   },
@@ -34119,13 +33433,6 @@
     "name": "Astronomy Magazine",
     "url": "https://www.astronomy.com/",
     "desc": "Leading astronomy magazine",
-    "category": "Science",
-    "subcategory": "Science"
-  },
-  {
-    "name": "Astronomy.com",
-    "url": "https://astronomy.com/",
-    "desc": "Astronomy news",
     "category": "Science",
     "subcategory": "Science"
   },
@@ -34690,13 +33997,6 @@
     "subcategory": "Science"
   },
   {
-    "name": "Moon Giant",
-    "url": "https://moongiant.com/",
-    "desc": "Moon phase info",
-    "category": "Science",
-    "subcategory": "Science"
-  },
-  {
     "name": "Mushroom Expert",
     "url": "https://www.mushroomexpert.com/",
     "desc": "Mushroom ID cultivation",
@@ -35148,13 +34448,6 @@
     "name": "SynBioHub",
     "url": "https://synbiohub.org/",
     "desc": "Repository for synthetic biology designs",
-    "category": "Science",
-    "subcategory": "Science"
-  },
-  {
-    "name": "The Edge",
-    "url": "https://www.edge.org",
-    "desc": "Platform for interdisciplinary thinking at the boundaries of established science",
     "category": "Science",
     "subcategory": "Science"
   },
@@ -36223,13 +35516,6 @@
     "subcategory": "Security"
   },
   {
-    "name": "Enigmail",
-    "url": "https://enigmail.net/",
-    "desc": "PGP for Thunderbird",
-    "category": "Security",
-    "subcategory": "Security"
-  },
-  {
     "name": "Ettercap",
     "url": "https://www.ettercap.com/",
     "desc": "MITM",
@@ -37105,13 +36391,6 @@
     "subcategory": "Security"
   },
   {
-    "name": "Mailvelope",
-    "url": "https://mailvelope.com/",
-    "desc": "PGP encryption for webmail",
-    "category": "Security",
-    "subcategory": "Security"
-  },
-  {
     "name": "Masscan",
     "url": "https://github.com/robertdavidgraham/masscan",
     "desc": "Fast scanner",
@@ -37290,13 +36569,6 @@
     "name": "Nikto",
     "url": "https://cirt.net/Nikto2/",
     "desc": "Web scanner",
-    "category": "Security",
-    "subcategory": "Security"
-  },
-  {
-    "name": "Nikto",
-    "url": "https://www.cirt.net/Nikto2",
-    "desc": "Web server scanner",
     "category": "Security",
     "subcategory": "Security"
   },
@@ -37682,13 +36954,6 @@
     "name": "Privacy Tools",
     "url": "https://www.privacytools.io/",
     "desc": "Privacy-respecting services",
-    "category": "Security",
-    "subcategory": "Security"
-  },
-  {
-    "name": "Privacy Tools",
-    "url": "https://privacytools.io/",
-    "desc": "Privacy recommendations",
     "category": "Security",
     "subcategory": "Security"
   },
@@ -38792,13 +38057,6 @@
     "subcategory": "Security"
   },
   {
-    "name": "ix (CLI Pastebin)",
-    "url": "https://ix.io/",
-    "desc": "CLI pastebin",
-    "category": "Security",
-    "subcategory": "Security"
-  },
-  {
     "name": "mbedTLS",
     "url": "https://tls.mbed.org/",
     "desc": "TLS library",
@@ -39107,13 +38365,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Brutal Doom",
-    "url": "https://www.moddb.com/",
-    "desc": "Doom mod",
-    "category": "Self-Hosting",
-    "subcategory": "General"
-  },
-  {
     "name": "CM-SS13",
     "url": "https://github.com/cm魔女rd/CM-SS13",
     "desc": "CM SS13",
@@ -39137,13 +38388,6 @@
   {
     "name": "CasaOS",
     "url": "https://casaos.io/",
-    "desc": "Simple home cloud",
-    "category": "Self-Hosting",
-    "subcategory": "General"
-  },
-  {
-    "name": "CasaOS",
-    "url": "https://www.casaos.io/",
     "desc": "Simple home cloud",
     "category": "Self-Hosting",
     "subcategory": "General"
@@ -41732,13 +40976,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "Archive.org Search",
-    "url": "https://archive.org/",
-    "desc": "Digital library of everything",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "ArgoCD",
     "url": "https://argocd.io/",
     "desc": "GitOps continuous delivery",
@@ -42218,13 +41455,6 @@
     "name": "Clojure",
     "url": "https://clojure.org/",
     "desc": "Lisp community",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
-    "name": "Cloudflare",
-    "url": "https://www.cloudflare.com/",
-    "desc": "CDN and security",
     "category": "Technology",
     "subcategory": "Technology"
   },
@@ -42719,13 +41949,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "Docker",
-    "url": "https://docker.com/",
-    "desc": "Containers",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "Docker Compose",
     "url": "https://docs.docker.com/compose/",
     "desc": "Multi-container",
@@ -43114,13 +42337,6 @@
     "name": "FreeBSD",
     "url": "https://www.freebsd.org/",
     "desc": "Free Unix-like OS",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
-    "name": "FreeCAD",
-    "url": "https://www.freecadweb.org/",
-    "desc": "3D parametric modeler",
     "category": "Technology",
     "subcategory": "Technology"
   },
@@ -44175,13 +43391,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "Link Preview",
-    "url": "https://www.linkpreview.net/",
-    "desc": "Generate link previews",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "Linux Command",
     "url": "https://linuxcommand.org/",
     "desc": "Learn the Linux command line",
@@ -44546,13 +43755,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "NocoDB",
-    "url": "https://nocodb.com/",
-    "desc": "Turn anything into database",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "Node Forum",
     "url": "https://nodejs.org/",
     "desc": "Node.js community",
@@ -44598,13 +43800,6 @@
     "name": "Offpunk",
     "url": "https://offpunk.net/",
     "desc": "Offline-first command-line browser for Web, Gemini, Gopher, RSS",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
-    "name": "Old Computer Archive",
-    "url": "https://oldcomputers.net/",
-    "desc": "Museum of old computers",
     "category": "Technology",
     "subcategory": "Technology"
   },
@@ -44728,13 +43923,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "OpenSource",
-    "url": "https://www.opensource.com/",
-    "desc": "Open source news",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "OpenVim",
     "url": "https://www.openvim.com/",
     "desc": "Interactive Vim",
@@ -44833,13 +44021,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "Perplexity",
-    "url": "https://perplexity.ai/",
-    "desc": "AI search and answers",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "Phabricator",
     "url": "https://www.phacility.com/phabricator/",
     "desc": "Dev tools suite",
@@ -44917,13 +44098,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "Pixel Joint",
-    "url": "http://pixeljoint.com/",
-    "desc": "Pixel art community",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "PlanetScale",
     "url": "https://planetscale.com/",
     "desc": "MySQL serverless",
@@ -44976,13 +44150,6 @@
     "name": "PostgreSQL",
     "url": "https://www.postgresql.org/",
     "desc": "Advanced SQL database",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
-    "name": "Postgres Guide",
-    "url": "http://www.postgresguide.com/",
-    "desc": "PostgreSQL guide",
     "category": "Technology",
     "subcategory": "Technology"
   },
@@ -45214,13 +44381,6 @@
     "name": "Rancher",
     "url": "https://www.rancher.com/",
     "desc": "Container management",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
-    "name": "Rancher",
-    "url": "https://rancher.com/",
-    "desc": "K8s manager",
     "category": "Technology",
     "subcategory": "Technology"
   },
@@ -45827,13 +44987,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "Shadertoy",
-    "url": "https://www.shadertoy.com/",
-    "desc": "GLSL shaders",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "Shakespeare Programming Language",
     "url": "https://shakespearelang.com/",
     "desc": "Programming language in plays",
@@ -46215,13 +45368,6 @@
     "name": "Text Generation WebUI",
     "url": "https://github.com/oobabooga/text-generation-webui",
     "desc": "Extensible web UI for LLMs",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
-    "name": "Textise",
-    "url": "https://www.textise.net/",
-    "desc": "Text-only web pages - accessibility, SEO, research tool",
     "category": "Technology",
     "subcategory": "Technology"
   },
@@ -46870,13 +46016,6 @@
     "subcategory": "Technology"
   },
   {
-    "name": "r/HomeAssistant",
-    "url": "https://www.reddit.com/r/homeassistant/",
-    "desc": "Home automation",
-    "category": "Technology",
-    "subcategory": "Technology"
-  },
-  {
     "name": "ripgrep",
     "url": "https://github.com/BurntSushi/ripgrep",
     "desc": "Ultra-fast grep alternative",
@@ -47262,13 +46401,6 @@
     "subcategory": "General"
   },
   {
-    "name": "AppFlowy",
-    "url": "https://www.appflowy.io/",
-    "desc": "Notion alternative",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Archive.ph",
     "url": "https://archive.ph/",
     "desc": "Save pages forever",
@@ -47293,13 +46425,6 @@
     "name": "Ask HN",
     "url": "https://hn.algolia.com/",
     "desc": "Search Hacker News",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Ask Jeeves",
-    "url": "https://www.ask.com/",
-    "desc": "Question search",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -47390,13 +46515,6 @@
   {
     "name": "Baidu",
     "url": "https://baidu.com/",
-    "desc": "Chinese search",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Baidu",
-    "url": "https://www.baidu.com/",
     "desc": "Chinese search",
     "category": "Tools",
     "subcategory": "General"
@@ -47528,13 +46646,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Bing",
-    "url": "https://www.bing.com/",
-    "desc": "Microsoft search",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Bing Images",
     "url": "https://www.bing.com/images",
     "desc": "Image search",
@@ -47608,13 +46719,6 @@
     "name": "Botify",
     "url": "https://www.botify.com/",
     "desc": "SEO platform",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Bowiebranchia",
-    "url": "https://bowiebranchia.com/",
-    "desc": "Nudibranchia comparisons",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -47703,23 +46807,9 @@
     "subcategory": "General"
   },
   {
-    "name": "Calm",
-    "url": "https://calm.com/",
-    "desc": "Relaxation app",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Canva",
     "url": "https://canva.com/",
     "desc": "Design platform",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Canva",
-    "url": "https://www.canva.com/",
-    "desc": "Design tool",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -47801,13 +46891,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Chkrootkit",
-    "url": "http://www.chkrootkit.org/",
-    "desc": "Rootkit detector",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Chocolatey",
     "url": "https://chocolatey.org/",
     "desc": "Windows package manager",
@@ -47818,13 +46901,6 @@
     "name": "Choose License",
     "url": "https://choosealicense.com/",
     "desc": "License picker",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Chroma",
-    "url": "https://www.trychroma.com/",
-    "desc": "Vector DB",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -48067,13 +47143,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Craft",
-    "url": "https://www.craft.do/",
-    "desc": "Beautiful docs",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Crates",
     "url": "https://nimblex.net/",
     "desc": "Nim packages",
@@ -48175,13 +47244,6 @@
     "name": "DST Tracker",
     "url": "https://www.timeanddate.com/time/dst/",
     "desc": "Daylight savings",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Damn Interesting",
-    "url": "https://damninteresting.com/",
-    "desc": "Science & history blog",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -48438,13 +47500,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Dumb Websites",
-    "url": "https://www.dumbwebsites.xyz/",
-    "desc": "Gloriously pointless sites",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "EFF",
     "url": "https://www.eff.org/",
     "desc": "Digital rights",
@@ -48606,13 +47661,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Falling Falling",
-    "url": "https://fallingfalling.com/",
-    "desc": "Hypnotic falling visuals",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "FanFiction.net",
     "url": "https://www.fanfiction.net/",
     "desc": "Fan fiction stories and community",
@@ -48672,13 +47720,6 @@
     "name": "File.io",
     "url": "https://file.io/",
     "desc": "Ephemeral file sharing",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "FileStash",
-    "url": "https://filestash.app/",
-    "desc": "Modern file manager",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -49145,13 +48186,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Hemingway",
-    "url": "https://www.hemingwayapp.com/",
-    "desc": "Write clearly",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Here WeGo",
     "url": "https://wego.here.com/",
     "desc": "Navigation",
@@ -49218,13 +48252,6 @@
     "name": "Homebrew",
     "url": "https://brew.sh/",
     "desc": "Mac/Linux packages",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Hybrid Analysis",
-    "url": "https://hybrid-analysis.com/",
-    "desc": "Malware analysis",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -49747,13 +48774,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Longreads",
-    "url": "https://longreads.com/",
-    "desc": "Best of the web",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Lucidchart",
     "url": "https://www.lucidchart.com/",
     "desc": "Diagrams",
@@ -49799,13 +48819,6 @@
     "name": "MalwareBazaar",
     "url": "https://bazaar.abuse.ch/",
     "desc": "Malware samples",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "MapCrunch",
-    "url": "https://mapcrunch.com/",
-    "desc": "Random Street View anywhere",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -50069,13 +49082,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Mojeek",
-    "url": "https://mojeek.com/",
-    "desc": "Independent search engine with own crawler - no Big Tech dependencies",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Monday",
     "url": "https://monday.com/",
     "desc": "Work OS",
@@ -50135,13 +49141,6 @@
     "name": "NGROK",
     "url": "https://ngrok.com/",
     "desc": "Tunnel localhost to web",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "NPM",
-    "url": "https://www.npmjs.com/",
-    "desc": "Node packages",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -50266,22 +49265,8 @@
   },
   {
     "name": "Notion",
-    "url": "https://notion.so/",
-    "desc": "Notes and workspace",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Notion",
     "url": "https://www.notion.com/",
     "desc": "All-in-one workspace",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "NuGet",
-    "url": "https://www.nuget.org/",
-    "desc": ".NET packages",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -50608,13 +49593,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Phind",
-    "url": "https://phind.com/",
-    "desc": "AI search for devs",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "PhotoFunia",
     "url": "https://photofunia.com/",
     "desc": "Free photo effects and editor",
@@ -50625,20 +49603,6 @@
     "name": "Photomath",
     "url": "https://www.photomath.com/",
     "desc": "Math app",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Photomath",
-    "url": "https://photomath.com/",
-    "desc": "Math solver",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Photopea",
-    "url": "https://photopea.com/",
-    "desc": "Photoshop online",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -50793,13 +49757,6 @@
     "name": "Prettier",
     "url": "https://prettier.io/playground/",
     "desc": "Code formatter",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Privacy Guide",
-    "url": "https://privacyguides.org/",
-    "desc": "Open-source privacy recommendations",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -51007,13 +49964,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Reddit",
-    "url": "https://reddit.com/",
-    "desc": "Link aggregation",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Reddit Warhammer40k",
     "url": "https://www.reddit.com/r/Warhammer40k/",
     "desc": "40K sub",
@@ -51206,13 +50156,6 @@
     "name": "SPF Checker",
     "url": "https://dmarcian.com/spf-scanner/",
     "desc": "SPF record checker",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "SQLFiddle",
-    "url": "http://sqlfiddle.com/",
-    "desc": "SQL sandbox",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -51567,13 +50510,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Staggering Beauty",
-    "url": "https://staggeringbeauty.com/",
-    "desc": "Worm dances to your mouse",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Stamen Design",
     "url": "https://stamen.com/",
     "desc": "Map tiles",
@@ -51833,13 +50769,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Text Compare",
-    "url": "https://www.textcompare.org/",
-    "desc": "Compare documents",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "Textise (Alt)",
     "url": "https://txtise.net/",
     "desc": "Another text-only service",
@@ -51924,13 +50853,6 @@
     "subcategory": "General"
   },
   {
-    "name": "The Useless Web",
-    "url": "https://theuselessweb.com/",
-    "desc": "Random useless website generator",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "The Verge",
     "url": "https://www.theverge.com/",
     "desc": "Tech news",
@@ -52004,13 +50926,6 @@
     "name": "Time Zones",
     "url": "https://www.timezones.com/",
     "desc": "Zone information",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "TinEye",
-    "url": "https://tineye.com/",
-    "desc": "Reverse image",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -52309,13 +51224,6 @@
     "subcategory": "General"
   },
   {
-    "name": "Visual6502",
-    "url": "https://www.visual6502.org/",
-    "desc": "Chip simulation",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "VitePress",
     "url": "https://vitepress.dev/",
     "desc": "Vue static docs",
@@ -52414,13 +51322,6 @@
     "subcategory": "General"
   },
   {
-    "name": "WebPageTest",
-    "url": "https://www.webpagetest.org/",
-    "desc": "Performance test",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
     "name": "WeeChat",
     "url": "https://weechat.org/",
     "desc": "Terminal IRC",
@@ -52501,13 +51402,6 @@
     "name": "Wiktionary",
     "url": "https://en.wiktionary.org/",
     "desc": "Free dictionary",
-    "category": "Tools",
-    "subcategory": "General"
-  },
-  {
-    "name": "Windmill",
-    "url": "https://www.windmill.dev/",
-    "desc": "Open source workflow automation",
     "category": "Tools",
     "subcategory": "General"
   },
@@ -52799,23 +51693,9 @@
     "subcategory": "Software"
   },
   {
-    "name": "Blender",
-    "url": "https://blender.org/",
-    "desc": "3D creation suite",
-    "category": "Tools",
-    "subcategory": "Software"
-  },
-  {
     "name": "Emby",
     "url": "https://emby.media/",
     "desc": "Media server",
-    "category": "Tools",
-    "subcategory": "Software"
-  },
-  {
-    "name": "GIMP",
-    "url": "https://gimp.org/",
-    "desc": "Image editor",
     "category": "Tools",
     "subcategory": "Software"
   },
@@ -52829,13 +51709,6 @@
   {
     "name": "LibreOffice",
     "url": "https://www.libreoffice.org/",
-    "desc": "Office suite",
-    "category": "Tools",
-    "subcategory": "Software"
-  },
-  {
-    "name": "LibreOffice",
-    "url": "https://libreoffice.org/",
     "desc": "Office suite",
     "category": "Tools",
     "subcategory": "Software"
@@ -52883,13 +51756,6 @@
     "subcategory": "Software"
   },
   {
-    "name": "Slant",
-    "url": "https://www.slant.co/",
-    "desc": "Product opinions",
-    "category": "Tools",
-    "subcategory": "Software"
-  },
-  {
     "name": "Sublime Text",
     "url": "https://www.sublimetext.com/",
     "desc": "Text editor",
@@ -52900,13 +51766,6 @@
     "name": "There's An App For That",
     "url": "https://thereisanappforthat.com/",
     "desc": "App directory",
-    "category": "Tools",
-    "subcategory": "Software"
-  },
-  {
-    "name": "Unraid",
-    "url": "https://www.unraid.net/",
-    "desc": "Storage OS",
     "category": "Tools",
     "subcategory": "Software"
   },
@@ -52974,25 +51833,11 @@
     "subcategory": "Linux"
   },
   {
-    "name": "Phoronix",
-    "url": "https://www.phoronix.com/",
-    "desc": "Linux hardware reviews",
-    "category": "Technology",
-    "subcategory": "Linux"
-  },
-  {
     "name": "Atom",
     "url": "https://github.blog/2022-06-28-sunsetting-atom/",
     "desc": "GitHub's text editor (archived)",
     "category": "Tools",
     "subcategory": "Editors"
-  },
-  {
-    "name": "Framer",
-    "url": "https://www.framer.com/",
-    "desc": "Interactive design tool",
-    "category": "Tools",
-    "subcategory": "Design"
   },
   {
     "name": "Mermaid",
@@ -53044,13 +51889,6 @@
     "subcategory": "Journals"
   },
   {
-    "name": "DaVinci Resolve",
-    "url": "https://www.blackmagicdesign.com/products/davinciresolve/",
-    "desc": "Professional video editing",
-    "category": "Creative",
-    "subcategory": "Video"
-  },
-  {
     "name": "IMDb",
     "url": "https://www.imdb.com/",
     "desc": "Movie and TV database",
@@ -53070,13 +51908,6 @@
     "desc": "Movie reviews aggregator",
     "category": "Entertainment",
     "subcategory": "Movies"
-  },
-  {
-    "name": "Crunchyroll",
-    "url": "https://www.crunchyroll.com/",
-    "desc": "Anime streaming",
-    "category": "Entertainment",
-    "subcategory": "Anime"
   },
   {
     "name": "Goodreads",
@@ -53238,13 +52069,6 @@
     "desc": "Game completion times",
     "category": "Gaming",
     "subcategory": "Database"
-  },
-  {
-    "name": "PCGamingWiki",
-    "url": "https://www.pcgamingwiki.com/",
-    "desc": "PC game fixes and tweaks",
-    "category": "Gaming",
-    "subcategory": "Wiki"
   },
   {
     "name": "Raspberry Pi",
@@ -53448,5 +52272,3953 @@
     "desc": "Emulator downloads",
     "category": "Retro",
     "subcategory": "Resources"
+  },
+  {
+    "name": "Linguee",
+    "url": "https://www.linguee.com/",
+    "desc": "Bilingual dictionary with real usage examples",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Tofugu",
+    "url": "https://www.tofugu.com/",
+    "desc": "Japanese language learning guides",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Babadum",
+    "url": "https://babadum.com/",
+    "desc": "Vocabulary games for many languages",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Drops",
+    "url": "https://languagedrops.com/",
+    "desc": "Visual vocabulary app",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Speechling",
+    "url": "https://speechling.com/",
+    "desc": "Free pronunciation coaching",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "LingoHut",
+    "url": "https://www.lingohut.com/",
+    "desc": "Free hands-on language lessons",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "NHK Easy News",
+    "url": "https://www3.nhk.or.jp/news/easy/",
+    "desc": "Simple Japanese news for learners",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "DuoCards",
+    "url": "https://duocards.com/",
+    "desc": "Vocabulary built from content you watch",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "SEC EDGAR",
+    "url": "https://www.sec.gov/edgar",
+    "desc": "Official SEC company filings",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "FRED",
+    "url": "https://fred.stlouisfed.org/",
+    "desc": "St. Louis Fed economic data",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "YNAB",
+    "url": "https://www.ynab.com/",
+    "desc": "You Need A Budget app",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "EveryDollar",
+    "url": "https://www.everydollar.com/",
+    "desc": "Zero-based budgeting app",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Empower Personal Capital",
+    "url": "https://www.empower.com/",
+    "desc": "Net worth and investment tracking",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Portfolio Visualizer",
+    "url": "https://www.portfoliovisualizer.com/",
+    "desc": "Portfolio backtesting and analysis",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Bogleheads",
+    "url": "https://www.bogleheads.org/",
+    "desc": "Index investing community and wiki",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "NerdWallet",
+    "url": "https://www.nerdwallet.com/",
+    "desc": "Personal finance comparisons and advice",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Bankrate",
+    "url": "https://www.bankrate.com/",
+    "desc": "Rates, mortgage and card comparisons",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "The Motley Fool",
+    "url": "https://www.fool.com/",
+    "desc": "Stock analysis and investing advice",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Macrotrends",
+    "url": "https://www.macrotrends.net/",
+    "desc": "Long-term historical stock data",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Trading Economics",
+    "url": "https://tradingeconomics.com/",
+    "desc": "Global macroeconomic indicators",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Koyfin",
+    "url": "https://www.koyfin.com/",
+    "desc": "Free market and stock analytics",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "JustETF",
+    "url": "https://www.justetf.com/",
+    "desc": "ETF screener and comparisons",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Reuters Markets",
+    "url": "https://www.reuters.com/markets/",
+    "desc": "Global markets news",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "OpenBB",
+    "url": "https://openbb.co/",
+    "desc": "Open source investment research",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Portfolio Charts",
+    "url": "https://portfoliocharts.com/",
+    "desc": "Portfolio statistics and charts",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "WalletHub",
+    "url": "https://wallethub.com/",
+    "desc": "Credit cards and personal finance",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Credit Karma",
+    "url": "https://www.creditkarma.com/",
+    "desc": "Free credit score monitoring",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Mr. Money Mustache",
+    "url": "https://www.mrmoneymustache.com/",
+    "desc": "Early retirement and frugality blog",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Clark Howard",
+    "url": "https://clark.com/",
+    "desc": "Consumer and money-saving advice",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "ProjectionLab",
+    "url": "https://projectionlab.com/",
+    "desc": "Financial planning and retirement projections",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Federal Reserve",
+    "url": "https://www.federalreserve.gov/",
+    "desc": "US central bank data and policy",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "r/personalfinance",
+    "url": "https://www.reddit.com/r/personalfinance/",
+    "desc": "Personal finance community",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Google Books",
+    "url": "https://books.google.com/",
+    "desc": "Search millions of scanned books",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Internet Archive Texts",
+    "url": "https://archive.org/details/texts",
+    "desc": "Digitized books archive",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "ThriftBooks",
+    "url": "https://www.thriftbooks.com/",
+    "desc": "Cheap used books online",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "AbeBooks",
+    "url": "https://www.abebooks.com/",
+    "desc": "Rare and out-of-print books",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Alibris",
+    "url": "https://www.alibris.com/",
+    "desc": "New and used books marketplace",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Bookshop.org",
+    "url": "https://bookshop.org/",
+    "desc": "Buying that supports local bookstores",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Fantastic Fiction",
+    "url": "https://www.fantasticfiction.com/",
+    "desc": "Browse authors and series",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "ISFDB",
+    "url": "https://www.isfdb.org/",
+    "desc": "Science fiction bibliography database",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Literary Hub",
+    "url": "https://lithub.com/",
+    "desc": "Daily book culture and essays",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Poetry Foundation",
+    "url": "https://www.poetryfoundation.org/",
+    "desc": "Poems and poet profiles",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Feedbooks",
+    "url": "https://www.feedbooks.com/",
+    "desc": "Free and public domain ebooks",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "BookBub",
+    "url": "https://www.bookbub.com/",
+    "desc": "Book deals and recommendations",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "OverDrive",
+    "url": "https://www.overdrive.com/",
+    "desc": "Library ebook and audiobook borrowing",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Electric Literature",
+    "url": "https://electricliterature.com/",
+    "desc": "Contemporary literature magazine",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "BookFinder",
+    "url": "https://www.bookfinder.com/",
+    "desc": "Cross-shop used books by ISBN",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "5e.tools",
+    "url": "https://5e.tools/",
+    "desc": "D&D 5e rules reference",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Archives of Nethys",
+    "url": "https://2e.aonprd.com/",
+    "desc": "Pathfinder 2e rules database",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "AnyDice",
+    "url": "https://anydice.com/",
+    "desc": "Dice probability calculator",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Kanka",
+    "url": "https://kanka.io/",
+    "desc": "TTRPG campaign manager",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Donjon",
+    "url": "https://donjon.bin.sh/",
+    "desc": "RPG random generators",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Fantasy Name Generators",
+    "url": "https://www.fantasynamegenerators.com/",
+    "desc": "Thousands of name generators",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Watabou",
+    "url": "https://watabou.itch.io/",
+    "desc": "Procedural map and structure tools",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "Dungeon Alchemist",
+    "url": "https://www.dungeonalchemist.com/",
+    "desc": "AI-assisted dungeon maps",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "DMs Guild",
+    "url": "https://www.dmsguild.com/",
+    "desc": "Community D&D adventures",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "DriveThruRPG",
+    "url": "https://www.drivethrurpg.com/",
+    "desc": "RPG PDF marketplace",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Hero Forge",
+    "url": "https://www.heroforge.com/",
+    "desc": "Custom tabletop miniatures",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Eldritch Foundry",
+    "url": "https://www.eldritchfoundry.com/",
+    "desc": "Custom 3D-print miniatures",
+    "category": "Tabletop",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Homebrewery",
+    "url": "https://homebrewery.naturalcrit.com/",
+    "desc": "Create D&D homebrew",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Food Network",
+    "url": "https://www.foodnetwork.com/",
+    "desc": "Recipes and cooking TV shows",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Yummly",
+    "url": "https://www.yummly.com/",
+    "desc": "Recipe discovery and meal planning",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Tasty",
+    "url": "https://tasty.co/",
+    "desc": "Short recipe videos",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Pinch of Yum",
+    "url": "https://pinchofyum.com/",
+    "desc": "Whole-food-inspired everyday recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Damn Delicious",
+    "url": "https://damndelicious.net/",
+    "desc": "Quick and easy recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Skinnytaste",
+    "url": "https://www.skinnytaste.com/",
+    "desc": "Healthier lightened-up recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "The Woks of Life",
+    "url": "https://thewoksoflife.com/",
+    "desc": "Chinese home cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Just One Cookbook",
+    "url": "https://www.justonecookbook.com/",
+    "desc": "Japanese home cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Maangchi",
+    "url": "https://www.maangchi.com/",
+    "desc": "Korean home cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Rainbow Plant Life",
+    "url": "https://rainbowplantlife.com/",
+    "desc": "Vegan plant-based recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Ministry of Curry",
+    "url": "https://ministryofcurry.com/",
+    "desc": "Indian and fusion recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Binging with Babish",
+    "url": "https://www.bingingwithbabish.com/",
+    "desc": "Recipe recreations and basics",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "ChefSteps",
+    "url": "https://www.chefsteps.com/",
+    "desc": "Sous vide and modernist cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Anova Culinary",
+    "url": "https://anovaculinary.com/",
+    "desc": "Sous vide precision cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "TasteAtlas",
+    "url": "https://www.tasteatlas.com/",
+    "desc": "World atlas of dishes and ingredients",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Marmiton",
+    "url": "https://www.marmiton.org/",
+    "desc": "French recipe site",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "MyFoodData",
+    "url": "https://www.myfooddata.com/",
+    "desc": "Nutrition database for foods",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Live Science",
+    "url": "https://www.livescience.com/",
+    "desc": "Science news and explainers",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Phys.org",
+    "url": "https://phys.org/",
+    "desc": "Science and technology news",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "New Scientist",
+    "url": "https://www.newscientist.com/",
+    "desc": "Science and technology magazine",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Universe Today",
+    "url": "https://www.universetoday.com/",
+    "desc": "Space and astronomy news",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "EarthSky",
+    "url": "https://earthsky.org/",
+    "desc": "Astronomy news and sky events",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "PLOS",
+    "url": "https://plos.org/",
+    "desc": "Open access science journals",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "eLife",
+    "url": "https://elifesciences.org/",
+    "desc": "Open access life sciences journal",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Periodic Videos",
+    "url": "http://www.periodicvideos.com/",
+    "desc": "Chemistry explained by video",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "C&EN",
+    "url": "https://cen.acs.org/",
+    "desc": "Chemistry and engineering news",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Chemistry World",
+    "url": "https://www.chemistryworld.com/",
+    "desc": "Royal Society of Chemistry news",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Physics World",
+    "url": "https://physicsworld.com/",
+    "desc": "Physics news and commentary",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "NASA ADS",
+    "url": "https://adsabs.harvard.edu/",
+    "desc": "Astronomy paper database",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "ScienceDaily",
+    "url": "https://www.sciencedaily.com/",
+    "desc": "Science research news",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "EurekAlert",
+    "url": "https://www.eurekalert.org/",
+    "desc": "Science news from institutions",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "NCBI",
+    "url": "https://www.ncbi.nlm.nih.gov/",
+    "desc": "US National Center for Biotechnology",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Creativebug",
+    "url": "https://www.creativebug.com/",
+    "desc": "Craft video classes",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Evil Mad Scientist",
+    "url": "https://evilmadscientist.com/",
+    "desc": "DIY electronics projects",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Seamwork",
+    "url": "https://www.seamwork.com/",
+    "desc": "Sewing patterns and magazine",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Tilly and the Buttons",
+    "url": "https://www.tillyandthebuttons.com/",
+    "desc": "Beginner-friendly sewing",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "AllFreeCrochet",
+    "url": "https://www.allfreecrochet.com/",
+    "desc": "Free crochet patterns",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Corning Museum of Glass",
+    "url": "https://www.cmog.org/",
+    "desc": "Glassmaking demos and collections",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "BrickLink",
+    "url": "https://www.bricklink.com/",
+    "desc": "Lego part marketplace",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "BrickSet",
+    "url": "https://brickset.com/",
+    "desc": "Lego set database and news",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Origami.me",
+    "url": "https://origami.me/",
+    "desc": "Origami tutorials and diagrams",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "NPR Tiny Desk",
+    "url": "https://www.npr.org/series/tiny-desk-concerts/",
+    "desc": "Intimate concert series",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Soundstripe",
+    "url": "https://www.soundstripe.com/",
+    "desc": "Royalty-free music for creators",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Uppbeat",
+    "url": "https://uppbeat.io/",
+    "desc": "Royalty-free music for video",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "MusicRadar",
+    "url": "https://www.musicradar.com/",
+    "desc": "Gear, lessons and music tech news",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Guitar World",
+    "url": "https://www.guitarworld.com/",
+    "desc": "Guitar lessons and news",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Songfacts",
+    "url": "https://www.songfacts.com/",
+    "desc": "Song meanings and trivia",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Genius",
+    "url": "https://genius.com/",
+    "desc": "Annotated lyrics",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Metal Archives",
+    "url": "https://www.metal-archives.com/",
+    "desc": "Encyclopaedia Metallum database",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Audius",
+    "url": "https://audius.co/",
+    "desc": "Decentralized music streaming",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Zabbix",
+    "url": "https://www.zabbix.com/",
+    "desc": "Enterprise monitoring platform",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Glances",
+    "url": "https://nicolargo.github.io/glances/",
+    "desc": "Cross-platform system monitor",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Bazarr",
+    "url": "https://www.bazarr.media/",
+    "desc": "Subtitle manager for media servers",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Backblaze B2",
+    "url": "https://www.backblaze.com/",
+    "desc": "Affordable cloud object storage",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Hetzner",
+    "url": "https://www.hetzner.com/",
+    "desc": "Affordable cloud and dedicated servers",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Vultr",
+    "url": "https://www.vultr.com/",
+    "desc": "Cloud compute provider",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Oracle Cloud Free",
+    "url": "https://www.oracle.com/cloud/free/",
+    "desc": "Always-free cloud VMs",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Lingvist",
+    "url": "https://lingvist.com/",
+    "desc": "Adaptive vocabulary learning",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Readlang",
+    "url": "https://readlang.com/",
+    "desc": "Read and learn in your target language",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "JapanesePod101",
+    "url": "https://www.japanesepod101.com/",
+    "desc": "Japanese lessons and podcast",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Skritter",
+    "url": "https://skritter.com/",
+    "desc": "Learn to write Chinese and Japanese",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Mnemosyne",
+    "url": "https://mnemosyne-proj.org/",
+    "desc": "Open source spaced repetition",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Fluent Forever",
+    "url": "https://fluent-forever.com/",
+    "desc": "Science-based language learning",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "My Language Exchange",
+    "url": "https://www.mylanguageexchange.com/",
+    "desc": "Find language exchange partners",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "ConversationExchange",
+    "url": "https://www.conversationexchange.com/",
+    "desc": "Language exchange community",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Polyglot Club",
+    "url": "https://polyglotclub.com/",
+    "desc": "Language learning community",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "FSI Language Courses",
+    "url": "https://www.fsi-language-courses.org/",
+    "desc": "Free State Department courses",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Betterment",
+    "url": "https://www.betterment.com/",
+    "desc": "Automated investing and savings",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Wealthfront",
+    "url": "https://www.wealthfront.com/",
+    "desc": "Automated investing platform",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Fidelity",
+    "url": "https://www.fidelity.com/",
+    "desc": "Brokerage and retirement accounts",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Vanguard",
+    "url": "https://investor.vanguard.com/",
+    "desc": "Low-cost index funds and ETFs",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Charles Schwab",
+    "url": "https://www.schwab.com/",
+    "desc": "Brokerage and banking",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Robinhood",
+    "url": "https://robinhood.com/",
+    "desc": "Commission-free stock trading",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Ally Bank",
+    "url": "https://www.ally.com/",
+    "desc": "Online banking and savings",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Early Retirement Now",
+    "url": "https://earlyretirementnow.com/",
+    "desc": "Retirement math and the SWR series",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Mad Fientist",
+    "url": "https://www.madfientist.com/",
+    "desc": "Financial independence experiments",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "JL Collins",
+    "url": "https://jlcollinsnh.com/",
+    "desc": "Stock Series investing essays",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "The Balance",
+    "url": "https://www.thebalancemoney.com/",
+    "desc": "Personal finance explainers",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "SmartAsset",
+    "url": "https://smartasset.com/",
+    "desc": "Financial calculators and tools",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "r/investing",
+    "url": "https://www.reddit.com/r/investing/",
+    "desc": "Investing discussion community",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "r/financialindependence",
+    "url": "https://www.reddit.com/r/financialindependence/",
+    "desc": "FIRE community",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "WorldCat",
+    "url": "https://www.worldcat.org/",
+    "desc": "Search library catalogs worldwide",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "HathiTrust",
+    "url": "https://www.hathitrust.org/",
+    "desc": "Digital library of millions of volumes",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "JSTOR",
+    "url": "https://www.jstor.org/",
+    "desc": "Academic journal archive",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Project MUSE",
+    "url": "https://muse.jhu.edu/",
+    "desc": "Humanities and social science journals",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Open Textbook Library",
+    "url": "https://open.umn.edu/opentextbooks/",
+    "desc": "Free, openly licensed textbooks",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Free Kids Books",
+    "url": "https://freekidsbooks.org/",
+    "desc": "Free children's books",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Smashwords",
+    "url": "https://www.smashwords.com/",
+    "desc": "Self-published ebooks",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Draft2Digital",
+    "url": "https://www.draft2digital.com/",
+    "desc": "Self-publishing distribution",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Scribd",
+    "url": "https://www.scribd.com/",
+    "desc": "Documents and books subscription",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Kobo",
+    "url": "https://www.kobo.com/",
+    "desc": "Ebook store and e-readers",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "The Paris Review",
+    "url": "https://www.theparisreview.org/",
+    "desc": "Literary magazine and interviews",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Granta",
+    "url": "https://granta.com/",
+    "desc": "New writing and literary magazine",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "New York Review of Books",
+    "url": "https://www.nybooks.com/",
+    "desc": "Essays and reviews",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Kobold Press",
+    "url": "https://koboldpress.com/",
+    "desc": "D&D adventures and sourcebooks",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Paizo",
+    "url": "https://paizo.com/",
+    "desc": "Pathfinder and Starfinder publisher",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Wizards of the Coast",
+    "url": "https://dnd.wizards.com/",
+    "desc": "Official Dungeons & Dragons",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "DriveThruCards",
+    "url": "https://www.drivethrucards.com/",
+    "desc": "Print-on-demand card games",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "RPG.net",
+    "url": "https://www.rpg.net/",
+    "desc": "RPG reviews and forums",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "ENWorld",
+    "url": "https://www.enworld.org/",
+    "desc": "D&D news and community",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "The Alexandrian",
+    "url": "https://thealexandrian.net/",
+    "desc": "RPG game-mastering essays",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Sly Flourish",
+    "url": "https://slyflourish.com/",
+    "desc": "Lazy DM preparation guides",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Fantasy Grounds",
+    "url": "https://www.fantasygrounds.com/",
+    "desc": "Virtual tabletop with rules automation",
+    "category": "Tabletop",
+    "subcategory": "VTT"
+  },
+  {
+    "name": "Delish",
+    "url": "https://www.delish.com/",
+    "desc": "Recipes and food trends",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Spoon Fork Bacon",
+    "url": "https://www.spoonforkbacon.com/",
+    "desc": "Recipes with detailed photos",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Gimme Some Oven",
+    "url": "https://www.gimmesomeoven.com/",
+    "desc": "Simple everyday recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Sally's Baking Addiction",
+    "url": "https://sallysbakingaddiction.com/",
+    "desc": "Trusted baking recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Preppy Kitchen",
+    "url": "https://preppykitchen.com/",
+    "desc": "Home baking recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Joshua Weissman",
+    "url": "https://joshuaweissman.com/",
+    "desc": "From-scratch cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Hot Thai Kitchen",
+    "url": "https://hot-thai-kitchen.com/",
+    "desc": "Authentic Thai cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Great British Chefs",
+    "url": "https://www.greatbritishchefs.com/",
+    "desc": "Recipes from top UK chefs",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Love and Lemons",
+    "url": "https://www.loveandlemons.com/",
+    "desc": "Vegetarian seasonal cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Album of the Year",
+    "url": "https://www.albumoftheyear.org/",
+    "desc": "Album ratings and rankings",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Best Ever Albums",
+    "url": "https://www.besteveralbums.com/",
+    "desc": "Greatest albums lists",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Songkick",
+    "url": "https://www.songkick.com/",
+    "desc": "Concert tracking and alerts",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "MOJO Magazine",
+    "url": "https://www.mojo4music.com/",
+    "desc": "Rock music magazine",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Pitchfork",
+    "url": "https://pitchfork.com/",
+    "desc": "Music reviews and news",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "The Quietus",
+    "url": "https://thequietus.com/",
+    "desc": "Independent music criticism",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Resident Advisor",
+    "url": "https://ra.co/",
+    "desc": "Electronic music events and reviews",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "DownBeat",
+    "url": "https://downbeat.com/",
+    "desc": "Jazz magazine",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "All About Jazz",
+    "url": "https://www.allaboutjazz.com/",
+    "desc": "Jazz news and reviews",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Fermilab",
+    "url": "https://www.fnal.gov/",
+    "desc": "Particle physics laboratory",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "American Museum of Natural History",
+    "url": "https://www.amnh.org/",
+    "desc": "Natural history museum",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Field Museum",
+    "url": "https://www.fieldmuseum.org/",
+    "desc": "Natural history collections",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Exploratorium",
+    "url": "https://www.exploratorium.edu/",
+    "desc": "Interactive science museum",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Frontiers",
+    "url": "https://www.frontiersin.org/",
+    "desc": "Open access scientific journals",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Science News",
+    "url": "https://www.sciencenews.org/",
+    "desc": "Independent science journalism",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Science Friday",
+    "url": "https://www.sciencefriday.com/",
+    "desc": "Science radio show and articles",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Our World in Data",
+    "url": "https://ourworldindata.org/",
+    "desc": "Research and data on big problems",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Union of Concerned Scientists",
+    "url": "https://www.ucsusa.org/",
+    "desc": "Science advocacy",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Cricut",
+    "url": "https://cricut.com/",
+    "desc": "Cutting machines and craft projects",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Glowforge",
+    "url": "https://glowforge.com/",
+    "desc": "Desktop laser cutters",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Maker World",
+    "url": "https://makerworld.com/",
+    "desc": "3D print models from Bambu",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Resin Obsession",
+    "url": "https://resinobsession.com/",
+    "desc": "Epoxy resin craft tutorials",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Living Felt",
+    "url": "https://livingfelt.com/",
+    "desc": "Felting supplies and tutorials",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Synology",
+    "url": "https://www.synology.com/",
+    "desc": "NAS hardware and DSM software",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "QNAP",
+    "url": "https://www.qnap.com/",
+    "desc": "Network-attached storage",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Dokku",
+    "url": "https://dokku.com/",
+    "desc": "Self-hosted PaaS on a single server",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Speedrun.com",
+    "url": "https://www.speedrun.com/",
+    "desc": "Speedrun leaderboards",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Metacritic",
+    "url": "https://www.metacritic.com/",
+    "desc": "Game review aggregator",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "OpenCritic",
+    "url": "https://opencritic.com/",
+    "desc": "Critic review aggregator",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Google Arts & Culture",
+    "url": "https://artsandculture.google.com/",
+    "desc": "Artworks and museum exhibits",
+    "category": "Knowledge",
+    "subcategory": "Knowledge"
+  },
+  {
+    "name": "The Free Library",
+    "url": "https://www.thefreelibrary.com/",
+    "desc": "Free classic books and articles",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Bartleby",
+    "url": "https://www.bartleby.com/",
+    "desc": "Reference and classic literature",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Book Riot",
+    "url": "https://bookriot.com/",
+    "desc": "Book news, lists and podcasts",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "LitReactor",
+    "url": "https://litreactor.com/",
+    "desc": "Writing courses and workshops",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Biblioklept",
+    "url": "https://biblioklept.org/",
+    "desc": "Literary excerpts and art",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Poets.org",
+    "url": "https://poets.org/",
+    "desc": "Academy of American Poets",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "FictionDB",
+    "url": "https://www.fictiondb.com/",
+    "desc": "Book series and author search",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Insider Monkey",
+    "url": "https://www.insidermonkey.com/",
+    "desc": "Hedge fund and stock insights",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "TipRanks",
+    "url": "https://www.tipranks.com/",
+    "desc": "Analyst and expert stock ratings",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "StockAnalysis",
+    "url": "https://stockanalysis.com/",
+    "desc": "Financial stats for every ticker",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Longtermtrends",
+    "url": "https://www.longtermtrends.net/",
+    "desc": "Long-run asset price charts",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Planet Money",
+    "url": "https://www.npr.org/sections/money/",
+    "desc": "Economics explained podcast",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Verbling",
+    "url": "https://www.verbling.com/",
+    "desc": "Online language tutoring",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Lingoda",
+    "url": "https://www.lingoda.com/",
+    "desc": "Live online group classes",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Michel Thomas",
+    "url": "https://www.michelthomas.com/",
+    "desc": "Method audio language courses",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Mango Languages",
+    "url": "https://www.mangolanguages.com/",
+    "desc": "Conversation-focused app",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Ling App",
+    "url": "https://ling-app.com/",
+    "desc": "Asian language learning apps",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Speaky",
+    "url": "https://www.speaky.com/",
+    "desc": "Language practice community",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "The Planetary Society",
+    "url": "https://www.planetary.org/",
+    "desc": "Space exploration advocacy",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "ESO",
+    "url": "https://www.eso.org/",
+    "desc": "European Southern Observatory",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "NOIRLab",
+    "url": "https://noirlab.edu/",
+    "desc": "US ground-based astronomy",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "NASA Science",
+    "url": "https://science.nasa.gov/",
+    "desc": "NASA missions and science",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Astronomy Cast",
+    "url": "https://www.astronomycast.com/",
+    "desc": "Astronomy explained podcast",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "American Chemical Society",
+    "url": "https://www.acs.org/",
+    "desc": "Chemistry society and journals",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Royal Society of Chemistry",
+    "url": "https://www.rsc.org/",
+    "desc": "Chemistry journals and resources",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Understanding Evolution",
+    "url": "https://evolution.berkeley.edu/",
+    "desc": "Evolution learning resource",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "The Conversation",
+    "url": "https://theconversation.com/",
+    "desc": "Expert-explained news",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "SciTechDaily",
+    "url": "https://scitechdaily.com/",
+    "desc": "Science and tech research news",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Interesting Engineering",
+    "url": "https://interestingengineering.com/",
+    "desc": "Engineering and tech articles",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "IFLScience",
+    "url": "https://www.iflscience.com/",
+    "desc": "Fun science stories",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "ScienceAlert",
+    "url": "https://www.sciencealert.com/",
+    "desc": "Science news and explainers",
+    "category": "Science",
+    "subcategory": "Science"
+  },
+  {
+    "name": "Bake from Scratch",
+    "url": "https://www.bakefromscratch.com/",
+    "desc": "Artisan baking magazine",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Joy the Baker",
+    "url": "https://joythebaker.com/",
+    "desc": "Baking and life blog",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Mimi Thorisson",
+    "url": "https://mimithorisson.com/",
+    "desc": "French home cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Two Peas and Their Pod",
+    "url": "https://www.twopeasandtheirpod.com/",
+    "desc": "Family-friendly recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Modernist Cuisine",
+    "url": "https://modernistcuisine.com/",
+    "desc": "Science-based cooking",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Science of Cooking",
+    "url": "https://www.scienceofcooking.com/",
+    "desc": "Food chemistry explained",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Song Exploder",
+    "url": "https://songexploder.net/",
+    "desc": "Artists dissect their songs",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "The Fader",
+    "url": "https://www.thefader.com/",
+    "desc": "Music and culture magazine",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "SPIN",
+    "url": "https://www.spin.com/",
+    "desc": "Music news and reviews",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "NME",
+    "url": "https://www.nme.com/",
+    "desc": "New Musical Express",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Rolling Stone",
+    "url": "https://www.rollingstone.com/",
+    "desc": "Music and pop culture",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Billboard",
+    "url": "https://www.billboard.com/",
+    "desc": "Music charts and news",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Hype Machine",
+    "url": "https://hypem.com/",
+    "desc": "Music blog aggregator",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "Bandcamp Daily",
+    "url": "https://daily.bandcamp.com/",
+    "desc": "Independent music features",
+    "category": "Music",
+    "subcategory": "Music"
+  },
+  {
+    "name": "StrategyWiki",
+    "url": "https://strategywiki.org/",
+    "desc": "Game guides and walkthroughs",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "GameSpot",
+    "url": "https://www.gamespot.com/",
+    "desc": "Game news and reviews",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "IGN",
+    "url": "https://www.ign.com/",
+    "desc": "Game reviews and news",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Polygon",
+    "url": "https://www.polygon.com/",
+    "desc": "Gaming and culture coverage",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Kotaku",
+    "url": "https://kotaku.com/",
+    "desc": "Gaming and internet culture",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Destructoid",
+    "url": "https://www.destructoid.com/",
+    "desc": "Indie and mainstream games",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Siliconera",
+    "url": "https://www.siliconera.com/",
+    "desc": "Anime and Japanese games",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Gematsu",
+    "url": "https://www.gematsu.com/",
+    "desc": "Japanese game news",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "HTTPBin",
+    "url": "https://httpbin.org/",
+    "desc": "HTTP request testing service",
+    "category": "Technology",
+    "subcategory": "Technology"
+  },
+  {
+    "name": "Servarr Wiki",
+    "url": "https://wiki.servarr.com/",
+    "desc": "Docs for the popular media apps",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Mailbox.org",
+    "url": "https://mailbox.org/",
+    "desc": "Secure email provider",
+    "category": "Communication",
+    "subcategory": "Communication"
+  },
+  {
+    "name": "Snikket",
+    "url": "https://snikket.org/",
+    "desc": "Easy self-hosted XMPP",
+    "category": "Communication",
+    "subcategory": "Communication"
+  },
+  {
+    "name": "Autodesk Fusion",
+    "url": "https://www.autodesk.com/products/fusion-360",
+    "desc": "CAD and CAM software",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Onshape",
+    "url": "https://www.onshape.com/",
+    "desc": "Browser-based CAD",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Postcrossing",
+    "url": "https://www.postcrossing.com/",
+    "desc": "Send and receive postcards globally",
+    "category": "Hobbies",
+    "subcategory": "Hobbies"
+  },
+  {
+    "name": "PDGA",
+    "url": "https://www.pdga.com/",
+    "desc": "Disc golf tour rules and rankings",
+    "category": "Hobbies",
+    "subcategory": "Hobbies"
+  },
+  {
+    "name": "Transparent Language",
+    "url": "https://www.transparent.com/",
+    "desc": "Language learning games and courses",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Rocket Languages",
+    "url": "https://www.rocketlanguages.com/",
+    "desc": "Audio-based language courses",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Satori Reader",
+    "url": "https://www.satorireader.com/",
+    "desc": "Japanese reading practice",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "WaniKani",
+    "url": "https://www.wanikani.com/",
+    "desc": "Radical-to-kanji spaced repetition",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Kanshudo",
+    "url": "https://www.kanshudo.com/",
+    "desc": "Japanese proficiency tracking",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Bunpro",
+    "url": "https://bunpro.jp/",
+    "desc": "Japanese grammar SRS",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "ChineseSkill",
+    "url": "https://www.chineseskill.com/",
+    "desc": "Mandarin learning app",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Pleco",
+    "url": "https://www.pleco.com/",
+    "desc": "Chinese dictionary app",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Tae Kim's Guide",
+    "url": "https://guidetojapanese.org/",
+    "desc": "Modern Japanese grammar guide",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "Imabi",
+    "url": "https://www.imabi.net/",
+    "desc": "Deep Japanese grammar encyclopedia",
+    "category": "Languages",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "The Economist",
+    "url": "https://www.economist.com/",
+    "desc": "International economics and politics",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Money Under 30",
+    "url": "https://www.moneyunder30.com/",
+    "desc": "Practical money advice for young adults",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "The Points Guy",
+    "url": "https://thepointsguy.com/",
+    "desc": "Travel cards and points strategy",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Doctor of Credit",
+    "url": "https://www.doctorofcredit.com/",
+    "desc": "Bank account and credit deals",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Frugalwoods",
+    "url": "https://www.frugalwoods.com/",
+    "desc": "Frugality and early retirement blog",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "r/povertyfinance",
+    "url": "https://www.reddit.com/r/povertyfinance/",
+    "desc": "Practical money help community",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "r/leanfire",
+    "url": "https://www.reddit.com/r/leanfire/",
+    "desc": "Lean FIRE community",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Simply Wall St",
+    "url": "https://simplywall.st/",
+    "desc": "Visual stock research",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "XE",
+    "url": "https://www.xe.com/",
+    "desc": "Currency converter and rates",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Wise",
+    "url": "https://wise.com/",
+    "desc": "Low-fee international transfers",
+    "category": "Finance",
+    "subcategory": "Finance"
+  },
+  {
+    "name": "Publishers Weekly",
+    "url": "https://www.publishersweekly.com/",
+    "desc": "Book publishing trade news",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Kirkus Reviews",
+    "url": "https://www.kirkusreviews.com/",
+    "desc": "Book reviews before publication",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Book Marks",
+    "url": "https://bookmarks.reviews/",
+    "desc": "Literary review aggregator",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Complete Review",
+    "url": "https://www.complete-review.com/",
+    "desc": "Independent literary reviews",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Public Books",
+    "url": "https://www.publicbooks.org/",
+    "desc": "Scholarly literary criticism",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Los Angeles Review of Books",
+    "url": "https://lareviewofbooks.org/",
+    "desc": "Literary criticism and essays",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "The Rumpus",
+    "url": "https://therumpus.net/",
+    "desc": "Literary magazine",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Strange Horizons",
+    "url": "https://strangehorizons.com/",
+    "desc": "Speculative fiction magazine",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Clarkesworld",
+    "url": "https://clarkesworldmagazine.com/",
+    "desc": "Science fiction magazine",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "Uncanny Magazine",
+    "url": "https://www.uncannymagazine.com/",
+    "desc": "Speculative fiction magazine",
+    "category": "Books",
+    "subcategory": "Books"
+  },
+  {
+    "name": "r/DnDBehindTheScreen",
+    "url": "https://www.reddit.com/r/DnDBehindTheScreen/",
+    "desc": "DM advice and resources",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "Dyson Logos",
+    "url": "https://dysonlogos.blog/",
+    "desc": "Free hand-drawn dungeon maps",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "Blog of Holding",
+    "url": "https://blogofholding.com/",
+    "desc": "RPG mechanics analysis",
+    "category": "Tabletop",
+    "subcategory": "Tabletop"
+  },
+  {
+    "name": "DungeonFog",
+    "url": "https://www.dungeonfog.com/",
+    "desc": "Online map-making tool",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "Dungeondraft",
+    "url": "https://dungeondraft.net/",
+    "desc": "Desktop battle map designer",
+    "category": "Tabletop",
+    "subcategory": "Maps"
+  },
+  {
+    "name": "Food & Wine",
+    "url": "https://www.foodandwine.com/",
+    "desc": "Recipes and wine pairing",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Eater",
+    "url": "https://www.eater.com/",
+    "desc": "Food news and restaurant culture",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Cook's Illustrated",
+    "url": "https://www.cooksillustrated.com/",
+    "desc": "Tested and perfected recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Milk Street",
+    "url": "https://www.177milkstreet.com/",
+    "desc": "Global technique-driven recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Pressure Luck Cooking",
+    "url": "https://pressureluckcooking.com/",
+    "desc": "Instant Pot recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Nom Nom Paleo",
+    "url": "https://nomnompaleo.com/",
+    "desc": "Paleo recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Bakerella",
+    "url": "https://bakerella.com/",
+    "desc": "Candy and dessert creations",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Dorie Greenspan",
+    "url": "https://doriegreenspan.com/",
+    "desc": "Award-winning baking recipes",
+    "category": "Food",
+    "subcategory": "Food"
+  },
+  {
+    "name": "Hardcore Gaming 101",
+    "url": "https://www.hardcoregaming101.net/",
+    "desc": "Deep dives into gaming history",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Push Square",
+    "url": "https://www.pushsquare.com/",
+    "desc": "PlayStation news and reviews",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Eurogamer",
+    "url": "https://www.eurogamer.net/",
+    "desc": "Game news and Digital Foundry",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Flashpoint Archive",
+    "url": "https://flashpointarchive.org/",
+    "desc": "Preserve playable flash games",
+    "category": "Gaming",
+    "subcategory": "Gaming"
+  },
+  {
+    "name": "Simple English Wikipedia",
+    "url": "https://simple.wikipedia.org/",
+    "desc": "Wikipedia in basic English",
+    "category": "Knowledge",
+    "subcategory": "Knowledge"
+  },
+  {
+    "name": "Python Docs",
+    "url": "https://docs.python.org/",
+    "desc": "Python language documentation",
+    "category": "Technology",
+    "subcategory": "Technology"
+  },
+  {
+    "name": "Dashy",
+    "url": "https://dashy.to/",
+    "desc": "Custom home server dashboard",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Heimdall",
+    "url": "https://heimdall.site/",
+    "desc": "Homelab application dashboard",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "Organizr",
+    "url": "https://organizr.app/",
+    "desc": "HTPC and homelab organizer",
+    "category": "Self-Hosting",
+    "subcategory": "Self-Hosting"
+  },
+  {
+    "name": "HedgeDoc",
+    "url": "https://hedgedoc.org/",
+    "desc": "Open source Markdown notes",
+    "category": "Communication",
+    "subcategory": "Communication"
+  },
+  {
+    "name": "Shapr3D",
+    "url": "https://www.shapr3d.com/",
+    "desc": "Fast professional CAD",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Polycount",
+    "url": "https://polycount.com/",
+    "desc": "3D art community and forums",
+    "category": "Crafts",
+    "subcategory": "Crafts"
+  },
+  {
+    "name": "Colnect",
+    "url": "https://colnect.com/",
+    "desc": "Collectibles database and swaps",
+    "category": "Hobbies",
+    "subcategory": "Hobbies"
+  },
+  {
+    "name": "r/simpleliving",
+    "url": "https://www.reddit.com/r/simpleliving/",
+    "desc": "Simple living community",
+    "category": "Lifestyle",
+    "subcategory": "Lifestyle"
+  },
+  {
+    "name": "r/minimalism",
+    "url": "https://www.reddit.com/r/minimalism/",
+    "desc": "Minimalism community",
+    "category": "Lifestyle",
+    "subcategory": "Lifestyle"
+  },
+  {
+    "name": "Numbeo",
+    "url": "https://www.numbeo.com/",
+    "desc": "Cost-of-living comparison data",
+    "category": "Lifestyle",
+    "subcategory": "Lifestyle"
+  },
+  {
+    "name": "The Minimalists",
+    "url": "https://www.theminimalists.com/",
+    "desc": "Minimalism essays and podcasts",
+    "category": "Lifestyle",
+    "subcategory": "Lifestyle"
+  },
+  {
+    "name": "JustWatch",
+    "url": "https://www.justwatch.com/",
+    "desc": "Find where to stream movies and shows",
+    "category": "Entertainment",
+    "subcategory": "Entertainment"
+  },
+  {
+    "name": "Reelgood",
+    "url": "https://reelgood.com/",
+    "desc": "Streaming availability search",
+    "category": "Entertainment",
+    "subcategory": "Entertainment"
+  },
+  {
+    "name": "TVMaze",
+    "url": "https://www.tvmaze.com/",
+    "desc": "TV show schedules and data",
+    "category": "Entertainment",
+    "subcategory": "Entertainment"
+  },
+  {
+    "name": ".NET",
+    "url": "https://dotnet.microsoft.com/",
+    "desc": "Microsoft application development platform",
+    "category": "Technology",
+    "subcategory": "Programming"
+  },
+  {
+    "name": "9to5Mac",
+    "url": "https://9to5mac.com/",
+    "desc": "Apple news and rumors",
+    "category": "Technology",
+    "subcategory": "News"
+  },
+  {
+    "name": "APMEX",
+    "url": "https://www.apmex.com/",
+    "desc": "Precious metals buying, selling and market pricing",
+    "category": "Finance",
+    "subcategory": "Investing"
+  },
+  {
+    "name": "Abduzeedo",
+    "url": "https://abduzeedo.com/",
+    "desc": "Design inspiration and tutorials",
+    "category": "Creative",
+    "subcategory": "Inspiration"
+  },
+  {
+    "name": "Adobe Color",
+    "url": "https://color.adobe.com/",
+    "desc": "Color wheel and theme extraction",
+    "category": "Creative",
+    "subcategory": "Colors"
+  },
+  {
+    "name": "Affinity",
+    "url": "https://affinity.serif.com/",
+    "desc": "Professional creative software suite",
+    "category": "Creative",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "AllPeopleQuilt",
+    "url": "https://www.allpeoplequilt.com/",
+    "desc": "Quilting patterns and techniques",
+    "category": "Hobbies",
+    "subcategory": "Sewing"
+  },
+  {
+    "name": "Ally Invest",
+    "url": "https://www.ally.com/invest/",
+    "desc": "Self-directed investing and banking",
+    "category": "Finance",
+    "subcategory": "Investing"
+  },
+  {
+    "name": "Android Authority",
+    "url": "https://www.androidauthority.com/",
+    "desc": "Android news and reviews",
+    "category": "Technology",
+    "subcategory": "News"
+  },
+  {
+    "name": "Android Police",
+    "url": "https://www.androidpolice.com/",
+    "desc": "Android news and apps",
+    "category": "Technology",
+    "subcategory": "News"
+  },
+  {
+    "name": "Apache Kafka",
+    "url": "https://kafka.apache.org/",
+    "desc": "Distributed event streaming platform",
+    "category": "Self-Hosting",
+    "subcategory": "Servers"
+  },
+  {
+    "name": "Apprise",
+    "url": "https://github.com/caronc/apprise",
+    "desc": "Push notification to every app",
+    "category": "Self-Hosting",
+    "subcategory": "Automation"
+  },
+  {
+    "name": "Aquarium Co-op",
+    "url": "https://www.aquariumcoop.com/",
+    "desc": "Aquarium education and supplies",
+    "category": "Hobbies",
+    "subcategory": "Aquariums"
+  },
+  {
+    "name": "Arcade Spot",
+    "url": "https://arcadespot.com/",
+    "desc": "Play classic arcade games online",
+    "category": "Gaming",
+    "subcategory": "Retro"
+  },
+  {
+    "name": "Artlist",
+    "url": "https://artlist.io/",
+    "desc": "Royalty-free music and SFX for creators",
+    "category": "Music",
+    "subcategory": "Resources"
+  },
+  {
+    "name": "AttackIQ",
+    "url": "https://attackiq.com/",
+    "desc": "Adversary emulation platform",
+    "category": "Security",
+    "subcategory": "Training"
+  },
+  {
+    "name": "BGG Top 100",
+    "url": "https://boardgamegeek.com/browse/boardgame",
+    "desc": "BoardGameGeek rank of the top board games",
+    "category": "Tabletop",
+    "subcategory": "Reviews"
+  },
+  {
+    "name": "Barchart",
+    "url": "https://www.barchart.com/",
+    "desc": "Market data, quotes and technical analysis tools",
+    "category": "Finance",
+    "subcategory": "Data"
+  },
+  {
+    "name": "Beatport",
+    "url": "https://www.beatport.com/",
+    "desc": "Electronic music store",
+    "category": "Music",
+    "subcategory": "Storefronts"
+  },
+  {
+    "name": "Beelinguapp",
+    "url": "https://beelinguapp.com/",
+    "desc": "Read and listen to bilingual texts to learn languages",
+    "category": "Languages",
+    "subcategory": "General"
+  },
+  {
+    "name": "Beneath Ceaseless Skies",
+    "url": "https://www.beneath-ceaseless-skies.com/",
+    "desc": "Literary adventure fantasy short fiction",
+    "category": "Books",
+    "subcategory": "SFF"
+  },
+  {
+    "name": "Benzinga",
+    "url": "https://www.benzinga.com/",
+    "desc": "Real-time financial news and trading ideas",
+    "category": "Finance",
+    "subcategory": "News"
+  },
+  {
+    "name": "Bernina",
+    "url": "https://www.bernina.com/",
+    "desc": "Sewing machines and classes",
+    "category": "Hobbies",
+    "subcategory": "Sewing"
+  },
+  {
+    "name": "Better World Books",
+    "url": "https://www.betterworldbooks.com/",
+    "desc": "Used books that fund literacy programs",
+    "category": "Books",
+    "subcategory": "Retail"
+  },
+  {
+    "name": "Bible Gateway",
+    "url": "https://www.biblegateway.com/",
+    "desc": "Read Bible translations",
+    "category": "Knowledge",
+    "subcategory": "Scriptures"
+  },
+  {
+    "name": "Blender Artists",
+    "url": "https://blenderartists.org/",
+    "desc": "Community for Blender artists",
+    "category": "Hobbies",
+    "subcategory": "3D Printing"
+  },
+  {
+    "name": "Blue Team Labs Online",
+    "url": "https://blueteamlabs.online/",
+    "desc": "Blue team exercises and scenarios",
+    "category": "Security",
+    "subcategory": "Training"
+  },
+  {
+    "name": "BlueLetterBible",
+    "url": "https://www.blueletterbible.org/",
+    "desc": "Bible study tools",
+    "category": "Knowledge",
+    "subcategory": "Study"
+  },
+  {
+    "name": "BoardGameGeek Community",
+    "url": "https://boardgamegeek.com/community",
+    "desc": "Community discussions and conventions on BoardGameGeek",
+    "category": "Tabletop",
+    "subcategory": "Communities"
+  },
+  {
+    "name": "Brandon Sanderson Lectures",
+    "url": "https://www.youtube.com/user/brandonsanderson",
+    "desc": "Full creative writing lectures on YouTube",
+    "category": "Books",
+    "subcategory": "Writing"
+  },
+  {
+    "name": "BrettspielWelt",
+    "url": "https://www.brettspielwelt.de/",
+    "desc": "German online board gaming community",
+    "category": "Tabletop",
+    "subcategory": "Platforms"
+  },
+  {
+    "name": "Broadway",
+    "url": "https://www.broadway.com/",
+    "desc": "Broadway shows and tickets",
+    "category": "Entertainment",
+    "subcategory": "Events"
+  },
+  {
+    "name": "BuddhaNet",
+    "url": "https://www.buddhanet.net/",
+    "desc": "Buddhist teachings and practice",
+    "category": "Knowledge",
+    "subcategory": "Practice"
+  },
+  {
+    "name": "Buildbot",
+    "url": "https://buildbot.net/",
+    "desc": "Automation framework for CI",
+    "category": "Self-Hosting",
+    "subcategory": "CI/CD"
+  },
+  {
+    "name": "CISA",
+    "url": "https://www.cisa.gov/",
+    "desc": "US cybersecurity and infrastructure agency",
+    "category": "Security",
+    "subcategory": "Organizations"
+  },
+  {
+    "name": "Calendly",
+    "url": "https://calendly.com/",
+    "desc": "Scheduling for meetings",
+    "category": "Tools",
+    "subcategory": "Productivity"
+  },
+  {
+    "name": "CapitalOne Financial",
+    "url": "https://www.capitalone.com/",
+    "desc": "Banking, credit cards and financial tools",
+    "category": "Finance",
+    "subcategory": "Banking"
+  },
+  {
+    "name": "Cephalofair",
+    "url": "https://cephalofair.com/",
+    "desc": "Creator of Gloomhaven and Frosthaven",
+    "category": "Tabletop",
+    "subcategory": "Publishers"
+  },
+  {
+    "name": "Chaosium",
+    "url": "https://www.chaosium.com/",
+    "desc": "Call of Cthulhu and RuneQuest publisher",
+    "category": "Tabletop",
+    "subcategory": "Publishers"
+  },
+  {
+    "name": "ChemSpider",
+    "url": "https://www.chemspider.com/",
+    "desc": "Chemical structure database and search",
+    "category": "Science",
+    "subcategory": "Chemistry"
+  },
+  {
+    "name": "ChooseFI",
+    "url": "https://www.choosefi.com/",
+    "desc": "Financial independence podcast and community",
+    "category": "Finance",
+    "subcategory": "Advice"
+  },
+  {
+    "name": "Click Designs",
+    "url": "https://www.milanote.com/",
+    "desc": "Visual notes and mood boards for designers",
+    "category": "Creative",
+    "subcategory": "Inspiration"
+  },
+  {
+    "name": "Cold Turkey",
+    "url": "https://getcoldturkey.com/",
+    "desc": "Focus blocking software",
+    "category": "Tools",
+    "subcategory": "Productivity"
+  },
+  {
+    "name": "Common Sense Media",
+    "url": "https://www.commonsensemedia.org/",
+    "desc": "Media reviews for families",
+    "category": "Entertainment",
+    "subcategory": "Reviews"
+  },
+  {
+    "name": "Concourse",
+    "url": "https://concourse-ci.org/",
+    "desc": "Open source CI pipeline tool",
+    "category": "Self-Hosting",
+    "subcategory": "CI/CD"
+  },
+  {
+    "name": "Copilot Money",
+    "url": "https://copilot.money/",
+    "desc": "Personal finance tracker with smart analytics",
+    "category": "Finance",
+    "subcategory": "Personal Finance"
+  },
+  {
+    "name": "CyberDefenders",
+    "url": "https://cyberdefenders.org/",
+    "desc": "Blue team challenge platform",
+    "category": "Security",
+    "subcategory": "Training"
+  },
+  {
+    "name": "Cymatics",
+    "url": "https://cymatics.fm/",
+    "desc": "Producer sample packs and plugin deals",
+    "category": "Music",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Daily Science Fiction",
+    "url": "https://dailysciencefiction.com/",
+    "desc": "Short science fiction delivered by email",
+    "category": "Books",
+    "subcategory": "SFF"
+  },
+  {
+    "name": "Data.gov",
+    "url": "https://data.gov/",
+    "desc": "US government open data",
+    "category": "Knowledge",
+    "subcategory": "Data"
+  },
+  {
+    "name": "Daz",
+    "url": "https://www.daz3d.com/",
+    "desc": "3D figure creation and rendering",
+    "category": "Creative",
+    "subcategory": "3D"
+  },
+  {
+    "name": "Designboom",
+    "url": "https://www.designboom.com/",
+    "desc": "Design architecture and art magazine",
+    "category": "Creative",
+    "subcategory": "Inspiration"
+  },
+  {
+    "name": "Dhaka Tribune",
+    "url": "https://www.dhakatribune.com/",
+    "desc": "Bangladesh news",
+    "category": "Communities",
+    "subcategory": "News"
+  },
+  {
+    "name": "Dharma",
+    "url": "https://www.accesstoinsight.org/",
+    "desc": "Theravada Buddhist texts",
+    "category": "Knowledge",
+    "subcategory": "Scriptures"
+  },
+  {
+    "name": "Dicebreaker",
+    "url": "https://www.dicebreaker.com/",
+    "desc": "Board game and RPG reviews, news and how-tos",
+    "category": "Tabletop",
+    "subcategory": "News"
+  },
+  {
+    "name": "Discover Bank",
+    "url": "https://www.discover.com/",
+    "desc": "High-yield savings, CDs and credit cards",
+    "category": "Finance",
+    "subcategory": "Banking"
+  },
+  {
+    "name": "Django",
+    "url": "https://www.djangoproject.com/",
+    "desc": "High-level Python web framework",
+    "category": "Technology",
+    "subcategory": "Programming"
+  },
+  {
+    "name": "Documentary Heaven",
+    "url": "https://documentaryheaven.com/",
+    "desc": "Free documentary library",
+    "category": "Entertainment",
+    "subcategory": "Movies"
+  },
+  {
+    "name": "ESPN",
+    "url": "https://www.espn.com/",
+    "desc": "Sports news and scores",
+    "category": "Hobbies",
+    "subcategory": "Sports"
+  },
+  {
+    "name": "EarMaster",
+    "url": "https://www.earmaster.com/",
+    "desc": "Ear training software",
+    "category": "Music",
+    "subcategory": "Education"
+  },
+  {
+    "name": "Eightify",
+    "url": "https://eightify.app/",
+    "desc": "YouTube summaries",
+    "category": "Music",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Elsa Speak",
+    "url": "https://elsaspeak.com/",
+    "desc": "AI pronunciation coach for English learners",
+    "category": "Languages",
+    "subcategory": "English"
+  },
+  {
+    "name": "Engadget",
+    "url": "https://www.engadget.com/",
+    "desc": "Consumer electronics news",
+    "category": "Technology",
+    "subcategory": "News"
+  },
+  {
+    "name": "Envato Market",
+    "url": "https://elements.envato.com/",
+    "desc": "Stock assets and templates",
+    "category": "Creative",
+    "subcategory": "Assets"
+  },
+  {
+    "name": "Escape Pod",
+    "url": "https://escapepod.org/",
+    "desc": "Science fiction audio fiction podcast",
+    "category": "Books",
+    "subcategory": "SFF"
+  },
+  {
+    "name": "Eurostat",
+    "url": "https://ec.europa.eu/eurostat",
+    "desc": "European statistics bureau",
+    "category": "Knowledge",
+    "subcategory": "Data"
+  },
+  {
+    "name": "Express",
+    "url": "https://expressjs.com/",
+    "desc": "Minimal Node.js web framework",
+    "category": "Technology",
+    "subcategory": "Programming"
+  },
+  {
+    "name": "Farnam Street",
+    "url": "https://fs.blog/",
+    "desc": "Farnam Street mental models",
+    "category": "Knowledge",
+    "subcategory": "Essays"
+  },
+  {
+    "name": "FiveThirtyEight",
+    "url": "https://fivethirtyeight.com/",
+    "desc": "Data journalism and polls",
+    "category": "Communities",
+    "subcategory": "News"
+  },
+  {
+    "name": "Flask",
+    "url": "https://flask.palletsprojects.com/",
+    "desc": "Lightweight Python web framework",
+    "category": "Technology",
+    "subcategory": "Programming"
+  },
+  {
+    "name": "Flat",
+    "url": "https://flat.io/",
+    "desc": "Online music notation software",
+    "category": "Music",
+    "subcategory": "Notation"
+  },
+  {
+    "name": "FontAwesome",
+    "url": "https://fontawesome.com/",
+    "desc": "Icon library and toolkit",
+    "category": "Creative",
+    "subcategory": "Fonts"
+  },
+  {
+    "name": "FoodSafety",
+    "url": "https://www.foodsafety.gov/",
+    "desc": "Official food safety guidelines and recalls",
+    "category": "Food",
+    "subcategory": "Safety"
+  },
+  {
+    "name": "Forest",
+    "url": "https://www.forestapp.cc/",
+    "desc": "Focus and productivity app",
+    "category": "Tools",
+    "subcategory": "Productivity"
+  },
+  {
+    "name": "Free League",
+    "url": "https://frialigan.se/",
+    "desc": "Nordic RPG publisher of award-winning systems",
+    "category": "Tabletop",
+    "subcategory": "Publishers"
+  },
+  {
+    "name": "Freedom",
+    "url": "https://freedom.to/",
+    "desc": "Block distracting apps and sites",
+    "category": "Tools",
+    "subcategory": "Productivity"
+  },
+  {
+    "name": "Freepik",
+    "url": "https://www.freepik.com/",
+    "desc": "Free vector art, photos and icons",
+    "category": "Creative",
+    "subcategory": "Assets"
+  },
+  {
+    "name": "Gamepressure",
+    "url": "https://www.gamepressure.com/",
+    "desc": "Game guides and walkthroughs",
+    "category": "Gaming",
+    "subcategory": "References"
+  },
+  {
+    "name": "Gapminder",
+    "url": "https://www.gapminder.org/",
+    "desc": "Global development statistics made visible",
+    "category": "Science",
+    "subcategory": "Statistics"
+  },
+  {
+    "name": "Goethe-Institut",
+    "url": "https://www.goethe.de/",
+    "desc": "German courses, certificates and cultural resources",
+    "category": "Languages",
+    "subcategory": "German"
+  },
+  {
+    "name": "GoodReads comics",
+    "url": "https://www.goodreads.com/comics",
+    "desc": "Comic ratings and lists",
+    "category": "Entertainment",
+    "subcategory": "Comics"
+  },
+  {
+    "name": "GotQuestions",
+    "url": "https://www.gotquestions.org/",
+    "desc": "Christian Bible questions",
+    "category": "Knowledge",
+    "subcategory": "Study"
+  },
+  {
+    "name": "Grabtext",
+    "url": "https://www.onlineocr.net/",
+    "desc": "Extract text from images",
+    "category": "Tools",
+    "subcategory": "Miscellaneous"
+  },
+  {
+    "name": "Grep.app",
+    "url": "https://grep.app/",
+    "desc": "Search across GitHub repositories",
+    "category": "Technology",
+    "subcategory": "Linux"
+  },
+  {
+    "name": "Habitica",
+    "url": "https://habitica.com/",
+    "desc": "Gamified habit tracker",
+    "category": "Tools",
+    "subcategory": "Productivity"
+  },
+  {
+    "name": "Hachette Book Group",
+    "url": "https://www.hachettebookgroup.com/",
+    "desc": "Major publisher with literary and trade titles",
+    "category": "Books",
+    "subcategory": "Publishing"
+  },
+  {
+    "name": "Hacksplaining",
+    "url": "https://www.hacksplaining.com/",
+    "desc": "Interactive web security lessons",
+    "category": "Security",
+    "subcategory": "Training"
+  },
+  {
+    "name": "Harbor",
+    "url": "https://goharbor.io/",
+    "desc": "Open source container registry",
+    "category": "Self-Hosting",
+    "subcategory": "Containers"
+  },
+  {
+    "name": "HarperCollins",
+    "url": "https://www.harpercollins.com/",
+    "desc": "Global publisher with fiction and nonfiction",
+    "category": "Books",
+    "subcategory": "Publishing"
+  },
+  {
+    "name": "Hobby Lobby",
+    "url": "https://www.hobbylobby.com/",
+    "desc": "Arts and crafts retailer",
+    "category": "Hobbies",
+    "subcategory": "Crafting"
+  },
+  {
+    "name": "Hoppscotch",
+    "url": "https://hoppscotch.io/",
+    "desc": "Open source API request builder",
+    "category": "Technology",
+    "subcategory": "Testing"
+  },
+  {
+    "name": "Incus",
+    "url": "https://linuxcontainers.org/incus/",
+    "desc": "System container and VM manager",
+    "category": "Self-Hosting",
+    "subcategory": "Containers"
+  },
+  {
+    "name": "Intigriti",
+    "url": "https://www.intigriti.com/",
+    "desc": "Bug bounty and vulnerability platform",
+    "category": "Security",
+    "subcategory": "Bug Bounty"
+  },
+  {
+    "name": "Inverse",
+    "url": "https://www.inverse.com/",
+    "desc": "Science and culture explainers",
+    "category": "Knowledge",
+    "subcategory": "News"
+  },
+  {
+    "name": "Investing",
+    "url": "https://www.investing.com/",
+    "desc": "Global market quotes, news and calendars",
+    "category": "Finance",
+    "subcategory": "News"
+  },
+  {
+    "name": "IslamQA",
+    "url": "https://islamqa.info/",
+    "desc": "Islamic questions and answers",
+    "category": "Knowledge",
+    "subcategory": "Practice"
+  },
+  {
+    "name": "It's Nice That",
+    "url": "https://www.itsnicethat.com/",
+    "desc": "Creative culture and design stories",
+    "category": "Creative",
+    "subcategory": "Inspiration"
+  },
+  {
+    "name": "Itch.io TTRPG",
+    "url": "https://itch.io/physical-games",
+    "desc": "Independent TTRPGs and tabletop experiments",
+    "category": "Tabletop",
+    "subcategory": "Marketplaces"
+  },
+  {
+    "name": "JM Bullion",
+    "url": "https://www.jmbullion.com/",
+    "desc": "Bullion dealer with silver, gold and platinum pricing",
+    "category": "Finance",
+    "subcategory": "Investing"
+  },
+  {
+    "name": "Jamie Oliver",
+    "url": "https://www.jamieoliver.com/",
+    "desc": "Easy recipes and food campaigns from Jamie Oliver",
+    "category": "Food",
+    "subcategory": "Recipes"
+  },
+  {
+    "name": "JetBrains",
+    "url": "https://www.jetbrains.com/",
+    "desc": "IntelliJ-based IDEs and developer tools",
+    "category": "Technology",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Jisho",
+    "url": "https://jisho.org/",
+    "desc": "Japanese-English dictionary with kanji search and stroke order",
+    "category": "Languages",
+    "subcategory": "Japanese"
+  },
+  {
+    "name": "Kanji Alive",
+    "url": "https://kanjialive.com/",
+    "desc": "Interactive kanji learning with etymology and stroke order",
+    "category": "Languages",
+    "subcategory": "Japanese"
+  },
+  {
+    "name": "Kanopy",
+    "url": "https://www.kanopy.com/",
+    "desc": "Stream movies through libraries",
+    "category": "Entertainment",
+    "subcategory": "Streaming"
+  },
+  {
+    "name": "KenKen",
+    "url": "https://www.kenkenpuzzle.com/",
+    "desc": "KenKen logic puzzles",
+    "category": "Hobbies",
+    "subcategory": "Puzzles"
+  },
+  {
+    "name": "Kodi",
+    "url": "https://kodi.tv/",
+    "desc": "Open source home theater software",
+    "category": "Entertainment",
+    "subcategory": "Streaming"
+  },
+  {
+    "name": "Kubectl Cheat Sheet",
+    "url": "https://kubernetes.io/docs/reference/kubectl/cheatsheet/",
+    "desc": "Kubernetes command reference",
+    "category": "Technology",
+    "subcategory": "DevOps"
+  },
+  {
+    "name": "LIGO",
+    "url": "https://www.ligo.caltech.edu/",
+    "desc": "Gravitational wave observatory and discoveries",
+    "category": "Science",
+    "subcategory": "Physics"
+  },
+  {
+    "name": "Leetchi",
+    "url": "https://www.proginosko.com/leechblock/",
+    "desc": "Browser extension to block sites",
+    "category": "Tools",
+    "subcategory": "Productivity"
+  },
+  {
+    "name": "LendingClub",
+    "url": "https://www.lendingclub.com/",
+    "desc": "Personal and business loans marketplace",
+    "category": "Finance",
+    "subcategory": "Credit"
+  },
+  {
+    "name": "Let's Defend",
+    "url": "https://letsdefend.io/",
+    "desc": "SOC analyst blue team training",
+    "category": "Security",
+    "subcategory": "Training"
+  },
+  {
+    "name": "Lightspeed Magazine",
+    "url": "https://www.lightspeedmagazine.com/",
+    "desc": "Science fiction and fantasy magazine with audio editions",
+    "category": "Books",
+    "subcategory": "SFF"
+  },
+  {
+    "name": "LingoDeer",
+    "url": "https://www.lingodeer.com/",
+    "desc": "Language courses focused on Asian languages for beginners",
+    "category": "Languages",
+    "subcategory": "General"
+  },
+  {
+    "name": "Lingopie",
+    "url": "https://lingopie.com/",
+    "desc": "Learn languages by watching TV shows and movies",
+    "category": "Languages",
+    "subcategory": "General"
+  },
+  {
+    "name": "Mailspring",
+    "url": "https://getmailspring.com/",
+    "desc": "Modern email client",
+    "category": "Communication",
+    "subcategory": "Email"
+  },
+  {
+    "name": "Malwarebytes Labs",
+    "url": "https://www.malwarebytes.com/blog",
+    "desc": "Malware research and security blog",
+    "category": "Security",
+    "subcategory": "News"
+  },
+  {
+    "name": "Martha Stewart",
+    "url": "https://www.marthastewart.com/",
+    "desc": "Recipes, cooking tips and entertaining ideas",
+    "category": "Food",
+    "subcategory": "Recipes"
+  },
+  {
+    "name": "Maven Central",
+    "url": "https://central.sonatype.com/",
+    "desc": "Repository for Java and JVM libraries",
+    "category": "Technology",
+    "subcategory": "DevOps"
+  },
+  {
+    "name": "MedPageToday",
+    "url": "https://www.medpagetoday.com/",
+    "desc": "Medical news for professionals",
+    "category": "Science",
+    "subcategory": "Health"
+  },
+  {
+    "name": "Meeple Mountain",
+    "url": "https://www.meeplemountain.com/",
+    "desc": "Board game reviews, strategy and listicles",
+    "category": "Tabletop",
+    "subcategory": "Reviews"
+  },
+  {
+    "name": "Memos",
+    "url": "https://www.usememos.com/",
+    "desc": "Lightweight self-hosted note taking",
+    "category": "Self-Hosting",
+    "subcategory": "Notes"
+  },
+  {
+    "name": "Michaels",
+    "url": "https://www.michaels.com/",
+    "desc": "Art and craft supplies store",
+    "category": "Hobbies",
+    "subcategory": "Crafting"
+  },
+  {
+    "name": "Mobalytics",
+    "url": "https://mobalytics.gg/",
+    "desc": "Esports analytics and builds",
+    "category": "Gaming",
+    "subcategory": "References"
+  },
+  {
+    "name": "Moises",
+    "url": "https://moises.ai/",
+    "desc": "AI music separation and practice tool",
+    "category": "Music",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Monarch Money",
+    "url": "https://www.monarchmoney.com/",
+    "desc": "Modern budgeting and net worth tracking app",
+    "category": "Finance",
+    "subcategory": "Personal Finance"
+  },
+  {
+    "name": "Money",
+    "url": "https://money.com/",
+    "desc": "Consumer money news and personal finance guides",
+    "category": "Finance",
+    "subcategory": "News"
+  },
+  {
+    "name": "Museum of Obsolete Media",
+    "url": "https://www.obsoletemedia.org/",
+    "desc": "History of obsolete physical media",
+    "category": "Internet Culture",
+    "subcategory": "History"
+  },
+  {
+    "name": "Musicbed",
+    "url": "https://www.musicbed.com/",
+    "desc": "Licensed music for film and video",
+    "category": "Music",
+    "subcategory": "Resources"
+  },
+  {
+    "name": "NASA News",
+    "url": "https://www.nasa.gov/news/",
+    "desc": "NASA press releases",
+    "category": "Science",
+    "subcategory": "News"
+  },
+  {
+    "name": "NYT Crosswords",
+    "url": "https://www.nytimes.com/crosswords",
+    "desc": "New York Times crosswords",
+    "category": "Entertainment",
+    "subcategory": "Puzzles"
+  },
+  {
+    "name": "Neowin",
+    "url": "https://www.neowin.net/",
+    "desc": "Windows and tech news",
+    "category": "Technology",
+    "subcategory": "News"
+  },
+  {
+    "name": "NerdWallet Insurance",
+    "url": "https://www.nerdwallet.com/insurance",
+    "desc": "Insurance comparisons and coverage advice",
+    "category": "Finance",
+    "subcategory": "Insurance"
+  },
+  {
+    "name": "O'Reilly Media",
+    "url": "https://www.oreilly.com/",
+    "desc": "Technology books, courses and certification",
+    "category": "Books",
+    "subcategory": "Publishing"
+  },
+  {
+    "name": "OCaml",
+    "url": "https://ocaml.org/",
+    "desc": "Fast functional programming language",
+    "category": "Technology",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "OWASP Top Ten",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "desc": "OWASP Top Ten web risks",
+    "category": "Security",
+    "subcategory": "Standards"
+  },
+  {
+    "name": "Oblivious Investor",
+    "url": "https://obliviousinvestor.com/",
+    "desc": "Boglehead-style investing explained simply",
+    "category": "Finance",
+    "subcategory": "Advice"
+  },
+  {
+    "name": "OpenLDAP",
+    "url": "https://www.openldap.org/",
+    "desc": "Open source directory services",
+    "category": "Self-Hosting",
+    "subcategory": "Auth"
+  },
+  {
+    "name": "Ottolenghi",
+    "url": "https://ottolenghi.co.uk/",
+    "desc": "Vegetable-forward recipes and cookbooks",
+    "category": "Food",
+    "subcategory": "Recipes"
+  },
+  {
+    "name": "PBS News",
+    "url": "https://www.pbs.org/newshour/",
+    "desc": "Public broadcasting news",
+    "category": "Communities",
+    "subcategory": "News"
+  },
+  {
+    "name": "PSNProfiles",
+    "url": "https://psnprofiles.com/",
+    "desc": "PlayStation trophy tracking",
+    "category": "Gaming",
+    "subcategory": "References"
+  },
+  {
+    "name": "Paleobiology Database",
+    "url": "https://paleobiodb.org/",
+    "desc": "Fossil occurrence data and records",
+    "category": "Science",
+    "subcategory": "Earth Sciences"
+  },
+  {
+    "name": "Perfect Daily Grind",
+    "url": "https://perfectdailygrind.com/",
+    "desc": "Coffee industry news and brewing science",
+    "category": "Food",
+    "subcategory": "Beverages"
+  },
+  {
+    "name": "Perimeter Institute",
+    "url": "https://perimeterinstitute.ca/",
+    "desc": "Theoretical physics research institute",
+    "category": "Science",
+    "subcategory": "Physics"
+  },
+  {
+    "name": "Physicians on FIRE",
+    "url": "https://www.physiciansonfire.com/",
+    "desc": "Early retirement and investing for doctors and earners",
+    "category": "Finance",
+    "subcategory": "Advice"
+  },
+  {
+    "name": "Podcastle",
+    "url": "https://podcastle.org/",
+    "desc": "Fantasy audio fiction podcast",
+    "category": "Books",
+    "subcategory": "SFF"
+  },
+  {
+    "name": "Policygenius",
+    "url": "https://www.policygenius.com/",
+    "desc": "Compare life insurance and rates online",
+    "category": "Finance",
+    "subcategory": "Insurance"
+  },
+  {
+    "name": "Politico",
+    "url": "https://www.politico.com/",
+    "desc": "US political news",
+    "category": "Communities",
+    "subcategory": "News"
+  },
+  {
+    "name": "PortSwigger Academy",
+    "url": "https://portswigger.net/web-security",
+    "desc": "Free web security training labs",
+    "category": "Security",
+    "subcategory": "Training"
+  },
+  {
+    "name": "PoseMy.Art",
+    "url": "https://posemy.art/",
+    "desc": "3D mannequins for figure drawing",
+    "category": "Creative",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "PremiumBeat",
+    "url": "https://www.premiumbeat.com/",
+    "desc": "Royalty-free music library",
+    "category": "Music",
+    "subcategory": "Resources"
+  },
+  {
+    "name": "ProCon",
+    "url": "https://www.procon.org/",
+    "desc": "Arguments for and against issues",
+    "category": "Knowledge",
+    "subcategory": "Debate"
+  },
+  {
+    "name": "Pseudopod",
+    "url": "https://pseudopod.org/",
+    "desc": "Horror audio fiction podcast",
+    "category": "Books",
+    "subcategory": "SFF"
+  },
+  {
+    "name": "Ptable",
+    "url": "https://ptable.com/",
+    "desc": "Interactive periodic table of the elements",
+    "category": "Science",
+    "subcategory": "Chemistry"
+  },
+  {
+    "name": "PubChem",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/",
+    "desc": "Open chemistry database from NIH",
+    "category": "Science",
+    "subcategory": "Chemistry"
+  },
+  {
+    "name": "Pure Xbox",
+    "url": "https://www.purexbox.com/",
+    "desc": "Xbox news and reviews",
+    "category": "Gaming",
+    "subcategory": "News"
+  },
+  {
+    "name": "QueryTracker",
+    "url": "https://www.querytracker.net/",
+    "desc": "Agent research and query letter tracking for authors",
+    "category": "Books",
+    "subcategory": "Writing"
+  },
+  {
+    "name": "Quicken",
+    "url": "https://www.quicken.com/",
+    "desc": "Personal finance and budgeting software",
+    "category": "Finance",
+    "subcategory": "Personal Finance"
+  },
+  {
+    "name": "Quickposes",
+    "url": "https://quickposes.com/",
+    "desc": "Gesture drawing photo references",
+    "category": "Creative",
+    "subcategory": "Art"
+  },
+  {
+    "name": "Quran.com",
+    "url": "https://quran.com/",
+    "desc": "Read and listen to the Quran",
+    "category": "Knowledge",
+    "subcategory": "Scriptures"
+  },
+  {
+    "name": "R Project",
+    "url": "https://www.r-project.org/",
+    "desc": "Statistical computing and graphics",
+    "category": "Technology",
+    "subcategory": "Languages"
+  },
+  {
+    "name": "RCSB PDB",
+    "url": "https://www.rcsb.org/",
+    "desc": "Protein Data Bank of molecular structures",
+    "category": "Science",
+    "subcategory": "Biology"
+  },
+  {
+    "name": "RabbitMQ",
+    "url": "https://www.rabbitmq.com/",
+    "desc": "Open source message broker",
+    "category": "Self-Hosting",
+    "subcategory": "Servers"
+  },
+  {
+    "name": "Ramsey Solutions",
+    "url": "https://www.ramseysolutions.com/",
+    "desc": "Dave Ramsey money principles and budgeting guidance",
+    "category": "Finance",
+    "subcategory": "Advice"
+  },
+  {
+    "name": "Random House",
+    "url": "https://www.penguinrandomhouse.com/",
+    "desc": "Penguin Random House catalog and author news",
+    "category": "Books",
+    "subcategory": "Publishing"
+  },
+  {
+    "name": "Reactor",
+    "url": "https://reactormag.com/",
+    "desc": "Science fiction and fantasy news and short fiction",
+    "category": "Books",
+    "subcategory": "SFF"
+  },
+  {
+    "name": "ReadCube Papers",
+    "url": "https://www.readcube.com/papers",
+    "desc": "Reference manager for research papers",
+    "category": "Science",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Readwise",
+    "url": "https://readwise.io/",
+    "desc": "Re-read highlights and notes",
+    "category": "Tools",
+    "subcategory": "Productivity"
+  },
+  {
+    "name": "Reef2Reef",
+    "url": "https://www.reef2reef.com/",
+    "desc": "Reef keeping forum",
+    "category": "Hobbies",
+    "subcategory": "Aquariums"
+  },
+  {
+    "name": "Roundcube",
+    "url": "https://roundcube.net/",
+    "desc": "Webmail client",
+    "category": "Communication",
+    "subcategory": "Email"
+  },
+  {
+    "name": "STAT",
+    "url": "https://www.statnews.com/",
+    "desc": "Health and medicine news",
+    "category": "Science",
+    "subcategory": "Health"
+  },
+  {
+    "name": "Sacred Texts",
+    "url": "https://www.sacred-texts.com/",
+    "desc": "World religion primary texts",
+    "category": "Knowledge",
+    "subcategory": "Scriptures"
+  },
+  {
+    "name": "Saveur",
+    "url": "https://www.saveur.com/",
+    "desc": "Food culture and world cuisine magazine",
+    "category": "Food",
+    "subcategory": "Magazines"
+  },
+  {
+    "name": "ScaleModels",
+    "url": "https://www.scalemodelguide.com/",
+    "desc": "Model building technique guides",
+    "category": "Hobbies",
+    "subcategory": "Models"
+  },
+  {
+    "name": "Scrabble",
+    "url": "https://scrabble.hasbro.com/",
+    "desc": "Official Scrabble rules and tournaments",
+    "category": "Hobbies",
+    "subcategory": "Board Games"
+  },
+  {
+    "name": "Search Console",
+    "url": "https://search.google.com/search-console",
+    "desc": "Google search performance tools",
+    "category": "Tools",
+    "subcategory": "Developer Tools"
+  },
+  {
+    "name": "SecLists",
+    "url": "https://github.com/danielmiessler/SecLists",
+    "desc": "Security test wordlists",
+    "category": "Security",
+    "subcategory": "Tools"
+  },
+  {
+    "name": "Shut Up & Sit Down",
+    "url": "https://www.shutupandsitdown.com/",
+    "desc": "Humor-led board game reviews and videos",
+    "category": "Tabletop",
+    "subcategory": "Reviews"
+  },
+  {
+    "name": "Silent Circle",
+    "url": "https://silentcircle.com/",
+    "desc": "Enterprise encrypted communication",
+    "category": "Communication",
+    "subcategory": "Chat"
+  },
+  {
+    "name": "Simon & Schuster",
+    "url": "https://www.simonandschuster.com/",
+    "desc": "Publisher catalog and upcoming titles",
+    "category": "Books",
+    "subcategory": "Publishing"
+  },
+  {
+    "name": "Sketchdaily",
+    "url": "https://line-of-action.com/",
+    "desc": "Figure drawing practice tools",
+    "category": "Creative",
+    "subcategory": "Art"
+  },
+  {
+    "name": "Skift",
+    "url": "https://skift.com/",
+    "desc": "Travel industry news",
+    "category": "Finance",
+    "subcategory": "News"
+  },
+  {
+    "name": "SoundHelix",
+    "url": "https://www.soundhelix.com/",
+    "desc": "Algorithmic music samples",
+    "category": "Music",
+    "subcategory": "Resources"
+  },
+  {
+    "name": "Soundslice",
+    "url": "https://www.soundslice.com/",
+    "desc": "Interactive sheet music practice",
+    "category": "Music",
+    "subcategory": "Notation"
+  },
+  {
+    "name": "Sous Vide Tools",
+    "url": "https://sousvidetools.com/",
+    "desc": "Sous vide equipment and technique guides",
+    "category": "Food",
+    "subcategory": "Techniques"
+  },
+  {
+    "name": "SpaceNews",
+    "url": "https://spacenews.com/",
+    "desc": "Space industry news",
+    "category": "Science",
+    "subcategory": "News"
+  },
+  {
+    "name": "Spring",
+    "url": "https://spring.io/",
+    "desc": "Framework for Java applications",
+    "category": "Technology",
+    "subcategory": "Programming"
+  },
+  {
+    "name": "Sputnikmusic",
+    "url": "https://www.sputnikmusic.com/",
+    "desc": "Music reviews and ratings",
+    "category": "Music",
+    "subcategory": "Community"
+  },
+  {
+    "name": "Starts With a Bang",
+    "url": "https://www.forbes.com/sites/startswithabang/",
+    "desc": "Science writing and astrophysics explainers",
+    "category": "Science",
+    "subcategory": "Astronomy"
+  },
+  {
+    "name": "SteamLadder",
+    "url": "https://steamladder.com/",
+    "desc": "Steam level and profile analysis",
+    "category": "Gaming",
+    "subcategory": "References"
+  },
+  {
+    "name": "StockTwits",
+    "url": "https://stocktwits.com/",
+    "desc": "Social network for investors and traders",
+    "category": "Finance",
+    "subcategory": "Community"
+  },
+  {
+    "name": "Sudoku.com",
+    "url": "https://sudoku.com/",
+    "desc": "Online Sudoku puzzles",
+    "category": "Hobbies",
+    "subcategory": "Puzzles"
+  },
+  {
+    "name": "Sufi",
+    "url": "https://www.dartmouth.edu/",
+    "desc": "Religious studies resources",
+    "category": "Knowledge",
+    "subcategory": "Study"
+  },
+  {
+    "name": "Synack",
+    "url": "https://www.synack.com/",
+    "desc": "Managed bug bounty and security testing",
+    "category": "Security",
+    "subcategory": "Bug Bounty"
+  },
+  {
+    "name": "Systemd",
+    "url": "https://systemd.io/",
+    "desc": "System and service manager for Linux",
+    "category": "Technology",
+    "subcategory": "Linux"
+  },
+  {
+    "name": "Takoboto",
+    "url": "https://takoboto.jp/",
+    "desc": "Dictionary for Japanese learners with example sentences",
+    "category": "Languages",
+    "subcategory": "Japanese"
+  },
+  {
+    "name": "Tamasoft Pepakura",
+    "url": "https://www.tamasoft.co.jp/pepakura-en/",
+    "desc": "Papercraft unfolding design software",
+    "category": "Hobbies",
+    "subcategory": "Papercraft"
+  },
+  {
+    "name": "Tapas",
+    "url": "https://tapas.io/",
+    "desc": "Serialized comics and novels",
+    "category": "Entertainment",
+    "subcategory": "Comics"
+  },
+  {
+    "name": "Textworks",
+    "url": "https://text.npr.org/",
+    "desc": "Text-only version of NPR",
+    "category": "Internet Culture",
+    "subcategory": "Communities"
+  },
+  {
+    "name": "The Athletic",
+    "url": "https://theathletic.com/",
+    "desc": "Sports journalism",
+    "category": "Hobbies",
+    "subcategory": "Sports"
+  },
+  {
+    "name": "The Bash Guide",
+    "url": "https://guide.bash.academy/",
+    "desc": "Thorough Bash scripting guide",
+    "category": "Technology",
+    "subcategory": "Linux"
+  },
+  {
+    "name": "The Japanese Page",
+    "url": "https://www.thejapanesepage.com/",
+    "desc": "Free Japanese lessons, grammar and culture notes",
+    "category": "Languages",
+    "subcategory": "Japanese"
+  },
+  {
+    "name": "The Kennedy Center",
+    "url": "https://www.kennedy-center.org/",
+    "desc": "Performing arts center",
+    "category": "Entertainment",
+    "subcategory": "Events"
+  },
+  {
+    "name": "The Manuscript Academy",
+    "url": "https://manuscriptacademy.com/",
+    "desc": "Author education on craft and publishing",
+    "category": "Books",
+    "subcategory": "Writing"
+  },
+  {
+    "name": "The Specialty Coffee Association",
+    "url": "https://sca.coffee/",
+    "desc": "Coffee standards, research and events",
+    "category": "Food",
+    "subcategory": "Beverages"
+  },
+  {
+    "name": "The Spruce",
+    "url": "https://www.thespruce.com/",
+    "desc": "Home and gardening how-tos",
+    "category": "Hobbies",
+    "subcategory": "Gardening"
+  },
+  {
+    "name": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/",
+    "desc": "Indian news and community",
+    "category": "Communities",
+    "subcategory": "News"
+  },
+  {
+    "name": "Times of Malta",
+    "url": "https://timesofmalta.com/",
+    "desc": "Malta news and culture",
+    "category": "Communities",
+    "subcategory": "News"
+  },
+  {
+    "name": "ToneBASE",
+    "url": "https://www.tonebase.co/",
+    "desc": "Interactive music lessons for serious musicians",
+    "category": "Music",
+    "subcategory": "Education"
+  },
+  {
+    "name": "Torah",
+    "url": "https://www.chabad.org/",
+    "desc": "Jewish learning and Torah",
+    "category": "Knowledge",
+    "subcategory": "Scriptures"
+  },
+  {
+    "name": "Transformer.io",
+    "url": "https://transform.tools/",
+    "desc": "Convert data between formats",
+    "category": "Tools",
+    "subcategory": "Developer Tools"
+  },
+  {
+    "name": "Traxsource",
+    "url": "https://www.traxsource.com/",
+    "desc": "House and electronic music store",
+    "category": "Music",
+    "subcategory": "Storefronts"
+  },
+  {
+    "name": "TrueAchievements",
+    "url": "https://www.trueachievements.com/",
+    "desc": "Xbox achievement tracking",
+    "category": "Gaming",
+    "subcategory": "References"
+  },
+  {
+    "name": "Twitter/X",
+    "url": "https://x.com/",
+    "desc": "Microblogging social network",
+    "category": "Communication",
+    "subcategory": "Social Networks"
+  },
+  {
+    "name": "VegRecipesNav",
+    "url": "https://www.vegrecipesofindia.com/",
+    "desc": "Indian vegetarian recipe collection",
+    "category": "Food",
+    "subcategory": "Cuisines"
+  },
+  {
+    "name": "ViewDNS",
+    "url": "https://viewdns.info/",
+    "desc": "Reverse IP and DNS lookup tools",
+    "category": "Security",
+    "subcategory": "Reconnaissance"
+  },
+  {
+    "name": "Visual Capitalist",
+    "url": "https://www.visualcapitalist.com/",
+    "desc": "Charts and infographics on markets and economies",
+    "category": "Finance",
+    "subcategory": "News"
+  },
+  {
+    "name": "Vudu",
+    "url": "https://www.vudu.com/",
+    "desc": "Rent and buy movies",
+    "category": "Entertainment",
+    "subcategory": "Storefronts"
+  },
+  {
+    "name": "WeChat",
+    "url": "https://www.wechat.com/",
+    "desc": "Messaging and social app",
+    "category": "Communication",
+    "subcategory": "Chat"
+  },
+  {
+    "name": "Webtoon",
+    "url": "https://www.webtoons.com/",
+    "desc": "Read webtoon comics",
+    "category": "Entertainment",
+    "subcategory": "Comics"
+  },
+  {
+    "name": "What's on Netflix",
+    "url": "https://www.whats-on-netflix.com/",
+    "desc": "Netflix catalog news",
+    "category": "Entertainment",
+    "subcategory": "Streaming"
+  },
+  {
+    "name": "WhatIsMyMMR",
+    "url": "https://whatismymmr.com/",
+    "desc": "League of Legends MMR estimator",
+    "category": "Gaming",
+    "subcategory": "References"
+  },
+  {
+    "name": "WhatPub",
+    "url": "https://whatpub.com/",
+    "desc": "Find pubs across the UK for a game night",
+    "category": "Tabletop",
+    "subcategory": "Community"
+  },
+  {
+    "name": "White Coat Investor",
+    "url": "https://www.whitecoatinvestor.com/",
+    "desc": "Financial guidance for high-income professionals",
+    "category": "Finance",
+    "subcategory": "Advice"
+  },
+  {
+    "name": "WikiHow",
+    "url": "https://www.wikihow.com/",
+    "desc": "How-to guides on anything",
+    "category": "Knowledge",
+    "subcategory": "How-to"
+  },
+  {
+    "name": "Wiley",
+    "url": "https://www.wiley.com/",
+    "desc": "Academic, professional and reference publishing",
+    "category": "Books",
+    "subcategory": "Publishing"
+  },
+  {
+    "name": "Writing Excuses",
+    "url": "https://writingexcuses.com/",
+    "desc": "Short craft podcast for fiction writers",
+    "category": "Books",
+    "subcategory": "Writing"
+  },
+  {
+    "name": "XCP-ng",
+    "url": "https://xcp-ng.org/",
+    "desc": "Open source hypervisor from Xen",
+    "category": "Self-Hosting",
+    "subcategory": "Virtualization"
+  },
+  {
+    "name": "YCharts",
+    "url": "https://ycharts.com/",
+    "desc": "Financial charts, data and investing research",
+    "category": "Finance",
+    "subcategory": "Data"
+  },
+  {
+    "name": "Yabla",
+    "url": "https://www.yabla.com/",
+    "desc": "Video-based language immersion with subtitles",
+    "category": "Languages",
+    "subcategory": "General"
+  },
+  {
+    "name": "Yarnspirations",
+    "url": "https://www.yarnspirations.com/",
+    "desc": "Crochet and knitting patterns",
+    "category": "Hobbies",
+    "subcategory": "Knitting"
+  },
+  {
+    "name": "YesWeHack",
+    "url": "https://www.yeswehack.com/",
+    "desc": "European bug bounty platform",
+    "category": "Security",
+    "subcategory": "Bug Bounty"
+  },
+  {
+    "name": "Zero Hedge",
+    "url": "https://www.zerohedge.com/",
+    "desc": "Macro news and contrarian financial commentary",
+    "category": "Finance",
+    "subcategory": "News"
+  },
+  {
+    "name": "Zoho Mail",
+    "url": "https://www.zoho.com/mail/",
+    "desc": "Business email suite",
+    "category": "Communication",
+    "subcategory": "Email"
+  },
+  {
+    "name": "ddg",
+    "url": "https://duckduckgo.com/email",
+    "desc": "Private email protection",
+    "category": "Communication",
+    "subcategory": "Email"
+  },
+  {
+    "name": "eToro",
+    "url": "https://www.etoro.com/",
+    "desc": "Social investing platform with copy trading",
+    "category": "Finance",
+    "subcategory": "Investing"
+  },
+  {
+    "name": "iPhone in Canada",
+    "url": "https://www.iphoneincanada.ca/",
+    "desc": "Apple news from Canada",
+    "category": "Technology",
+    "subcategory": "News"
+  },
+  {
+    "name": "r/AskNetsec",
+    "url": "https://www.reddit.com/r/AskNetsec/",
+    "desc": "Security questions and career advice",
+    "category": "Security",
+    "subcategory": "Community"
+  },
+  {
+    "name": "whattowatch",
+    "url": "https://www.whattowatch.com/",
+    "desc": "What to watch guides",
+    "category": "Entertainment",
+    "subcategory": "Streaming"
   }
 ]
